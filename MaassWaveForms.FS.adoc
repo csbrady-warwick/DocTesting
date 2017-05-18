@@ -174,11 +174,11 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
-=== Base type ===
+=== @@MaassWaveForms\FS\7eb2c46def9082016e51efb821b7e71b\name@@ ===
 
 [NOTE]
 ====
-The most basic type of record
+@@MaassWaveForms\FS\7eb2c46def9082016e51efb821b7e71b\description@@
 
 
 ====
