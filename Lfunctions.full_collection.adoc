@@ -1,0 +1,181 @@
+= Database report for Lfunctions\full_collection =
+
+Prepared with the lmfdb asciidoc report tool
+
+Christopher Brady <C.S.Brady@Warwick.ac.uk>
+
+Version 1.0.0
+
+'''
+
+== Collection information ==
+
+[width="50%", ]
+|==============================
+a|*Description* a| @@Lfunctions\full_collection\(INFO)\description@@
+a|*Status* a| @@Lfunctions\full_collection\(INFO)\status@@
+a|*Contact* a| @@Lfunctions\full_collection\(INFO)\contact@@
+a|*Code* a| @@Lfunctions\full_collection\(INFO)\code@@
+|==============================
+
+== List of keys in the database ==
+
+The following keys appear in at least one record in the database
+
+[WARNING]
+====
+The type of the keys is inferred from only one record in the database. If the key can have different types in different records this type will be inaccurate
+Only the first 100 characters of the example record are shown
+====
+
+[width="90%", options="header", ]
+|==============================
+a|Key a| Inferred Type a| Example record a| Description
+a|dirichlet_coefficients a| non-primitive type (<type 'NoneType'>) a| `None`
+ a| @@Lfunctions\full_collection\dirichlet_coefficients\description@@
+a|kappa_fe a| non-primitive type (<type 'NoneType'>) a| `None`
+ a| @@Lfunctions\full_collection\kappa_fe\description@@
+a|lambda_fe a| non-primitive type (<type 'NoneType'>) a| `None`
+ a| @@Lfunctions\full_collection\lambda_fe\description@@
+a|mu_fe a| non-primitive type (<type 'NoneType'>) a| `None`
+ a| @@Lfunctions\full_collection\mu_fe\description@@
+a|nu_fe a| non-primitive type (<type 'NoneType'>) a| `None`
+ a| @@Lfunctions\full_collection\nu_fe\description@@
+a|original_mathematical_object a| non-primitive type (<type 'NoneType'>) a| `None`
+ a| @@Lfunctions\full_collection\original_mathematical_object\description@@
+a|original_mathematical_object() a| non-primitive type (<type 'NoneType'>) a| `None`
+ a| @@Lfunctions\full_collection\original_mathematical_object()\description@@
+a|poles a| non-primitive type (<type 'NoneType'>) a| `None`
+ a| @@Lfunctions\full_collection\poles\description@@
+a|residues a| non-primitive type (<type 'NoneType'>) a| `None`
+ a| @@Lfunctions\full_collection\residues\description@@
+a|sign a| integer a| `1`
+ a| @@Lfunctions\full_collection\sign\description@@
+a|weight a| non-primitive type (<type 'NoneType'>) a| `None`
+ a| @@Lfunctions\full_collection\weight\description@@
+|==============================
+
+'''
+
+== List of indices ==
+
+[width="90%", options="header", ]
+|==============================
+a|Index Name a| Index fields
+a|metadata_1 a| metadata sorted ascending
+a|_id_ a| _id sorted ascending
+|==============================
+
+'''
+
+== List of record types in the database ==
+
+4 distinct record types are present.
+
+****
+[discrete]
+=== Base record : @@Lfunctions\full_collection\a0c479c759797c54766f71f481e063ca\name@@ ===
+
+[NOTE]
+====
+The base record represents the smallest intersection of all related records.
+
+@@Lfunctions\full_collection\a0c479c759797c54766f71f481e063ca\description@@
+====
+
+56 records of base type in collection
+
+* nu_fe 
+* lambda_fe 
+* residues 
+* poles 
+* original_mathematical_object() 
+* mu_fe 
+* kappa_fe 
+
+
+
+****
+
+'''
+
+=== Derived records ===
+
+[NOTE]
+====
+Derived records are the record types that actually exist in the database.They are represented as differences from the base record
+====
+
+****
+[discrete]
+=== @@Lfunctions\full_collection\b7204dc31bb98ceb1d5e9b47ddbe18aa\name@@ ===
+
+[NOTE]
+====
+@@Lfunctions\full_collection\b7204dc31bb98ceb1d5e9b47ddbe18aa\description@@
+
+
+====
+
+1 records extended from base type
+
+* dirichlet_coefficients 
+* original_mathematical_object 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@Lfunctions\full_collection\a6f2e2cd3604dc0a77d349309f3b85fd\name@@ ===
+
+[NOTE]
+====
+@@Lfunctions\full_collection\a6f2e2cd3604dc0a77d349309f3b85fd\description@@
+
+
+====
+
+1 records extended from base type
+
+* original_mathematical_object 
+* sign 
+* weight 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@Lfunctions\full_collection\cca95dc0f5bfa2ec7819c52512c4938a\name@@ ===
+
+[NOTE]
+====
+@@Lfunctions\full_collection\cca95dc0f5bfa2ec7819c52512c4938a\description@@
+
+
+====
+
+1 records extended from base type
+
+* dirichlet_coefficients 
+* original_mathematical_object 
+* sign 
+* weight 
+
+
+
+****
+
+'''
+
+== Notes ==
+
+@@Lfunctions\full_collection\(NOTES)\description@@
+

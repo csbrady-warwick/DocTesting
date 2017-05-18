@@ -1,0 +1,91 @@
+= Database report for sato_tate_groups\st0_groups =
+
+Prepared with the lmfdb asciidoc report tool
+
+Christopher Brady <C.S.Brady@Warwick.ac.uk>
+
+Version 1.0.0
+
+'''
+
+== Collection information ==
+
+[width="50%", ]
+|==============================
+a|*Description* a| Sato-Tate groups
+a|*Status* a| http://www.lmfdb.org/SatoTateGroup[production]
+a|*Contact* a| https://github.com/AndrewVSutherland[Andrew Sutherland]
+a|*Code* a| https://github.com/LMFDB/lmfdb/tree/master/lmfdb/sato_tate_groups/[sato_tate_groups]
+|==============================
+
+== List of keys in the database ==
+
+The following keys appear in at least one record in the database
+
+[WARNING]
+====
+The type of the keys is inferred from only one record in the database. If the key can have different types in different records this type will be inaccurate
+Only the first 100 characters of the example record are shown
+====
+
+[width="90%", options="header", ]
+|==============================
+a|Key a| Inferred Type a| Example record a| Description
+a|degree a| integer a| `1`
+ a| degree of the corresponding Sato-Tate group (positive integer)
+a|description a| (latex math mode string) a| `\mathrm{trivial}`
+ a| mathematical description of the identity component as a set of d-by-d matrices
+a|label a| string a| `0.1.0`
+ a| label of the identity component, currently of the form w.d.r, where w is the weight, d is the degree, and r is the real dimension (this is sufficient to uniquely identify the identity component for w=1 and d=0,2,4) but in other cases more information will be required (so the label format may need to vary with w and d).
+a|name a| string a| `SO(1)`
+ a| text name of the identity component, used for displaying in scrolled input boxes where latex is not supported
+a|pretty a| string a| `\mathrm{SO}(1)`
+ a| pretty-print version of the name in latex math mode
+a|real_dimension a| integer a| `0`
+ a| dimension of the identity component as a connected compact real Lie group (positive integer)
+|==============================
+
+'''
+
+== List of indices ==
+
+[width="90%", options="header", ]
+|==============================
+a|Index Name a| Index fields
+a|degree_1 a| degree sorted ascending
+a|weight_1 a| weight sorted ascending
+a|name_1 a| name sorted ascending
+a|_id_ a| _id sorted ascending
+a|label_1 a| label sorted ascending
+|==============================
+
+'''
+
+== List of record types in the database ==
+
+****
+[discrete]
+=== All records ===
+
+[NOTE]
+====
+11 records of type
+====
+
+* degree 
+* description 
+* label 
+* name 
+* pretty 
+* real_dimension 
+
+
+
+****
+
+'''
+
+== Notes ==
+
+Extent: Sato-Tate groups that arise for elliptic curves (3) and genus 2 curves (52) over any number field. This addresses all self-dual motives with rational coefficients of weight 1 and degree up to 4.
+

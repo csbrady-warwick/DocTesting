@@ -1,0 +1,105 @@
+= Database report for hgm\families =
+
+Prepared with the lmfdb asciidoc report tool
+
+Christopher Brady <C.S.Brady@Warwick.ac.uk>
+
+Version 1.0.0
+
+'''
+
+== Collection information ==
+
+[width="50%", ]
+|==============================
+a|*Description* a| Hypergeometric motives
+a|*Status* a| http://beta.lmfdb.org/Motive/Hypergeometric/Q/[beta]
+a|*Contact* a| https://github.com/jwj61[John Jones]
+a|*Code* a| https://github.com/LMFDB/lmfdb/tree/master/lmfdb/motives[motives]
+|==============================
+
+== List of keys in the database ==
+
+The following keys appear in at least one record in the database
+
+[WARNING]
+====
+The type of the keys is inferred from only one record in the database. If the key can have different types in different records this type will be inaccurate
+Only the first 100 characters of the example record are shown
+====
+
+[width="90%", options="header", ]
+|==============================
+a|Key a| Inferred Type a| Example record a| Description
+a|A a| collection of integer a| `[1]`
+ a| @@hgm\families\A\description@@
+a|B a| collection of integer a| `[1]`
+ a| @@hgm\families\B\description@@
+a|degree a| integer a| `1`
+ a| @@hgm\families\degree\description@@
+a|gal2 a| string a| `O(1,2)`
+ a| @@hgm\families\gal2\description@@
+a|gal3 a| integer stored as string a| `2`
+ a| @@hgm\families\gal3\description@@
+a|gal5 a| integer stored as string a| `2`
+ a| @@hgm\families\gal5\description@@
+a|gal7 a| integer stored as string a| `2`
+ a| @@hgm\families\gal7\description@@
+a|hodge a| collection of integer a| `[1]`
+ a| @@hgm\families\hodge\description@@
+a|label a| string a| `A1.1.1.1.1_B2.10`
+ a| @@hgm\families\label\description@@
+a|weight a| integer a| `0`
+ a| @@hgm\families\weight\description@@
+|==============================
+
+'''
+
+== List of indices ==
+
+[width="90%", options="header", ]
+|==============================
+a|Index Name a| Index fields
+a|A_1 a| A sorted ascending
+a|weight_1 a| weight sorted ascending
+a|label_1 a| label sorted ascending
+a|_id_ a| _id sorted ascending
+a|hodge_1 a| hodge sorted ascending
+a|B_1 a| B sorted ascending
+a|degree_1 a| degree sorted ascending
+|==============================
+
+'''
+
+== List of record types in the database ==
+
+****
+[discrete]
+=== All records ===
+
+[NOTE]
+====
+673 records of type
+====
+
+* A 
+* B 
+* degree 
+* gal2 
+* gal3 
+* gal5 
+* gal7 
+* hodge 
+* label 
+* weight 
+
+
+
+****
+
+'''
+
+== Notes ==
+
+@@hgm\families\(NOTES)\description@@
+

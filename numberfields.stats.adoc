@@ -1,0 +1,157 @@
+= Database report for numberfields\stats =
+
+Prepared with the lmfdb asciidoc report tool
+
+Christopher Brady <C.S.Brady@Warwick.ac.uk>
+
+Version 1.0.0
+
+'''
+
+== Collection information ==
+
+[width="50%", ]
+|==============================
+a|*Description* a| @@numberfields\stats\(INFO)\description@@
+a|*Status* a| @@numberfields\stats\(INFO)\status@@
+a|*Contact* a| @@numberfields\stats\(INFO)\contact@@
+a|*Code* a| @@numberfields\stats\(INFO)\code@@
+|==============================
+
+== List of keys in the database ==
+
+The following keys appear in at least one record in the database
+
+[WARNING]
+====
+The type of the keys is inferred from only one record in the database. If the key can have different types in different records this type will be inaccurate
+Only the first 100 characters of the example record are shown
+====
+
+[width="90%", options="header", ]
+|==============================
+a|Key a| Inferred Type a| Example record a| Description
+a|deg a| collection of integer a| `[1, 1368485, 858809, 2109331, 1229782, 64881, 962601, 54166, 234781, 2124, 1342, 4223, 116, 1134, 84` ...
+ a| @@numberfields\stats\deg\description@@
+a|h a| collection of integer a| `[3925632, 798067, 255999, 327733, 62187, 91566, 22613, 127402, 38715, 28230, 8017, 45832, 5756, 1298` ...
+ a| @@numberfields\stats\h\description@@
+a|hover a| integer a| `912802`
+ a| @@numberfields\stats\hover\description@@
+a|nsig a| collection of unidentifiable types a| `[[], [], [0], [0], [0, 0], [0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0, 0]` ...
+ a| @@numberfields\stats\nsig\description@@
+a|nt a| collection of integer a| `[[1], [1368485], [1822, 856987], [11945, 92044, 1256387, 28787, 720168], [181, 15203, 24350, 110081,` ...
+ a| @@numberfields\stats\nt\description@@
+|==============================
+
+'''
+
+== List of indices ==
+
+[width="90%", options="header", ]
+|==============================
+a|Index Name a| Index fields
+a|_id_ a| _id sorted ascending
+|==============================
+
+'''
+
+== List of record types in the database ==
+
+Unable to detect a base record class. Using undifferentiated.
+
+5 distinct record types are present
+
+****
+[discrete]
+=== @@numberfields\stats\65998b31128fe084601768c7905275cd\name@@ ===
+
+[NOTE]
+====
+1 records of type
+@@numberfields\stats\65998b31128fe084601768c7905275cd\description@@
+====
+
+* h 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\stats\be3221402b0f9976f3f2eec17aeac8ff\name@@ ===
+
+[NOTE]
+====
+1 records of type
+@@numberfields\stats\be3221402b0f9976f3f2eec17aeac8ff\description@@
+====
+
+* deg 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\stats\941609a2af617b3d2b2e6db1621e84e8\name@@ ===
+
+[NOTE]
+====
+1 records of type
+@@numberfields\stats\941609a2af617b3d2b2e6db1621e84e8\description@@
+====
+
+* nsig 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\stats\4a3f6694a43b439ee668787e22139bfd\name@@ ===
+
+[NOTE]
+====
+1 records of type
+@@numberfields\stats\4a3f6694a43b439ee668787e22139bfd\description@@
+====
+
+* hover 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\stats\b0f2e09509a87ddbf7022fa22e8c8ebc\name@@ ===
+
+[NOTE]
+====
+1 records of type
+@@numberfields\stats\b0f2e09509a87ddbf7022fa22e8c8ebc\description@@
+====
+
+* nt 
+
+
+
+****
+
+'''
+
+== Notes ==
+
+@@numberfields\stats\(NOTES)\description@@
+

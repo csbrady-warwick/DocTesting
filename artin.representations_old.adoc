@@ -1,0 +1,110 @@
+= Database report for artin\representations_old =
+
+Prepared with the lmfdb asciidoc report tool
+
+Christopher Brady <C.S.Brady@Warwick.ac.uk>
+
+Version 1.0.0
+
+'''
+
+== Collection information ==
+
+[width="50%", ]
+|==============================
+a|*Description* a| @@artin\representations_old\(INFO)\description@@
+a|*Status* a| @@artin\representations_old\(INFO)\status@@
+a|*Contact* a| @@artin\representations_old\(INFO)\contact@@
+a|*Code* a| @@artin\representations_old\(INFO)\code@@
+|==============================
+
+== List of keys in the database ==
+
+The following keys appear in at least one record in the database
+
+[WARNING]
+====
+The type of the keys is inferred from only one record in the database. If the key can have different types in different records this type will be inaccurate
+Only the first 100 characters of the example record are shown
+====
+
+[width="90%", options="header", ]
+|==============================
+a|Key a| Inferred Type a| Example record a| Description
+a|BadPrimes a| collection of integer stored as string a| `[u'31']`
+ a| @@artin\representations_old\BadPrimes\description@@
+a|Baselabel a| string a| `1.1.1t1.1`
+ a| @@artin\representations_old\Baselabel\description@@
+a|CharacterField a| integer a| `1`
+ a| @@artin\representations_old\CharacterField\description@@
+a|Conductor a| integer stored as string a| `31`
+ a| @@artin\representations_old\Conductor\description@@
+a|Conductor_key a| integer stored as string a| `000131`
+ a| @@artin\representations_old\Conductor_key\description@@
+a|Dim a| integer a| `1`
+ a| @@artin\representations_old\Dim\description@@
+a|GaloisConjugates a| collection of real a| `[{u'GalOrbIndex': 1, u'LocalFactors': [[[1], [-1]], [[1], [1]], [[1]]], u'Character': [[1], [-1]], u` ...
+ a| @@artin\representations_old\GaloisConjugates\description@@
+a|Galois_nt a| collection of integer a| `[2, 1]`
+ a| @@artin\representations_old\Galois_nt\description@@
+a|HardPrimes a| collection of integer stored as string a| `[u'31']`
+ a| @@artin\representations_old\HardPrimes\description@@
+a|Hide a| integer a| `0`
+ a| @@artin\representations_old\Hide\description@@
+a|Indicator a| integer a| `1`
+ a| @@artin\representations_old\Indicator\description@@
+a|NFGal a| comma separated list of integer stored as string a| `-1,-1,-1,-1,2,-1,1`
+ a| @@artin\representations_old\NFGal\description@@
+|==============================
+
+'''
+
+== List of indices ==
+
+[width="90%", options="header", ]
+|==============================
+a|Index Name a| Index fields
+a|Baselabel_1 a| Baselabel sorted ascending
+a|Dim_1_Hide_1_Conductor_key_1 a| Dim sorted ascending, Hide sorted ascending, Conductor_key sorted ascending
+a|Hide_1_Galois_nt_1 a| Hide sorted ascending, Galois_nt sorted ascending
+a|_id_ a| _id sorted ascending
+a|NFGal_1 a| NFGal sorted ascending
+a|Hide_1_Conductor_key_1 a| Hide sorted ascending, Conductor_key sorted ascending
+|==============================
+
+'''
+
+== List of record types in the database ==
+
+****
+[discrete]
+=== All records ===
+
+[NOTE]
+====
+159820 records of type
+====
+
+* BadPrimes 
+* Baselabel 
+* CharacterField 
+* Conductor 
+* Conductor_key 
+* Dim 
+* GaloisConjugates 
+* Galois_nt 
+* HardPrimes 
+* Hide 
+* Indicator 
+* NFGal 
+
+
+
+****
+
+'''
+
+== Notes ==
+
+@@artin\representations_old\(NOTES)\description@@
+

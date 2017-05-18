@@ -1,0 +1,179 @@
+= Database report for Lfunction\LemurellMaassHighDegree =
+
+Prepared with the lmfdb asciidoc report tool
+
+Christopher Brady <C.S.Brady@Warwick.ac.uk>
+
+Version 1.0.0
+
+'''
+
+== Collection information ==
+
+[width="50%", ]
+|==============================
+a|*Description* a| @@Lfunction\LemurellMaassHighDegree\(INFO)\description@@
+a|*Status* a| @@Lfunction\LemurellMaassHighDegree\(INFO)\status@@
+a|*Contact* a| @@Lfunction\LemurellMaassHighDegree\(INFO)\contact@@
+a|*Code* a| @@Lfunction\LemurellMaassHighDegree\(INFO)\code@@
+|==============================
+
+== List of keys in the database ==
+
+The following keys appear in at least one record in the database
+
+[WARNING]
+====
+The type of the keys is inferred from only one record in the database. If the key can have different types in different records this type will be inaccurate
+Only the first 100 characters of the example record are shown
+====
+
+[width="90%", options="header", ]
+|==============================
+a|Key a| Inferred Type a| Example record a| Description
+a|Other fields a| collection of string a| `[u'citation', u'software', u'texname  (e.g. L(s,f))', u'texnamecompleteds  (e.g. \Lambda(s,f))', u't` ...
+ a| @@Lfunction\LemurellMaassHighDegree\Other fields\description@@
+a|Q_fe a| real a| `0.179587122125`
+ a| @@Lfunction\LemurellMaassHighDegree\Q_fe\description@@
+a|Required fields a| collection of string a| `[u'family (e.g. ModularForm)', u'group (e.g. GL2)', u'field  (e.g. Q)', u'objectName  (e.g. Maass)',` ...
+ a| @@Lfunction\LemurellMaassHighDegree\Required fields\description@@
+a|citation a| string a| `Farmer, D, Koutsoliotas, S, Lemurell, S: Maass forms on GL(3) and GL(4)`
+ a| @@Lfunction\LemurellMaassHighDegree\citation\description@@
+a|coefficient_type a| integer a| `3`
+ a| @@Lfunction\LemurellMaassHighDegree\coefficient_type\description@@
+a|credit a| string a| `Stefan Lemurell`
+ a| @@Lfunction\LemurellMaassHighDegree\credit\description@@
+a|degree a| integer a| `3`
+ a| @@Lfunction\LemurellMaassHighDegree\degree\description@@
+a|dirichlet_coefficients a| string a| `[1.0, -1.15143879285 - 1.75641008155*I, -0.491296798667 + 0.211513514192*I, -0.60772628803 + 2.28838` ...
+ a| @@Lfunction\LemurellMaassHighDegree\dirichlet_coefficients\description@@
+a|family a| string a| `ModularForm`
+ a| @@Lfunction\LemurellMaassHighDegree\family\description@@
+a|field a| string a| `Q`
+ a| @@Lfunction\LemurellMaassHighDegree\field\description@@
+a|group a| string a| `GL3`
+ a| @@Lfunction\LemurellMaassHighDegree\group\description@@
+a|kappa_fe a| collection of real a| `[0.5, 0.5, 0.5]`
+ a| @@Lfunction\LemurellMaassHighDegree\kappa_fe\description@@
+a|lambda_fe a| string a| `[9.03087307812*I, 4.17026697595*I, -13.2011400541*I]`
+ a| @@Lfunction\LemurellMaassHighDegree\lambda_fe\description@@
+a|langlands a| boolean a| `True`
+ a| @@Lfunction\LemurellMaassHighDegree\langlands\description@@
+a|lcalcfile a| string a| `3 0 31 0 3 0.5 0 9.0308730781217 0.5 0 4.1702669759472 0.5 0 -13.201140054069 0.17958712212516656 1` ...
+ a| @@Lfunction\LemurellMaassHighDegree\lcalcfile\description@@
+a|level a| integer a| `1`
+ a| @@Lfunction\LemurellMaassHighDegree\level\description@@
+a|metadata a| string a| `metadata`
+ a| @@Lfunction\LemurellMaassHighDegree\metadata\description@@
+a|mu_fe a| string a| `[18.0617461562*I, 8.34053395189*I, -26.4022801081*I]`
+ a| @@Lfunction\LemurellMaassHighDegree\mu_fe\description@@
+a|nu_fe a| string a| `[]`
+ a| @@Lfunction\LemurellMaassHighDegree\nu_fe\description@@
+a|objectName a| string a| `Maass`
+ a| @@Lfunction\LemurellMaassHighDegree\objectName\description@@
+a|primitive a| boolean a| `True`
+ a| @@Lfunction\LemurellMaassHighDegree\primitive\description@@
+a|quasidegree a| integer a| `3`
+ a| @@Lfunction\LemurellMaassHighDegree\quasidegree\description@@
+a|selfdual a| boolean a| `False`
+ a| @@Lfunction\LemurellMaassHighDegree\selfdual\description@@
+a|sign a| integer stored as string a| `1.0`
+ a| @@Lfunction\LemurellMaassHighDegree\sign\description@@
+a|software a| string a| `Mathematica`
+ a| @@Lfunction\LemurellMaassHighDegree\software\description@@
+a|texname a| string a| `L(s,f)`
+ a| @@Lfunction\LemurellMaassHighDegree\texname\description@@
+a|texnamecompleted1ms a| string a| `\Lambda(1-s, f)`
+ a| @@Lfunction\LemurellMaassHighDegree\texnamecompleted1ms\description@@
+a|texnamecompleteds a| string a| `\Lambda(s,f)`
+ a| @@Lfunction\LemurellMaassHighDegree\texnamecompleteds\description@@
+a|title a| string a| `L-function of a Maass form on \(\SL(3,\Z)\)`
+ a| @@Lfunction\LemurellMaassHighDegree\title\description@@
+|==============================
+
+'''
+
+== List of indices ==
+
+[width="90%", options="header", ]
+|==============================
+a|Index Name a| Index fields
+a|metadata_1 a| metadata sorted ascending
+a|_id_ a| _id sorted ascending
+|==============================
+
+'''
+
+== List of record types in the database ==
+
+Unable to detect a base record class. Using undifferentiated.
+
+2 distinct record types are present
+
+****
+[discrete]
+=== @@Lfunction\LemurellMaassHighDegree\e4a6ecec6de69d5af005c6f4d131523a\name@@ ===
+
+[NOTE]
+====
+1 records of type
+@@Lfunction\LemurellMaassHighDegree\e4a6ecec6de69d5af005c6f4d131523a\description@@
+====
+
+* Other fields 
+* Required fields 
+* metadata 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@Lfunction\LemurellMaassHighDegree\cd19faddb6a8ce476d53d7dd11d81ea5\name@@ ===
+
+[NOTE]
+====
+437 records of type
+@@Lfunction\LemurellMaassHighDegree\cd19faddb6a8ce476d53d7dd11d81ea5\description@@
+====
+
+* Q_fe 
+* citation 
+* coefficient_type 
+* credit 
+* degree 
+* dirichlet_coefficients 
+* family 
+* field 
+* group 
+* kappa_fe 
+* lambda_fe 
+* langlands 
+* lcalcfile 
+* level 
+* mu_fe 
+* nu_fe 
+* objectName 
+* primitive 
+* quasidegree 
+* selfdual 
+* sign 
+* software 
+* texname 
+* texnamecompleted1ms 
+* texnamecompleteds 
+* title 
+
+
+
+****
+
+'''
+
+== Notes ==
+
+@@Lfunction\LemurellMaassHighDegree\(NOTES)\description@@
+

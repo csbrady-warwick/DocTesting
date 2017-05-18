@@ -1,0 +1,134 @@
+= Database report for knowledge\knowls =
+
+Prepared with the lmfdb asciidoc report tool
+
+Christopher Brady <C.S.Brady@Warwick.ac.uk>
+
+Version 1.0.0
+
+'''
+
+== Collection information ==
+
+[width="50%", ]
+|==============================
+a|*Description* a| knowledge
+a|*Status* a| http://www.lmfdb.org/knowledge[production]
+a|*Contact* a| https://github.com/davidfarmer[David Farmer]
+a|*Code* a| https://github.com/LMFDB/lmfdb/tree/master/lmfdb/knowledge/[knowledge]
+|==============================
+
+== List of keys in the database ==
+
+The following keys appear in at least one record in the database
+
+[WARNING]
+====
+The type of the keys is inferred from only one record in the database. If the key can have different types in different records this type will be inaccurate
+Only the first 100 characters of the example record are shown
+====
+
+[width="90%", options="header", ]
+|==============================
+a|Key a| Inferred Type a| Example record a| Description
+a|_keywords a| collection of string a| `[u'unsolved', u'studied', u'german', u'number', u'including', u'zeta', u'still', u'contributions', u` ...
+ a| @@knowledge\knowls\_keywords\description@@
+a|authors a| collection of string a| `[u'pdehaye', u'arbooker', u'john.jones', u'DavidFarmer']`
+ a| @@knowledge\knowls\authors\description@@
+a|cat a| string a| `abvar`
+ a| @@knowledge\knowls\cat\description@@
+a|content a| string a| `An **algebraic curve** is an {{ KNOWL('ag.variety' , title='algebraic variety')}} of dimension $1.$`
+ a| @@knowledge\knowls\content\description@@
+a|history a| Type cannot be identified (<type 'list'>) a| `[None, {u'last_author': u'pdehaye', u'title': u'Algebraic curve (definition)', u'timestamp': datetim` ...
+ a| @@knowledge\knowls\history\description@@
+a|last_author a| string a| `gauss`
+ a| @@knowledge\knowls\last_author\description@@
+a|quality a| string a| `beta`
+ a| @@knowledge\knowls\quality\description@@
+a|timestamp a| Type cannot be identified (<type 'datetime.datetime'>) a| `2011-09-06 10:22:54.074000`
+ a| @@knowledge\knowls\timestamp\description@@
+a|title a| string a| `"related to" field`
+ a| @@knowledge\knowls\title\description@@
+|==============================
+
+'''
+
+== List of indices ==
+
+[width="90%", options="header", ]
+|==============================
+a|Index Name a| Index fields
+a|_keywords_1 a| _keywords sorted ascending
+a|cat_1 a| cat sorted ascending
+a|metadata_1 a| metadata sorted ascending
+a|_id_ a| _id sorted ascending
+a|authors_1 a| authors sorted ascending
+a|title_1 a| title sorted ascending
+|==============================
+
+'''
+
+== List of record types in the database ==
+
+2 distinct record types are present.
+
+****
+[discrete]
+=== Base record : @@knowledge\knowls\31bbb406868d9bc16471f2ed0ef42cc7\name@@ ===
+
+[NOTE]
+====
+The base record represents the smallest intersection of all related records.
+
+@@knowledge\knowls\31bbb406868d9bc16471f2ed0ef42cc7\description@@
+====
+
+199 records of base type in collection
+
+* last_author 
+* _keywords 
+* title 
+* timestamp 
+* cat 
+* content 
+* authors 
+* quality 
+
+
+
+****
+
+'''
+
+=== Derived records ===
+
+[NOTE]
+====
+Derived records are the record types that actually exist in the database.They are represented as differences from the base record
+====
+
+****
+[discrete]
+=== @@knowledge\knowls\e84dd513fb551fc26d6131ce4f837320\name@@ ===
+
+[NOTE]
+====
+@@knowledge\knowls\e84dd513fb551fc26d6131ce4f837320\description@@
+
+
+====
+
+601 records extended from base type
+
+* history 
+
+
+
+****
+
+'''
+
+== Notes ==
+
+@@knowledge\knowls\(NOTES)\description@@
+

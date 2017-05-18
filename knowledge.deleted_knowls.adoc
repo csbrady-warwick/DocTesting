@@ -1,0 +1,276 @@
+= Database report for knowledge\deleted_knowls =
+
+Prepared with the lmfdb asciidoc report tool
+
+Christopher Brady <C.S.Brady@Warwick.ac.uk>
+
+Version 1.0.0
+
+'''
+
+== Collection information ==
+
+[width="50%", ]
+|==============================
+a|*Description* a| knowledge
+a|*Status* a| http://www.lmfdb.org/knowledge[production]
+a|*Contact* a| https://github.com/davidfarmer[David Farmer]
+a|*Code* a| https://github.com/LMFDB/lmfdb/tree/master/lmfdb/knowledge/[knowledge]
+|==============================
+
+== List of keys in the database ==
+
+The following keys appear in at least one record in the database
+
+[WARNING]
+====
+The type of the keys is inferred from only one record in the database. If the key can have different types in different records this type will be inaccurate
+Only the first 100 characters of the example record are shown
+====
+
+[width="90%", options="header", ]
+|==============================
+a|Key a| Inferred Type a| Example record a| Description
+a|_keywords a| collection of string a| `[u'mathbb', u'among', u'all', u'over', u'obsolete', u'curves', u'one', u'ec.definition', u'exist', u` ...
+ a| @@knowledge\deleted_knowls\_keywords\description@@
+a|authors a| collection of string a| `[u'dkhuynhms', u'swisherh']`
+ a| @@knowledge\deleted_knowls\authors\description@@
+a|cat a| string a| `EC`
+ a| @@knowledge\deleted_knowls\cat\description@@
+a|content a| comma separated list of mixed types stored as string a| `Any elliptic curve over $\mathbb{Q}$ has a Weierstrass model (or equation) of the form \[y^2+a_1xy+a` ...
+ a| @@knowledge\deleted_knowls\content\description@@
+a|history a| collection of mixed types a| `[{u'content': u"Any elliptic curve over $\mathbb{Q}$ has a Weierstrass model (or equation) of the fo` ...
+ a| @@knowledge\deleted_knowls\history\description@@
+a|last_author a| string a| `swisherh`
+ a| @@knowledge\deleted_knowls\last_author\description@@
+a|quality a| string a| `beta`
+ a| @@knowledge\deleted_knowls\quality\description@@
+a|timestamp a| Type cannot be identified (<type 'datetime.datetime'>) a| `2011-09-05 05:29:54.363000`
+ a| @@knowledge\deleted_knowls\timestamp\description@@
+a|title a| string a| `Obsolete: elliptic curves`
+ a| @@knowledge\deleted_knowls\title\description@@
+|==============================
+
+'''
+
+== List of indices ==
+
+[width="90%", options="header", ]
+|==============================
+a|Index Name a| Index fields
+a|metadata_1 a| metadata sorted ascending
+a|_id_ a| _id sorted ascending
+|==============================
+
+'''
+
+== List of record types in the database ==
+
+8 distinct record types are present.
+
+****
+[discrete]
+=== Base record : @@knowledge\deleted_knowls\12443d105f8aa0cc7d19b2d7dae7f832\name@@ ===
+
+[NOTE]
+====
+The base record represents the smallest intersection of all related records.
+
+@@knowledge\deleted_knowls\12443d105f8aa0cc7d19b2d7dae7f832\description@@
+====
+
+2 records of base type in collection
+
+* content 
+* title 
+
+
+
+****
+
+'''
+
+=== Derived records ===
+
+[NOTE]
+====
+Derived records are the record types that actually exist in the database.They are represented as differences from the base record
+====
+
+****
+[discrete]
+=== @@knowledge\deleted_knowls\2be97e74074a76fa84e525c84f7796fd\name@@ ===
+
+[NOTE]
+====
+@@knowledge\deleted_knowls\2be97e74074a76fa84e525c84f7796fd\description@@
+
+
+====
+
+36 records extended from base type
+
+* _keywords 
+* authors 
+* history 
+* last_author 
+* quality 
+* timestamp 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@knowledge\deleted_knowls\e84dd513fb551fc26d6131ce4f837320\name@@ ===
+
+[NOTE]
+====
+@@knowledge\deleted_knowls\e84dd513fb551fc26d6131ce4f837320\description@@
+
+
+====
+
+108 records extended from base type
+
+* _keywords 
+* authors 
+* cat 
+* history 
+* last_author 
+* quality 
+* timestamp 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@knowledge\deleted_knowls\6187552da9aeb148b07575c90c27454d\name@@ ===
+
+[NOTE]
+====
+@@knowledge\deleted_knowls\6187552da9aeb148b07575c90c27454d\description@@
+
+
+====
+
+3 records extended from base type
+
+* authors 
+* history 
+* last_author 
+* quality 
+* timestamp 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@knowledge\deleted_knowls\167904f8ef11994b6e1b8e2d16aa9811\name@@ ===
+
+[NOTE]
+====
+@@knowledge\deleted_knowls\167904f8ef11994b6e1b8e2d16aa9811\description@@
+
+
+====
+
+24 records extended from base type
+
+* _keywords 
+* authors 
+* cat 
+* last_author 
+* quality 
+* timestamp 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@knowledge\deleted_knowls\8588a996d1905570259c5d216c05215c\name@@ ===
+
+[NOTE]
+====
+@@knowledge\deleted_knowls\8588a996d1905570259c5d216c05215c\description@@
+
+
+====
+
+2 records extended from base type
+
+* _keywords 
+* cat 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@knowledge\deleted_knowls\c80998f431e3da186c3def44bcc63f6e\name@@ ===
+
+[NOTE]
+====
+@@knowledge\deleted_knowls\c80998f431e3da186c3def44bcc63f6e\description@@
+
+
+====
+
+2 records extended from base type
+
+* _keywords 
+* authors 
+* quality 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@knowledge\deleted_knowls\fcdab7afa4a656d2f13c3acaa8068698\name@@ ===
+
+[NOTE]
+====
+@@knowledge\deleted_knowls\fcdab7afa4a656d2f13c3acaa8068698\description@@
+
+
+====
+
+1 records extended from base type
+
+* _keywords 
+* authors 
+* cat 
+* quality 
+
+
+
+****
+
+'''
+
+== Notes ==
+
+@@knowledge\deleted_knowls\(NOTES)\description@@
+

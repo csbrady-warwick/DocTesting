@@ -1,0 +1,112 @@
+= Database report for artin\field_data_old =
+
+Prepared with the lmfdb asciidoc report tool
+
+Christopher Brady <C.S.Brady@Warwick.ac.uk>
+
+Version 1.0.0
+
+'''
+
+== Collection information ==
+
+[width="50%", ]
+|==============================
+a|*Description* a| @@artin\field_data_old\(INFO)\description@@
+a|*Status* a| @@artin\field_data_old\(INFO)\status@@
+a|*Contact* a| @@artin\field_data_old\(INFO)\contact@@
+a|*Code* a| @@artin\field_data_old\(INFO)\code@@
+|==============================
+
+== List of keys in the database ==
+
+The following keys appear in at least one record in the database
+
+[WARNING]
+====
+The type of the keys is inferred from only one record in the database. If the key can have different types in different records this type will be inaccurate
+Only the first 100 characters of the example record are shown
+====
+
+[width="90%", options="header", ]
+|==============================
+a|Key a| Inferred Type a| Example record a| Description
+a|ArtinReps a| collection of mixed types a| `[{u'GalConj': 1, u'Character': [[1], [1]], u'CharacterField': 1, u'Baselabel': u'1.1.1t1.1'}, {u'Gal` ...
+ a| @@artin\field_data_old\ArtinReps\description@@
+a|ComplexConjugation a| integer a| `2`
+ a| @@artin\field_data_old\ComplexConjugation\description@@
+a|ConjClasses a| collection of real a| `[{u'Size': u'1', u'Representative': [1, 2], u'Order': 1}, {u'Size': u'1', u'Representative': [2, 1],` ...
+ a| @@artin\field_data_old\ConjClasses\description@@
+a|FrobResolvents a| collection of mixed types a| `[{u'Classes': 1, u'Data': 0, u'Algorithm': u'CYC', u'CycleType': [1, 1]}, {u'Classes': 2, u'Data': 0` ...
+ a| @@artin\field_data_old\FrobResolvents\description@@
+a|Frobs a| collection of integer a| `[1, 1, 2, 2, 2, 1, 2, 2, 1, 1, 1, 2, 1, 2, 1, 2, 1, 2, 2, 1, 1, 2, 2, 2, 2, 1, 2, 2, 2, 2, 1, 1, 2,` ...
+ a| @@artin\field_data_old\Frobs\description@@
+a|G-Gens a| collection of integer a| `[[2, 1]]`
+ a| @@artin\field_data_old\G-Gens\description@@
+a|G-Name a| string a| `C2`
+ a| @@artin\field_data_old\G-Name\description@@
+a|Polynomial a| comma separated list of integer stored as string a| `-1,-1,-1,-1,2,-1,1`
+ a| @@artin\field_data_old\Polynomial\description@@
+a|QpRts a| collection of integer stored as string a| `[[u'-93'], [u'94']]`
+ a| @@artin\field_data_old\QpRts\description@@
+a|QpRts-minpoly a| collection of integer a| `[-1, 1]`
+ a| @@artin\field_data_old\QpRts-minpoly\description@@
+a|QpRts-p a| integer a| `3`
+ a| @@artin\field_data_old\QpRts-p\description@@
+a|QpRts-prec a| integer a| `5`
+ a| @@artin\field_data_old\QpRts-prec\description@@
+a|Size a| integer stored as string a| `2`
+ a| @@artin\field_data_old\Size\description@@
+a|TransitiveDegree a| integer a| `2`
+ a| @@artin\field_data_old\TransitiveDegree\description@@
+|==============================
+
+'''
+
+== List of indices ==
+
+[width="90%", options="header", ]
+|==============================
+a|Index Name a| Index fields
+a|Polynomial_1 a| Polynomial sorted ascending
+a|_id_ a| _id sorted ascending
+|==============================
+
+'''
+
+== List of record types in the database ==
+
+****
+[discrete]
+=== All records ===
+
+[NOTE]
+====
+96383 records of type
+====
+
+* ArtinReps 
+* ComplexConjugation 
+* ConjClasses 
+* FrobResolvents 
+* Frobs 
+* G-Gens 
+* G-Name 
+* Polynomial 
+* QpRts 
+* QpRts-minpoly 
+* QpRts-p 
+* QpRts-prec 
+* Size 
+* TransitiveDegree 
+
+
+
+****
+
+'''
+
+== Notes ==
+
+@@artin\field_data_old\(NOTES)\description@@
+

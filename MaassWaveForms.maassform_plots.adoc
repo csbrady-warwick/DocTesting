@@ -1,0 +1,87 @@
+= Database report for MaassWaveForms\maassform_plots =
+
+Prepared with the lmfdb asciidoc report tool
+
+Christopher Brady <C.S.Brady@Warwick.ac.uk>
+
+Version 1.0.0
+
+'''
+
+== Collection information ==
+
+[width="50%", ]
+|==============================
+a|*Description* a| @@MaassWaveForms\maassform_plots\(INFO)\description@@
+a|*Status* a| @@MaassWaveForms\maassform_plots\(INFO)\status@@
+a|*Contact* a| @@MaassWaveForms\maassform_plots\(INFO)\contact@@
+a|*Code* a| @@MaassWaveForms\maassform_plots\(INFO)\code@@
+|==============================
+
+== List of keys in the database ==
+
+The following keys appear in at least one record in the database
+
+[WARNING]
+====
+The type of the keys is inferred from only one record in the database. If the key can have different types in different records this type will be inaccurate
+Only the first 100 characters of the example record are shown
+====
+
+[width="90%", options="header", ]
+|==============================
+a|Key a| Inferred Type a| Example record a| Description
+a|dpi a| integer a| `300`
+ a| @@MaassWaveForms\maassform_plots\dpi\description@@
+a|eigenvalue a| real a| `13.7797513519`
+ a| @@MaassWaveForms\maassform_plots\eigenvalue\description@@
+a|level a| integer a| `1`
+ a| @@MaassWaveForms\maassform_plots\level\description@@
+a|maass_id a| non-primitive type (<class 'bson.objectid.ObjectId'>) a| `4cb8503a58bca91458000000`
+ a| @@MaassWaveForms\maassform_plots\maass_id\description@@
+a|num_pts a| integer a| `150`
+ a| @@MaassWaveForms\maassform_plots\num_pts\description@@
+a|plot a| non-primitive type (<class 'bson.binary.Binary'>) a| `Record cannot be stringified`
+ a| @@MaassWaveForms\maassform_plots\plot\description@@
+|==============================
+
+'''
+
+== List of indices ==
+
+[width="90%", options="header", ]
+|==============================
+a|Index Name a| Index fields
+a|_id_ a| _id sorted ascending
+|==============================
+
+'''
+
+== List of record types in the database ==
+
+****
+[discrete]
+=== All records ===
+
+[NOTE]
+====
+729 records of type
+====
+
+* dpi 
+* eigenvalue 
+* level 
+* maass_id 
+* num_pts 
+* plot 
+
+
+
+****
+
+'''
+
+== Notes ==
+
+@@MaassWaveForms\maassform_plots\(NOTES)\description@@
+

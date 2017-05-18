@@ -1,0 +1,154 @@
+= Database report for mod_l_eigenvalues\modlmf =
+
+Prepared with the lmfdb asciidoc report tool
+
+Christopher Brady <C.S.Brady@Warwick.ac.uk>
+
+Version 1.0.0
+
+'''
+
+== Collection information ==
+
+[width="50%", ]
+|==============================
+a|*Description* a| Mod-ell modular forms
+a|*Status* a| http://beta.lmfdb.org/ModularForm/GL2/ModL/[beta]
+a|*Contact* a| https://github.com/sanni85[Samuele Anni]
+a|*Code* a| https://github.com/LMFDB/lmfdb/tree/master/lmfdb/modlmf[modlmf]
+|==============================
+
+== List of keys in the database ==
+
+The following keys appear in at least one record in the database
+
+[WARNING]
+====
+The type of the keys is inferred from only one record in the database. If the key can have different types in different records this type will be inaccurate
+Only the first 100 characters of the example record are shown
+====
+
+[width="90%", options="header", ]
+|==============================
+a|Key a| Inferred Type a| Example record a| Description
+a|atkinlehner a| collection of integer a| `[[1, 1]]`
+ a| [[int(p^e), int(W_{p^e})] for p^e exactly dividing N]
+a|base_label a| string a| `3.5.0.1`
+ a| @@mod_l_eigenvalues\modlmf\base_label\description@@
+a|characteristic a| integer a| `3`
+ a| the characteristic of the base ring of the form
+a|coeffs a| collection of integer stored as string a| `[u'0', u'1', u'2', u'2', u'2', u'1', u'1', u'0', u'0', u'1', u'2', u'2', u'1', u'1', u'0', u'2', u'2` ...
+ a| coefficients of the q-expansion. The finite field where the coefficients belongs is represented using Conway polynomials.
+a|cuspidal_lift a| list [integer, string, string, string] a| `[12, u'1.12.1.a', u'x', u'(3)']`
+ a| description of the characteristic zero cuspidal lift of smallest weight and smallest Galois orbit (alphabetical order).
+
+ This consists of
+
+ * *(int)* the weight of the newform
+
+ * *(string)* the label of the newform 
+
+ * *(string)* the polynomial giving the Hecke eigenvalue field 
+
+ * *(string)* the ideal used for the reduction, in terms of the generators
+a|deg a| integer a| `1`
+ a| degree of base field over prime field
+a|dirchar a| string a| `13.1.1`
+ a| label of the mod ell Dirichlet character
+a|index a| integer a| `1`
+ a| @@mod_l_eigenvalues\modlmf\index\description@@
+a|label a| string a| `3.5.0.1.1`
+ a| @@mod_l_eigenvalues\modlmf\label\description@@
+a|level a| integer a| `1`
+ a| minimal level of the form, that is the smallest level in which the eigenvalue system does occurr. If the associated representation is irreducible this is the Artin conductor away from l
+a|min_theta_weight a| integer a| `4`
+ a| minimum weight in a theta cycle
+a|n_coeffs a| integer a| `100`
+ a| the number of Fourier coefficients
+a|ordinary a| integer a| `1`
+ a| 1 means ordinary
+a|reducible a| list [string, integer, string, integer, integer] a| `[u'3.1.1', 0, u'3.1.1', 1, 0]`
+ a| this means that the associated representation is reducible of the form 
+
+ chi_1 cycl^a + chi_2 cycl^b, with a < b 
+
+ where chi_1, chi_2 are mod ell Dirichlet characters and cycl is the mod ell cyclotomic character. This is the format 
+
+ [dirchar_label(chi_1), power of cyclotomic a, dirchar_label(chi_2), power of cyclotomic b, eisenstein_weight] 
+
+ The dirchar_label is the *full* label of the character. The eisenstein_weight is the minimal weight of the Eisenstein lift of smallest weight
+a|theta_cycle a| list of tuples [int, str] a| `[[8, u'5.8.1'], [12, u'5.12.1']]`
+ a| theta cycle, formattes as list of [weight, label of the Galois orbit]
+a|weight_grading a| integer a| `0`
+ a| @@weight of the form modulo ell-1
+|==============================
+
+'''
+
+== List of indices ==
+
+[width="90%", options="header", ]
+|==============================
+a|Index Name a| Index fields
+a|dirchar_1 a| dirchar sorted ascending
+a|weight_grading_1 a| weight_grading sorted ascending
+a|deg_1 a| deg sorted ascending
+a|_id_ a| _id sorted ascending
+a|characteristic_1 a| characteristic sorted ascending
+a|level_1 a| level sorted ascending
+|==============================
+
+'''
+
+== List of record types in the database ==
+
+****
+[discrete]
+=== All records ===
+
+[NOTE]
+====
+264 records of type
+====
+
+* atkinlehner 
+* base_label 
+* characteristic 
+* coeffs 
+* cuspidal_lift 
+* deg 
+* dirchar 
+* index 
+* label 
+* level 
+* min_theta_weight 
+* n_coeffs 
+* ordinary 
+* reducible 
+* theta_cycle 
+* weight_grading 
+
+
+
+****
+
+'''
+
+== Notes ==
+
+The label of a Galois orbit of mod ell modular forms is given by 
+
+ *finite_field . level . weight . dirchar_index . number* 
+
+ where 
+
+ * *finite_field* is given by the string characterist+e+degree (unless the degree is 1, so the finite_field is given by the characteristic) 
+
+ * *level* is the minimal level as above 
+
+ * *weight* is the weight_grading (modulo ell -1) 
+
+ * *dirchar_index* comes from the label of the mod ell Dirichlet label which is characteristic.level.
+
+ * *number* denotes the Galois orbit, ordered looking at the q_expansion (at the moment this is relies on the code which computes the data).
+

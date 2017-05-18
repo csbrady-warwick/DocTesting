@@ -1,0 +1,150 @@
+= Database report for mod_l_eigenvalues\hecke_algebras_orbits =
+
+Prepared with the lmfdb asciidoc report tool
+
+Christopher Brady <C.S.Brady@Warwick.ac.uk>
+
+Version 1.0.0
+
+'''
+
+== Collection information ==
+
+[width="50%", ]
+|==============================
+a|*Description* a| @@mod_l_eigenvalues\hecke_algebras_orbits\(INFO)\description@@
+a|*Status* a| @@mod_l_eigenvalues\hecke_algebras_orbits\(INFO)\status@@
+a|*Contact* a| @@mod_l_eigenvalues\hecke_algebras_orbits\(INFO)\contact@@
+a|*Code* a| @@mod_l_eigenvalues\hecke_algebras_orbits\(INFO)\code@@
+|==============================
+
+== List of keys in the database ==
+
+The following keys appear in at least one record in the database
+
+[WARNING]
+====
+The type of the keys is inferred from only one record in the database. If the key can have different types in different records this type will be inaccurate
+Only the first 100 characters of the example record are shown
+====
+
+[width="90%", options="header", ]
+|==============================
+a|Key a| Inferred Type a| Example record a| Description
+a|Qalg_gen a| collection of integer a| `[1]`
+ a| @@mod_l_eigenvalues\hecke_algebras_orbits\Qalg_gen\description@@
+a|Qbasis a| collection of integer a| `[1]`
+ a| @@mod_l_eigenvalues\hecke_algebras_orbits\Qbasis\description@@
+a|Zbasis a| collection of integer stored as string a| `[[u'1']]`
+ a| @@mod_l_eigenvalues\hecke_algebras_orbits\Zbasis\description@@
+a|disc_fac a| non-primitive type (<type 'list'>) a| `[]`
+ a| @@mod_l_eigenvalues\hecke_algebras_orbits\disc_fac\description@@
+a|discriminant a| integer stored as string a| `1`
+ a| @@mod_l_eigenvalues\hecke_algebras_orbits\discriminant\description@@
+a|gen a| Record cannot be found containing key a| `N/A`
+ a| @@mod_l_eigenvalues\hecke_algebras_orbits\gen\description@@
+a|hecke_op a| string a| `[[[ 1 ]],[[ 72 ]],[[ 0 ]],[[ -27584 ]],[[ 221490 ]],[[ 0 ]],[[ -2149000 ]],[[ -4345344 ]],[[ 0 ]],[[` ...
+ a| @@mod_l_eigenvalues\hecke_algebras_orbits\hecke_op\description@@
+a|level a| integer a| `1`
+ a| @@mod_l_eigenvalues\hecke_algebras_orbits\level\description@@
+a|num_gen a| Record cannot be found containing key a| `N/A`
+ a| @@mod_l_eigenvalues\hecke_algebras_orbits\num_gen\description@@
+a|num_hecke_op a| integer a| `100`
+ a| @@mod_l_eigenvalues\hecke_algebras_orbits\num_hecke_op\description@@
+a|orbit a| integer a| `2`
+ a| @@mod_l_eigenvalues\hecke_algebras_orbits\orbit\description@@
+a|orbit_label a| string a| `9.16.1.2`
+ a| @@mod_l_eigenvalues\hecke_algebras_orbits\orbit_label\description@@
+a|parent_label a| string a| `1.12.1`
+ a| @@mod_l_eigenvalues\hecke_algebras_orbits\parent_label\description@@
+a|rel a| Record cannot be found containing key a| `N/A`
+ a| @@mod_l_eigenvalues\hecke_algebras_orbits\rel\description@@
+a|weight a| integer a| `2`
+ a| @@mod_l_eigenvalues\hecke_algebras_orbits\weight\description@@
+|==============================
+
+'''
+
+== List of indices ==
+
+[width="90%", options="header", ]
+|==============================
+a|Index Name a| Index fields
+a|_id_ a| _id sorted ascending
+a|parent_label_1 a| parent_label sorted ascending
+a|level_1 a| level sorted ascending
+a|weight_1 a| weight sorted ascending
+|==============================
+
+'''
+
+== List of record types in the database ==
+
+2 distinct record types are present.
+
+****
+[discrete]
+=== Base record : @@mod_l_eigenvalues\hecke_algebras_orbits\a788b62fa17205cc998932770d1778b3\name@@ ===
+
+[NOTE]
+====
+The base record represents the smallest intersection of all related records.
+
+@@mod_l_eigenvalues\hecke_algebras_orbits\a788b62fa17205cc998932770d1778b3\description@@
+====
+
+443 records of base type in collection
+
+* weight 
+* level 
+* parent_label 
+* orbit 
+* hecke_op 
+* gen 
+* orbit_label 
+* rel 
+* num_gen 
+* num_hecke_op 
+
+
+
+****
+
+'''
+
+=== Derived records ===
+
+[NOTE]
+====
+Derived records are the record types that actually exist in the database.They are represented as differences from the base record
+====
+
+****
+[discrete]
+=== @@mod_l_eigenvalues\hecke_algebras_orbits\4c39d02da956d804998073719a7853bf\name@@ ===
+
+[NOTE]
+====
+@@mod_l_eigenvalues\hecke_algebras_orbits\4c39d02da956d804998073719a7853bf\description@@
+
+
+====
+
+11 records extended from base type
+
+* Qalg_gen 
+* Qbasis 
+* Zbasis 
+* disc_fac 
+* discriminant 
+
+
+
+****
+
+'''
+
+== Notes ==
+
+@@mod_l_eigenvalues\hecke_algebras_orbits\(NOTES)\description@@
+

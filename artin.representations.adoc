@@ -1,0 +1,122 @@
+= Database report for artin\representations =
+
+Prepared with the lmfdb asciidoc report tool
+
+Christopher Brady <C.S.Brady@Warwick.ac.uk>
+
+Version 1.0.0
+
+'''
+
+== Collection information ==
+
+[width="50%", ]
+|==============================
+a|*Description* a| Artin representations
+a|*Status* a| http://www.lmfdb.org/ArtinRepresentation/[production]
+a|*Contact* a| https://github.com/jwj61[John Jones]
+a|*Code* a| https://github.com/LMFDB/lmfdb/tree/master/lmfdb/artin_representations[artin_representations]
+|==============================
+
+== List of keys in the database ==
+
+The following keys appear in at least one record in the database
+
+[WARNING]
+====
+The type of the keys is inferred from only one record in the database. If the key can have different types in different records this type will be inaccurate
+Only the first 100 characters of the example record are shown
+====
+
+[width="90%", options="header", ]
+|==============================
+a|Key a| Inferred Type a| Example record a| Description
+a|BadPrimes a| non-primitive type (<type 'list'>) a| `[]`
+ a| list of bad primes, i.e., primes dividing the conductor. Stored as strings since they may get too big
+a|Baselabel a| string a| `1.1.1t1.1`
+ a| @@artin\representations\Baselabel\description@@
+a|CharacterField a| integer a| `1`
+ a| the n for writing the character
+a|Conductor a| integer stored as string a| `1`
+ a| conductor
+a|Conductor_key a| integer stored as string a| `00001`
+ a| encoding of the conductor for searching. The first four characters give the number of decimal digits minus 1 (padded with zeros), followed by the conductor itself.
+a|Dim a| integer a| `1`
+ a| dimension
+a|GaloisConjugates a| collection of unidentifiable types a| `[{u'GalOrbIndex': 1, u'LocalFactors': [[[1], [-1]]], u'Character': [[1]], u'HardFactors': [], u'Sign` ...
+ a| list of Galois conjugate character information.
+
+Each entry in the GaloisConjugates list is a dictionary with the following entries
+
+ * *LocalFactors* (list of list of int-as-strings): local factors for the L-function 
+
+ * *Character* (list of list of ints): character for this representation. Each sublist are coefficients for the character value written on a power basis for Z[zeta_n]
+
+ * *Sign* (int): sign of the functional equation when we know it is 1 or -1, otherwise we give 0.
+
+ * *HardFactors* : local factors for bad primes
+
+ * *GalOrbIndex*(ints): an index assigned to the given character
+a|Galois_nt a| collection of integer a| `[1, 1]`
+ a| @@artin\representations\Galois_nt\description@@
+a|HardPrimes a| non-primitive type (<type 'list'>) a| `[]`
+ a| primes dividing the polynomial discriminant for the defining field. These include the Bad Primes
+a|Hide a| integer a| `0`
+ a| 0 if we should show it when searching for Artin rep'ns, 1 if not. The representations are invariants of the Galois closure of the given field. More than one field can have the same Galois closure. We pick a best/minimal one and show that. We have data for others for linking to the number field database.
+a|Indicator a| integer a| `1`
+ a| Frobenius-Schur indicator, 1 for orthogonal, -1 for symplectic, and 0 for other
+a|NFGal a| comma separated list of integer stored as string a| `-1,-1,-1,-1,2,-1,1`
+ a| list of Galois conjugate character information
+|==============================
+
+'''
+
+== List of indices ==
+
+[width="90%", options="header", ]
+|==============================
+a|Index Name a| Index fields
+a|Baselabel_1 a| Baselabel sorted ascending
+a|Dim_1_Hide_1_Conductor_key_1 a| Dim sorted ascending, Hide sorted ascending, Conductor_key sorted ascending
+a|Hide_1_Galois_nt_1 a| Hide sorted ascending, Galois_nt sorted ascending
+a|_id_ a| _id sorted ascending
+a|NFGal_1 a| NFGal sorted ascending
+a|Hide_1_Conductor_key_1 a| Hide sorted ascending, Conductor_key sorted ascending
+|==============================
+
+'''
+
+== List of record types in the database ==
+
+****
+[discrete]
+=== All records ===
+
+[NOTE]
+====
+257081 records of type
+====
+
+* BadPrimes 
+* Baselabel 
+* CharacterField 
+* Conductor 
+* Conductor_key 
+* Dim 
+* GaloisConjugates 
+* Galois_nt 
+* HardPrimes 
+* Hide 
+* Indicator 
+* NFGal 
+
+
+
+****
+
+'''
+
+== Notes ==
+
+@@artin\representations\(NOTES)\description@@
+

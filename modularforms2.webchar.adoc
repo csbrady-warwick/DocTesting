@@ -1,0 +1,96 @@
+= Database report for modularforms2\webchar =
+
+Prepared with the lmfdb asciidoc report tool
+
+Christopher Brady <C.S.Brady@Warwick.ac.uk>
+
+Version 1.0.0
+
+'''
+
+== Collection information ==
+
+[width="50%", ]
+|==============================
+a|*Description* a| Description: Json data for WebCharacter objects as defined in '/modular_forms/elliptic_modular_forms/backend/web_character.py'
+a|*Status* a| http://www.lmfdb.org/ModularForm/GL2/Q/holomorphic/[production]
+a|*Contact* a| https://github.com/sehlen[Stefan Ehlen] , https://github.com/fredstro[Fredrik Strömberg]
+a|*Code* a| https://github.com/LMFDB/lmfdb/tree/master/lmfdb/modular_forms/elliptic_modular_forms[modular_forms/elliptic_modular_forms]
+|==============================
+
+== List of keys in the database ==
+
+The following keys appear in at least one record in the database
+
+[WARNING]
+====
+The type of the keys is inferred from only one record in the database. If the key can have different types in different records this type will be inaccurate
+Only the first 100 characters of the example record are shown
+====
+
+[width="90%", options="header", ]
+|==============================
+a|Key a| Inferred Type a| Example record a| Description
+a|conductor a| integer a| `1`
+ a| conductor
+a|label a| integer stored as string a| `1.0`
+ a| label of the form M.i where M is the modulus and i is the Conrey character number
+a|latex_name a| string a| `\chi_{1}(1, \cdot)`
+ a| latex_string
+a|modulus a| integer a| `1`
+ a| modulus
+a|modulus_euler_phi a| integer a| `1`
+ a| Euler phi function of modulus
+a|number a| integer a| `1`
+ a| Conrey character number
+a|order a| integer a| `1`
+ a| order of this character
+a|version a| real a| `1.2`
+ a| version number
+|==============================
+
+'''
+
+== List of indices ==
+
+[width="90%", options="header", ]
+|==============================
+a|Index Name a| Index fields
+a|modulus_1_number_1 a| modulus sorted ascending, number sorted ascending
+a|modulus_1_version_1_number_1 a| modulus sorted ascending, version sorted ascending, number sorted ascending
+a|label_1 a| label sorted ascending
+a|_id_ a| _id sorted ascending
+|==============================
+
+'''
+
+== List of record types in the database ==
+
+****
+[discrete]
+=== All records ===
+
+[NOTE]
+====
+1019 records of type
+====
+
+* conductor 
+* label 
+* latex_name 
+* modulus 
+* modulus_euler_phi 
+* number 
+* order 
+* version 
+
+
+
+****
+
+'''
+
+== Notes ==
+
+@@modularforms2\webchar\(NOTES)\description@@
+

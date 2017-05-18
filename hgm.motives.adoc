@@ -1,0 +1,232 @@
+= Database report for hgm\motives =
+
+Prepared with the lmfdb asciidoc report tool
+
+Christopher Brady <C.S.Brady@Warwick.ac.uk>
+
+Version 1.0.0
+
+'''
+
+== Collection information ==
+
+[width="50%", ]
+|==============================
+a|*Description* a| Hypergeometric motives
+a|*Status* a| http://beta.lmfdb.org/Motive/Hypergeometric/Q/[beta]
+a|*Contact* a| https://github.com/jwj61[John Jones]
+a|*Code* a| https://github.com/LMFDB/lmfdb/tree/master/lmfdb/motives[motives]
+|==============================
+
+== List of keys in the database ==
+
+The following keys appear in at least one record in the database
+
+[WARNING]
+====
+The type of the keys is inferred from only one record in the database. If the key can have different types in different records this type will be inaccurate
+Only the first 100 characters of the example record are shown
+====
+
+[width="90%", options="header", ]
+|==============================
+a|Key a| Inferred Type a| Example record a| Description
+a|A a| collection of integer a| `[2]`
+ a| @@hgm\motives\A\description@@
+a|B a| collection of integer a| `[0, 0, 1, 1, 1, 1, 1, 1, 1, 1]`
+ a| @@hgm\motives\B\description@@
+a|a2 a| collection of integer a| `[1, 1, 2]`
+ a| @@hgm\motives\a2\description@@
+a|a3 a| collection of integer a| `[1, 1, 1, 1, 1, 1]`
+ a| @@hgm\motives\a3\description@@
+a|a5 a| collection of integer a| `[1, 1, 1, 1, 1, 1]`
+ a| @@hgm\motives\a5\description@@
+a|a7 a| collection of integer a| `[1, 1, 1, 1, 1, 1]`
+ a| @@hgm\motives\a7\description@@
+a|ae2 a| collection of integer a| `[1, 1, 1, 1, 1, 1]`
+ a| @@hgm\motives\ae2\description@@
+a|ae3 a| collection of integer a| `[2, 2, 2, 2, 2, 2]`
+ a| @@hgm\motives\ae3\description@@
+a|ae5 a| collection of integer a| `[2, 2, 2, 2, 2, 2]`
+ a| @@hgm\motives\ae5\description@@
+a|ae7 a| collection of integer a| `[2, 2, 2, 2, 2, 2]`
+ a| @@hgm\motives\ae7\description@@
+a|b2 a| collection of integer a| `[1, 2, 2, 2, 2, 2]`
+ a| @@hgm\motives\b2\description@@
+a|b3 a| collection of integer a| `[1, 1, 3, 3]`
+ a| @@hgm\motives\b3\description@@
+a|b5 a| collection of integer a| `[1, 1, 1, 1, 1, 1]`
+ a| @@hgm\motives\b5\description@@
+a|b7 a| collection of integer a| `[1, 1, 1, 1, 1, 1]`
+ a| @@hgm\motives\b7\description@@
+a|be2 a| collection of integer a| `[1, 1, 3, 3]`
+ a| @@hgm\motives\be2\description@@
+a|be3 a| collection of integer a| `[1, 2, 2, 2, 2, 2]`
+ a| @@hgm\motives\be3\description@@
+a|be5 a| collection of integer a| `[1, 2, 6, 6]`
+ a| @@hgm\motives\be5\description@@
+a|be7 a| collection of integer a| `[1, 2, 6, 6]`
+ a| @@hgm\motives\be7\description@@
+a|centralval a| string a| `noncrit`
+ a| @@hgm\motives\centralval\description@@
+a|coeffs a| collection of integer a| `[1, 0, 18, 0, -14, 0, -60, 0, 243, 0, 16, 0, 203, 0, -252, 0, -111, 0, 75, 0, -1080, 0, 113, 0, -109` ...
+ a| @@hgm\motives\coeffs\description@@
+a|cond a| integer a| `4`
+ a| @@hgm\motives\cond\description@@
+a|degree a| integer a| `1`
+ a| @@hgm\motives\degree\description@@
+a|hodge a| collection of integer a| `[1, 1, 0, 0, 1, 1]`
+ a| @@hgm\motives\hodge\description@@
+a|label a| string a| `A10_B1.1.1.1_t1.1`
+ a| @@hgm\motives\label\description@@
+a|locinfo a| collection of real a| `[[11, [u'1'], 1, 1, 1, 1], [4, [u'1', u'-18', u'81'], 1, 1, 2, 3], [0, [u'1', u'14', u'305', u'7625'` ...
+ a| @@hgm\motives\locinfo\description@@
+a|req a| integer a| `2350`
+ a| @@hgm\motives\req\description@@
+a|sig a| integer a| `-1`
+ a| @@hgm\motives\sig\description@@
+a|sign a| integer a| `-1`
+ a| @@hgm\motives\sign\description@@
+a|t a| collection of integer a| `[-8, 1]`
+ a| @@hgm\motives\t\description@@
+a|testing a| integer a| `0`
+ a| @@hgm\motives\testing\description@@
+a|weight a| integer a| `0`
+ a| @@hgm\motives\weight\description@@
+|==============================
+
+'''
+
+== List of indices ==
+
+[width="90%", options="header", ]
+|==============================
+a|Index Name a| Index fields
+a|B_1 a| B sorted ascending
+a|label_1 a| label sorted ascending
+a|weight_1 a| weight sorted ascending
+a|a3_1 a| a3 sorted ascending
+a|t_1 a| t sorted ascending
+a|hodge_1 a| hodge sorted ascending
+a|b3_1 a| b3 sorted ascending
+a|a7_1 a| a7 sorted ascending
+a|degree_1 a| degree sorted ascending
+a|a5_1 a| a5 sorted ascending
+a|A_1 a| A sorted ascending
+a|b7_1 a| b7 sorted ascending
+a|b2_1 a| b2 sorted ascending
+a|b5_1 a| b5 sorted ascending
+a|cond_1_label_1 a| cond sorted ascending, label sorted ascending
+a|sign_1 a| sign sorted ascending
+a|_id_ a| _id sorted ascending
+a|a2_1 a| a2 sorted ascending
+|==============================
+
+'''
+
+== List of record types in the database ==
+
+3 distinct record types are present.
+
+****
+[discrete]
+=== Base record : @@hgm\motives\25047f21fec6e6a8bfcba2a4f6eb50be\name@@ ===
+
+[NOTE]
+====
+The base record represents the smallest intersection of all related records.
+
+@@hgm\motives\25047f21fec6e6a8bfcba2a4f6eb50be\description@@
+====
+
+269 records of base type in collection
+
+* weight 
+* sign 
+* b5 
+* b7 
+* cond 
+* b2 
+* b3 
+* ae3 
+* ae2 
+* ae5 
+* locinfo 
+* ae7 
+* req 
+* hodge 
+* label 
+* sig 
+* be2 
+* be3 
+* be7 
+* be5 
+* A 
+* B 
+* degree 
+* a3 
+* a2 
+* a5 
+* a7 
+* t 
+* coeffs 
+
+
+
+****
+
+'''
+
+=== Derived records ===
+
+[NOTE]
+====
+Derived records are the record types that actually exist in the database.They are represented as differences from the base record
+====
+
+****
+[discrete]
+=== @@hgm\motives\5ab3cdf6abe2785309267957c134e148\name@@ ===
+
+[NOTE]
+====
+@@hgm\motives\5ab3cdf6abe2785309267957c134e148\description@@
+
+
+====
+
+1579 records extended from base type
+
+* centralval 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@hgm\motives\b00d14c309e8969c68d811154a6be04f\name@@ ===
+
+[NOTE]
+====
+@@hgm\motives\b00d14c309e8969c68d811154a6be04f\description@@
+
+
+====
+
+1 records extended from base type
+
+* testing 
+
+
+
+****
+
+'''
+
+== Notes ==
+
+@@hgm\motives\(NOTES)\description@@
+

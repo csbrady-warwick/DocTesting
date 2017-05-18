@@ -1,0 +1,81 @@
+= Database report for Lfunctions\instances =
+
+Prepared with the lmfdb asciidoc report tool
+
+Christopher Brady <C.S.Brady@Warwick.ac.uk>
+
+Version 1.0.0
+
+'''
+
+== Collection information ==
+
+[width="50%", ]
+|==============================
+a|*Description* a| L-functions
+a|*Status* a| http://www.lmfdb.org/L/[production]
+a|*Contact* a| https://github.com/jwbober[Jonathan Bober] , https://github.com/davidfarmer[David Farmer]
+a|*Code* a| https://github.com/LMFDB/lmfdb/tree/master/lmfdb/lfunctions[lfunctions]
+|==============================
+
+== List of keys in the database ==
+
+The following keys appear in at least one record in the database
+
+[WARNING]
+====
+The type of the keys is inferred from only one record in the database. If the key can have different types in different records this type will be inaccurate
+Only the first 100 characters of the example record are shown
+====
+
+[width="90%", options="header", ]
+|==============================
+a|Key a| Inferred Type a| Example record a| Description
+a|Lhash a| string a| `/ModularForm/GL3/Q/Maass/1/1/-13.5965_-4.76468/1.04846245/`
+ a| lookup by L-function hash (used to find all objects with the same L-function)
+a|type a| string a| `DIR`
+ a| used to filter instances by type
+a|url a| string a| `Character/Dirichlet/100/11`
+ a| lookup by object homepage URL
+|==============================
+
+'''
+
+== List of indices ==
+
+[width="90%", options="header", ]
+|==============================
+a|Index Name a| Index fields
+a|_id_ a| _id sorted ascending
+a|type_1 a| type sorted ascending
+a|Lhash_1 a| Lhash sorted ascending
+a|url_1 a| url sorted ascending
+|==============================
+
+'''
+
+== List of record types in the database ==
+
+****
+[discrete]
+=== All records ===
+
+[NOTE]
+====
+9458643 records of type
+====
+
+* Lhash 
+* type 
+* url 
+
+
+
+****
+
+'''
+
+== Notes ==
+
+@@Lfunctions\instances\(NOTES)\description@@
+

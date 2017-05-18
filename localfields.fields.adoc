@@ -1,0 +1,166 @@
+= Database report for localfields\fields =
+
+Prepared with the lmfdb asciidoc report tool
+
+Christopher Brady <C.S.Brady@Warwick.ac.uk>
+
+Version 1.0.0
+
+'''
+
+== Collection information ==
+
+[width="50%", ]
+|==============================
+a|*Description* a| Local number fields
+a|*Status* a| http://www.lmfdb.org/LocalField[production]
+a|*Contact* a| https://github.com/jwj61[John Jones]
+a|*Code* a| https://github.com/LMFDB/lmfdb/tree/master/lmfdb/local_fields[local_fields]
+|==============================
+
+== List of keys in the database ==
+
+The following keys appear in at least one record in the database
+
+[WARNING]
+====
+The type of the keys is inferred from only one record in the database. If the key can have different types in different records this type will be inaccurate
+Only the first 100 characters of the example record are shown
+====
+
+[width="90%", options="header", ]
+|==============================
+a|Key a| Inferred Type a| Example record a| Description
+a|aut a| integer a| `3`
+ a| number of automorphisms of the field
+a|c a| integer a| `0`
+ a| valuation of the discriminant
+a|coeffs a| collection of integer a| `[1, -1, 0, 1]`
+ a| coefficients of a defining polynomial, starting with the constant term
+a|e a| integer a| `1`
+ a| ramification degree
+a|eisen a| polynomial as string, in variable y over Q_p(t) a| `y - 2`
+ a| Eisenstein polynomial defining relative extension of this field over the maxmial unramified subfield
+a|f a| integer a| `1`
+ a| residue field degree
+a|gal a| collection of integer a| `[3, 1]`
+ a| the Galois group [n, t] for nTt
+a|galT a| integer a| `1`
+ a| the T-number for the Galois group
+a|gms a| integer stored as string a| `0`
+ a| Galois mean slope
+a|hw a| string a| `$1$`
+ a| Hasse-Witt invariant as a string
+a|inertia a| four-tuple, degree, whether it is transitive or not, the pair [d,t] for the degree and t-number if transitive, and optionally an html display string a| `[1, u'e', [], u'&lt;<i>e</i>&gt;']`
+ a| inertia subgroup
+a|label a| string a| `101.1.0.1`
+ a| label
+a|n a| integer a| `1`
+ a| degree
+a|p a| integer a| `2`
+ a| prime p for the base \Q_p
+a|rf a| collection of integer a| `[1, 0]`
+ a| root field
+a|slopes a| string a| `[]`
+ a| wild ramification slopes
+a|t a| integer a| `1`
+ a| tame degree for the Galois closure
+a|u a| integer a| `3`
+ a| degree of maximal unramified subfield of the Galois closure
+a|unram a| string a| `t^3 - t + 1`
+ a| polynomial defining maximal unramified subfield
+|==============================
+
+'''
+
+== List of indices ==
+
+[width="90%", options="header", ]
+|==============================
+a|Index Name a| Index fields
+a|e_1 a| e sorted ascending
+a|p_1_n_1 a| p sorted ascending, n sorted ascending
+a|_id_ a| _id sorted ascending
+a|n_1 a| n sorted ascending
+a|metadata_1 a| metadata sorted ascending
+a|label_1 a| label sorted ascending
+a|f_1 a| f sorted ascending
+a|p_1 a| p sorted ascending
+|==============================
+
+'''
+
+== List of record types in the database ==
+
+2 distinct record types are present.
+
+****
+[discrete]
+=== Base record : @@localfields\fields\5d718ff3abe4f5ffdca46db34e9189d9\name@@ ===
+
+[NOTE]
+====
+The base record represents the smallest intersection of all related records.
+
+@@localfields\fields\5d718ff3abe4f5ffdca46db34e9189d9\description@@
+====
+
+53 records of base type in collection
+
+* unram 
+* c 
+* e 
+* f 
+* hw 
+* p 
+* label 
+* gms 
+* rf 
+* gal 
+* u 
+* aut 
+* coeffs 
+* eisen 
+* slopes 
+* n 
+* inertia 
+* t 
+
+
+
+****
+
+'''
+
+=== Derived records ===
+
+[NOTE]
+====
+Derived records are the record types that actually exist in the database.They are represented as differences from the base record
+====
+
+****
+[discrete]
+=== @@localfields\fields\53410515ce81bfac531742865be30a52\name@@ ===
+
+[NOTE]
+====
+@@localfields\fields\53410515ce81bfac531742865be30a52\description@@
+
+
+====
+
+5268 records extended from base type
+
+* galT 
+
+
+
+****
+
+'''
+
+== Notes ==
+
+@@localfields\fields\(NOTES)\description@@
+

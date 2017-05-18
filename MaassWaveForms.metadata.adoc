@@ -1,0 +1,79 @@
+= Database report for MaassWaveForms\metadata =
+
+Prepared with the lmfdb asciidoc report tool
+
+Christopher Brady <C.S.Brady@Warwick.ac.uk>
+
+Version 1.0.0
+
+'''
+
+== Collection information ==
+
+[width="50%", ]
+|==============================
+a|*Description* a| @@MaassWaveForms\metadata\(INFO)\description@@
+a|*Status* a| @@MaassWaveForms\metadata\(INFO)\status@@
+a|*Contact* a| @@MaassWaveForms\metadata\(INFO)\contact@@
+a|*Code* a| @@MaassWaveForms\metadata\(INFO)\code@@
+|==============================
+
+== List of keys in the database ==
+
+The following keys appear in at least one record in the database
+
+[WARNING]
+====
+The type of the keys is inferred from only one record in the database. If the key can have different types in different records this type will be inaccurate
+Only the first 100 characters of the example record are shown
+====
+
+[width="90%", options="header", ]
+|==============================
+a|Key a| Inferred Type a| Example record a| Description
+a|c_name a| string a| `HT`
+ a| @@MaassWaveForms\metadata\c_name\description@@
+a|contributor a| string a| `Holger Then`
+ a| @@MaassWaveForms\metadata\contributor\description@@
+a|knowl-tag a| string a| `mf.maass.mwf.data.metadata.ht`
+ a| @@MaassWaveForms\metadata\knowl-tag\description@@
+|==============================
+
+'''
+
+== List of indices ==
+
+[width="90%", options="header", ]
+|==============================
+a|Index Name a| Index fields
+a|metadata_1 a| metadata sorted ascending
+a|_id_ a| _id sorted ascending
+|==============================
+
+'''
+
+== List of record types in the database ==
+
+****
+[discrete]
+=== All records ===
+
+[NOTE]
+====
+2 records of type
+====
+
+* c_name 
+* contributor 
+* knowl-tag 
+
+
+
+****
+
+'''
+
+== Notes ==
+
+@@MaassWaveForms\metadata\(NOTES)\description@@
+

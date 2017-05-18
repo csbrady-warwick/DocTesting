@@ -1,0 +1,115 @@
+= Database report for MaassWaveForms\DirChars =
+
+Prepared with the lmfdb asciidoc report tool
+
+Christopher Brady <C.S.Brady@Warwick.ac.uk>
+
+Version 1.0.0
+
+'''
+
+== Collection information ==
+
+[width="50%", ]
+|==============================
+a|*Description* a| Maass wave forms
+a|*Status* a| http://www.lmfdb.org/ModularForm/GL2/Q/Maass/[production]
+a|*Contact* a| https://github.com/lemurell[Stefan Lemurrell] , https://github.com/fredstro[Fredrik Strömberg]
+a|*Code* a| https://github.com/LMFDB/lmfdb/tree/master/lmfdb/modular_forms/maass_forms/maass_waveforms/[modular_forms/maass_forms/maass_waveforms]
+|==============================
+
+== List of keys in the database ==
+
+The following keys appear in at least one record in the database
+
+[WARNING]
+====
+The type of the keys is inferred from only one record in the database. If the key can have different types in different records this type will be inaccurate
+Only the first 100 characters of the example record are shown
+====
+
+[width="90%", options="header", ]
+|==============================
+a|Key a| Inferred Type a| Example record a| Description
+a|Chars a| collection of integer a| `[0]`
+ a| @@MaassWaveForms\DirChars\Chars\description@@
+a|Conrey a| integer a| `1`
+ a| @@MaassWaveForms\DirChars\Conrey\description@@
+a|Modulus a| integer a| `2`
+ a| @@MaassWaveForms\DirChars\Modulus\description@@
+a|Parity a| integer a| `0`
+ a| @@MaassWaveForms\DirChars\Parity\description@@
+|==============================
+
+'''
+
+== List of indices ==
+
+[width="90%", options="header", ]
+|==============================
+a|Index Name a| Index fields
+a|metadata_1 a| metadata sorted ascending
+a|_id_ a| _id sorted ascending
+|==============================
+
+'''
+
+== List of record types in the database ==
+
+2 distinct record types are present.
+
+****
+[discrete]
+=== Base record : @@MaassWaveForms\DirChars\d588d09527dd14905bb09c0fbb19c44d\name@@ ===
+
+[NOTE]
+====
+The base record represents the smallest intersection of all related records.
+
+@@MaassWaveForms\DirChars\d588d09527dd14905bb09c0fbb19c44d\description@@
+====
+
+47 records of base type in collection
+
+* Parity 
+* Chars 
+* Modulus 
+
+
+
+****
+
+'''
+
+=== Derived records ===
+
+[NOTE]
+====
+Derived records are the record types that actually exist in the database.They are represented as differences from the base record
+====
+
+****
+[discrete]
+=== @@MaassWaveForms\DirChars\be56894b0f7ee492e0bcd655266e2302\name@@ ===
+
+[NOTE]
+====
+@@MaassWaveForms\DirChars\be56894b0f7ee492e0bcd655266e2302\description@@
+
+
+====
+
+50 records extended from base type
+
+* Conrey 
+
+
+
+****
+
+'''
+
+== Notes ==
+
+@@MaassWaveForms\DirChars\(NOTES)\description@@
+

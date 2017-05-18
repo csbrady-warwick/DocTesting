@@ -1,0 +1,82 @@
+= Database report for HTPicard\picard =
+
+Prepared with the lmfdb asciidoc report tool
+
+Christopher Brady <C.S.Brady@Warwick.ac.uk>
+
+Version 1.0.0
+
+'''
+
+== Collection information ==
+
+[width="50%", ]
+|==============================
+a|*Description* a| Maass forms on SL_2(Z[i])
+a|*Status* a| https://github.com/LMFDB/lmfdb/issues/1431#issuecomment-225549206[future]
+a|*Contact* a| https://github.com/davidfarmer[David Farmer]
+a|*Code* a| https://github.com/LMFDB/lmfdb/tree/master/lmfdb/modular_forms/maass_forms/picard/[modular_forms/maass_forms/picard]
+|==============================
+
+== List of keys in the database ==
+
+The following keys appear in at least one record in the database
+
+[WARNING]
+====
+The type of the keys is inferred from only one record in the database. If the key can have different types in different records this type will be inaccurate
+Only the first 100 characters of the example record are shown
+====
+
+[width="90%", options="header", ]
+|==============================
+a|Key a| Inferred Type a| Example record a| Description
+a|coef a| collection of real a| `[[1, 0, 1.0], [1, 1, 1.9481131432733], [2, 0, 2.7951448189937], [1, 2, -0.008425302169], [2, 1, -0.0` ...
+ a| @@HTPicard\picard\coef\description@@
+a|ev a| real a| `6.62211934025`
+ a| @@HTPicard\picard\ev\description@@
+a|prec a| real a| `1.3e-12`
+ a| @@HTPicard\picard\prec\description@@
+a|sym a| collection of string a| `[u'single', u'even']`
+ a| @@HTPicard\picard\sym\description@@
+|==============================
+
+'''
+
+== List of indices ==
+
+[width="90%", options="header", ]
+|==============================
+a|Index Name a| Index fields
+a|_id_ a| _id sorted ascending
+a|ev_1 a| ev sorted ascending
+|==============================
+
+'''
+
+== List of record types in the database ==
+
+****
+[discrete]
+=== All records ===
+
+[NOTE]
+====
+519 records of type
+====
+
+* coef 
+* ev 
+* prec 
+* sym 
+
+
+
+****
+
+'''
+
+== Notes ==
+
+@@HTPicard\picard\(NOTES)\description@@
+

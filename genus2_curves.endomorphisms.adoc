@@ -1,0 +1,203 @@
+= Database report for genus2_curves\endomorphisms =
+
+Prepared with the lmfdb asciidoc report tool
+
+Christopher Brady <C.S.Brady@Warwick.ac.uk>
+
+Version 1.0.0
+
+'''
+
+== Collection information ==
+
+[width="50%", ]
+|==============================
+a|*Description* a| Endomorphism data for genus 2 curves over QQ.
+a|*Status* a| @@genus2_curves\endomorphisms\(INFO)\status@@
+a|*Contact* a| https://github.com/JRSijsling[Jeroen Sijsling]
+a|*Code* a| @@genus2_curves\endomorphisms\(INFO)\code@@
+|==============================
+
+== List of keys in the database ==
+
+The following keys appear in at least one record in the database
+
+[WARNING]
+====
+The type of the keys is inferred from only one record in the database. If the key can have different types in different records this type will be inaccurate
+Only the first 100 characters of the example record are shown
+====
+
+[width="90%", options="header", ]
+|==============================
+a|Key a| Inferred Type a| Example record a| Description
+a|factorsQQ_base a| collection of mixed types a| `[[u'1.1.1.1', [0, 1], -1]]`
+ a| description of endomorphism algebra factors over the base field
+a|factorsQQ_geom a| collection of mixed types a| `[[u'1.1.1.1', [0, 1], -1]]`
+ a| description of endomorphism algebra factors over the algebraic closure
+a|factorsRR_base a| collection of string a| `[u'RR']`
+ a| endomorphism algebra factors over the base field tensored with RR
+a|factorsRR_geom a| collection of string a| `[u'RR']`
+ a| endomorphism algebra factors over the algebraic closure tensored with RR
+a|fod_coeffs a| collection of integer a| `[0, 1]`
+ a| defining polynomial of the smallest field over which all endomorphisms are defined
+a|fod_label a| string a| `1.1.1.1`
+ a| LMFDB label of the smallest field over which all endomorphisms are defined
+a|is_simple_base a| boolean a| `True`
+ a| whether the curve is simple over the base field
+a|is_simple_geom a| boolean a| `True`
+ a| whether the curve is simple over the algebraic closure
+a|label a| string a| `10000.a.160000.1`
+ a| LMFDB label
+a|lattice a| collection of mixed types a| `[[[u'1.1.1.1', [0, 1], [u'0']], [[u'1.1.1.1', [0, 1], -1]], [u'RR'], [1, -1], u'USp(4)']]`
+ a| endomorphism lattice. See notes section
+a|ring_base a| collection of integer a| `[1, -1]`
+ a| endomorphism ring over the base field as a subring of the endomorphism algebra
+a|ring_geom a| collection of integer a| `[1, -1]`
+ a| endomorphism ring over the algebraic closure as a subring of the endomorphism algebra
+a|spl_facs_coeffs a| collection of integer stored as string a| `[[[u'-623'], [u'-6713']], [[u'-20'], [u'-64']]]`
+ a| defining coefficients of the elliptic curves obtained by splitting the Jacobian
+a|spl_facs_condnorms a| collection of integer a| `[1078, 448]`
+ a| conductor norms of the elliptic curves obtained by splitting the Jacobian
+a|spl_facs_labels a| collection of string a| `[u'1078.l2', u'448.b2']`
+ a| LMFDB labels of the elliptic curves obtained by splitting the Jacobian
+a|spl_fod_coeffs a| collection of integer a| `[0, 1]`
+ a| defining polynomial of a field of minimal degree over which a splitting of the Jacobian is defined
+a|spl_fod_gen a| collection of integer stored as string a| `[u'0']`
+ a| generator of a field of minimal degree over which a splitting of the Jacobian is defined, as a subfield of the smallest field over which all endomorphisms are defined
+a|spl_fod_label a| string a| `1.1.1.1`
+ a| LMFDB label of a field of minimal degree over which a splitting of the Jacobian is defined
+a|st_group_base a| string a| `USp(4)`
+ a| Sato-Tate group over the base field
+a|st_group_geom a| string a| `USp(4)`
+ a| Sato-Tate group over the algebraic closure (equivalently, its identity component)
+|==============================
+
+'''
+
+== List of indices ==
+
+[width="90%", options="header", ]
+|==============================
+a|Index Name a| Index fields
+a|label_1 a| label sorted ascending
+a|_id_ a| _id sorted ascending
+|==============================
+
+'''
+
+== List of record types in the database ==
+
+3 distinct record types are present.
+
+****
+[discrete]
+=== Base record : @@genus2_curves\endomorphisms\7ac8166622f42bd31a07dafb20de509d\name@@ ===
+
+[NOTE]
+====
+The base record represents the smallest intersection of all related records.
+
+@@genus2_curves\endomorphisms\7ac8166622f42bd31a07dafb20de509d\description@@
+====
+
+63232 records of base type in collection
+
+* st_group_base 
+* factorsRR_base 
+* factorsQQ_geom 
+* is_simple_base 
+* spl_fod_label 
+* ring_geom 
+* is_simple_geom 
+* label 
+* fod_label 
+* fod_coeffs 
+* lattice 
+* factorsRR_geom 
+* st_group_geom 
+* spl_fod_coeffs 
+* ring_base 
+* factorsQQ_base 
+* spl_fod_gen 
+
+
+
+****
+
+'''
+
+=== Derived records ===
+
+[NOTE]
+====
+Derived records are the record types that actually exist in the database.They are represented as differences from the base record
+====
+
+****
+[discrete]
+=== @@genus2_curves\endomorphisms\c3fc4dca6a677b4717b5fd9ec65e08c2\name@@ ===
+
+[NOTE]
+====
+@@genus2_curves\endomorphisms\c3fc4dca6a677b4717b5fd9ec65e08c2\description@@
+
+
+====
+
+2785 records extended from base type
+
+* spl_facs_coeffs 
+* spl_facs_condnorms 
+* spl_facs_labels 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@genus2_curves\endomorphisms\6f210cab88b16d36bf36603edf43f7f1\name@@ ===
+
+[NOTE]
+====
+@@genus2_curves\endomorphisms\6f210cab88b16d36bf36603edf43f7f1\description@@
+
+
+====
+
+141 records extended from base type
+
+* spl_facs_coeffs 
+* spl_facs_condnorms 
+
+
+
+****
+
+'''
+
+== Notes ==
+
+* Data known for all curves in the genus 2 curves database.
+
+ * The representation of the endomorphism lattice by subfields of the full field of definition of the endomorphism ring has a rather terse format.
+
+ * It is a list of lists, and its entries are as follows. 
+
+- First entry: A triple that describes the base field by its LMFDB label, a list representing a minimal polynomial, and a list representing a generator in the smallest field over which all endomorphisms are defined, as described by fod_coeffs.
+
+- Second entry: At most two lists that indicate the factors of the endomorphism algebra. Two first entries of these lists base fields of the corresponding factors, as in the description of the first entry above. The third entry indicates whether the corresponding factor is a field or not. If -1 then it is; otherwise this entry is the norm of the discriminant of the corresponding quaternion algebra over the base field described by the first two entries.
+
+- Third entry: A sequence of strings describing End ox RR.
+
+ - Fourth entry: A list that describes the endomorphism ring as a subring of the endomorphism algebra. If the second entry is -1, then the first entry gives an index or a conductor norm in the case of a field if that applies. If 0 or 1, then the first entry describes the index of the order and the second entry describes whether it is Eichler (1) or not (0).
+
+ - Fifth entry: The Sato-Tate group. 
+
+ * The conventions above are also used in other fields. 
+
+ * sFor splittings of the Jacobian, we return a subfield of smallest degree over which the splitting occurs, represented as above. We also return lists that represent defining equations for the corresponding elliptic curves over that field, or rather, a and b such that the corresponding factor is isomorphic to the curve with equation y^2 = x^3 + (-a/48) x + (-b/864). LMFDB labels for these curves is also return if they exist, and conductor norms are always given.
+

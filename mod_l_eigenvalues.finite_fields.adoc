@@ -1,0 +1,81 @@
+= Database report for mod_l_eigenvalues\finite_fields =
+
+Prepared with the lmfdb asciidoc report tool
+
+Christopher Brady <C.S.Brady@Warwick.ac.uk>
+
+Version 1.0.0
+
+'''
+
+== Collection information ==
+
+[width="50%", ]
+|==============================
+a|*Description* a| @@mod_l_eigenvalues\finite_fields\(INFO)\description@@
+a|*Status* a| @@mod_l_eigenvalues\finite_fields\(INFO)\status@@
+a|*Contact* a| @@mod_l_eigenvalues\finite_fields\(INFO)\contact@@
+a|*Code* a| @@mod_l_eigenvalues\finite_fields\(INFO)\code@@
+|==============================
+
+== List of keys in the database ==
+
+The following keys appear in at least one record in the database
+
+[WARNING]
+====
+The type of the keys is inferred from only one record in the database. If the key can have different types in different records this type will be inaccurate
+Only the first 100 characters of the example record are shown
+====
+
+[width="90%", options="header", ]
+|==============================
+a|Key a| Inferred Type a| Example record a| Description
+a|characteristic a| integer a| `2`
+ a| @@mod_l_eigenvalues\finite_fields\characteristic\description@@
+a|conway a| integer a| `1`
+ a| @@mod_l_eigenvalues\finite_fields\conway\description@@
+a|degree a| integer a| `1`
+ a| @@mod_l_eigenvalues\finite_fields\degree\description@@
+a|polynomial a| collection of integer a| `[1, 1]`
+ a| @@mod_l_eigenvalues\finite_fields\polynomial\description@@
+|==============================
+
+'''
+
+== List of indices ==
+
+[width="90%", options="header", ]
+|==============================
+a|Index Name a| Index fields
+a|_id_ a| _id sorted ascending
+|==============================
+
+'''
+
+== List of record types in the database ==
+
+****
+[discrete]
+=== All records ===
+
+[NOTE]
+====
+35352 records of type
+====
+
+* characteristic 
+* conway 
+* degree 
+* polynomial 
+
+
+
+****
+
+'''
+
+== Notes ==
+
+@@mod_l_eigenvalues\finite_fields\(NOTES)\description@@
+

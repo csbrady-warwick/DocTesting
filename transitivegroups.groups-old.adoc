@@ -1,0 +1,153 @@
+= Database report for transitivegroups\groups-old =
+
+Prepared with the lmfdb asciidoc report tool
+
+Christopher Brady <C.S.Brady@Warwick.ac.uk>
+
+Version 1.0.0
+
+'''
+
+== Collection information ==
+
+[width="50%", ]
+|==============================
+a|*Description* a| @@transitivegroups\groups-old\(INFO)\description@@
+a|*Status* a| @@transitivegroups\groups-old\(INFO)\status@@
+a|*Contact* a| @@transitivegroups\groups-old\(INFO)\contact@@
+a|*Code* a| @@transitivegroups\groups-old\(INFO)\code@@
+|==============================
+
+== List of keys in the database ==
+
+The following keys appear in at least one record in the database
+
+[WARNING]
+====
+The type of the keys is inferred from only one record in the database. If the key can have different types in different records this type will be inaccurate
+Only the first 100 characters of the example record are shown
+====
+
+[width="90%", options="header", ]
+|==============================
+a|Key a| Inferred Type a| Example record a| Description
+a|ab a| integer a| `1`
+ a| @@transitivegroups\groups-old\ab\description@@
+a|auts a| integer a| `1`
+ a| @@transitivegroups\groups-old\auts\description@@
+a|cyc a| integer a| `1`
+ a| @@transitivegroups\groups-old\cyc\description@@
+a|label a| string a| `1T1`
+ a| @@transitivegroups\groups-old\label\description@@
+a|moddecompuniq a| collection of integer a| `[0]`
+ a| @@transitivegroups\groups-old\moddecompuniq\description@@
+a|n a| integer a| `1`
+ a| @@transitivegroups\groups-old\n\description@@
+a|name a| string a| `Trivial group`
+ a| @@transitivegroups\groups-old\name\description@@
+a|order a| integer stored as string a| `1`
+ a| @@transitivegroups\groups-old\order\description@@
+a|parity a| integer a| `1`
+ a| @@transitivegroups\groups-old\parity\description@@
+a|pretty a| string a| `Trivial`
+ a| @@transitivegroups\groups-old\pretty\description@@
+a|prim a| integer a| `1`
+ a| @@transitivegroups\groups-old\prim\description@@
+a|repns a| non-primitive type (<type 'list'>) a| `[]`
+ a| @@transitivegroups\groups-old\repns\description@@
+a|resolve a| non-primitive type (<type 'list'>) a| `[]`
+ a| @@transitivegroups\groups-old\resolve\description@@
+a|solv a| integer a| `1`
+ a| @@transitivegroups\groups-old\solv\description@@
+a|subs a| non-primitive type (<type 'list'>) a| `[]`
+ a| @@transitivegroups\groups-old\subs\description@@
+a|t a| integer a| `1`
+ a| @@transitivegroups\groups-old\t\description@@
+|==============================
+
+'''
+
+== List of indices ==
+
+[width="90%", options="header", ]
+|==============================
+a|Index Name a| Index fields
+a|n_1_t_1 a| n sorted ascending, t sorted ascending
+a|_id_ a| _id sorted ascending
+a|t_1 a| t sorted ascending
+a|metadata_1 a| metadata sorted ascending
+|==============================
+
+'''
+
+== List of record types in the database ==
+
+2 distinct record types are present.
+
+****
+[discrete]
+=== Base record : @@transitivegroups\groups-old\cf03c7bb57b70f16f309956a034f1bdf\name@@ ===
+
+[NOTE]
+====
+The base record represents the smallest intersection of all related records.
+
+@@transitivegroups\groups-old\cf03c7bb57b70f16f309956a034f1bdf\description@@
+====
+
+4944 records of base type in collection
+
+* parity 
+* ab 
+* prim 
+* name 
+* repns 
+* n 
+* cyc 
+* resolve 
+* auts 
+* pretty 
+* t 
+* solv 
+* label 
+* order 
+* subs 
+
+
+
+****
+
+'''
+
+=== Derived records ===
+
+[NOTE]
+====
+Derived records are the record types that actually exist in the database.They are represented as differences from the base record
+====
+
+****
+[discrete]
+=== @@transitivegroups\groups-old\5d1cbd77cc7154c273df448efa9239b1\name@@ ===
+
+[NOTE]
+====
+@@transitivegroups\groups-old\5d1cbd77cc7154c273df448efa9239b1\description@@
+
+
+====
+
+9 records extended from base type
+
+* moddecompuniq 
+
+
+
+****
+
+'''
+
+== Notes ==
+
+@@transitivegroups\groups-old\(NOTES)\description@@
+

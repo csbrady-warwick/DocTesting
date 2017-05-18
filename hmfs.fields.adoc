@@ -1,0 +1,90 @@
+= Database report for hmfs\fields =
+
+Prepared with the lmfdb asciidoc report tool
+
+Christopher Brady <C.S.Brady@Warwick.ac.uk>
+
+Version 1.0.0
+
+'''
+
+== Collection information ==
+
+[width="50%", ]
+|==============================
+a|*Description* a| Hilbert modular forms
+a|*Status* a| http://www.lmfdb.org/ModularForm/GL2/TotallyReal/[production]
+a|*Contact* a| https://github.com/jvoight[John Voight]
+a|*Code* a| https://github.com/LMFDB/lmfdb/tree/master/lmfdb/hilbert_modular_forms[hilbert_modular_forms]
+|==============================
+
+== List of keys in the database ==
+
+The following keys appear in at least one record in the database
+
+[WARNING]
+====
+The type of the keys is inferred from only one record in the database. If the key can have different types in different records this type will be inaccurate
+Only the first 100 characters of the example record are shown
+====
+
+[width="90%", options="header", ]
+|==============================
+a|Key a| Inferred Type a| Example record a| Description
+a|degree a| integer a| `2`
+ a| @@hmfs\fields\degree\description@@
+a|discriminant a| integer a| `49`
+ a| @@hmfs\fields\discriminant\description@@
+a|ideals a| collection of comma separated list of mixed types stored as string a| `[u'[1, 1, 1]', u'[7, 7, 2*w^2 - w - 3]', u'[8, 2, 2]', u'[13, 13, -w^2 - w + 3]', u'[13, 13, -w^2 +` ...
+ a| @@hmfs\fields\ideals\description@@
+a|label a| string a| `3.3.49.1`
+ a| @@hmfs\fields\label\description@@
+a|narrow_class_no a| integer a| `1`
+ a| @@hmfs\fields\narrow_class_no\description@@
+a|primes a| collection of comma separated list of mixed types stored as string a| `[u'[7, 7, 2*w^2 - w - 3]', u'[8, 2, 2]', u'[13, 13, -w^2 - w + 3]', u'[13, 13, -w^2 + 2*w + 2]', u'[` ...
+ a| @@hmfs\fields\primes\description@@
+|==============================
+
+'''
+
+== List of indices ==
+
+[width="90%", options="header", ]
+|==============================
+a|Index Name a| Index fields
+a|degree_1 a| degree sorted ascending
+a|_id_ a| _id sorted ascending
+a|degree_1_level_norm_1 a| degree sorted ascending, level_norm sorted ascending
+a|metadata_1 a| metadata sorted ascending
+|==============================
+
+'''
+
+== List of record types in the database ==
+
+****
+[discrete]
+=== All records ===
+
+[NOTE]
+====
+400 records of type
+====
+
+* degree 
+* discriminant 
+* ideals 
+* label 
+* narrow_class_no 
+* primes 
+
+
+
+****
+
+'''
+
+== Notes ==
+
+@@hmfs\fields\(NOTES)\description@@
+

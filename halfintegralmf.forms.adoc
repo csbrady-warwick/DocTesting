@@ -1,0 +1,107 @@
+= Database report for halfintegralmf\forms =
+
+Prepared with the lmfdb asciidoc report tool
+
+Christopher Brady <C.S.Brady@Warwick.ac.uk>
+
+Version 1.0.0
+
+'''
+
+== Collection information ==
+
+[width="50%", ]
+|==============================
+a|*Description* a| Half integral weight cuspforms spaces and Shimura decomposition
+a|*Status* a| http://beta.lmfdb.org/ModularForm/GL2/Q/holomorphic/half/[alpha]
+a|*Contact* a| https://github.com/sanni85[Samuele Anni]
+a|*Code* a| https://github.com/LMFDB/lmfdb/tree/master/lmfdb/half_integral_weight_forms[half_integral_weight_forms]
+|==============================
+
+== List of keys in the database ==
+
+The following keys appear in at least one record in the database
+
+[WARNING]
+====
+The type of the keys is inferred from only one record in the database. If the key can have different types in different records this type will be inaccurate
+Only the first 100 characters of the example record are shown
+====
+
+[width="90%", options="header", ]
+|==============================
+a|Key a| Inferred Type a| Example record a| Description
+a|character a| real stored as string a| `1.1`
+ a| character label in the LMFDB notation
+a|dim a| integer a| `5`
+ a| dimension of the space
+a|dimtheta a| integer a| `1`
+ a| dimension of the S0 subspace (see the shimura decomposition knowl http://beta.lmfdb.org/knowledge/show/mf.half_integral_weight.shimura_decomposition[here])
+a|label a| string a| `108.3_2.1.1`
+ a| LMFDB label
+a|level a| integer a| `28`
+ a| Level
+a|newpart a| collection of mixed types a| `[{u'dim_image': 2, u'nf_label': u'1.1.1.1', u'half_forms': [[u'1', u'0', u'0', u'0', u'0', u'0', u'1` ...
+ a| description of the subspace corresponding to the image of the shimura map. The entries of the dictionary contain the following fields:
+
+ * *dim_image* (int) the dimension of the subspace given by the image
+
+ * *half_forms* (list of lists of strings) the coefficients (algebraic integers) of the q-expansions of the half integral weight newforms in the image
+
+ * *mf_label* (string) the label of the classical newform which is mapped into this space of half integral weight cuspforms
+
+ * *nf_label* (string) the label of the number field where the coefficients of the q-expansion belong to (this will be changed into the list of coefficients of a polynomial)
+a|thetas a| collection of real stored as string a| `[[u'3.2']]`
+ a| label of the characters appearing in the S0 subspace
+a|weight a| integer a| `3`
+ a| double of the weight of the forms
+|==============================
+
+'''
+
+== List of indices ==
+
+[width="90%", options="header", ]
+|==============================
+a|Index Name a| Index fields
+a|_id_ a| _id sorted ascending
+a|level_1_label_1 a| level sorted ascending, label sorted ascending
+a|metadata_1 a| metadata sorted ascending
+|==============================
+
+'''
+
+== List of record types in the database ==
+
+****
+[discrete]
+=== All records ===
+
+[NOTE]
+====
+3 records of type
+====
+
+* character 
+* dim 
+* dimtheta 
+* label 
+* level 
+* newpart 
+* thetas 
+* weight 
+
+
+
+****
+
+'''
+
+== Notes ==
+
+Comments: Work in progress, check the branch half_integral on https://github.com/sanni85/lmfdb.git for the latest.
+
+Data will be uploaded from https://github.com/sanni85/half_integral_mf[here]. 
+
+Todo: add index information for forms correct all the labels of classical newforms stored (since they changed in the last update)
+

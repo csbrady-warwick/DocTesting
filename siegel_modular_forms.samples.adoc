@@ -1,0 +1,304 @@
+= Database report for siegel_modular_forms\samples =
+
+Prepared with the lmfdb asciidoc report tool
+
+Christopher Brady <C.S.Brady@Warwick.ac.uk>
+
+Version 1.0.0
+
+'''
+
+== Collection information ==
+
+[width="50%", ]
+|==============================
+a|*Description* a| Siegel modular forms
+a|*Status* a| http://www.lmfdb.org/ModularForm/GSp/Q/[production]
+a|*Contact* a| https://github.com/nilsskoruppa[Nils Skouruppa] , https://github.com/AndrewVSutherland[Andrew Sutherland]
+a|*Code* a| https://github.com/LMFDB/lmfdb/tree/master/lmfdb/siegel_modular_forms[siegel_modular_forms]
+|==============================
+
+== List of keys in the database ==
+
+The following keys appear in at least one record in the database
+
+[WARNING]
+====
+The type of the keys is inferred from only one record in the database. If the key can have different types in different records this type will be inaccurate
+Only the first 100 characters of the example record are shown
+====
+
+[width="90%", options="header", ]
+|==============================
+a|Key a| Inferred Type a| Example record a| Description
+a|Fourier_coefficients a| collection of integer stored as string a| `{u'(149098, 7645, 98)': u'0', u'(859955, 5564, 9)': u'0', u'(7631, 720, 17)': u'1', u'(15255543, 753` ...
+ a| @@siegel_modular_forms\samples\Fourier_coefficients\description@@
+a|collection a| collection of string a| `[u'Kp']`
+ a| array of strings identifying families of spaces of Siegel modular forms that contain this sample (the families currently defined are not disjoint, so the same sample may appear in multiple families)
+a|courtesy_of a| comma separated list of mixed types stored as string a| `David Yuen, Cris Poor, 2011`
+ a| string identifying the source of the sample (e.g. authors and date)
+a|data a| collection of integer stored as string a| `{u'(2, 2, 4, 20, 0, 0, 0, 0, 0, 2)': u'-2292966144', u'(4, 4, 4, 6, 1, 1, 0, 0, 1, 1)': u'-229296614` ...
+ a| "ev" records::
+
+   string encoding the eigenvalue as an element of the number field Q(a) of the sample (as defined by field_poly)
+
+ "fc" records::
+
+   dictionary whose keys are strings encoding integer vectors and whose values are strings encoding (possibly constant) polynomials in Q(a)[x,y]
+
+
+a|data_type a| string a| `ev`
+ a| string equal to one of "sample", "ev", or "fc"
+a|deg a| integer a| `2`
+ a| integer degree of the form (forms on M_k(Sp(2d)) have degree d, currently we have samples for d=2,3,4)
+a|degree a| integer stored as string a| `4`
+ a| @@siegel_modular_forms\samples\degree\description@@
+a|degree_of_field a| integer stored as string a| `1`
+ a| @@siegel_modular_forms\samples\degree_of_field\description@@
+a|det a| integer stored as string a| `304`
+ a| string encoding an integer that uniquely identifies this Fourier coefficient data record among others with the same owner_id (currently an integer in [0..2999])
+a|eigenvalues a| collection of integer stored as string a| `{u'11': u'-1', u'3': u'-4', u'2': u'-3', u'5': u'-2', u'4': u'3', u'7': u'0', u'9': u'6'}`
+ a| @@siegel_modular_forms\samples\eigenvalues\description@@
+a|ev_index a| integer a| `2`
+ a| @@siegel_modular_forms\samples\ev_index\description@@
+a|explicit_formula a| string a| `7*A^3 - 7*B^2 + 497664*D`
+ a| string encoding a polynomial in Q(a)[A,B,C,D]
+a|fc_det a| integer a| `0`
+ a| @@siegel_modular_forms\samples\fc_det\description@@
+a|fdeg a| integer a| `1`
+ a| integer degree of field_poly (current an integer in [1..29])
+a|field a| string a| `RationalField()`
+ a| @@siegel_modular_forms\samples\field\description@@
+a|field_poly a| string a| `x`
+ a| string encoding a monic polynomial f(x) in Z[x] defining a number field Q(a):=Q[x]/(f(x)) (x is used for Q)
+a|index a| integer stored as string a| `52`
+ a| string encoding the integer index of the eigenvalue (currently an integer in [2..100]). This uniquely identifies the eigenvalue among other eigenvalues with the same owner_id.
+a|is_eigenform a| boolean a| `True`
+ a| boolean
+a|is_integral a| boolean a| `True`
+ a| boolean
+a|name a| string a| `10_E`
+ a| name uniquely identifying the sample within any of the collections it belongs to
+a|owner_id a| non-primitive type (<class 'bson.objectid.ObjectId'>) a| `560c3c30c741c5105d3ef82b`
+ a| Object(id) equal to the _id attribute of the sample to which this eigenvalue data belongs
+a|representation a| integer stored as string a| `0`
+ a| string encoding an integer (currently an element of {0,2})
+a|type a| string a| `Ikeda lift, cusp form`
+ a| string describing the type of sample (e.g. 'Ikeda lift, cusp form')
+a|weight a| integer stored as string a| `10`
+ a| @@siegel_modular_forms\samples\weight\description@@
+a|wt a| integer a| `2`
+ a| integer weight (currently an even integer in [2,58])
+|==============================
+
+'''
+
+== List of indices ==
+
+[width="90%", options="header", ]
+|==============================
+a|Index Name a| Index fields
+a|collection_1 a| collection sorted ascending
+a|name_1 a| name sorted ascending
+a|data_type_1 a| data_type sorted ascending
+a|fdeg_1 a| fdeg sorted ascending
+a|wt_1 a| wt sorted ascending
+a|_id_ a| _id sorted ascending
+a|deg_1 a| deg sorted ascending
+a|fc_det_1 a| fc_det sorted ascending
+a|owner_id_1 a| owner_id sorted ascending
+a|ev_index_1 a| ev_index sorted ascending
+|==============================
+
+'''
+
+== List of record types in the database ==
+
+5 distinct record types are present.
+
+****
+[discrete]
+=== Base record ===
+
+[NOTE]
+====
+The base record represents the smallest intersection of all related records.
+
+
+====
+
+Base record class does not exist in the database. Please consult the derived records section below to see all of the classes in the database
+
+* data_type 
+
+
+
+****
+
+'''
+
+=== Derived records ===
+
+[NOTE]
+====
+Derived records are the record types that actually exist in the database.They are represented as differences from the base record
+====
+
+****
+[discrete]
+=== "ev" (eigenvalue) records ===
+
+[NOTE]
+====
+These records have their *data_type* field set to "ev"
+
+
+====
+
+3094 records extended from base type
+
+* data 
+* ev_index 
+* index 
+* owner_id 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== "fc" (Fourier coefficient) records ===
+
+[NOTE]
+====
+These records have their *data_type* field set to "fc"
+
+
+====
+
+26212 records extended from base type
+
+* data 
+* det 
+* fc_det 
+* owner_id 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== "sample" records ===
+
+[NOTE]
+====
+These records have their *data_type* field set to "sample"
+
+
+====
+
+24 records extended from base type
+
+* collection 
+* courtesy_of 
+* deg 
+* degree 
+* degree_of_field 
+* fdeg 
+* field 
+* field_poly 
+* is_eigenform 
+* name 
+* representation 
+* type 
+* weight 
+* wt 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== "sample" records ===
+
+[NOTE]
+====
+These records have their *data_type* field set to "sample"
+
+
+====
+
+97 records extended from base type
+
+* collection 
+* courtesy_of 
+* deg 
+* degree 
+* degree_of_field 
+* explicit_formula 
+* fdeg 
+* field 
+* field_poly 
+* is_eigenform 
+* is_integral 
+* name 
+* representation 
+* type 
+* weight 
+* wt 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@siegel_modular_forms\samples\94045c93a881b894ba7c1ae9be742336\name@@ ===
+
+[NOTE]
+====
+@@siegel_modular_forms\samples\94045c93a881b894ba7c1ae9be742336\description@@
+
+
+====
+
+8 records extended from base type
+
+* Fourier_coefficients 
+* collection 
+* courtesy_of 
+* deg 
+* degree 
+* degree_of_field 
+* eigenvalues 
+* fdeg 
+* field 
+* field_poly 
+* is_eigenform 
+* name 
+* representation 
+* type 
+* weight 
+* wt 
+
+
+
+****
+
+'''
+
+== Notes ==
+
+@@siegel_modular_forms\samples\(NOTES)\description@@
+

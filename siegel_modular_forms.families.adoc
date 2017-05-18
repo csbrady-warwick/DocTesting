@@ -1,0 +1,119 @@
+= Database report for siegel_modular_forms\families =
+
+Prepared with the lmfdb asciidoc report tool
+
+Christopher Brady <C.S.Brady@Warwick.ac.uk>
+
+Version 1.0.0
+
+'''
+
+== Collection information ==
+
+[width="50%", ]
+|==============================
+a|*Description* a| Siegel modular forms
+a|*Status* a| http://www.lmfdb.org/ModularForm/GSp/Q/[production]
+a|*Contact* a| https://github.com/nilsskoruppa[Nils Skouruppa] , https://github.com/AndrewVSutherland[Andrew Sutherland]
+a|*Code* a| https://github.com/LMFDB/lmfdb/tree/master/lmfdb/siegel_modular_forms[siegel_modular_forms]
+|==============================
+
+== List of keys in the database ==
+
+The following keys appear in at least one record in the database
+
+[WARNING]
+====
+The type of the keys is inferred from only one record in the database. If the key can have different types in different records this type will be inaccurate
+Only the first 100 characters of the example record are shown
+====
+
+[width="90%", options="header", ]
+|==============================
+a|Key a| Inferred Type a| Example record a| Description
+a|degree a| integer a| `2`
+ a| integer degree of the famly (currently 2, 3, or 4)
+a|dim_args_default a| collection of mixed types a| `{u'k': u'4..24', u'j': u'2'}`
+ a| for families with dimension formulas, a dictionary with default values for k and j
+a|latex_name a| string a| `M_{k,j}\left(\Gamma_0(2)ight)`
+ a| latex string for displaying the name
+a|name a| string a| `Gamma0_2`
+ a| string identifying the family (e.g. "Sp4Z")
+a|order a| integer a| `10`
+ a| integer used to control the ordering of the families for display purposes
+|==============================
+
+'''
+
+== List of indices ==
+
+[width="90%", options="header", ]
+|==============================
+a|Index Name a| Index fields
+a|name_1 a| name sorted ascending
+a|_id_ a| _id sorted ascending
+a|order_1 a| order sorted ascending
+|==============================
+
+'''
+
+== List of record types in the database ==
+
+2 distinct record types are present.
+
+****
+[discrete]
+=== Base record : @@siegel_modular_forms\families\626ef1fbb0818ca819d86cc78a6a8356\name@@ ===
+
+[NOTE]
+====
+The base record represents the smallest intersection of all related records.
+
+@@siegel_modular_forms\families\626ef1fbb0818ca819d86cc78a6a8356\description@@
+====
+
+1 records of base type in collection
+
+* latex_name 
+* name 
+* degree 
+* order 
+
+
+
+****
+
+'''
+
+=== Derived records ===
+
+[NOTE]
+====
+Derived records are the record types that actually exist in the database.They are represented as differences from the base record
+====
+
+****
+[discrete]
+=== @@siegel_modular_forms\families\318686c2b6be98ddbfa2ce5f53457ee6\name@@ ===
+
+[NOTE]
+====
+@@siegel_modular_forms\families\318686c2b6be98ddbfa2ce5f53457ee6\description@@
+
+
+====
+
+13 records extended from base type
+
+* dim_args_default 
+
+
+
+****
+
+'''
+
+== Notes ==
+
+@@siegel_modular_forms\families\(NOTES)\description@@
+

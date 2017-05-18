@@ -1,0 +1,146 @@
+= Database report for Lfunction\FarmerTest =
+
+Prepared with the lmfdb asciidoc report tool
+
+Christopher Brady <C.S.Brady@Warwick.ac.uk>
+
+Version 1.0.0
+
+'''
+
+== Collection information ==
+
+[width="50%", ]
+|==============================
+a|*Description* a| @@Lfunction\FarmerTest\(INFO)\description@@
+a|*Status* a| @@Lfunction\FarmerTest\(INFO)\status@@
+a|*Contact* a| @@Lfunction\FarmerTest\(INFO)\contact@@
+a|*Code* a| @@Lfunction\FarmerTest\(INFO)\code@@
+|==============================
+
+== List of keys in the database ==
+
+The following keys appear in at least one record in the database
+
+[WARNING]
+====
+The type of the keys is inferred from only one record in the database. If the key can have different types in different records this type will be inaccurate
+Only the first 100 characters of the example record are shown
+====
+
+[width="90%", options="header", ]
+|==============================
+a|Key a| Inferred Type a| Example record a| Description
+a|Gamma_factor_precision a| integer a| `11`
+ a| @@Lfunction\FarmerTest\Gamma_factor_precision\description@@
+a|arithmetic a| boolean a| `False`
+ a| @@Lfunction\FarmerTest\arithmetic\description@@
+a|character a| collection of integer a| `[3, 2]`
+ a| @@Lfunction\FarmerTest\character\description@@
+a|character_mod a| integer a| `3`
+ a| @@Lfunction\FarmerTest\character_mod\description@@
+a|character_nr a| integer a| `2`
+ a| @@Lfunction\FarmerTest\character_nr\description@@
+a|coefficients_decimal a| collection of real a| `{u'precision': 11, u'coefficients': [[1.0, 0], [-0.60515220200431, -0.08864458090356], [0.4082297755` ...
+ a| @@Lfunction\FarmerTest\coefficients_decimal\description@@
+a|degree a| integer a| `3`
+ a| @@Lfunction\FarmerTest\degree\description@@
+a|imaginary_shiftsC a| non-primitive type (<type 'list'>) a| `[]`
+ a| @@Lfunction\FarmerTest\imaginary_shiftsC\description@@
+a|imaginary_shiftsR a| collection of real a| `[12.62538450208177, 2.50516498388651, -15.13054948596828]`
+ a| @@Lfunction\FarmerTest\imaginary_shiftsR\description@@
+a|level a| integer a| `3`
+ a| @@Lfunction\FarmerTest\level\description@@
+a|list a| collection of string a| `[u'First item', u'Second', u'Last']`
+ a| @@Lfunction\FarmerTest\list\description@@
+a|logsign a| real a| `0.79148414007`
+ a| @@Lfunction\FarmerTest\logsign\description@@
+a|primitive a| boolean a| `True`
+ a| @@Lfunction\FarmerTest\primitive\description@@
+a|real_shiftsC a| non-primitive type (<type 'list'>) a| `[]`
+ a| @@Lfunction\FarmerTest\real_shiftsC\description@@
+a|real_shiftsR a| collection of integer a| `[1, 0, 0]`
+ a| @@Lfunction\FarmerTest\real_shiftsR\description@@
+a|self-dual a| boolean a| `False`
+ a| @@Lfunction\FarmerTest\self-dual\description@@
+a|signature a| collection of integer a| `[3, 0]`
+ a| @@Lfunction\FarmerTest\signature\description@@
+a|symmetry a| string a| `None`
+ a| @@Lfunction\FarmerTest\symmetry\description@@
+|==============================
+
+'''
+
+== List of indices ==
+
+[width="90%", options="header", ]
+|==============================
+a|Index Name a| Index fields
+a|metadata_1 a| metadata sorted ascending
+a|_id_ a| _id sorted ascending
+|==============================
+
+'''
+
+== List of record types in the database ==
+
+Unable to detect a base record class. Using undifferentiated.
+
+2 distinct record types are present
+
+****
+[discrete]
+=== @@Lfunction\FarmerTest\3c1d536eaaf1a478a45640fa18161f91\name@@ ===
+
+[NOTE]
+====
+1 records of type
+@@Lfunction\FarmerTest\3c1d536eaaf1a478a45640fa18161f91\description@@
+====
+
+* Gamma_factor_precision 
+* arithmetic 
+* character 
+* character_mod 
+* character_nr 
+* coefficients_decimal 
+* degree 
+* imaginary_shiftsC 
+* imaginary_shiftsR 
+* level 
+* logsign 
+* primitive 
+* real_shiftsC 
+* real_shiftsR 
+* self-dual 
+* signature 
+* symmetry 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@Lfunction\FarmerTest\9d790153a569a5e77b8bc7e70334ae76\name@@ ===
+
+[NOTE]
+====
+2 records of type
+@@Lfunction\FarmerTest\9d790153a569a5e77b8bc7e70334ae76\description@@
+====
+
+* list 
+
+
+
+****
+
+'''
+
+== Notes ==
+
+@@Lfunction\FarmerTest\(NOTES)\description@@
+

@@ -1,0 +1,369 @@
+= Database report for modularforms2\webmodformspace =
+
+Prepared with the lmfdb asciidoc report tool
+
+Christopher Brady <C.S.Brady@Warwick.ac.uk>
+
+Version 1.0.0
+
+'''
+
+== Collection information ==
+
+[width="50%", ]
+|==============================
+a|*Description* a| Json data for a Modular form space object of type 'WebModFormSpace' defined in  /modular_forms/elliptic_modular_forms/backend/web_modform_space.py
+a|*Status* a| http://www.lmfdb.org/ModularForm/GL2/Q/holomorphic/[production]
+a|*Contact* a| https://github.com/sehlen[Stefan Ehlen] , https://github.com/fredstro[Fredrik Strömberg]
+a|*Code* a| https://github.com/LMFDB/lmfdb/tree/master/lmfdb/modular_forms/elliptic_modular_forms[modular_forms/elliptic_modular_forms]
+|==============================
+
+== List of keys in the database ==
+
+The following keys appear in at least one record in the database
+
+[WARNING]
+====
+The type of the keys is inferred from only one record in the database. If the key can have different types in different records this type will be inaccurate
+Only the first 100 characters of the example record are shown
+====
+
+[width="90%", options="header", ]
+|==============================
+a|Key a| Inferred Type a| Example record a| Description
+a|_has_oldspace a| integer a| `0`
+ a| 1 if we have computed the decomposiiton of the space of oldforms, else 0
+a|bitprec a| integer a| `53`
+ a| the precision (in bits) of the stored embedded coefficients default is 53 = double precision
+a|character a| integer a| `1`
+ a| number of the character
+a|character_naming_scheme a| string a| `Conrey`
+ a| 'Conrey' or 'Sage', used to denote the naming/labeling scheme used. Default is 'Conrey'
+a|character_orbit_rep a| integer a| `1`
+ a| The number of the character which is the representative of the Galois orbit (in the same naming scheme as above). The representative is chosen as the smallest integer in the list of character numbers
+a|character_used_in_computation a| integer a| `1`
+ a| number of the character which was used in the computation (could be another character in the Galois orbit)
+a|creation_date a| Type cannot be identified (<type 'datetime.datetime'>) a| `1970-01-01 00:00:00`
+ a| when the record was created
+a|cuspidal a| integer a| `1`
+ a| 1 if the record describes a space of cusp forms, else 0
+a|dimension a| integer a| `0`
+ a| dimension of this space
+a|dimension_cusp_forms a| integer a| `0`
+ a| dimension of the space of cusp forms with this level, weight and character
+a|dimension_modular_forms a| integer a| `1`
+ a| dimension of the space of modular forms with this level, weight and character
+a|dimension_new_cusp_forms a| integer a| `0`
+ a| dimension of the space of (cuspidal) newforms with this level, weight and character
+a|hecke_orbits a| non-primitive type (<type 'list'>) a| `[]`
+ a| list of labels of the newforms Hecke orbits of self which are stored in the collection 'webnewforms'
+a|level a| integer a| `1`
+ a| level
+a|modification_date a| Type cannot be identified (<type 'datetime.datetime'>) a| `2016-05-30 05:31:07.108000`
+ a| @@modularforms2\webmodformspace\modification_date\description@@
+a|new a| integer a| `1`
+ a| @@modularforms2\webmodformspace\new\description@@
+a|prec a| integer a| `10`
+ a| number of coefficients stored in the q-expansions for the newforms (if they are stored)
+a|space_label a| string a| `1.10.1`
+ a| label of the format level.weight.character where character is the number above (in particular given by the naming scheme in 'character_naming_scheme')
+a|space_orbit_label a| string a| `2.2.0`
+ a| label of the format level.weight.o where o is the number of the galois orbit of the character in the list of all galois orbits (ordered by their minimal element)
+a|sturm_bound a| integer a| `0`
+ a| the Sturm bound for this space, i.e. a general bound on the number of coefficients which must be given to uniquely indentify a modular form in this space
+a|version a| real a| `1.2`
+ a| version number
+a|weight a| integer a| `2`
+ a| weight
+a|zeta_orders a| non-primitive type (<type 'list'>) a| `[]`
+ a| list of orders of the generators of the cyclotomic fields which are the base fields of the Fourier coefficients of the newforms in the database
+a|zetas a| Record cannot be found containing key a| `N/A`
+ a| @@modularforms2\webmodformspace\zetas\description@@
+|==============================
+
+'''
+
+== List of indices ==
+
+[width="90%", options="header", ]
+|==============================
+a|Index Name a| Index fields
+a|_id_ a| _id sorted ascending
+a|level_1_weight_1_chi_1 a| level sorted ascending, weight sorted ascending, chi sorted ascending
+a|space_label_1_version_1 a| space_label sorted ascending, version sorted ascending
+|==============================
+
+'''
+
+== List of record types in the database ==
+
+9 distinct record types are present.
+
+****
+[discrete]
+=== Base record ===
+
+[NOTE]
+====
+The base record represents the smallest intersection of all related records.
+
+
+====
+
+Base record class does not exist in the database. Please consult the derived records section below to see all of the classes in the database
+
+* bitprec 
+* character_orbit_rep 
+* character_naming_scheme 
+* weight 
+* level 
+* hecke_orbits 
+* sturm_bound 
+* dimension_cusp_forms 
+* dimension_new_cusp_forms 
+* character 
+* cuspidal 
+* space_orbit_label 
+* character_used_in_computation 
+* version 
+* dimension_modular_forms 
+* space_label 
+* dimension 
+
+
+
+****
+
+'''
+
+=== Derived records ===
+
+[NOTE]
+====
+Derived records are the record types that actually exist in the database.They are represented as differences from the base record
+====
+
+****
+[discrete]
+=== @@modularforms2\webmodformspace\e25d3c204af7ed1117c79163e64d4c94\name@@ ===
+
+[NOTE]
+====
+@@modularforms2\webmodformspace\e25d3c204af7ed1117c79163e64d4c94\description@@
+
+
+====
+
+1016 records extended from base type
+
+* creation_date 
+* modification_date 
+* prec 
+* zeta_orders 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@modularforms2\webmodformspace\da797379e3f11e6659649543c56779b6\name@@ ===
+
+[NOTE]
+====
+@@modularforms2\webmodformspace\da797379e3f11e6659649543c56779b6\description@@
+
+
+====
+
+3298 records extended from base type
+
+* _has_oldspace 
+* creation_date 
+* modification_date 
+* prec 
+* zeta_orders 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@modularforms2\webmodformspace\dd2e7a5982dbc6c6470e65fd9b228a2a\name@@ ===
+
+[NOTE]
+====
+@@modularforms2\webmodformspace\dd2e7a5982dbc6c6470e65fd9b228a2a\description@@
+
+
+====
+
+522 records extended from base type
+
+* creation_date 
+* modification_date 
+* new 
+* zeta_orders 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@modularforms2\webmodformspace\37cd9b8dd92c99b354893efa3d0d8f43\name@@ ===
+
+[NOTE]
+====
+@@modularforms2\webmodformspace\37cd9b8dd92c99b354893efa3d0d8f43\description@@
+
+
+====
+
+797 records extended from base type
+
+* _has_oldspace 
+* creation_date 
+* prec 
+* zeta_orders 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@modularforms2\webmodformspace\9d60aadc4f6f514a5de43986b140149b\name@@ ===
+
+[NOTE]
+====
+@@modularforms2\webmodformspace\9d60aadc4f6f514a5de43986b140149b\description@@
+
+
+====
+
+464 records extended from base type
+
+* _has_oldspace 
+* creation_date 
+* modification_date 
+* new 
+* prec 
+* zeta_orders 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@modularforms2\webmodformspace\18a78ad2ddf0a2d5e4266113b6b843c9\name@@ ===
+
+[NOTE]
+====
+@@modularforms2\webmodformspace\18a78ad2ddf0a2d5e4266113b6b843c9\description@@
+
+
+====
+
+509 records extended from base type
+
+* _has_oldspace 
+* prec 
+* zeta_orders 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@modularforms2\webmodformspace\6684d3824abb4f1064450fec13e8ff2c\name@@ ===
+
+[NOTE]
+====
+@@modularforms2\webmodformspace\6684d3824abb4f1064450fec13e8ff2c\description@@
+
+
+====
+
+22 records extended from base type
+
+* _has_oldspace 
+* prec 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@modularforms2\webmodformspace\97308b6d9ce29b29ec4c4af1c33b03f6\name@@ ===
+
+[NOTE]
+====
+@@modularforms2\webmodformspace\97308b6d9ce29b29ec4c4af1c33b03f6\description@@
+
+
+====
+
+194 records extended from base type
+
+* creation_date 
+* modification_date 
+* new 
+* prec 
+* zeta_orders 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@modularforms2\webmodformspace\bf2b907039858cb6061c04be00b0b645\name@@ ===
+
+[NOTE]
+====
+@@modularforms2\webmodformspace\bf2b907039858cb6061c04be00b0b645\description@@
+
+
+====
+
+1 records extended from base type
+
+* _has_oldspace 
+* creation_date 
+* modification_date 
+* new 
+* prec 
+* zeta_orders 
+* zetas 
+
+
+
+****
+
+'''
+
+== Notes ==
+
+@@modularforms2\webmodformspace\(NOTES)\description@@
+

@@ -1,0 +1,411 @@
+= Database report for Lfunctions\Lfunctions =
+
+Prepared with the lmfdb asciidoc report tool
+
+Christopher Brady <C.S.Brady@Warwick.ac.uk>
+
+Version 1.0.0
+
+'''
+
+== Collection information ==
+
+[width="50%", ]
+|==============================
+a|*Description* a| L-functions
+a|*Status* a| http://www.lmfdb.org/L/[production]
+a|*Contact* a| https://github.com/jwbober[Jonathan Bober] , https://github.com/davidfarmer[David Farmer]
+a|*Code* a| https://github.com/LMFDB/lmfdb/tree/master/lmfdb/lfunctions[lfunctions]
+|==============================
+
+== List of keys in the database ==
+
+The following keys appear in at least one record in the database
+
+[WARNING]
+====
+The type of the keys is inferred from only one record in the database. If the key can have different types in different records this type will be inaccurate
+Only the first 100 characters of the example record are shown
+====
+
+[width="90%", options="header", ]
+|==============================
+a|Key a| Inferred Type a| Example record a| Description
+a|A10 a| integer stored as string a| `0`
+ a| @@Lfunctions\Lfunctions\A10\description@@
+a|A2 a| integer stored as string a| `0`
+ a| @@Lfunctions\Lfunctions\A2\description@@
+a|A3 a| integer stored as string a| `2`
+ a| @@Lfunctions\Lfunctions\A3\description@@
+a|A4 a| integer stored as string a| `0`
+ a| @@Lfunctions\Lfunctions\A4\description@@
+a|A5 a| integer stored as string a| `2`
+ a| @@Lfunctions\Lfunctions\A5\description@@
+a|A6 a| integer stored as string a| `0`
+ a| @@Lfunctions\Lfunctions\A6\description@@
+a|A7 a| integer stored as string a| `0`
+ a| @@Lfunctions\Lfunctions\A7\description@@
+a|A8 a| integer stored as string a| `0`
+ a| @@Lfunctions\Lfunctions\A8\description@@
+a|A9 a| integer stored as string a| `1`
+ a| @@Lfunctions\Lfunctions\A9\description@@
+a|Lhash a| string a| `/ModularForm/GL3/Q/Maass/1/1/-13.5965_-4.76468/1.04846245/`
+ a| @@Lfunctions\Lfunctions\Lhash\description@@
+a|a10 a| collection of integer a| `[0.0, 0]`
+ a| @@Lfunctions\Lfunctions\a10\description@@
+a|a2 a| collection of integer a| `[0.0, 0]`
+ a| @@Lfunctions\Lfunctions\a2\description@@
+a|a3 a| collection of real a| `[1.1547005383792517, 0]`
+ a| @@Lfunctions\Lfunctions\a3\description@@
+a|a4 a| collection of integer a| `[0.0, 0]`
+ a| @@Lfunctions\Lfunctions\a4\description@@
+a|a5 a| collection of real a| `[0.8944271909999159, 0]`
+ a| @@Lfunctions\Lfunctions\a5\description@@
+a|a6 a| collection of integer a| `[0.0, 0]`
+ a| @@Lfunctions\Lfunctions\a6\description@@
+a|a7 a| collection of integer a| `[0.0, 0]`
+ a| @@Lfunctions\Lfunctions\a7\description@@
+a|a8 a| collection of integer a| `[0.0, 0]`
+ a| @@Lfunctions\Lfunctions\a8\description@@
+a|a9 a| collection of real a| `[0.3333333333333333, 0]`
+ a| @@Lfunctions\Lfunctions\a9\description@@
+a|algebraic a| boolean a| `True`
+ a| @@Lfunctions\Lfunctions\algebraic\description@@
+a|analytic_normalization a| real a| `0.5`
+ a| @@Lfunctions\Lfunctions\analytic_normalization\description@@
+a|bad_lfactors a| collection of real a| `[[2, [1]], [53, [1, 1]]]`
+ a| @@Lfunctions\Lfunctions\bad_lfactors\description@@
+a|central_character a| real stored as string a| `212.1`
+ a| @@Lfunctions\Lfunctions\central_character\description@@
+a|coeff_info a| collection of mixed types a| `[u'x^2 - 1', u'-1', u'\zeta_{2}']`
+ a| @@Lfunctions\Lfunctions\coeff_info\description@@
+a|coefficient_field a| string a| `1.1.1.1`
+ a| @@Lfunctions\Lfunctions\coefficient_field\description@@
+a|conductor a| integer a| `212`
+ a| @@Lfunctions\Lfunctions\conductor\description@@
+a|conjugate a| string a| `dirichlet_L_3.2`
+ a| @@Lfunctions\Lfunctions\conjugate\description@@
+a|credit a| string a| `Stefan Lemurell`
+ a| @@Lfunctions\Lfunctions\credit\description@@
+a|degree a| integer a| `2`
+ a| @@Lfunctions\Lfunctions\degree\description@@
+a|dirichlet_coefficients a| collection of integer a| `[1, -1, 0, 1, -1, 0, 1, -1, 0, 1, -1, 0, 1, -1, 0, 1, -1, 0, 1, -1, 0, 1, -1, 0, 1, -1, 0, 1, -1, 0,` ...
+ a| @@Lfunctions\Lfunctions\dirichlet_coefficients\description@@
+a|euler_factors a| collection of integer a| `[[1], [1, -2, 3], [1, -2, 5], [1, 0, 7], [1, 4, 11], [1, 2, 13], [1, -2, 17], [1, -2, 19], [1, 2, 23` ...
+ a| @@Lfunctions\Lfunctions\euler_factors\description@@
+a|gamma_factors a| collection of unidentifiable types a| `[[], [0]]`
+ a| @@Lfunctions\Lfunctions\gamma_factors\description@@
+a|group a| string a| `GL3`
+ a| @@Lfunctions\Lfunctions\group\description@@
+a|leading_term a| real a| `1.75500637744`
+ a| @@Lfunctions\Lfunctions\leading_term\description@@
+a|load_key a| string a| `Cremona`
+ a| @@Lfunctions\Lfunctions\load_key\description@@
+a|motivic_weight a| integer a| `1`
+ a| @@Lfunctions\Lfunctions\motivic_weight\description@@
+a|order_of_vanishing a| integer a| `0`
+ a| @@Lfunctions\Lfunctions\order_of_vanishing\description@@
+a|origin a| string a| `Genus2Curve/Q/995189/a`
+ a| @@Lfunctions\Lfunctions\origin\description@@
+a|plot_delta a| real a| `0.25`
+ a| @@Lfunctions\Lfunctions\plot_delta\description@@
+a|plot_values a| collection of real a| `[1.755006377439899, 1.782604688813554, 1.845708252729183, 1.894639175731715, 1.86892182474022, 1.715` ...
+ a| @@Lfunctions\Lfunctions\plot_values\description@@
+a|positive_zeros a| collection of real stored as string a| `[u'2.170004498009455', u'3.180050267806782', u'4.941726344022658', u'6.106327959729217', u'7.6401858` ...
+ a| @@Lfunctions\Lfunctions\positive_zeros\description@@
+a|precision a| integer a| `14`
+ a| @@Lfunctions\Lfunctions\precision\description@@
+a|primitive a| boolean a| `True`
+ a| @@Lfunctions\Lfunctions\primitive\description@@
+a|root_number a| integer a| `1`
+ a| @@Lfunctions\Lfunctions\root_number\description@@
+a|self_dual a| boolean a| `True`
+ a| @@Lfunctions\Lfunctions\self_dual\description@@
+a|selfdual a| boolean a| `False`
+ a| @@Lfunctions\Lfunctions\selfdual\description@@
+a|sign_arg a| integer a| `0.0`
+ a| @@Lfunctions\Lfunctions\sign_arg\description@@
+a|st_group a| string a| `SU(2)`
+ a| @@Lfunctions\Lfunctions\st_group\description@@
+a|symmetry_type a| string a| `orthogonal`
+ a| @@Lfunctions\Lfunctions\symmetry_type\description@@
+a|types a| collection of string a| `[u'DIR']`
+ a| @@Lfunctions\Lfunctions\types\description@@
+a|values a| collection of real a| `[[1, u'0.604599788078072616864692752547']]`
+ a| @@Lfunctions\Lfunctions\values\description@@
+a|z1 a| real stored as string a| `6.362613894713089`
+ a| @@Lfunctions\Lfunctions\z1\description@@
+a|z2 a| real stored as string a| `3.180050267806782`
+ a| @@Lfunctions\Lfunctions\z2\description@@
+a|z3 a| real stored as string a| `4.941726344022658`
+ a| @@Lfunctions\Lfunctions\z3\description@@
+|==============================
+
+'''
+
+== List of indices ==
+
+[width="90%", options="header", ]
+|==============================
+a|Index Name a| Index fields
+a|a4_2d a| a4 sorted using 2d ordering
+a|group_1_conductor_1 a| group sorted ascending, conductor sorted ascending
+a|a6_2d a| a6 sorted using 2d ordering
+a|z1_-1 a| z1 sorted descending
+a|a1_2d a| a1 sorted using 2d ordering
+a|a8_2d a| a8 sorted using 2d ordering
+a|types_1 a| types sorted ascending
+a|gamma2_1 a| gamma2 sorted ascending
+a|instances_1 a| instances sorted ascending
+a|a2_2d a| a2 sorted using 2d ordering
+a|a9_2d a| a9 sorted using 2d ordering
+a|load_key_1 a| load_key sorted ascending
+a|gamma1_1 a| gamma1 sorted ascending
+a|Lhash_1 a| Lhash sorted ascending
+a|a3_2d a| a3 sorted using 2d ordering
+a|a7_2d a| a7 sorted using 2d ordering
+a|a5_2d a| a5 sorted using 2d ordering
+a|_id_ a| _id sorted ascending
+a|gamma3_1 a| gamma3 sorted ascending
+|==============================
+
+'''
+
+== List of record types in the database ==
+
+6 distinct record types are present.
+
+****
+[discrete]
+=== Base record ===
+
+[NOTE]
+====
+The base record represents the smallest intersection of all related records.
+
+
+====
+
+Base record class does not exist in the database. Please consult the derived records section below to see all of the classes in the database
+
+* primitive 
+* central_character 
+* plot_delta 
+* self_dual 
+* motivic_weight 
+* Lhash 
+* conductor 
+* st_group 
+* analytic_normalization 
+* euler_factors 
+* order_of_vanishing 
+* bad_lfactors 
+* a10 
+* degree 
+* plot_values 
+* algebraic 
+* a3 
+* a2 
+* a5 
+* a4 
+* a7 
+* a6 
+* a9 
+* a8 
+* z1 
+* z2 
+* z3 
+* positive_zeros 
+* gamma_factors 
+* root_number 
+
+
+
+****
+
+'''
+
+=== Derived records ===
+
+[NOTE]
+====
+Derived records are the record types that actually exist in the database.They are represented as differences from the base record
+====
+
+****
+[discrete]
+=== @@Lfunctions\Lfunctions\b1857defefa3384fa239fe6973fa57c0\name@@ ===
+
+[NOTE]
+====
+@@Lfunctions\Lfunctions\b1857defefa3384fa239fe6973fa57c0\description@@
+
+
+====
+
+1741002 records extended from base type
+
+* A10 
+* A2 
+* A3 
+* A4 
+* A5 
+* A6 
+* A7 
+* A8 
+* A9 
+* coefficient_field 
+* leading_term 
+* load_key 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@Lfunctions\Lfunctions\9df2007e3d5426862421c24d936fa50d\name@@ ===
+
+[NOTE]
+====
+@@Lfunctions\Lfunctions\9df2007e3d5426862421c24d936fa50d\description@@
+
+
+====
+
+7655467 records extended from base type
+
+* coeff_info 
+* conjugate 
+* dirichlet_coefficients 
+* leading_term 
+* load_key 
+* origin 
+* sign_arg 
+* symmetry_type 
+* types 
+* values 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@Lfunctions\Lfunctions\5108c143c0d748da37d6343cb2e2e236\name@@ ===
+
+[NOTE]
+====
+@@Lfunctions\Lfunctions\5108c143c0d748da37d6343cb2e2e236\description@@
+
+
+====
+
+1912 records extended from base type
+
+* conjugate 
+* credit 
+* dirichlet_coefficients 
+* group 
+* origin 
+* precision 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@Lfunctions\Lfunctions\779ca7784c070b127744ef57a604cadb\name@@ ===
+
+[NOTE]
+====
+@@Lfunctions\Lfunctions\779ca7784c070b127744ef57a604cadb\description@@
+
+
+====
+
+65534 records extended from base type
+
+* A10 
+* A2 
+* A3 
+* A4 
+* A5 
+* A6 
+* A7 
+* A8 
+* A9 
+* coefficient_field 
+* leading_term 
+* load_key 
+* origin 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@Lfunctions\Lfunctions\84292376fa0d2904d9e4022aa22cdaf3\name@@ ===
+
+[NOTE]
+====
+@@Lfunctions\Lfunctions\84292376fa0d2904d9e4022aa22cdaf3\description@@
+
+
+====
+
+2 records extended from base type
+
+* conjugate 
+* credit 
+* dirichlet_coefficients 
+* group 
+* origin 
+* precision 
+* selfdual 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@Lfunctions\Lfunctions\b51abd969c9d11dededb072fed6c8792\name@@ ===
+
+[NOTE]
+====
+@@Lfunctions\Lfunctions\b51abd969c9d11dededb072fed6c8792\description@@
+
+
+====
+
+94 records extended from base type
+
+* credit 
+* dirichlet_coefficients 
+* group 
+* origin 
+* precision 
+
+
+
+****
+
+'''
+
+== Notes ==
+
+@@Lfunctions\Lfunctions\(NOTES)\description@@
+

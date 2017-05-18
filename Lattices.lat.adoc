@@ -1,0 +1,133 @@
+= Database report for Lattices\lat =
+
+Prepared with the lmfdb asciidoc report tool
+
+Christopher Brady <C.S.Brady@Warwick.ac.uk>
+
+Version 1.0.0
+
+'''
+
+== Collection information ==
+
+[width="50%", ]
+|==============================
+a|*Description* a| Integral lattices
+a|*Status* a| http://www.lmfdb.org/Lattice[Production]
+a|*Contact* a| https://github.com/sanni85[Samuele Anni]
+a|*Code* a| https://github.com/LMFDB/lmfdb/tree/master/lmfdb/lattice/[lattice]
+|==============================
+
+== List of keys in the database ==
+
+The following keys appear in at least one record in the database
+
+[WARNING]
+====
+The type of the keys is inferred from only one record in the database. If the key can have different types in different records this type will be inaccurate
+Only the first 100 characters of the example record are shown
+====
+
+[width="90%", options="header", ]
+|==============================
+a|Key a| Inferred Type a| Example record a| Description
+a|aut a| integer a| `2`
+ a| size of automorphism group
+a|base_label a| string a| `2.114.228.1`
+ a| part of the *label* which is completely deterministic
+a|class_number a| integer a| `1`
+ a| class number or genus of a lattice
+a|comments a| string a| `This is a root lattice`
+ a| comments and historical remarks
+a|density a| real stored as string a| `0.367796388140185506419151585313`
+ a| density of a lattice
+a|det a| integer a| `1`
+ a| determinant of a lattice
+a|dim a| integer a| `1`
+ a| dimension of a lattice
+a|genus_reps a| collection of integer a| `[[[5, 1], [1, 23]]]`
+ a| list of genus representatives (matrices)
+a|gram a| collection of integer a| `[[5, 1], [1, 23]]`
+ a| Gram matrix of a lattice
+a|hermite a| real stored as string a| `0.468292905790846982930329998491`
+ a| Hermite number of a lattice
+a|index a| integer a| `1`
+ a| index of a lattice
+a|kissing a| integer a| `2`
+ a| Kissing number of a lattice
+a|label a| string a| `1.2.4.1.1`
+ a| LMFDB label of a lattice
+a|level a| integer a| `1`
+ a| level of a lattice
+a|minimum a| integer a| `5`
+ a| length of the shortest vector
+a|name a| collection of string a| `[u'A2']`
+ a| list of known names of a given lattice
+a|shortest a| collection of integer a| `[[1, 0]]`
+ a| list of shortest vectors (for the Leech lattice it is a list of strings)
+a|theta_series a| collection of integer a| `[1, 0, 2, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,` ...
+ a| coefficients of the q-expansion of the theta series associated to a lattice (for the Leech lattice it is a list of strings)
+|==============================
+
+'''
+
+== List of indices ==
+
+[width="90%", options="header", ]
+|==============================
+a|Index Name a| Index fields
+a|dim_1 a| dim sorted ascending
+a|det_1 a| det sorted ascending
+a|dim_1_label_1 a| dim sorted ascending, label sorted ascending
+a|class_number_1_dim_1 a| class_number sorted ascending, dim sorted ascending
+a|aut_1 a| aut sorted ascending
+a|class_number_1 a| class_number sorted ascending
+a|dim_1_det_1_level_1_class_number_1_label_1 a| dim sorted ascending, det sorted ascending, level sorted ascending, class_number sorted ascending, label sorted ascending
+a|label_1 a| label sorted ascending
+a|_id_ a| _id sorted ascending
+a|level_1 a| level sorted ascending
+a|dim_1_det_1_level_1_class_number_1 a| dim sorted ascending, det sorted ascending, level sorted ascending, class_number sorted ascending
+|==============================
+
+'''
+
+== List of record types in the database ==
+
+****
+[discrete]
+=== All records ===
+
+[NOTE]
+====
+39293 records of type
+====
+
+* aut 
+* base_label 
+* class_number 
+* comments 
+* density 
+* det 
+* dim 
+* genus_reps 
+* gram 
+* hermite 
+* index 
+* kissing 
+* label 
+* level 
+* minimum 
+* name 
+* shortest 
+* theta_series 
+
+
+
+****
+
+'''
+
+== Notes ==
+
+@@Lattices\lat\(NOTES)\description@@
+

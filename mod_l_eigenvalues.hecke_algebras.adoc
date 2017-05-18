@@ -1,0 +1,87 @@
+= Database report for mod_l_eigenvalues\hecke_algebras =
+
+Prepared with the lmfdb asciidoc report tool
+
+Christopher Brady <C.S.Brady@Warwick.ac.uk>
+
+Version 1.0.0
+
+'''
+
+== Collection information ==
+
+[width="50%", ]
+|==============================
+a|*Description* a| @@mod_l_eigenvalues\hecke_algebras\(INFO)\description@@
+a|*Status* a| @@mod_l_eigenvalues\hecke_algebras\(INFO)\status@@
+a|*Contact* a| @@mod_l_eigenvalues\hecke_algebras\(INFO)\contact@@
+a|*Code* a| @@mod_l_eigenvalues\hecke_algebras\(INFO)\code@@
+|==============================
+
+== List of keys in the database ==
+
+The following keys appear in at least one record in the database
+
+[WARNING]
+====
+The type of the keys is inferred from only one record in the database. If the key can have different types in different records this type will be inaccurate
+Only the first 100 characters of the example record are shown
+====
+
+[width="90%", options="header", ]
+|==============================
+a|Key a| Inferred Type a| Example record a| Description
+a|label a| string a| `1.2.1`
+ a| @@mod_l_eigenvalues\hecke_algebras\label\description@@
+a|level a| integer a| `1`
+ a| @@mod_l_eigenvalues\hecke_algebras\level\description@@
+a|num_orbits a| integer a| `0`
+ a| @@mod_l_eigenvalues\hecke_algebras\num_orbits\description@@
+a|weight a| integer a| `2`
+ a| @@mod_l_eigenvalues\hecke_algebras\weight\description@@
+|==============================
+
+'''
+
+== List of indices ==
+
+[width="90%", options="header", ]
+|==============================
+a|Index Name a| Index fields
+a|dirchar_1 a| dirchar sorted ascending
+a|weight_1 a| weight sorted ascending
+a|_id_ a| _id sorted ascending
+a|conductor_1 a| conductor sorted ascending
+a|level_1 a| level sorted ascending
+a|deg_1 a| deg sorted ascending
+a|characteristic_1 a| characteristic sorted ascending
+|==============================
+
+'''
+
+== List of record types in the database ==
+
+****
+[discrete]
+=== All records ===
+
+[NOTE]
+====
+1421 records of type
+====
+
+* label 
+* level 
+* num_orbits 
+* weight 
+
+
+
+****
+
+'''
+
+== Notes ==
+
+@@mod_l_eigenvalues\hecke_algebras\(NOTES)\description@@
+

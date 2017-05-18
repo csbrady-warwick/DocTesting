@@ -1,0 +1,54 @@
+= Database report for bmfs\forms =
+
+Prepared with the lmfdb asciidoc report tool
+
+Christopher Brady <C.S.Brady@Warwick.ac.uk>
+
+Version 1.0.0
+
+'''
+
+== Collection information ==
+
+[width="50%", ]
+|==============================
+a|*Description* a| Bianchi modular forms
+a|*Status* a| https://github.com/LMFDB/lmfdb/issues/1431#issuecomment-225529987[future]
+a|*Contact* a| https://github.com/JohnCremona[John Cremona]
+a|*Code* a| none
+|==============================
+
+== List of keys in the database ==
+
+The following keys appear in at least one record in the database
+
+[WARNING]
+====
+The type of the keys is inferred from only one record in the database. If the key can have different types in different records this type will be inaccurate
+Only the first 100 characters of the example record are shown
+====
+
+[width="90%", options="header", ]
+|==============================
+a|Key a| Inferred Type a| Example record a| Description
+|==============================
+
+'''
+
+== List of indices ==
+
+[width="90%", options="header", ]
+|==============================
+a|Index Name a| Index fields
+a|_id_ a| _id sorted ascending
+a|level_norm_1_label_1 a| level_norm sorted ascending, label sorted ascending
+|==============================
+
+'''
+
+== List of record types in the database ==
+
+== Notes ==
+
+@@bmfs\forms\(NOTES)\description@@
+

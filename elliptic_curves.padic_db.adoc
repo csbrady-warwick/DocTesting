@@ -1,0 +1,86 @@
+= Database report for elliptic_curves\padic_db =
+
+Prepared with the lmfdb asciidoc report tool
+
+Christopher Brady <C.S.Brady@Warwick.ac.uk>
+
+Version 1.0.0
+
+'''
+
+== Collection information ==
+
+[width="50%", ]
+|==============================
+a|*Description* a| Elliptic curves over *Q* and other number fields
+a|*Status* a| http://www.lmfdb.org/EllipticCurve/[production]
+a|*Contact* a| https://github.com/JohnCremona[John Cremona]
+a|*Code* a| https://github.com/LMFDB/lmfdb/tree/master/lmfdb/elliptic_curves/[elliptic_curves]
+|==============================
+
+== List of keys in the database ==
+
+The following keys appear in at least one record in the database
+
+[WARNING]
+====
+The type of the keys is inferred from only one record in the database. If the key can have different types in different records this type will be inaccurate
+Only the first 100 characters of the example record are shown
+====
+
+[width="90%", options="header", ]
+|==============================
+a|Key a| Inferred Type a| Example record a| Description
+a|lmfdb_iso a| string a| `100002.a`
+ a| LMFDB label of isogeny class
+a|p a| integer a| `97`
+ a| prime
+a|prec a| integer a| `20`
+ a| p-adic precision
+a|unit a| integer stored as string a| `8471152617139064438417376357679138234`
+ a| unit factor of regulator
+a|val a| integer a| `1`
+ a| valuation of p-adic regulator
+|==============================
+
+'''
+
+== List of indices ==
+
+[width="90%", options="header", ]
+|==============================
+a|Index Name a| Index fields
+a|metadata_1 a| metadata sorted ascending
+a|_id_ a| _id sorted ascending
+a|lmfdb_iso_1 a| lmfdb_iso sorted ascending
+|==============================
+
+'''
+
+== List of record types in the database ==
+
+****
+[discrete]
+=== All records ===
+
+[NOTE]
+====
+6819842 records of type
+====
+
+* lmfdb_iso 
+* p 
+* prec 
+* unit 
+* val 
+
+
+
+****
+
+'''
+
+== Notes ==
+
+@@elliptic_curves\padic_db\(NOTES)\description@@
+

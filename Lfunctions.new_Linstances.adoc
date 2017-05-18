@@ -1,0 +1,78 @@
+= Database report for Lfunctions\new_Linstances =
+
+Prepared with the lmfdb asciidoc report tool
+
+Christopher Brady <C.S.Brady@Warwick.ac.uk>
+
+Version 1.0.0
+
+'''
+
+== Collection information ==
+
+[width="50%", ]
+|==============================
+a|*Description* a| @@Lfunctions\new_Linstances\(INFO)\description@@
+a|*Status* a| @@Lfunctions\new_Linstances\(INFO)\status@@
+a|*Contact* a| @@Lfunctions\new_Linstances\(INFO)\contact@@
+a|*Code* a| @@Lfunctions\new_Linstances\(INFO)\code@@
+|==============================
+
+== List of keys in the database ==
+
+The following keys appear in at least one record in the database
+
+[WARNING]
+====
+The type of the keys is inferred from only one record in the database. If the key can have different types in different records this type will be inaccurate
+Only the first 100 characters of the example record are shown
+====
+
+[width="90%", options="header", ]
+|==============================
+a|Key a| Inferred Type a| Example record a| Description
+a|Lhash a| integer stored as string a| `1456780685049277288`
+ a| @@Lfunctions\new_Linstances\Lhash\description@@
+a|type a| string a| `G2Q`
+ a| @@Lfunctions\new_Linstances\type\description@@
+a|url a| string a| `Genus2Curve/Q/169/a`
+ a| @@Lfunctions\new_Linstances\url\description@@
+|==============================
+
+'''
+
+== List of indices ==
+
+[width="90%", options="header", ]
+|==============================
+a|Index Name a| Index fields
+a|_id_ a| _id sorted ascending
+|==============================
+
+'''
+
+== List of record types in the database ==
+
+****
+[discrete]
+=== All records ===
+
+[NOTE]
+====
+2805 records of type
+====
+
+* Lhash 
+* type 
+* url 
+
+
+
+****
+
+'''
+
+== Notes ==
+
+@@Lfunctions\new_Linstances\(NOTES)\description@@
+

@@ -1,0 +1,224 @@
+= Database report for hmfs\forms =
+
+Prepared with the lmfdb asciidoc report tool
+
+Christopher Brady <C.S.Brady@Warwick.ac.uk>
+
+Version 1.0.0
+
+'''
+
+== Collection information ==
+
+[width="50%", ]
+|==============================
+a|*Description* a| Hilbert modular forms
+a|*Status* a| http://www.lmfdb.org/ModularForm/GL2/TotallyReal/[production]
+a|*Contact* a| https://github.com/jvoight[John Voight]
+a|*Code* a| https://github.com/LMFDB/lmfdb/tree/master/lmfdb/hilbert_modular_forms[hilbert_modular_forms]
+|==============================
+
+== List of keys in the database ==
+
+The following keys appear in at least one record in the database
+
+[WARNING]
+====
+The type of the keys is inferred from only one record in the database. If the key can have different types in different records this type will be inaccurate
+Only the first 100 characters of the example record are shown
+====
+
+[width="90%", options="header", ]
+|==============================
+a|Key a| Inferred Type a| Example record a| Description
+a|AL_eigenvalues a| collection of mixed types a| `[[u'[27, 3, 3]', u'-1']]`
+ a| @@hmfs\forms\AL_eigenvalues\description@@
+a|AL_eigenvalues_fixed a| string a| `done`
+ a| @@hmfs\forms\AL_eigenvalues_fixed\description@@
+a|deg a| integer a| `2`
+ a| @@hmfs\forms\deg\description@@
+a|dimension a| integer a| `286`
+ a| @@hmfs\forms\dimension\description@@
+a|disc a| integer a| `5`
+ a| @@hmfs\forms\disc\description@@
+a|field_label a| string a| `2.2.101.1`
+ a| @@hmfs\forms\field_label\description@@
+a|hecke_eigenvalues a| collection of integer stored as string a| `[u'-5', u'-4', u'1', u'1', u'1', u'1', u'4', u'4', u'4', u'-10', u'-10', u'-10', u'5', u'5', u'5', u` ...
+ a| @@hmfs\forms\hecke_eigenvalues\description@@
+a|hecke_polynomial a| string a| `x`
+ a| @@hmfs\forms\hecke_polynomial\description@@
+a|is_CM a| string a| `no`
+ a| @@hmfs\forms\is_CM\description@@
+a|is_base_change a| string a| `no`
+ a| @@hmfs\forms\is_base_change\description@@
+a|is_cm a| string a| `no`
+ a| @@hmfs\forms\is_cm\description@@
+a|label a| string a| `2.2.101.1-1.1-a`
+ a| @@hmfs\forms\label\description@@
+a|label_nsuffix a| integer a| `0`
+ a| @@hmfs\forms\label_nsuffix\description@@
+a|label_suffix a| string a| `a`
+ a| @@hmfs\forms\label_suffix\description@@
+a|level_ideal a| comma separated list of mixed types stored as string a| `[1, 1, 1]`
+ a| @@hmfs\forms\level_ideal\description@@
+a|level_label a| real stored as string a| `27.1`
+ a| @@hmfs\forms\level_label\description@@
+a|level_norm a| integer a| `1`
+ a| @@hmfs\forms\level_norm\description@@
+a|parallel_weight a| integer a| `2`
+ a| @@hmfs\forms\parallel_weight\description@@
+a|q_expansions a| collection of mixed types a| `[[[u'1/7*w + 2/7', u'1'], [u'-1/7*w^2 + 4/7', u'1'], [u'-1/7*w + 5/7', u'6'], [u'-1/7*w^2 + 1/7*w +` ...
+ a| @@hmfs\forms\q_expansions\description@@
+a|short_label a| string a| `27.1-a`
+ a| @@hmfs\forms\short_label\description@@
+a|weight a| comma separated list of mixed types stored as string a| `[2, 2, 2]`
+ a| @@hmfs\forms\weight\description@@
+|==============================
+
+'''
+
+== List of indices ==
+
+[width="90%", options="header", ]
+|==============================
+a|Index Name a| Index fields
+a|metadata_1 a| metadata sorted ascending
+a|_id_ a| _id sorted ascending
+a|level_norm_1 a| level_norm sorted ascending
+a|field_label_1 a| field_label sorted ascending
+a|disc_1 a| disc sorted ascending
+a|dimension_1_field_label_1_level_norm_1 a| dimension sorted ascending, field_label sorted ascending, level_norm sorted ascending
+a|level_ideal_1 a| level_ideal sorted ascending
+a|field_1 a| field sorted ascending
+a|is_CM_1 a| is_CM sorted ascending
+a|deg_1_disc_1_level_norm_1_level_label_1_label_nsuffix_1 a| deg sorted ascending, disc sorted ascending, level_norm sorted ascending, level_label sorted ascending, label_nsuffix sorted ascending
+a|dimension_1 a| dimension sorted ascending
+a|label_1_level_norm_1 a| label sorted ascending, level_norm sorted ascending
+a|level_norm_1_label_1 a| level_norm sorted ascending, label sorted ascending
+a|dimension_-1_field_label_1_level_norm_-1 a| dimension sorted descending, field_label sorted ascending, level_norm sorted descending
+a|deg_1_level_norm_1 a| deg sorted ascending, level_norm sorted ascending
+a|is_base_change_1 a| is_base_change sorted ascending
+a|label_1 a| label sorted ascending
+a|deg_1 a| deg sorted ascending
+|==============================
+
+'''
+
+== List of record types in the database ==
+
+4 distinct record types are present.
+
+****
+[discrete]
+=== Base record : @@hmfs\forms\3ff78840be4eb7aec6ce423b097b242a\name@@ ===
+
+[NOTE]
+====
+The base record represents the smallest intersection of all related records.
+
+@@hmfs\forms\3ff78840be4eb7aec6ce423b097b242a\description@@
+====
+
+4408 records of base type in collection
+
+* level_ideal 
+* is_base_change 
+* weight 
+* parallel_weight 
+* is_CM 
+* label_suffix 
+* label 
+* field_label 
+* level_norm 
+* disc 
+* short_label 
+* hecke_eigenvalues 
+* hecke_polynomial 
+* level_label 
+* label_nsuffix 
+* dimension 
+* AL_eigenvalues 
+* deg 
+
+
+
+****
+
+'''
+
+=== Derived records ===
+
+[NOTE]
+====
+Derived records are the record types that actually exist in the database.They are represented as differences from the base record
+====
+
+****
+[discrete]
+=== @@hmfs\forms\0505a92d23d343b4561d348e407325c3\name@@ ===
+
+[NOTE]
+====
+@@hmfs\forms\0505a92d23d343b4561d348e407325c3\description@@
+
+
+====
+
+363946 records extended from base type
+
+* AL_eigenvalues_fixed 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@hmfs\forms\0b6865b3c1bff97356b47bd3808d0506\name@@ ===
+
+[NOTE]
+====
+@@hmfs\forms\0b6865b3c1bff97356b47bd3808d0506\description@@
+
+
+====
+
+1 records extended from base type
+
+* AL_eigenvalues_fixed 
+* q_expansions 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@hmfs\forms\6dba06f1a1b36119ff065979aad7e88e\name@@ ===
+
+[NOTE]
+====
+@@hmfs\forms\6dba06f1a1b36119ff065979aad7e88e\description@@
+
+
+====
+
+1 records extended from base type
+
+* AL_eigenvalues_fixed 
+* is_cm 
+
+
+
+****
+
+'''
+
+== Notes ==
+
+@@hmfs\forms\(NOTES)\description@@
+

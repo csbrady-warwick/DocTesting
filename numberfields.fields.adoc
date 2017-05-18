@@ -1,0 +1,1255 @@
+= Database report for numberfields\fields =
+
+Prepared with the lmfdb asciidoc report tool
+
+Christopher Brady <C.S.Brady@Warwick.ac.uk>
+
+Version 1.0.0
+
+'''
+
+== Collection information ==
+
+[width="50%", ]
+|==============================
+a|*Description* a| Number fields
+a|*Status* a| http://www.lmfdb.org/NumberField[production]
+a|*Contact* a| https://github.com/jwj61[John Jones]
+a|*Code* a| https://github.com/LMFDB/lmfdb/tree/master/lmfdb/number_fields[number_fields]
+|==============================
+
+== List of keys in the database ==
+
+The following keys appear in at least one record in the database
+
+[WARNING]
+====
+The type of the keys is inferred from only one record in the database. If the key can have different types in different records this type will be inaccurate
+Only the first 100 characters of the example record are shown
+====
+
+[width="90%", options="header", ]
+|==============================
+a|Key a| Inferred Type a| Example record a| Description
+a|class_group a| integer stored as string a| `10`
+ a| invariant factors for the class group, in descending order
+a|class_number a| integer a| `1`
+ a| class number
+a|coeffhash a| string a| `0000033dfce7f683b8432a5dbcc4792c`
+ a| output of hexdigest applied to coeffs -- it can be used as an index for coefficient lookup (coeffs can be too long)
+a|coeffs a| comma separated list of integer stored as string a| `-2625040,6270,0,1`
+ a| coefficients of our defining polynomial starting with the constant term.
+a|degree a| integer a| `1`
+ a| degree of the field over *Q*
+a|disc_abs_key a| string of digits a| `0001`
+ a| the absolute discriminant prepended by 3 digits which give the number of digits minus one, as a string. This is because discriminants get too big to store as ints, but we want to be able to sort on them
+a|disc_sign a| integer a| `-1`
+ a| 1 or -1 depending on the sign of the discriminant
+a|dischash a| integer a| `-11276684190200`
+ a| integer to be used for indexing discriminants when the disc_abs_key gets to be too long. Code to compute it is below
+a|galois a| collection of integer a| `{u't': 1, u'n': 1}`
+ a| stores (n,t) where n is the degree and t is the t-number of the Galois group. bson structure is like a python dict. Works better for indexing than a list. Must be reencoded whenever a database entry is updated
+a|label a| string a| `1.1.1.1`
+ a| LMFDB label, formed by joining the degree, number of real places, absolute discriminant, and index with '.'. The index is a counter to distinguish fields which would otherwise have the same label
+a|ramps a| non-primitive type (<type 'list'>) a| `[]`
+ a| the ramified primes in a list. Stored as strings because they may be too big
+a|ramps_all a| integer stored as string a| `1000003`
+ a| the list of ramified primes, separated by commas, as a single string
+a|reg a| real a| `1140.38500077`
+ a| regulator, computed if we have fundamental units
+a|res a| collection of comma separated list of integer stored as string a| `{u'gal': [u'6914387390208,-20601313920,41147472,-5250080,14886,0,1']}`
+ a| Resolvent information. Currently, only certain types of siblings are represented. Each key is a type and the value is a list of coefficients of polredabs'ed polynomials. The types are 'gal' for Galois closure, 'ae' for arithmetically equivalent field, 'sex' for twin sextic algebra (for degree 6 fields only), and 'sib' for other siblings.
+a|signature a| comma separated list of integer stored as string a| `0,1`
+ a| signature (r_1, r_2) of the field stored as r_1,r_2
+a|subfields a| non-primitive type (<type 'list'>) a| `[]`
+ a| List of subfields, each represented as a pair [coefs, mult]. The coefficients are of a polredabs'ed polynomial for the subfield, and mult is the multiplicity of the subfield (since representing a field by a polynomial only gives it up to isomorphism)
+a|subs a| collection of real a| `[[u'-3,0,1', 1]]`
+ a| @@numberfields\fields\subs\description@@
+a|units a| collection of latex strings a| `[u'\( \frac{1226768444547965225163921712036593666792075961776790070518817363940296030746020949792596` ...
+ a| list of generators of the units modulo torsion, stored as latex ready strings. If there is no class number, assume units are too hard to compute. If there is a class number but no units, units can be computed on the fly
+a|unitsGmodule a| collection of integer a| `[[3, 1]]`
+ a| in some cases we have data on the units modulo torsion as an integral Galois module. In each pair, the first coordinate is an index to the database of integral representations of the finite group, and the second is the multiplicity with which this representation appears
+a|unitsType a| string a| `Type IV`
+ a| @@numberfields\fields\unitsType\description@@
+a|used_grh a| boolean a| `True`
+ a| True if class group/unit computation assumed GRH. If missing, assume false
+a|zk a| collection of mixed types a| `[u'1', u'a', u'1/26*a^2 + 2/13*a - 3/13']`
+ a| an integral basis in terms of 'a', a root of the defining polynomial
+|==============================
+
+'''
+
+== List of indices ==
+
+[width="90%", options="header", ]
+|==============================
+a|Index Name a| Index fields
+a|label_1 a| label sorted ascending
+a|degree_1_discriminant_1 a| degree sorted ascending, discriminant sorted ascending
+a|_id_ a| _id sorted ascending
+a|class_number_1 a| class_number sorted ascending
+a|coeffhash_1 a| coeffhash sorted ascending
+a|class_group_1 a| class_group sorted ascending
+a|discriminant_1 a| discriminant sorted ascending
+a|galois_1 a| galois sorted ascending
+a|ramps_all_1 a| ramps_all sorted ascending
+a|signature_1 a| signature sorted ascending
+a|degree_1 a| degree sorted ascending
+a|galois_1_ramps_1 a| galois sorted ascending, ramps sorted ascending
+a|metadata_1 a| metadata sorted ascending
+a|disc_abs_key_1_disc_sign_1_signature_-1 a| disc_abs_key sorted ascending, disc_sign sorted ascending, signature sorted descending
+a|degree_1_ramps_all_1 a| degree sorted ascending, ramps_all sorted ascending
+a|ramps_1 a| ramps sorted ascending
+a|degree_1_disc_abs_key_1_disc_sign_1 a| degree sorted ascending, disc_abs_key sorted ascending, disc_sign sorted ascending
+a|degree_1_ramps_1 a| degree sorted ascending, ramps sorted ascending
+|==============================
+
+'''
+
+== List of record types in the database ==
+
+43 distinct record types are present.
+
+****
+[discrete]
+=== Base record ===
+
+[NOTE]
+====
+The base record represents the smallest intersection of all related records.
+
+
+====
+
+Base record class does not exist in the database. Please consult the derived records section below to see all of the classes in the database
+
+* dischash 
+* degree 
+* zk 
+* galois 
+* coeffhash 
+* disc_abs_key 
+* label 
+* disc_sign 
+* ramps 
+* signature 
+* coeffs 
+
+
+
+****
+
+'''
+
+=== Derived records ===
+
+[NOTE]
+====
+Derived records are the record types that actually exist in the database.They are represented as differences from the base record
+====
+
+****
+[discrete]
+=== @@numberfields\fields\a9ee663f77423b0ebe37ed876218cd42\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\a9ee663f77423b0ebe37ed876218cd42\description@@
+
+
+====
+
+1 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* reg 
+* res 
+* subfields 
+* subs 
+* units 
+* unitsGmodule 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\56d233c81272aac6656b1aca5debc850\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\56d233c81272aac6656b1aca5debc850\description@@
+
+
+====
+
+4575 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* reg 
+* res 
+* subfields 
+* subs 
+* units 
+* used_grh 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\d5bc07169ed018dcf724612da721710b\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\d5bc07169ed018dcf724612da721710b\description@@
+
+
+====
+
+3842 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* reg 
+* res 
+* units 
+* unitsGmodule 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\a7333152982025f09650863257a046b3\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\a7333152982025f09650863257a046b3\description@@
+
+
+====
+
+1091 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* reg 
+* units 
+* used_grh 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\218a4011644e2f503d1127ccd4e39199\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\218a4011644e2f503d1127ccd4e39199\description@@
+
+
+====
+
+817 records extended from base type
+
+* ramps_all 
+* subs 
+* used_grh 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\16fc0a2b11584229a3e23631955db175\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\16fc0a2b11584229a3e23631955db175\description@@
+
+
+====
+
+10489 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* reg 
+* res 
+* subs 
+* units 
+* used_grh 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\8df98a33df7f98048ce040ef44aa5f4e\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\8df98a33df7f98048ce040ef44aa5f4e\description@@
+
+
+====
+
+9888 records extended from base type
+
+* ramps_all 
+* subfields 
+* subs 
+* used_grh 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\3af83563b9933f1cd2677d633f4f9292\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\3af83563b9933f1cd2677d633f4f9292\description@@
+
+
+====
+
+8655 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* reg 
+* subfields 
+* subs 
+* units 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\377051971a3400e8b9e55f9f2458612c\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\377051971a3400e8b9e55f9f2458612c\description@@
+
+
+====
+
+6040 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* reg 
+* res 
+* units 
+* used_grh 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\4c21f10647f501175d67682a0f58731e\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\4c21f10647f501175d67682a0f58731e\description@@
+
+
+====
+
+493 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* reg 
+* res 
+* units 
+* unitsGmodule 
+* used_grh 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\ef17019ac6fd52e13b57f1e7c06fcb4a\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\ef17019ac6fd52e13b57f1e7c06fcb4a\description@@
+
+
+====
+
+370 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* subfields 
+* subs 
+* unitsGmodule 
+* unitsType 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\18e00321e46bafe15dc6d986409b5a3c\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\18e00321e46bafe15dc6d986409b5a3c\description@@
+
+
+====
+
+2 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* subfields 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\0e1e1fd126f036a38521c68baea14123\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\0e1e1fd126f036a38521c68baea14123\description@@
+
+
+====
+
+2 records extended from base type
+
+* ramps_all 
+* res 
+* subfields 
+* subs 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\3f40d01f1d6892eb7465ddbc6653c4d7\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\3f40d01f1d6892eb7465ddbc6653c4d7\description@@
+
+
+====
+
+1280644 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\017b2205dbdaacd7229c89bd813aba67\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\017b2205dbdaacd7229c89bd813aba67\description@@
+
+
+====
+
+1515122 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* subs 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\9524134b429c8cf4cacf7347204ca392\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\9524134b429c8cf4cacf7347204ca392\description@@
+
+
+====
+
+910292 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* subfields 
+* subs 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\207e37a724e069a8e044d785febf6a16\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\207e37a724e069a8e044d785febf6a16\description@@
+
+
+====
+
+1230095 records extended from base type
+
+* class_group 
+* class_number 
+* subs 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\49637eafb58432e1b15a35ef2002d73d\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\49637eafb58432e1b15a35ef2002d73d\description@@
+
+
+====
+
+186173 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* res 
+* subs 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\e9daa779c638f5617d4692331a9a9012\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\e9daa779c638f5617d4692331a9a9012\description@@
+
+
+====
+
+715343 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* res 
+* unitsGmodule 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\44b81d734e94ca3411349025e83baccc\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\44b81d734e94ca3411349025e83baccc\description@@
+
+
+====
+
+157392 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* res 
+* subfields 
+* subs 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\44365a67b6b62c17514b3c3fb71af8b6\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\44365a67b6b62c17514b3c3fb71af8b6\description@@
+
+
+====
+
+169459 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* reg 
+* subs 
+* units 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\bb1c4e5ed29426ee4def7eb0b757328f\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\bb1c4e5ed29426ee4def7eb0b757328f\description@@
+
+
+====
+
+139711 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* reg 
+* res 
+* subs 
+* units 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\7d9b542b13f6acd58a6ed062b9ed2a87\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\7d9b542b13f6acd58a6ed062b9ed2a87\description@@
+
+
+====
+
+143988 records extended from base type
+
+* class_group 
+* class_number 
+* res 
+* subs 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\394368419c31faaab92dfd52318841f7\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\394368419c31faaab92dfd52318841f7\description@@
+
+
+====
+
+3 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* reg 
+* subfields 
+* subs 
+* units 
+* unitsGmodule 
+* unitsType 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\dd1ec06c6ac9c3116495f1841df0957e\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\dd1ec06c6ac9c3116495f1841df0957e\description@@
+
+
+====
+
+5 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* subs 
+* used_grh 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\c03a875d72679e5fea39cf53c3c1e542\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\c03a875d72679e5fea39cf53c3c1e542\description@@
+
+
+====
+
+98079 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* reg 
+* subs 
+* units 
+* used_grh 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\20ecb48a62377539ee1ba4aed3b33e0c\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\20ecb48a62377539ee1ba4aed3b33e0c\description@@
+
+
+====
+
+101862 records extended from base type
+
+* class_group 
+* class_number 
+* reg 
+* subs 
+* units 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\3008f9bc5a9c4382b3beb4d0f8185c25\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\3008f9bc5a9c4382b3beb4d0f8185c25\description@@
+
+
+====
+
+65286 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* reg 
+* res 
+* subfields 
+* subs 
+* units 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\a69a10d6b7d3404e29b6787775160730\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\a69a10d6b7d3404e29b6787775160730\description@@
+
+
+====
+
+86106 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* res 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\2cad46b62b16cea2f4ad3c96b64740fc\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\2cad46b62b16cea2f4ad3c96b64740fc\description@@
+
+
+====
+
+52381 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* res 
+* subfields 
+* unitsGmodule 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\9cd914dd7ce8e31107a5ec4855fd85a7\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\9cd914dd7ce8e31107a5ec4855fd85a7\description@@
+
+
+====
+
+54789 records extended from base type
+
+* class_group 
+* class_number 
+* reg 
+* subs 
+* units 
+* used_grh 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\a7efeefb0cde1a3f07b1bc46d2f3f269\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\a7efeefb0cde1a3f07b1bc46d2f3f269\description@@
+
+
+====
+
+13405 records extended from base type
+
+* subs 
+* used_grh 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\e388a5eb70e545310fb260fbfc314c10\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\e388a5eb70e545310fb260fbfc314c10\description@@
+
+
+====
+
+15941 records extended from base type
+
+* class_group 
+* class_number 
+* reg 
+* res 
+* subs 
+* units 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\cc4fbb825fb3e935e5a4048257a80825\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\cc4fbb825fb3e935e5a4048257a80825\description@@
+
+
+====
+
+10506 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* reg 
+* res 
+* units 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\05166534c373c776b82cb3033a4c2d98\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\05166534c373c776b82cb3033a4c2d98\description@@
+
+
+====
+
+12757 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* reg 
+* subfields 
+* subs 
+* units 
+* used_grh 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\9e4fbd45440d686650e84ae604a6cfa7\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\9e4fbd45440d686650e84ae604a6cfa7\description@@
+
+
+====
+
+247 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* reg 
+* units 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\7b28d6004a913bb9244c4abf1ee2b0cd\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\7b28d6004a913bb9244c4abf1ee2b0cd\description@@
+
+
+====
+
+289 records extended from base type
+
+* class_group 
+* class_number 
+* reg 
+* res 
+* subs 
+* units 
+* used_grh 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\f2d00de127f168f02432324d9037a003\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\f2d00de127f168f02432324d9037a003\description@@
+
+
+====
+
+33 records extended from base type
+
+* ramps_all 
+* subfields 
+* subs 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\8f74fe81db54d1435a35193e6c5b349c\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\8f74fe81db54d1435a35193e6c5b349c\description@@
+
+
+====
+
+39 records extended from base type
+
+* ramps_all 
+* res 
+* subs 
+* used_grh 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\d85d9671762f5808804909214ec79a58\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\d85d9671762f5808804909214ec79a58\description@@
+
+
+====
+
+67 records extended from base type
+
+* ramps_all 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\5ce039004faa33363e7770009c251ca6\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\5ce039004faa33363e7770009c251ca6\description@@
+
+
+====
+
+70 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* res 
+* subfields 
+* subs 
+* unitsGmodule 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\8a806a06a995991be9d52ccd49f4e3f7\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\8a806a06a995991be9d52ccd49f4e3f7\description@@
+
+
+====
+
+91 records extended from base type
+
+* res 
+* subs 
+* used_grh 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\fields\8d1127b2e27325210c05f13c14b57790\name@@ ===
+
+[NOTE]
+====
+@@numberfields\fields\8d1127b2e27325210c05f13c14b57790\description@@
+
+
+====
+
+197 records extended from base type
+
+* ramps_all 
+* res 
+
+
+
+****
+
+'''
+
+== Notes ==
+
+The dischash is computed as follows
+
+ assuming the disc_abs_key is stored as d
+
+ * If length of d is less than 19, set the hash equal to d, otherwise use the first 19 characters
+
+ * multiply the result by the sign of the discriminant
+

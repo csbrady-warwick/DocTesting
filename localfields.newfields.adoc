@@ -1,0 +1,140 @@
+= Database report for localfields\newfields =
+
+Prepared with the lmfdb asciidoc report tool
+
+Christopher Brady <C.S.Brady@Warwick.ac.uk>
+
+Version 1.0.0
+
+'''
+
+== Collection information ==
+
+[width="50%", ]
+|==============================
+a|*Description* a| @@localfields\newfields\(INFO)\description@@
+a|*Status* a| @@localfields\newfields\(INFO)\status@@
+a|*Contact* a| @@localfields\newfields\(INFO)\contact@@
+a|*Code* a| @@localfields\newfields\(INFO)\code@@
+|==============================
+
+== List of keys in the database ==
+
+The following keys appear in at least one record in the database
+
+[WARNING]
+====
+The type of the keys is inferred from only one record in the database. If the key can have different types in different records this type will be inaccurate
+Only the first 100 characters of the example record are shown
+====
+
+[width="90%", options="header", ]
+|==============================
+a|Key a| Inferred Type a| Example record a| Description
+a|aut a| integer a| `10`
+ a| @@localfields\newfields\aut\description@@
+a|c a| integer a| `0`
+ a| @@localfields\newfields\c\description@@
+a|coeffs a| comma separated list of integer stored as string a| `-1,-2,-1,-2,-2,2,-3,2,2,4,-1,4,0,4,1`
+ a| @@localfields\newfields\coeffs\description@@
+a|e a| integer a| `1`
+ a| @@localfields\newfields\e\description@@
+a|eisen a| string a| `y - 101`
+ a| @@localfields\newfields\eisen\description@@
+a|f a| integer a| `1`
+ a| @@localfields\newfields\f\description@@
+a|gal a| collection of integer a| `[10, 1]`
+ a| @@localfields\newfields\gal\description@@
+a|galT a| integer a| `1`
+ a| @@localfields\newfields\galT\description@@
+a|gms a| integer stored as string a| `0`
+ a| @@localfields\newfields\gms\description@@
+a|gsm a| integer stored as string a| `0`
+ a| @@localfields\newfields\gsm\description@@
+a|hw a| string a| `$1$`
+ a| @@localfields\newfields\hw\description@@
+a|inertia a| collection of mixed types a| `[u'i', [1, 1]]`
+ a| @@localfields\newfields\inertia\description@@
+a|label a| string a| `101.1.0.1`
+ a| @@localfields\newfields\label\description@@
+a|n a| integer a| `1`
+ a| @@localfields\newfields\n\description@@
+a|p a| integer a| `2`
+ a| @@localfields\newfields\p\description@@
+a|rf a| collection of integer a| `[1, 1]`
+ a| @@localfields\newfields\rf\description@@
+a|slopes a| string a| `[]`
+ a| @@localfields\newfields\slopes\description@@
+a|subfields a| collection of real a| `[[u'3,-1,1', 1], [u'2,-1,0,0,0,1', 1]]`
+ a| @@localfields\newfields\subfields\description@@
+a|t a| integer a| `1`
+ a| @@localfields\newfields\t\description@@
+a|u a| integer a| `10`
+ a| @@localfields\newfields\u\description@@
+a|unram a| string a| `t^10 - t + 72`
+ a| @@localfields\newfields\unram\description@@
+|==============================
+
+'''
+
+== List of indices ==
+
+[width="90%", options="header", ]
+|==============================
+a|Index Name a| Index fields
+a|f_1_p_1 a| f sorted ascending, p sorted ascending
+a|p_1_n_1 a| p sorted ascending, n sorted ascending
+a|e_1_p_1 a| e sorted ascending, p sorted ascending
+a|n_1 a| n sorted ascending
+a|label_1 a| label sorted ascending
+a|_id_ a| _id sorted ascending
+a|gal_1_p_1 a| gal sorted ascending, p sorted ascending
+a|coeffs_1_p_1 a| coeffs sorted ascending, p sorted ascending
+a|c_1_p_1 a| c sorted ascending, p sorted ascending
+|==============================
+
+'''
+
+== List of record types in the database ==
+
+****
+[discrete]
+=== All records ===
+
+[NOTE]
+====
+15516 records of type
+====
+
+* aut 
+* c 
+* coeffs 
+* e 
+* eisen 
+* f 
+* gal 
+* galT 
+* gms 
+* gsm 
+* hw 
+* inertia 
+* label 
+* n 
+* p 
+* rf 
+* slopes 
+* subfields 
+* t 
+* u 
+* unram 
+
+
+
+****
+
+'''
+
+== Notes ==
+
+@@localfields\newfields\(NOTES)\description@@
+

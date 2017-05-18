@@ -1,0 +1,152 @@
+= Database report for mod_l_galois\reps =
+
+Prepared with the lmfdb asciidoc report tool
+
+Christopher Brady <C.S.Brady@Warwick.ac.uk>
+
+Version 1.0.0
+
+'''
+
+== Collection information ==
+
+[width="50%", ]
+|==============================
+a|*Description* a| Mod-ell Galois representations
+a|*Status* a| http://beta.lmfdb.org/Representation/Galois/ModL/[alpha]
+a|*Contact* a| https://github.com/sanni85[Samuele Anni]
+a|*Code* a| https://github.com/LMFDB/lmfdb/tree/master/lmfdb/rep_galois_modl[rep_galois_modl]
+|==============================
+
+== List of keys in the database ==
+
+The following keys appear in at least one record in the database
+
+[WARNING]
+====
+The type of the keys is inferred from only one record in the database. If the key can have different types in different records this type will be inaccurate
+Only the first 100 characters of the example record are shown
+====
+
+[width="90%", options="header", ]
+|==============================
+a|Key a| Inferred Type a| Example record a| Description
+a|abs_irr a| integer a| `1`
+ a| @@mod_l_galois\reps\abs_irr\description@@
+a|bad_prime_list a| collection of mixed types a| `[[3, u'', u'', u'', u''], [11, u'', u'', u'', u''], [97, u'', u'', u'', u'']]`
+ a| @@mod_l_galois\reps\bad_prime_list\description@@
+a|base_field a| string a| `1.1.1.1`
+ a| @@mod_l_galois\reps\base_field\description@@
+a|base_label a| string a| `1.1.1.1.2.4.9603`
+ a| @@mod_l_galois\reps\base_label\description@@
+a|conductor a| integer a| `173`
+ a| @@mod_l_galois\reps\conductor\description@@
+a|degree_proj_field a| integer a| `1`
+ a| @@mod_l_galois\reps\degree_proj_field\description@@
+a|dim a| integer a| `4`
+ a| @@mod_l_galois\reps\dim\description@@
+a|field a| collection of integer a| `[2, 1]`
+ a| @@mod_l_galois\reps\field\description@@
+a|field_char a| integer a| `2`
+ a| @@mod_l_galois\reps\field_char\description@@
+a|field_deg a| integer a| `1`
+ a| @@mod_l_galois\reps\field_deg\description@@
+a|field_order a| integer a| `2`
+ a| @@mod_l_galois\reps\field_order\description@@
+a|good_prime_list a| collection of mixed types a| `[[5, [u'0', u'1', u'0', u'1'], u'(x^2 + x + 1)^2', 3, 3], [7, [u'1', u'1', u'1', u'1'], u'(x^4 + x^3` ...
+ a| @@mod_l_galois\reps\good_prime_list\description@@
+a|image_at a| string a| `nonsolvable`
+ a| @@mod_l_galois\reps\image_at\description@@
+a|image_label a| string a| `Sp(4,2)`
+ a| @@mod_l_galois\reps\image_label\description@@
+a|image_order a| integer a| `720`
+ a| @@mod_l_galois\reps\image_order\description@@
+a|image_type a| string a| `big`
+ a| @@mod_l_galois\reps\image_type\description@@
+a|index a| integer a| `1`
+ a| @@mod_l_galois\reps\index\description@@
+a|label a| string a| `1.1.1.1.2.4.9603.1`
+ a| @@mod_l_galois\reps\label\description@@
+a|poly_ker a| string a| `(x^6 - x^4 + 2*x^3 - 2*x^2 - 4*x + 1)`
+ a| @@mod_l_galois\reps\poly_ker\description@@
+a|poly_proj_ker a| string a| `(x^6 - x^4 + 2*x^3 - 2*x^2 - 4*x + 1)`
+ a| @@mod_l_galois\reps\poly_proj_ker\description@@
+a|primes_conductor a| collection of integer a| `[3, 11, 97]`
+ a| @@mod_l_galois\reps\primes_conductor\description@@
+a|projective_label a| string a| `Sp(4,2)`
+ a| @@mod_l_galois\reps\projective_label\description@@
+a|projective_type a| string a| `big`
+ a| @@mod_l_galois\reps\projective_type\description@@
+a|related_objects a| Record cannot be found containing key a| `N/A`
+ a| @@mod_l_galois\reps\related_objects\description@@
+a|rep_type a| string a| `symp`
+ a| @@mod_l_galois\reps\rep_type\description@@
+a|weight a| integer a| `0`
+ a| @@mod_l_galois\reps\weight\description@@
+|==============================
+
+'''
+
+== List of indices ==
+
+[width="90%", options="header", ]
+|==============================
+a|Index Name a| Index fields
+a|conductor_1 a| conductor sorted ascending
+a|base_field_1 a| base_field sorted ascending
+a|_id_ a| _id sorted ascending
+a|type_1 a| type sorted ascending
+a|dim_1 a| dim sorted ascending
+a|field_1 a| field sorted ascending
+|==============================
+
+'''
+
+== List of record types in the database ==
+
+****
+[discrete]
+=== All records ===
+
+[NOTE]
+====
+314 records of type
+====
+
+* abs_irr 
+* bad_prime_list 
+* base_field 
+* base_label 
+* conductor 
+* degree_proj_field 
+* dim 
+* field 
+* field_char 
+* field_deg 
+* field_order 
+* good_prime_list 
+* image_at 
+* image_label 
+* image_order 
+* image_type 
+* index 
+* label 
+* poly_ker 
+* poly_proj_ker 
+* primes_conductor 
+* projective_label 
+* projective_type 
+* related_objects 
+* rep_type 
+* weight 
+
+
+
+****
+
+'''
+
+== Notes ==
+
+@@mod_l_galois\reps\(NOTES)\description@@
+

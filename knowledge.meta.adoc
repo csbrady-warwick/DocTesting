@@ -1,0 +1,73 @@
+= Database report for knowledge\meta =
+
+Prepared with the lmfdb asciidoc report tool
+
+Christopher Brady <C.S.Brady@Warwick.ac.uk>
+
+Version 1.0.0
+
+'''
+
+== Collection information ==
+
+[width="50%", ]
+|==============================
+a|*Description* a| knowledge
+a|*Status* a| http://www.lmfdb.org/knowledge[production]
+a|*Contact* a| https://github.com/davidfarmer[David Farmer]
+a|*Code* a| https://github.com/LMFDB/lmfdb/tree/master/lmfdb/knowledge/[knowledge]
+|==============================
+
+== List of keys in the database ==
+
+The following keys appear in at least one record in the database
+
+[WARNING]
+====
+The type of the keys is inferred from only one record in the database. If the key can have different types in different records this type will be inaccurate
+Only the first 100 characters of the example record are shown
+====
+
+[width="90%", options="header", ]
+|==============================
+a|Key a| Inferred Type a| Example record a| Description
+a|categories a| collection of string a| `[u'af', u'ag', u'artin', u'bio', u'character', u'data', u'dirichlet_character', u'doc', u'ec', u'gro` ...
+ a| @@knowledge\meta\categories\description@@
+|==============================
+
+'''
+
+== List of indices ==
+
+[width="90%", options="header", ]
+|==============================
+a|Index Name a| Index fields
+a|metadata_1 a| metadata sorted ascending
+a|_id_ a| _id sorted ascending
+|==============================
+
+'''
+
+== List of record types in the database ==
+
+****
+[discrete]
+=== All records ===
+
+[NOTE]
+====
+2 records of type
+====
+
+* categories 
+
+
+
+****
+
+'''
+
+== Notes ==
+
+@@knowledge\meta\(NOTES)\description@@
+

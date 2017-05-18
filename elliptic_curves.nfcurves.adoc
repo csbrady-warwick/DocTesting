@@ -1,0 +1,466 @@
+= Database report for elliptic_curves\nfcurves =
+
+Prepared with the lmfdb asciidoc report tool
+
+Christopher Brady <C.S.Brady@Warwick.ac.uk>
+
+Version 1.0.0
+
+'''
+
+== Collection information ==
+
+[width="50%", ]
+|==============================
+a|*Description* a| Elliptic curves over *Q* and other number fields
+a|*Status* a| http://www.lmfdb.org/EllipticCurve/[production]
+a|*Contact* a| https://github.com/JohnCremona[John Cremona]
+a|*Code* a| https://github.com/LMFDB/lmfdb/tree/master/lmfdb/elliptic_curves/[elliptic_curves]
+|==============================
+
+== List of keys in the database ==
+
+The following keys appear in at least one record in the database
+
+[WARNING]
+====
+The type of the keys is inferred from only one record in the database. If the key can have different types in different records this type will be inaccurate
+Only the first 100 characters of the example record are shown
+====
+
+[width="90%", options="header", ]
+|==============================
+a|Key a| Inferred Type a| Example record a| Description
+a|abs_disc a| integer a| `449`
+ a| absolute value of discriminant of base field
+a|ainvs a| comma separated list of mixed types stored as string a| `1,0;0,1;1,0;-303287,-30047;-94305014,-9341927`
+ a| a-invariants
+a|analytic_rank a| integer a| `0`
+ a| analytic rank
+a|base_change a| non-primitive type (<type 'list'>) a| `[]`
+ a| labels of base change source curves
+a|class_deg a| integer a| `12`
+ a| @@elliptic_curves\nfcurves\class_deg\description@@
+a|class_label a| string a| `2.2.449.1-4.1-d`
+ a| full label of isogeny class
+a|class_size a| integer a| `8`
+ a| @@elliptic_curves\nfcurves\class_size\description@@
+a|cm a| integer a| `0`
+ a| CM code. 0 (for no CM), or a negative discriminant.
+a|conductor_ideal a| comma separated list of mixed types stored as string a| `[4,2,2]`
+ a| data defining the conductor
+a|conductor_label a| real stored as string a| `4.1`
+ a| conductor_label
+a|conductor_norm a| integer a| `4`
+ a| conductor_norm
+a|degree a| integer a| `2`
+ a| Base field degree
+a|equation a| string a| `\( y^2 + x y + y = x^{3} + a x^{2} + \left(-30047 a - 303287ight) x - 9341927 a - 94305014  \)`
+ a| Weierstrass equation
+a|field_label a| string a| `2.0.10691.1`
+ a| Base field label
+a|galois_images a| collection of string a| `[u'3B.1.2']`
+ a| @@elliptic_curves\nfcurves\galois_images\description@@
+a|gens a| non-primitive type (<type 'list'>) a| `[]`
+ a| generators of infinite order
+a|heights a| non-primitive type (<type 'list'>) a| `[]`
+ a| heights of generators
+a|iso_label a| string a| `d`
+ a| isogeny class label
+a|iso_nlabel a| integer a| `3`
+ a| isogeny class index
+a|isogeny_degrees a| collection of integer a| `[1, 2, 5, 10]`
+ a| @@elliptic_curves\nfcurves\isogeny_degrees\description@@
+a|isogeny_matrix a| collection of integer a| `[[1, 3], [3, 1]]`
+ a| Isogeny matrix.
+a|jinv a| string a| `60462112526377625/134217728,5988195811532375/134217728`
+ a| j-invariant
+a|label a| string a| `2.0.10691.1-1.0.1-a1`
+ a| full label
+a|local_data a| collection of mixed types a| `[{u'ord_disc': 27, u'ord_cond': 1, u'normp': u'2', u'kod': u'\( I_{27} \)', u'ord_den_j': 27, u'p':` ...
+ a| List of local data at bad primes
+a|minD a| comma separated list of mixed types stored as string a| `[4294967296,134217728,6304*w+9728]`
+ a| minimal discriminant ideal
+a|ngens a| integer a| `0`
+ a| @@elliptic_curves\nfcurves\ngens\description@@
+a|non-surjective_primes a| collection of integer a| `[3]`
+ a| @@elliptic_curves\nfcurves\non-surjective_primes\description@@
+a|non_min_p a| non-primitive type (<type 'list'>) a| `[]`
+ a| Non-minimal primes
+a|number a| integer a| `1`
+ a| index of curve in isogeny class. starts at 1
+a|q_curve a| boolean a| `False`
+ a| Q-curve flag
+a|rank a| integer a| `0`
+ a| rank
+a|rank_bounds a| collection of integer a| `[0, 0]`
+ a| lower and upper rank bounds
+a|reg a| integer a| `1`
+ a| regulator
+a|short_class_label a| string a| `4.1-d`
+ a| short label of isogeny class (excludes field)
+a|short_label a| string a| `4.1-d2`
+ a| short label (excludes field)
+a|signature a| collection of integer a| `[2, 0]`
+ a| Base field signature
+a|torsion_gens a| non-primitive type (<type 'list'>) a| `[]`
+ a| torsion generators
+a|torsion_order a| integer a| `1`
+ a| torsion order
+a|torsion_structure a| non-primitive type (<type 'list'>) a| `[]`
+ a| invariants of torsion subgroup
+|==============================
+
+'''
+
+== List of indices ==
+
+[width="90%", options="header", ]
+|==============================
+a|Index Name a| Index fields
+a|degree_1 a| degree sorted ascending
+a|number_1 a| number sorted ascending
+a|_id_ a| _id sorted ascending
+a|field_label_1_conductor_norm_1_conductor_label_1_iso_nlabel_1_number_1 a| field_label sorted ascending, conductor_norm sorted ascending, conductor_label sorted ascending, iso_nlabel sorted ascending, number sorted ascending
+a|field_label_1 a| field_label sorted ascending
+a|label_1 a| label sorted ascending
+a|isogeny_degrees_1 a| isogeny_degrees sorted ascending
+a|torsion_orders_1 a| torsion_orders sorted ascending
+|==============================
+
+'''
+
+== List of record types in the database ==
+
+12 distinct record types are present.
+
+****
+[discrete]
+=== Base record : @@elliptic_curves\nfcurves\10a8a7f750c507cc6ea097a27b490df8\name@@ ===
+
+[NOTE]
+====
+The base record represents the smallest intersection of all related records.
+
+@@elliptic_curves\nfcurves\10a8a7f750c507cc6ea097a27b490df8\description@@
+====
+
+2225 records of base type in collection
+
+* torsion_structure 
+* ainvs 
+* cm 
+* torsion_gens 
+* number 
+* field_label 
+* conductor_norm 
+* class_label 
+* heights 
+* iso_nlabel 
+* conductor_ideal 
+* base_change 
+* local_data 
+* minD 
+* label 
+* jinv 
+* conductor_label 
+* reg 
+* isogeny_degrees 
+* abs_disc 
+* iso_label 
+* degree 
+* non_min_p 
+* q_curve 
+* short_label 
+* short_class_label 
+* torsion_order 
+* equation 
+* signature 
+
+
+
+****
+
+'''
+
+=== Derived records ===
+
+[NOTE]
+====
+Derived records are the record types that actually exist in the database.They are represented as differences from the base record
+====
+
+****
+[discrete]
+=== @@elliptic_curves\nfcurves\fd29766129cdad99950eb8ebc4226c2b\name@@ ===
+
+[NOTE]
+====
+@@elliptic_curves\nfcurves\fd29766129cdad99950eb8ebc4226c2b\description@@
+
+
+====
+
+11 records extended from base type
+
+* galois_images 
+* gens 
+* isogeny_matrix 
+* ngens 
+* non-surjective_primes 
+* rank_bounds 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@elliptic_curves\nfcurves\ea032cd69189e34c04a7f36d095ba295\name@@ ===
+
+[NOTE]
+====
+@@elliptic_curves\nfcurves\ea032cd69189e34c04a7f36d095ba295\description@@
+
+
+====
+
+26 records extended from base type
+
+* galois_images 
+* gens 
+* ngens 
+* non-surjective_primes 
+* rank_bounds 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@elliptic_curves\nfcurves\aae456702d726d19ae56b8a98c283fea\name@@ ===
+
+[NOTE]
+====
+@@elliptic_curves\nfcurves\aae456702d726d19ae56b8a98c283fea\description@@
+
+
+====
+
+113329 records extended from base type
+
+* galois_images 
+* isogeny_matrix 
+* non-surjective_primes 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@elliptic_curves\nfcurves\63ec6350b70d4429f35c4cbe833a7344\name@@ ===
+
+[NOTE]
+====
+@@elliptic_curves\nfcurves\63ec6350b70d4429f35c4cbe833a7344\description@@
+
+
+====
+
+155116 records extended from base type
+
+* galois_images 
+* non-surjective_primes 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@elliptic_curves\nfcurves\bd01a16ed4428b8e690e6d3cd856bd3d\name@@ ===
+
+[NOTE]
+====
+@@elliptic_curves\nfcurves\bd01a16ed4428b8e690e6d3cd856bd3d\description@@
+
+
+====
+
+34189 records extended from base type
+
+* galois_images 
+* gens 
+* isogeny_matrix 
+* ngens 
+* non-surjective_primes 
+* rank 
+* rank_bounds 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@elliptic_curves\nfcurves\64927ee826e87718be3963bd66346266\name@@ ===
+
+[NOTE]
+====
+@@elliptic_curves\nfcurves\64927ee826e87718be3963bd66346266\description@@
+
+
+====
+
+39283 records extended from base type
+
+* galois_images 
+* gens 
+* ngens 
+* non-surjective_primes 
+* rank 
+* rank_bounds 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@elliptic_curves\nfcurves\88474bd31463eeeaea893b4add9f7af6\name@@ ===
+
+[NOTE]
+====
+@@elliptic_curves\nfcurves\88474bd31463eeeaea893b4add9f7af6\description@@
+
+
+====
+
+3847 records extended from base type
+
+* class_deg 
+* class_size 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@elliptic_curves\nfcurves\09cd17e7dc9b8d60742476edb5342946\name@@ ===
+
+[NOTE]
+====
+@@elliptic_curves\nfcurves\09cd17e7dc9b8d60742476edb5342946\description@@
+
+
+====
+
+4444 records extended from base type
+
+* analytic_rank 
+* galois_images 
+* gens 
+* ngens 
+* non-surjective_primes 
+* rank 
+* rank_bounds 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@elliptic_curves\nfcurves\6930290b338013e736bad6cf6bdb78b5\name@@ ===
+
+[NOTE]
+====
+@@elliptic_curves\nfcurves\6930290b338013e736bad6cf6bdb78b5\description@@
+
+
+====
+
+3115 records extended from base type
+
+* class_deg 
+* class_size 
+* isogeny_matrix 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@elliptic_curves\nfcurves\3d855cf68ec1ae17919e0641d516f1b3\name@@ ===
+
+[NOTE]
+====
+@@elliptic_curves\nfcurves\3d855cf68ec1ae17919e0641d516f1b3\description@@
+
+
+====
+
+3308 records extended from base type
+
+* analytic_rank 
+* galois_images 
+* gens 
+* isogeny_matrix 
+* ngens 
+* non-surjective_primes 
+* rank 
+* rank_bounds 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@elliptic_curves\nfcurves\fdd0578786f920896ef846ce336cf039\name@@ ===
+
+[NOTE]
+====
+@@elliptic_curves\nfcurves\fdd0578786f920896ef846ce336cf039\description@@
+
+
+====
+
+2015 records extended from base type
+
+* isogeny_matrix 
+
+
+
+****
+
+'''
+
+== Notes ==
+
+@@elliptic_curves\nfcurves\(NOTES)\description@@
+
