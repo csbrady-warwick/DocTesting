@@ -124,6 +124,33 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
+=== Gamma0 with character ===
+
+[NOTE]
+====
+@@modularforms2\dimension_table\b1aa1ac40670e9246eb96462a501a748\description@@
+
+
+====
+
+312477 records extended from base type
+
+* cchi 
+* character_orbit 
+* character_orbit_rep 
+* in_msdb 
+* in_wdb 
+* space_label 
+* space_orbit_label 
+
+
+
+****
+
+'''
+
+****
+[discrete]
 === @@modularforms2\dimension_table\9bd92621635f5e1eced5f38e19e10ef4\name@@ ===
 
 [NOTE]
@@ -152,24 +179,19 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
-=== Gamma0 with character ===
+=== Gamma1 ===
 
 [NOTE]
 ====
-@@modularforms2\dimension_table\b1aa1ac40670e9246eb96462a501a748\description@@
+@@modularforms2\dimension_table\8606c0cf9090be04a30d9adbf5564ce6\description@@
 
 
 ====
 
-312477 records extended from base type
+19706 records extended from base type
 
-* cchi 
-* character_orbit 
-* character_orbit_rep 
-* in_msdb 
-* in_wdb 
-* space_label 
-* space_orbit_label 
+* all_in_db 
+* gamma1_label 
 
 
 
@@ -193,28 +215,6 @@ Derived records are the record types that actually exist in the database.They ar
 * all_in_db 
 * gamma1_label 
 * one_in_wdb 
-
-
-
-****
-
-'''
-
-****
-[discrete]
-=== Gamma1 ===
-
-[NOTE]
-====
-@@modularforms2\dimension_table\8606c0cf9090be04a30d9adbf5564ce6\description@@
-
-
-====
-
-19706 records extended from base type
-
-* all_in_db 
-* gamma1_label 
 
 
 

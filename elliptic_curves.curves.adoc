@@ -239,6 +239,28 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
+=== @@elliptic_curves\curves\fd84750abcc8da359262aef4278cb3ca\name@@ ===
+
+[NOTE]
+====
+@@elliptic_curves\curves\fd84750abcc8da359262aef4278cb3ca\description@@
+
+
+====
+
+1082107 records extended from base type
+
+* anlist 
+* aplist 
+
+
+
+****
+
+'''
+
+****
+[discrete]
 === @@elliptic_curves\curves\e42aa731a3e271b4079d0b3c89caf9d2\name@@ ===
 
 [NOTE]
@@ -254,28 +276,6 @@ Derived records are the record types that actually exist in the database.They ar
 * aplist 
 * iwdata 
 * iwp0 
-
-
-
-****
-
-'''
-
-****
-[discrete]
-=== @@elliptic_curves\curves\fd84750abcc8da359262aef4278cb3ca\name@@ ===
-
-[NOTE]
-====
-@@elliptic_curves\curves\fd84750abcc8da359262aef4278cb3ca\description@@
-
-
-====
-
-1082107 records extended from base type
-
-* anlist 
-* aplist 
 
 
 

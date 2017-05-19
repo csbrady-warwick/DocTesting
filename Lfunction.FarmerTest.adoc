@@ -90,6 +90,24 @@ Unable to detect a base record class. Using undifferentiated.
 
 ****
 [discrete]
+=== @@Lfunction\FarmerTest\9d790153a569a5e77b8bc7e70334ae76\name@@ ===
+
+[NOTE]
+====
+2 records of type
+@@Lfunction\FarmerTest\9d790153a569a5e77b8bc7e70334ae76\description@@
+====
+
+* list 
+
+
+
+****
+
+'''
+
+****
+[discrete]
 === @@Lfunction\FarmerTest\3c1d536eaaf1a478a45640fa18161f91\name@@ ===
 
 [NOTE]
@@ -115,24 +133,6 @@ Unable to detect a base record class. Using undifferentiated.
 * self-dual 
 * signature 
 * symmetry 
-
-
-
-****
-
-'''
-
-****
-[discrete]
-=== @@Lfunction\FarmerTest\9d790153a569a5e77b8bc7e70334ae76\name@@ ===
-
-[NOTE]
-====
-2 records of type
-@@Lfunction\FarmerTest\9d790153a569a5e77b8bc7e70334ae76\description@@
-====
-
-* list 
 
 
 

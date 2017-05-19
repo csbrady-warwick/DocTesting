@@ -144,6 +144,28 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
+=== @@curve_automorphisms\passports\3d54259a918405cafa4843b1a88e1655\name@@ ===
+
+[NOTE]
+====
+@@curve_automorphisms\passports\3d54259a918405cafa4843b1a88e1655\description@@
+
+
+====
+
+22595 records extended from base type
+
+* cyclic_trigonal 
+* hyperelliptic 
+
+
+
+****
+
+'''
+
+****
+[discrete]
 === @@curve_automorphisms\passports\a2ccf5ff45b1ef2a9e10834e49b9907a\name@@ ===
 
 [NOTE]
@@ -167,18 +189,19 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
-=== @@curve_automorphisms\passports\3d54259a918405cafa4843b1a88e1655\name@@ ===
+=== @@curve_automorphisms\passports\609847b5fb1c243bca8a34e7cdaf5db2\name@@ ===
 
 [NOTE]
 ====
-@@curve_automorphisms\passports\3d54259a918405cafa4843b1a88e1655\description@@
+@@curve_automorphisms\passports\609847b5fb1c243bca8a34e7cdaf5db2\description@@
 
 
 ====
 
-22595 records extended from base type
+670 records extended from base type
 
 * cyclic_trigonal 
+* hyp_involution 
 * hyperelliptic 
 
 
@@ -202,29 +225,6 @@ Derived records are the record types that actually exist in the database.They ar
 
 * cinv 
 * cyclic_trigonal 
-* hyperelliptic 
-
-
-
-****
-
-'''
-
-****
-[discrete]
-=== @@curve_automorphisms\passports\609847b5fb1c243bca8a34e7cdaf5db2\name@@ ===
-
-[NOTE]
-====
-@@curve_automorphisms\passports\609847b5fb1c243bca8a34e7cdaf5db2\description@@
-
-
-====
-
-670 records extended from base type
-
-* cyclic_trigonal 
-* hyp_involution 
 * hyperelliptic 
 
 

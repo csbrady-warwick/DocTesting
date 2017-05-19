@@ -112,26 +112,6 @@ Unable to detect a base record class. Using undifferentiated.
 
 ****
 [discrete]
-=== @@Lfunction\LemurellMaassHighDegree\e4a6ecec6de69d5af005c6f4d131523a\name@@ ===
-
-[NOTE]
-====
-1 records of type
-@@Lfunction\LemurellMaassHighDegree\e4a6ecec6de69d5af005c6f4d131523a\description@@
-====
-
-* Other fields 
-* Required fields 
-* metadata 
-
-
-
-****
-
-'''
-
-****
-[discrete]
 === @@Lfunction\LemurellMaassHighDegree\cd19faddb6a8ce476d53d7dd11d81ea5\name@@ ===
 
 [NOTE]
@@ -166,6 +146,26 @@ Unable to detect a base record class. Using undifferentiated.
 * texnamecompleted1ms 
 * texnamecompleteds 
 * title 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@Lfunction\LemurellMaassHighDegree\e4a6ecec6de69d5af005c6f4d131523a\name@@ ===
+
+[NOTE]
+====
+1 records of type
+@@Lfunction\LemurellMaassHighDegree\e4a6ecec6de69d5af005c6f4d131523a\description@@
+====
+
+* Other fields 
+* Required fields 
+* metadata 
 
 
 

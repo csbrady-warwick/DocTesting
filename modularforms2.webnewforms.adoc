@@ -150,29 +150,6 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
-=== @@modularforms2\webnewforms\a57ec7d17cb6f08dba54d9b15b464a5d\name@@ ===
-
-[NOTE]
-====
-@@modularforms2\webnewforms\a57ec7d17cb6f08dba54d9b15b464a5d\description@@
-
-
-====
-
-653 records extended from base type
-
-* _coefficients 
-* prec 
-* sage_version 
-
-
-
-****
-
-'''
-
-****
-[discrete]
 === @@modularforms2\webnewforms\18e9403934aec2eaca13ff2a6d55ae81\name@@ ===
 
 [NOTE]
@@ -194,18 +171,19 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
-=== @@modularforms2\webnewforms\562d03d9019da669529795d0bc409004\name@@ ===
+=== @@modularforms2\webnewforms\a57ec7d17cb6f08dba54d9b15b464a5d\name@@ ===
 
 [NOTE]
 ====
-@@modularforms2\webnewforms\562d03d9019da669529795d0bc409004\description@@
+@@modularforms2\webnewforms\a57ec7d17cb6f08dba54d9b15b464a5d\description@@
 
 
 ====
 
-92 records extended from base type
+653 records extended from base type
 
 * _coefficients 
+* prec 
 * sage_version 
 
 
@@ -237,18 +215,18 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
-=== @@modularforms2\webnewforms\0cfdda5c16105dd13a49ad912cf90dc1\name@@ ===
+=== @@modularforms2\webnewforms\562d03d9019da669529795d0bc409004\name@@ ===
 
 [NOTE]
 ====
-@@modularforms2\webnewforms\0cfdda5c16105dd13a49ad912cf90dc1\description@@
+@@modularforms2\webnewforms\562d03d9019da669529795d0bc409004\description@@
 
 
 ====
 
-31 records extended from base type
+92 records extended from base type
 
-* prec 
+* _coefficients 
 * sage_version 
 
 
@@ -281,19 +259,17 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
-=== @@modularforms2\webnewforms\25b949eea7f7cc5419163a170e5fd063\name@@ ===
+=== @@modularforms2\webnewforms\0cfdda5c16105dd13a49ad912cf90dc1\name@@ ===
 
 [NOTE]
 ====
-@@modularforms2\webnewforms\25b949eea7f7cc5419163a170e5fd063\description@@
+@@modularforms2\webnewforms\0cfdda5c16105dd13a49ad912cf90dc1\description@@
 
 
 ====
 
-19 records extended from base type
+31 records extended from base type
 
-* _coefficients 
-* fix 
 * prec 
 * sage_version 
 
@@ -316,6 +292,30 @@ Derived records are the record types that actually exist in the database.They ar
 
 22 records extended from base type
 
+* fix 
+* prec 
+* sage_version 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@modularforms2\webnewforms\25b949eea7f7cc5419163a170e5fd063\name@@ ===
+
+[NOTE]
+====
+@@modularforms2\webnewforms\25b949eea7f7cc5419163a170e5fd063\description@@
+
+
+====
+
+19 records extended from base type
+
+* _coefficients 
 * fix 
 * prec 
 * sage_version 

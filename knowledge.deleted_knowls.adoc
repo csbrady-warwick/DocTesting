@@ -99,32 +99,6 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
-=== @@knowledge\deleted_knowls\2be97e74074a76fa84e525c84f7796fd\name@@ ===
-
-[NOTE]
-====
-@@knowledge\deleted_knowls\2be97e74074a76fa84e525c84f7796fd\description@@
-
-
-====
-
-36 records extended from base type
-
-* _keywords 
-* authors 
-* history 
-* last_author 
-* quality 
-* timestamp 
-
-
-
-****
-
-'''
-
-****
-[discrete]
 === @@knowledge\deleted_knowls\e84dd513fb551fc26d6131ce4f837320\name@@ ===
 
 [NOTE]
@@ -152,17 +126,18 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
-=== @@knowledge\deleted_knowls\6187552da9aeb148b07575c90c27454d\name@@ ===
+=== @@knowledge\deleted_knowls\2be97e74074a76fa84e525c84f7796fd\name@@ ===
 
 [NOTE]
 ====
-@@knowledge\deleted_knowls\6187552da9aeb148b07575c90c27454d\description@@
+@@knowledge\deleted_knowls\2be97e74074a76fa84e525c84f7796fd\description@@
 
 
 ====
 
-3 records extended from base type
+36 records extended from base type
 
+* _keywords 
 * authors 
 * history 
 * last_author 
@@ -191,6 +166,31 @@ Derived records are the record types that actually exist in the database.They ar
 * _keywords 
 * authors 
 * cat 
+* last_author 
+* quality 
+* timestamp 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@knowledge\deleted_knowls\6187552da9aeb148b07575c90c27454d\name@@ ===
+
+[NOTE]
+====
+@@knowledge\deleted_knowls\6187552da9aeb148b07575c90c27454d\description@@
+
+
+====
+
+3 records extended from base type
+
+* authors 
+* history 
 * last_author 
 * quality 
 * timestamp 

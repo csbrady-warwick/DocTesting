@@ -150,25 +150,116 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
-=== @@numberfields\old45\a9ee663f77423b0ebe37ed876218cd42\name@@ ===
+=== @@numberfields\old45\017b2205dbdaacd7229c89bd813aba67\name@@ ===
 
 [NOTE]
 ====
-@@numberfields\old45\a9ee663f77423b0ebe37ed876218cd42\description@@
+@@numberfields\old45\017b2205dbdaacd7229c89bd813aba67\description@@
 
 
 ====
 
-1 records extended from base type
+1515130 records extended from base type
 
 * class_group 
 * class_number 
 * ramps_all 
-* reg 
-* res 
+* subs 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\old45\3f40d01f1d6892eb7465ddbc6653c4d7\name@@ ===
+
+[NOTE]
+====
+@@numberfields\old45\3f40d01f1d6892eb7465ddbc6653c4d7\description@@
+
+
+====
+
+1280644 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\old45\207e37a724e069a8e044d785febf6a16\name@@ ===
+
+[NOTE]
+====
+@@numberfields\old45\207e37a724e069a8e044d785febf6a16\description@@
+
+
+====
+
+1230118 records extended from base type
+
+* class_group 
+* class_number 
+* subs 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\old45\9524134b429c8cf4cacf7347204ca392\name@@ ===
+
+[NOTE]
+====
+@@numberfields\old45\9524134b429c8cf4cacf7347204ca392\description@@
+
+
+====
+
+910318 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
 * subfields 
 * subs 
-* units 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\old45\e9daa779c638f5617d4692331a9a9012\name@@ ===
+
+[NOTE]
+====
+@@numberfields\old45\e9daa779c638f5617d4692331a9a9012\description@@
+
+
+====
+
+715343 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* res 
 * unitsGmodule 
 
 
@@ -179,22 +270,353 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
-=== @@numberfields\old45\56d233c81272aac6656b1aca5debc850\name@@ ===
+=== @@numberfields\old45\49637eafb58432e1b15a35ef2002d73d\name@@ ===
 
 [NOTE]
 ====
-@@numberfields\old45\56d233c81272aac6656b1aca5debc850\description@@
+@@numberfields\old45\49637eafb58432e1b15a35ef2002d73d\description@@
 
 
 ====
 
-4575 records extended from base type
+186165 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* res 
+* subs 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\old45\44365a67b6b62c17514b3c3fb71af8b6\name@@ ===
+
+[NOTE]
+====
+@@numberfields\old45\44365a67b6b62c17514b3c3fb71af8b6\description@@
+
+
+====
+
+169464 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* reg 
+* subs 
+* units 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\old45\44b81d734e94ca3411349025e83baccc\name@@ ===
+
+[NOTE]
+====
+@@numberfields\old45\44b81d734e94ca3411349025e83baccc\description@@
+
+
+====
+
+157366 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* res 
+* subfields 
+* subs 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\old45\7d9b542b13f6acd58a6ed062b9ed2a87\name@@ ===
+
+[NOTE]
+====
+@@numberfields\old45\7d9b542b13f6acd58a6ed062b9ed2a87\description@@
+
+
+====
+
+143965 records extended from base type
+
+* class_group 
+* class_number 
+* res 
+* subs 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\old45\bb1c4e5ed29426ee4def7eb0b757328f\name@@ ===
+
+[NOTE]
+====
+@@numberfields\old45\bb1c4e5ed29426ee4def7eb0b757328f\description@@
+
+
+====
+
+139706 records extended from base type
 
 * class_group 
 * class_number 
 * ramps_all 
 * reg 
 * res 
+* subs 
+* units 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\old45\20ecb48a62377539ee1ba4aed3b33e0c\name@@ ===
+
+[NOTE]
+====
+@@numberfields\old45\20ecb48a62377539ee1ba4aed3b33e0c\description@@
+
+
+====
+
+101890 records extended from base type
+
+* class_group 
+* class_number 
+* reg 
+* subs 
+* units 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\old45\c03a875d72679e5fea39cf53c3c1e542\name@@ ===
+
+[NOTE]
+====
+@@numberfields\old45\c03a875d72679e5fea39cf53c3c1e542\description@@
+
+
+====
+
+98088 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* reg 
+* subs 
+* units 
+* used_grh 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\old45\a69a10d6b7d3404e29b6787775160730\name@@ ===
+
+[NOTE]
+====
+@@numberfields\old45\a69a10d6b7d3404e29b6787775160730\description@@
+
+
+====
+
+86106 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* res 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\old45\3008f9bc5a9c4382b3beb4d0f8185c25\name@@ ===
+
+[NOTE]
+====
+@@numberfields\old45\3008f9bc5a9c4382b3beb4d0f8185c25\description@@
+
+
+====
+
+65285 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* reg 
+* res 
+* subfields 
+* subs 
+* units 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\old45\2cad46b62b16cea2f4ad3c96b64740fc\name@@ ===
+
+[NOTE]
+====
+@@numberfields\old45\2cad46b62b16cea2f4ad3c96b64740fc\description@@
+
+
+====
+
+52381 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* res 
+* subfields 
+* unitsGmodule 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\old45\9cd914dd7ce8e31107a5ec4855fd85a7\name@@ ===
+
+[NOTE]
+====
+@@numberfields\old45\9cd914dd7ce8e31107a5ec4855fd85a7\description@@
+
+
+====
+
+44987 records extended from base type
+
+* class_group 
+* class_number 
+* reg 
+* subs 
+* units 
+* used_grh 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\old45\e388a5eb70e545310fb260fbfc314c10\name@@ ===
+
+[NOTE]
+====
+@@numberfields\old45\e388a5eb70e545310fb260fbfc314c10\description@@
+
+
+====
+
+15912 records extended from base type
+
+* class_group 
+* class_number 
+* reg 
+* res 
+* subs 
+* units 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\old45\a7efeefb0cde1a3f07b1bc46d2f3f269\name@@ ===
+
+[NOTE]
+====
+@@numberfields\old45\a7efeefb0cde1a3f07b1bc46d2f3f269\description@@
+
+
+====
+
+13212 records extended from base type
+
+* subs 
+* used_grh 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\old45\05166534c373c776b82cb3033a4c2d98\name@@ ===
+
+[NOTE]
+====
+@@numberfields\old45\05166534c373c776b82cb3033a4c2d98\description@@
+
+
+====
+
+12757 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* reg 
 * subfields 
 * subs 
 * units 
@@ -208,16 +630,16 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
-=== @@numberfields\old45\d5bc07169ed018dcf724612da721710b\name@@ ===
+=== @@numberfields\old45\cc4fbb825fb3e935e5a4048257a80825\name@@ ===
 
 [NOTE]
 ====
-@@numberfields\old45\d5bc07169ed018dcf724612da721710b\description@@
+@@numberfields\old45\cc4fbb825fb3e935e5a4048257a80825\description@@
 
 
 ====
 
-3842 records extended from base type
+10506 records extended from base type
 
 * class_group 
 * class_number 
@@ -225,56 +647,6 @@ Derived records are the record types that actually exist in the database.They ar
 * reg 
 * res 
 * units 
-* unitsGmodule 
-
-
-
-****
-
-'''
-
-****
-[discrete]
-=== @@numberfields\old45\a7333152982025f09650863257a046b3\name@@ ===
-
-[NOTE]
-====
-@@numberfields\old45\a7333152982025f09650863257a046b3\description@@
-
-
-====
-
-1091 records extended from base type
-
-* class_group 
-* class_number 
-* ramps_all 
-* reg 
-* units 
-* used_grh 
-
-
-
-****
-
-'''
-
-****
-[discrete]
-=== @@numberfields\old45\218a4011644e2f503d1127ccd4e39199\name@@ ===
-
-[NOTE]
-====
-@@numberfields\old45\218a4011644e2f503d1127ccd4e39199\description@@
-
-
-====
-
-817 records extended from base type
-
-* ramps_all 
-* subs 
-* used_grh 
 
 
 
@@ -390,6 +762,111 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
+=== @@numberfields\old45\56d233c81272aac6656b1aca5debc850\name@@ ===
+
+[NOTE]
+====
+@@numberfields\old45\56d233c81272aac6656b1aca5debc850\description@@
+
+
+====
+
+4575 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* reg 
+* res 
+* subfields 
+* subs 
+* units 
+* used_grh 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\old45\d5bc07169ed018dcf724612da721710b\name@@ ===
+
+[NOTE]
+====
+@@numberfields\old45\d5bc07169ed018dcf724612da721710b\description@@
+
+
+====
+
+3842 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* reg 
+* res 
+* units 
+* unitsGmodule 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\old45\a7333152982025f09650863257a046b3\name@@ ===
+
+[NOTE]
+====
+@@numberfields\old45\a7333152982025f09650863257a046b3\description@@
+
+
+====
+
+1091 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* reg 
+* units 
+* used_grh 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\old45\218a4011644e2f503d1127ccd4e39199\name@@ ===
+
+[NOTE]
+====
+@@numberfields\old45\218a4011644e2f503d1127ccd4e39199\description@@
+
+
+====
+
+817 records extended from base type
+
+* ramps_all 
+* subs 
+* used_grh 
+
+
+
+****
+
+'''
+
+****
+[discrete]
 === @@numberfields\old45\4c21f10647f501175d67682a0f58731e\name@@ ===
 
 [NOTE]
@@ -434,6 +911,252 @@ Derived records are the record types that actually exist in the database.They ar
 * ramps_all 
 * subfields 
 * subs 
+* unitsGmodule 
+* unitsType 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\old45\7b28d6004a913bb9244c4abf1ee2b0cd\name@@ ===
+
+[NOTE]
+====
+@@numberfields\old45\7b28d6004a913bb9244c4abf1ee2b0cd\description@@
+
+
+====
+
+284 records extended from base type
+
+* class_group 
+* class_number 
+* reg 
+* res 
+* subs 
+* units 
+* used_grh 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\old45\9e4fbd45440d686650e84ae604a6cfa7\name@@ ===
+
+[NOTE]
+====
+@@numberfields\old45\9e4fbd45440d686650e84ae604a6cfa7\description@@
+
+
+====
+
+247 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* reg 
+* units 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\old45\8d1127b2e27325210c05f13c14b57790\name@@ ===
+
+[NOTE]
+====
+@@numberfields\old45\8d1127b2e27325210c05f13c14b57790\description@@
+
+
+====
+
+197 records extended from base type
+
+* ramps_all 
+* res 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\old45\8a806a06a995991be9d52ccd49f4e3f7\name@@ ===
+
+[NOTE]
+====
+@@numberfields\old45\8a806a06a995991be9d52ccd49f4e3f7\description@@
+
+
+====
+
+91 records extended from base type
+
+* res 
+* subs 
+* used_grh 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\old45\5ce039004faa33363e7770009c251ca6\name@@ ===
+
+[NOTE]
+====
+@@numberfields\old45\5ce039004faa33363e7770009c251ca6\description@@
+
+
+====
+
+70 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* res 
+* subfields 
+* subs 
+* unitsGmodule 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\old45\d85d9671762f5808804909214ec79a58\name@@ ===
+
+[NOTE]
+====
+@@numberfields\old45\d85d9671762f5808804909214ec79a58\description@@
+
+
+====
+
+67 records extended from base type
+
+* ramps_all 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\old45\8f74fe81db54d1435a35193e6c5b349c\name@@ ===
+
+[NOTE]
+====
+@@numberfields\old45\8f74fe81db54d1435a35193e6c5b349c\description@@
+
+
+====
+
+39 records extended from base type
+
+* ramps_all 
+* res 
+* subs 
+* used_grh 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\old45\f2d00de127f168f02432324d9037a003\name@@ ===
+
+[NOTE]
+====
+@@numberfields\old45\f2d00de127f168f02432324d9037a003\description@@
+
+
+====
+
+33 records extended from base type
+
+* ramps_all 
+* subfields 
+* subs 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\old45\dd1ec06c6ac9c3116495f1841df0957e\name@@ ===
+
+[NOTE]
+====
+@@numberfields\old45\dd1ec06c6ac9c3116495f1841df0957e\description@@
+
+
+====
+
+5 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* subs 
+* used_grh 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@numberfields\old45\394368419c31faaab92dfd52318841f7\name@@ ===
+
+[NOTE]
+====
+@@numberfields\old45\394368419c31faaab92dfd52318841f7\description@@
+
+
+====
+
+3 records extended from base type
+
+* class_group 
+* class_number 
+* ramps_all 
+* reg 
+* subfields 
+* subs 
+* units 
 * unitsGmodule 
 * unitsType 
 
@@ -493,749 +1216,26 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
-=== @@numberfields\old45\3f40d01f1d6892eb7465ddbc6653c4d7\name@@ ===
+=== @@numberfields\old45\a9ee663f77423b0ebe37ed876218cd42\name@@ ===
 
 [NOTE]
 ====
-@@numberfields\old45\3f40d01f1d6892eb7465ddbc6653c4d7\description@@
+@@numberfields\old45\a9ee663f77423b0ebe37ed876218cd42\description@@
 
 
 ====
 
-1280644 records extended from base type
-
-* class_group 
-* class_number 
-* ramps_all 
-
-
-
-****
-
-'''
-
-****
-[discrete]
-=== @@numberfields\old45\017b2205dbdaacd7229c89bd813aba67\name@@ ===
-
-[NOTE]
-====
-@@numberfields\old45\017b2205dbdaacd7229c89bd813aba67\description@@
-
-
-====
-
-1515130 records extended from base type
-
-* class_group 
-* class_number 
-* ramps_all 
-* subs 
-
-
-
-****
-
-'''
-
-****
-[discrete]
-=== @@numberfields\old45\9524134b429c8cf4cacf7347204ca392\name@@ ===
-
-[NOTE]
-====
-@@numberfields\old45\9524134b429c8cf4cacf7347204ca392\description@@
-
-
-====
-
-910318 records extended from base type
-
-* class_group 
-* class_number 
-* ramps_all 
-* subfields 
-* subs 
-
-
-
-****
-
-'''
-
-****
-[discrete]
-=== @@numberfields\old45\207e37a724e069a8e044d785febf6a16\name@@ ===
-
-[NOTE]
-====
-@@numberfields\old45\207e37a724e069a8e044d785febf6a16\description@@
-
-
-====
-
-1230118 records extended from base type
-
-* class_group 
-* class_number 
-* subs 
-
-
-
-****
-
-'''
-
-****
-[discrete]
-=== @@numberfields\old45\49637eafb58432e1b15a35ef2002d73d\name@@ ===
-
-[NOTE]
-====
-@@numberfields\old45\49637eafb58432e1b15a35ef2002d73d\description@@
-
-
-====
-
-186165 records extended from base type
-
-* class_group 
-* class_number 
-* ramps_all 
-* res 
-* subs 
-
-
-
-****
-
-'''
-
-****
-[discrete]
-=== @@numberfields\old45\e9daa779c638f5617d4692331a9a9012\name@@ ===
-
-[NOTE]
-====
-@@numberfields\old45\e9daa779c638f5617d4692331a9a9012\description@@
-
-
-====
-
-715343 records extended from base type
-
-* class_group 
-* class_number 
-* ramps_all 
-* res 
-* unitsGmodule 
-
-
-
-****
-
-'''
-
-****
-[discrete]
-=== @@numberfields\old45\44b81d734e94ca3411349025e83baccc\name@@ ===
-
-[NOTE]
-====
-@@numberfields\old45\44b81d734e94ca3411349025e83baccc\description@@
-
-
-====
-
-157366 records extended from base type
-
-* class_group 
-* class_number 
-* ramps_all 
-* res 
-* subfields 
-* subs 
-
-
-
-****
-
-'''
-
-****
-[discrete]
-=== @@numberfields\old45\44365a67b6b62c17514b3c3fb71af8b6\name@@ ===
-
-[NOTE]
-====
-@@numberfields\old45\44365a67b6b62c17514b3c3fb71af8b6\description@@
-
-
-====
-
-169464 records extended from base type
-
-* class_group 
-* class_number 
-* ramps_all 
-* reg 
-* subs 
-* units 
-
-
-
-****
-
-'''
-
-****
-[discrete]
-=== @@numberfields\old45\bb1c4e5ed29426ee4def7eb0b757328f\name@@ ===
-
-[NOTE]
-====
-@@numberfields\old45\bb1c4e5ed29426ee4def7eb0b757328f\description@@
-
-
-====
-
-139706 records extended from base type
+1 records extended from base type
 
 * class_group 
 * class_number 
 * ramps_all 
 * reg 
 * res 
-* subs 
-* units 
-
-
-
-****
-
-'''
-
-****
-[discrete]
-=== @@numberfields\old45\7d9b542b13f6acd58a6ed062b9ed2a87\name@@ ===
-
-[NOTE]
-====
-@@numberfields\old45\7d9b542b13f6acd58a6ed062b9ed2a87\description@@
-
-
-====
-
-143965 records extended from base type
-
-* class_group 
-* class_number 
-* res 
-* subs 
-
-
-
-****
-
-'''
-
-****
-[discrete]
-=== @@numberfields\old45\394368419c31faaab92dfd52318841f7\name@@ ===
-
-[NOTE]
-====
-@@numberfields\old45\394368419c31faaab92dfd52318841f7\description@@
-
-
-====
-
-3 records extended from base type
-
-* class_group 
-* class_number 
-* ramps_all 
-* reg 
 * subfields 
 * subs 
 * units 
 * unitsGmodule 
-* unitsType 
-
-
-
-****
-
-'''
-
-****
-[discrete]
-=== @@numberfields\old45\dd1ec06c6ac9c3116495f1841df0957e\name@@ ===
-
-[NOTE]
-====
-@@numberfields\old45\dd1ec06c6ac9c3116495f1841df0957e\description@@
-
-
-====
-
-5 records extended from base type
-
-* class_group 
-* class_number 
-* ramps_all 
-* subs 
-* used_grh 
-
-
-
-****
-
-'''
-
-****
-[discrete]
-=== @@numberfields\old45\c03a875d72679e5fea39cf53c3c1e542\name@@ ===
-
-[NOTE]
-====
-@@numberfields\old45\c03a875d72679e5fea39cf53c3c1e542\description@@
-
-
-====
-
-98088 records extended from base type
-
-* class_group 
-* class_number 
-* ramps_all 
-* reg 
-* subs 
-* units 
-* used_grh 
-
-
-
-****
-
-'''
-
-****
-[discrete]
-=== @@numberfields\old45\20ecb48a62377539ee1ba4aed3b33e0c\name@@ ===
-
-[NOTE]
-====
-@@numberfields\old45\20ecb48a62377539ee1ba4aed3b33e0c\description@@
-
-
-====
-
-101890 records extended from base type
-
-* class_group 
-* class_number 
-* reg 
-* subs 
-* units 
-
-
-
-****
-
-'''
-
-****
-[discrete]
-=== @@numberfields\old45\3008f9bc5a9c4382b3beb4d0f8185c25\name@@ ===
-
-[NOTE]
-====
-@@numberfields\old45\3008f9bc5a9c4382b3beb4d0f8185c25\description@@
-
-
-====
-
-65285 records extended from base type
-
-* class_group 
-* class_number 
-* ramps_all 
-* reg 
-* res 
-* subfields 
-* subs 
-* units 
-
-
-
-****
-
-'''
-
-****
-[discrete]
-=== @@numberfields\old45\a69a10d6b7d3404e29b6787775160730\name@@ ===
-
-[NOTE]
-====
-@@numberfields\old45\a69a10d6b7d3404e29b6787775160730\description@@
-
-
-====
-
-86106 records extended from base type
-
-* class_group 
-* class_number 
-* ramps_all 
-* res 
-
-
-
-****
-
-'''
-
-****
-[discrete]
-=== @@numberfields\old45\9cd914dd7ce8e31107a5ec4855fd85a7\name@@ ===
-
-[NOTE]
-====
-@@numberfields\old45\9cd914dd7ce8e31107a5ec4855fd85a7\description@@
-
-
-====
-
-44987 records extended from base type
-
-* class_group 
-* class_number 
-* reg 
-* subs 
-* units 
-* used_grh 
-
-
-
-****
-
-'''
-
-****
-[discrete]
-=== @@numberfields\old45\2cad46b62b16cea2f4ad3c96b64740fc\name@@ ===
-
-[NOTE]
-====
-@@numberfields\old45\2cad46b62b16cea2f4ad3c96b64740fc\description@@
-
-
-====
-
-52381 records extended from base type
-
-* class_group 
-* class_number 
-* ramps_all 
-* res 
-* subfields 
-* unitsGmodule 
-
-
-
-****
-
-'''
-
-****
-[discrete]
-=== @@numberfields\old45\a7efeefb0cde1a3f07b1bc46d2f3f269\name@@ ===
-
-[NOTE]
-====
-@@numberfields\old45\a7efeefb0cde1a3f07b1bc46d2f3f269\description@@
-
-
-====
-
-13212 records extended from base type
-
-* subs 
-* used_grh 
-
-
-
-****
-
-'''
-
-****
-[discrete]
-=== @@numberfields\old45\e388a5eb70e545310fb260fbfc314c10\name@@ ===
-
-[NOTE]
-====
-@@numberfields\old45\e388a5eb70e545310fb260fbfc314c10\description@@
-
-
-====
-
-15912 records extended from base type
-
-* class_group 
-* class_number 
-* reg 
-* res 
-* subs 
-* units 
-
-
-
-****
-
-'''
-
-****
-[discrete]
-=== @@numberfields\old45\cc4fbb825fb3e935e5a4048257a80825\name@@ ===
-
-[NOTE]
-====
-@@numberfields\old45\cc4fbb825fb3e935e5a4048257a80825\description@@
-
-
-====
-
-10506 records extended from base type
-
-* class_group 
-* class_number 
-* ramps_all 
-* reg 
-* res 
-* units 
-
-
-
-****
-
-'''
-
-****
-[discrete]
-=== @@numberfields\old45\05166534c373c776b82cb3033a4c2d98\name@@ ===
-
-[NOTE]
-====
-@@numberfields\old45\05166534c373c776b82cb3033a4c2d98\description@@
-
-
-====
-
-12757 records extended from base type
-
-* class_group 
-* class_number 
-* ramps_all 
-* reg 
-* subfields 
-* subs 
-* units 
-* used_grh 
-
-
-
-****
-
-'''
-
-****
-[discrete]
-=== @@numberfields\old45\9e4fbd45440d686650e84ae604a6cfa7\name@@ ===
-
-[NOTE]
-====
-@@numberfields\old45\9e4fbd45440d686650e84ae604a6cfa7\description@@
-
-
-====
-
-247 records extended from base type
-
-* class_group 
-* class_number 
-* ramps_all 
-* reg 
-* units 
-
-
-
-****
-
-'''
-
-****
-[discrete]
-=== @@numberfields\old45\7b28d6004a913bb9244c4abf1ee2b0cd\name@@ ===
-
-[NOTE]
-====
-@@numberfields\old45\7b28d6004a913bb9244c4abf1ee2b0cd\description@@
-
-
-====
-
-284 records extended from base type
-
-* class_group 
-* class_number 
-* reg 
-* res 
-* subs 
-* units 
-* used_grh 
-
-
-
-****
-
-'''
-
-****
-[discrete]
-=== @@numberfields\old45\f2d00de127f168f02432324d9037a003\name@@ ===
-
-[NOTE]
-====
-@@numberfields\old45\f2d00de127f168f02432324d9037a003\description@@
-
-
-====
-
-33 records extended from base type
-
-* ramps_all 
-* subfields 
-* subs 
-
-
-
-****
-
-'''
-
-****
-[discrete]
-=== @@numberfields\old45\8f74fe81db54d1435a35193e6c5b349c\name@@ ===
-
-[NOTE]
-====
-@@numberfields\old45\8f74fe81db54d1435a35193e6c5b349c\description@@
-
-
-====
-
-39 records extended from base type
-
-* ramps_all 
-* res 
-* subs 
-* used_grh 
-
-
-
-****
-
-'''
-
-****
-[discrete]
-=== @@numberfields\old45\d85d9671762f5808804909214ec79a58\name@@ ===
-
-[NOTE]
-====
-@@numberfields\old45\d85d9671762f5808804909214ec79a58\description@@
-
-
-====
-
-67 records extended from base type
-
-* ramps_all 
-
-
-
-****
-
-'''
-
-****
-[discrete]
-=== @@numberfields\old45\5ce039004faa33363e7770009c251ca6\name@@ ===
-
-[NOTE]
-====
-@@numberfields\old45\5ce039004faa33363e7770009c251ca6\description@@
-
-
-====
-
-70 records extended from base type
-
-* class_group 
-* class_number 
-* ramps_all 
-* res 
-* subfields 
-* subs 
-* unitsGmodule 
-
-
-
-****
-
-'''
-
-****
-[discrete]
-=== @@numberfields\old45\8a806a06a995991be9d52ccd49f4e3f7\name@@ ===
-
-[NOTE]
-====
-@@numberfields\old45\8a806a06a995991be9d52ccd49f4e3f7\description@@
-
-
-====
-
-91 records extended from base type
-
-* res 
-* subs 
-* used_grh 
-
-
-
-****
-
-'''
-
-****
-[discrete]
-=== @@numberfields\old45\8d1127b2e27325210c05f13c14b57790\name@@ ===
-
-[NOTE]
-====
-@@numberfields\old45\8d1127b2e27325210c05f13c14b57790\description@@
-
-
-====
-
-197 records extended from base type
-
-* ramps_all 
-* res 
 
 
 

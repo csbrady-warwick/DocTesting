@@ -146,30 +146,6 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
-=== "ev" (eigenvalue) records ===
-
-[NOTE]
-====
-These records have their *data_type* field set to "ev"
-
-
-====
-
-3094 records extended from base type
-
-* data 
-* ev_index 
-* index 
-* owner_id 
-
-
-
-****
-
-'''
-
-****
-[discrete]
 === "fc" (Fourier coefficient) records ===
 
 [NOTE]
@@ -194,31 +170,21 @@ These records have their *data_type* field set to "fc"
 
 ****
 [discrete]
-=== "sample" records ===
+=== "ev" (eigenvalue) records ===
 
 [NOTE]
 ====
-These records have their *data_type* field set to "sample"
+These records have their *data_type* field set to "ev"
 
 
 ====
 
-24 records extended from base type
+3094 records extended from base type
 
-* collection 
-* courtesy_of 
-* deg 
-* degree 
-* degree_of_field 
-* fdeg 
-* field 
-* field_poly 
-* is_eigenform 
-* name 
-* representation 
-* type 
-* weight 
-* wt 
+* data 
+* ev_index 
+* index 
+* owner_id 
 
 
 
@@ -250,6 +216,40 @@ These records have their *data_type* field set to "sample"
 * field_poly 
 * is_eigenform 
 * is_integral 
+* name 
+* representation 
+* type 
+* weight 
+* wt 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== "sample" records ===
+
+[NOTE]
+====
+These records have their *data_type* field set to "sample"
+
+
+====
+
+24 records extended from base type
+
+* collection 
+* courtesy_of 
+* deg 
+* degree 
+* degree_of_field 
+* fdeg 
+* field 
+* field_poly 
+* is_eigenform 
 * name 
 * representation 
 * type 

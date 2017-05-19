@@ -192,48 +192,19 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
-=== @@elliptic_curves\nfcurves\fd29766129cdad99950eb8ebc4226c2b\name@@ ===
+=== @@elliptic_curves\nfcurves\63ec6350b70d4429f35c4cbe833a7344\name@@ ===
 
 [NOTE]
 ====
-@@elliptic_curves\nfcurves\fd29766129cdad99950eb8ebc4226c2b\description@@
+@@elliptic_curves\nfcurves\63ec6350b70d4429f35c4cbe833a7344\description@@
 
 
 ====
 
-11 records extended from base type
+155116 records extended from base type
 
 * galois_images 
-* gens 
-* isogeny_matrix 
-* ngens 
 * non-surjective_primes 
-* rank_bounds 
-
-
-
-****
-
-'''
-
-****
-[discrete]
-=== @@elliptic_curves\nfcurves\ea032cd69189e34c04a7f36d095ba295\name@@ ===
-
-[NOTE]
-====
-@@elliptic_curves\nfcurves\ea032cd69189e34c04a7f36d095ba295\description@@
-
-
-====
-
-26 records extended from base type
-
-* galois_images 
-* gens 
-* ngens 
-* non-surjective_primes 
-* rank_bounds 
 
 
 
@@ -266,19 +237,23 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
-=== @@elliptic_curves\nfcurves\63ec6350b70d4429f35c4cbe833a7344\name@@ ===
+=== @@elliptic_curves\nfcurves\64927ee826e87718be3963bd66346266\name@@ ===
 
 [NOTE]
 ====
-@@elliptic_curves\nfcurves\63ec6350b70d4429f35c4cbe833a7344\description@@
+@@elliptic_curves\nfcurves\64927ee826e87718be3963bd66346266\description@@
 
 
 ====
 
-155116 records extended from base type
+39283 records extended from base type
 
 * galois_images 
+* gens 
+* ngens 
 * non-surjective_primes 
+* rank 
+* rank_bounds 
 
 
 
@@ -315,17 +290,18 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
-=== @@elliptic_curves\nfcurves\64927ee826e87718be3963bd66346266\name@@ ===
+=== @@elliptic_curves\nfcurves\09cd17e7dc9b8d60742476edb5342946\name@@ ===
 
 [NOTE]
 ====
-@@elliptic_curves\nfcurves\64927ee826e87718be3963bd66346266\description@@
+@@elliptic_curves\nfcurves\09cd17e7dc9b8d60742476edb5342946\description@@
 
 
 ====
 
-39283 records extended from base type
+4444 records extended from base type
 
+* analytic_rank 
 * galois_images 
 * gens 
 * ngens 
@@ -363,20 +339,21 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
-=== @@elliptic_curves\nfcurves\09cd17e7dc9b8d60742476edb5342946\name@@ ===
+=== @@elliptic_curves\nfcurves\3d855cf68ec1ae17919e0641d516f1b3\name@@ ===
 
 [NOTE]
 ====
-@@elliptic_curves\nfcurves\09cd17e7dc9b8d60742476edb5342946\description@@
+@@elliptic_curves\nfcurves\3d855cf68ec1ae17919e0641d516f1b3\description@@
 
 
 ====
 
-4444 records extended from base type
+3308 records extended from base type
 
 * analytic_rank 
 * galois_images 
 * gens 
+* isogeny_matrix 
 * ngens 
 * non-surjective_primes 
 * rank 
@@ -413,34 +390,6 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
-=== @@elliptic_curves\nfcurves\3d855cf68ec1ae17919e0641d516f1b3\name@@ ===
-
-[NOTE]
-====
-@@elliptic_curves\nfcurves\3d855cf68ec1ae17919e0641d516f1b3\description@@
-
-
-====
-
-3308 records extended from base type
-
-* analytic_rank 
-* galois_images 
-* gens 
-* isogeny_matrix 
-* ngens 
-* non-surjective_primes 
-* rank 
-* rank_bounds 
-
-
-
-****
-
-'''
-
-****
-[discrete]
 === @@elliptic_curves\nfcurves\fdd0578786f920896ef846ce336cf039\name@@ ===
 
 [NOTE]
@@ -453,6 +402,57 @@ Derived records are the record types that actually exist in the database.They ar
 2015 records extended from base type
 
 * isogeny_matrix 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@elliptic_curves\nfcurves\ea032cd69189e34c04a7f36d095ba295\name@@ ===
+
+[NOTE]
+====
+@@elliptic_curves\nfcurves\ea032cd69189e34c04a7f36d095ba295\description@@
+
+
+====
+
+26 records extended from base type
+
+* galois_images 
+* gens 
+* ngens 
+* non-surjective_primes 
+* rank_bounds 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@elliptic_curves\nfcurves\fd29766129cdad99950eb8ebc4226c2b\name@@ ===
+
+[NOTE]
+====
+@@elliptic_curves\nfcurves\fd29766129cdad99950eb8ebc4226c2b\description@@
+
+
+====
+
+11 records extended from base type
+
+* galois_images 
+* gens 
+* isogeny_matrix 
+* ngens 
+* non-surjective_primes 
+* rank_bounds 
 
 
 

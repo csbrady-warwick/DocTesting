@@ -145,6 +145,34 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
+=== @@MaassWaveForms\FS\7eb2c46def9082016e51efb821b7e71b\name@@ ===
+
+[NOTE]
+====
+@@MaassWaveForms\FS\7eb2c46def9082016e51efb821b7e71b\description@@
+
+
+====
+
+14772 records extended from base type
+
+* Coefficient 
+* Conrey 
+* Fricke 
+* ObjectLabel 
+* ObjectUrl 
+* Precision 
+* Sign 
+* software 
+
+
+
+****
+
+'''
+
+****
+[discrete]
 === @@MaassWaveForms\FS\e40446fa3ccf6e73847e49be5775ddd7\name@@ ===
 
 [NOTE]
@@ -174,25 +202,25 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
-=== @@MaassWaveForms\FS\7eb2c46def9082016e51efb821b7e71b\name@@ ===
+=== @@MaassWaveForms\FS\82a45185b6aebd408cd336381c85df53\name@@ ===
 
 [NOTE]
 ====
-@@MaassWaveForms\FS\7eb2c46def9082016e51efb821b7e71b\description@@
+@@MaassWaveForms\FS\82a45185b6aebd408cd336381c85df53\description@@
 
 
 ====
 
-14772 records extended from base type
+383 records extended from base type
 
-* Coefficient 
 * Conrey 
-* Fricke 
-* ObjectLabel 
-* ObjectUrl 
-* Precision 
-* Sign 
-* software 
+* Cusp_evs 
+* Dim 
+* Error 
+* M0 
+* Y 
+* coeff_id 
+* date 
 
 
 
@@ -233,25 +261,25 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
-=== @@MaassWaveForms\FS\82a45185b6aebd408cd336381c85df53\name@@ ===
+=== @@MaassWaveForms\FS\c5d8e9ccf2a1de473d8fefe9771fae9d\name@@ ===
 
 [NOTE]
 ====
-@@MaassWaveForms\FS\82a45185b6aebd408cd336381c85df53\description@@
+@@MaassWaveForms\FS\c5d8e9ccf2a1de473d8fefe9771fae9d\description@@
 
 
 ====
 
-383 records extended from base type
+48 records extended from base type
 
+* Coefficient 
 * Conrey 
-* Cusp_evs 
-* Dim 
 * Error 
-* M0 
-* Y 
-* coeff_id 
-* date 
+* Fricke 
+* ObjectLabel 
+* ObjectUrl 
+* Sign 
+* software 
 
 
 
@@ -288,25 +316,26 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
-=== @@MaassWaveForms\FS\c5d8e9ccf2a1de473d8fefe9771fae9d\name@@ ===
+=== @@MaassWaveForms\FS\dea3dc7ef5b05b6b2e4dda3db026f209\name@@ ===
 
 [NOTE]
 ====
-@@MaassWaveForms\FS\c5d8e9ccf2a1de473d8fefe9771fae9d\description@@
+@@MaassWaveForms\FS\dea3dc7ef5b05b6b2e4dda3db026f209\description@@
 
 
 ====
 
-48 records extended from base type
+12 records extended from base type
 
-* Coefficient 
 * Conrey 
+* Cusp_evs 
+* Dim 
 * Error 
-* Fricke 
-* ObjectLabel 
-* ObjectUrl 
-* Sign 
-* software 
+* M0 
+* Newform 
+* Y 
+* coeff_id 
+* date 
 
 
 
@@ -337,35 +366,6 @@ Derived records are the record types that actually exist in the database.They ar
 * coeff_id 
 * date 
 * dim 
-
-
-
-****
-
-'''
-
-****
-[discrete]
-=== @@MaassWaveForms\FS\dea3dc7ef5b05b6b2e4dda3db026f209\name@@ ===
-
-[NOTE]
-====
-@@MaassWaveForms\FS\dea3dc7ef5b05b6b2e4dda3db026f209\description@@
-
-
-====
-
-12 records extended from base type
-
-* Conrey 
-* Cusp_evs 
-* Dim 
-* Error 
-* M0 
-* Newform 
-* Y 
-* coeff_id 
-* date 
 
 
 

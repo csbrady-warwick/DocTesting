@@ -234,38 +234,6 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
-=== @@Lfunctions\Lfunctions\b1857defefa3384fa239fe6973fa57c0\name@@ ===
-
-[NOTE]
-====
-@@Lfunctions\Lfunctions\b1857defefa3384fa239fe6973fa57c0\description@@
-
-
-====
-
-1741002 records extended from base type
-
-* A10 
-* A2 
-* A3 
-* A4 
-* A5 
-* A6 
-* A7 
-* A8 
-* A9 
-* coefficient_field 
-* leading_term 
-* load_key 
-
-
-
-****
-
-'''
-
-****
-[discrete]
 === @@Lfunctions\Lfunctions\9df2007e3d5426862421c24d936fa50d\name@@ ===
 
 [NOTE]
@@ -296,23 +264,29 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
-=== @@Lfunctions\Lfunctions\5108c143c0d748da37d6343cb2e2e236\name@@ ===
+=== @@Lfunctions\Lfunctions\b1857defefa3384fa239fe6973fa57c0\name@@ ===
 
 [NOTE]
 ====
-@@Lfunctions\Lfunctions\5108c143c0d748da37d6343cb2e2e236\description@@
+@@Lfunctions\Lfunctions\b1857defefa3384fa239fe6973fa57c0\description@@
 
 
 ====
 
-1912 records extended from base type
+1741002 records extended from base type
 
-* conjugate 
-* credit 
-* dirichlet_coefficients 
-* group 
-* origin 
-* precision 
+* A10 
+* A2 
+* A3 
+* A4 
+* A5 
+* A6 
+* A7 
+* A8 
+* A9 
+* coefficient_field 
+* leading_term 
+* load_key 
 
 
 
@@ -355,16 +329,16 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
-=== @@Lfunctions\Lfunctions\84292376fa0d2904d9e4022aa22cdaf3\name@@ ===
+=== @@Lfunctions\Lfunctions\5108c143c0d748da37d6343cb2e2e236\name@@ ===
 
 [NOTE]
 ====
-@@Lfunctions\Lfunctions\84292376fa0d2904d9e4022aa22cdaf3\description@@
+@@Lfunctions\Lfunctions\5108c143c0d748da37d6343cb2e2e236\description@@
 
 
 ====
 
-2 records extended from base type
+1912 records extended from base type
 
 * conjugate 
 * credit 
@@ -372,7 +346,6 @@ Derived records are the record types that actually exist in the database.They ar
 * group 
 * origin 
 * precision 
-* selfdual 
 
 
 
@@ -398,6 +371,33 @@ Derived records are the record types that actually exist in the database.They ar
 * group 
 * origin 
 * precision 
+
+
+
+****
+
+'''
+
+****
+[discrete]
+=== @@Lfunctions\Lfunctions\84292376fa0d2904d9e4022aa22cdaf3\name@@ ===
+
+[NOTE]
+====
+@@Lfunctions\Lfunctions\84292376fa0d2904d9e4022aa22cdaf3\description@@
+
+
+====
+
+2 records extended from base type
+
+* conjugate 
+* credit 
+* dirichlet_coefficients 
+* group 
+* origin 
+* precision 
+* selfdual 
 
 
 
