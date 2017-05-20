@@ -31,84 +31,45 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|abs_disc a| integer a| `449`
- a| absolute value of discriminant of base field
-a|ainvs a| comma separated list of mixed types stored as string a| `1,0;0,1;1,0;-303287,-30047;-94305014,-9341927`
- a| a-invariants
-a|analytic_rank a| integer a| `0`
- a| analytic rank
-a|base_change a| non-primitive type (<type 'list'>) a| `[]`
- a| labels of base change source curves
-a|class_deg a| integer a| `12`
- a| @@elliptic_curves\nfcurves\class_deg\description@@
-a|class_label a| string a| `2.2.449.1-4.1-d`
- a| full label of isogeny class
-a|class_size a| integer a| `8`
- a| @@elliptic_curves\nfcurves\class_size\description@@
-a|cm a| integer a| `0`
- a| CM code. 0 (for no CM), or a negative discriminant.
-a|conductor_ideal a| comma separated list of mixed types stored as string a| `[4,2,2]`
- a| data defining the conductor
-a|conductor_label a| real stored as string a| `4.1`
- a| conductor_label
-a|conductor_norm a| integer a| `4`
- a| conductor_norm
-a|degree a| integer a| `2`
- a| Base field degree
-a|equation a| string a| `\( y^2 + x y + y = x^{3} + a x^{2} + \left(-30047 a - 303287ight) x - 9341927 a - 94305014  \)`
- a| Weierstrass equation
-a|field_label a| string a| `2.0.10691.1`
- a| Base field label
-a|galois_images a| collection of string a| `[u'3B.1.2']`
- a| @@elliptic_curves\nfcurves\galois_images\description@@
-a|gens a| non-primitive type (<type 'list'>) a| `[]`
- a| generators of infinite order
-a|heights a| non-primitive type (<type 'list'>) a| `[]`
- a| heights of generators
-a|iso_label a| string a| `d`
- a| isogeny class label
-a|iso_nlabel a| integer a| `3`
- a| isogeny class index
-a|isogeny_degrees a| collection of integer a| `[1, 2, 5, 10]`
- a| @@elliptic_curves\nfcurves\isogeny_degrees\description@@
-a|isogeny_matrix a| collection of integer a| `[[1, 3], [3, 1]]`
- a| Isogeny matrix.
-a|jinv a| string a| `60462112526377625/134217728,5988195811532375/134217728`
- a| j-invariant
-a|label a| string a| `2.0.10691.1-1.0.1-a1`
- a| full label
-a|local_data a| collection of mixed types a| `[{u'ord_disc': 27, u'ord_cond': 1, u'normp': u'2', u'kod': u'\( I_{27} \)', u'ord_den_j': 27, u'p':` ...
- a| List of local data at bad primes
-a|minD a| comma separated list of mixed types stored as string a| `[4294967296,134217728,6304*w+9728]`
- a| minimal discriminant ideal
-a|ngens a| integer a| `0`
- a| @@elliptic_curves\nfcurves\ngens\description@@
-a|non-surjective_primes a| collection of integer a| `[3]`
- a| @@elliptic_curves\nfcurves\non-surjective_primes\description@@
-a|non_min_p a| non-primitive type (<type 'list'>) a| `[]`
- a| Non-minimal primes
-a|number a| integer a| `1`
- a| index of curve in isogeny class. starts at 1
-a|q_curve a| boolean a| `False`
- a| Q-curve flag
-a|rank a| integer a| `0`
- a| rank
-a|rank_bounds a| collection of integer a| `[0, 0]`
- a| lower and upper rank bounds
-a|reg a| integer a| `1`
- a| regulator
-a|short_class_label a| string a| `4.1-d`
- a| short label of isogeny class (excludes field)
-a|short_label a| string a| `4.1-d2`
- a| short label (excludes field)
-a|signature a| collection of integer a| `[2, 0]`
- a| Base field signature
-a|torsion_gens a| non-primitive type (<type 'list'>) a| `[]`
- a| torsion generators
-a|torsion_order a| integer a| `1`
- a| torsion order
-a|torsion_structure a| non-primitive type (<type 'list'>) a| `[]`
- a| invariants of torsion subgroup
+a|torsion_structure a| non-primitive type (<type 'list'>) a| `[]` a| invariants of torsion subgroup
+a|ainvs a| comma separated list of mixed types stored as string a| `1,0;0,1;1,0;-303287,-30047;-94305014,-9341927` a| a-invariants
+a|cm a| integer a| `0` a| CM code. 0 (for no CM), or a negative discriminant.
+a|torsion_gens a| non-primitive type (<type 'list'>) a| `[]` a| torsion generators
+a|number a| integer a| `1` a| index of curve in isogeny class. starts at 1
+a|rank a| integer a| `0` a| rank
+a|field_label a| string a| `2.0.10691.1` a| Base field label
+a|galois_images a| collection of string a| `[u'3B.1.2']` a| @@elliptic_curves\nfcurves\galois_images\description@@
+a|conductor_norm a| integer a| `4` a| conductor_norm
+a|class_label a| string a| `2.2.449.1-4.1-d` a| full label of isogeny class
+a|label a| string a| `2.0.10691.1-1.0.1-a1` a| full label
+a|iso_nlabel a| integer a| `3` a| isogeny class index
+a|rank_bounds a| collection of integer a| `[0, 0]` a| lower and upper rank bounds
+a|conductor_ideal a| comma separated list of mixed types stored as string a| `[4,2,2]` a| data defining the conductor
+a|base_change a| non-primitive type (<type 'list'>) a| `[]` a| labels of base change source curves
+a|local_data a| collection of mixed types a| `[{u'ord_disc': 27, u'ord_cond': 1, u'normp': u'2', u'kod': u'\( I_{27} \)', u'ord_den_j': 27, u'p':` ... a| List of local data at bad primes
+a|analytic_rank a| integer a| `0` a| analytic rank
+a|minD a| comma separated list of mixed types stored as string a| `[4294967296,134217728,6304*w+9728]` a| minimal discriminant ideal
+a|heights a| non-primitive type (<type 'list'>) a| `[]` a| heights of generators
+a|jinv a| string a| `60462112526377625/134217728,5988195811532375/134217728` a| j-invariant
+a|conductor_label a| real stored as string a| `4.1` a| conductor_label
+a|class_deg a| integer a| `12` a| @@elliptic_curves\nfcurves\class_deg\description@@
+a|reg a| integer a| `1` a| regulator
+a|class_size a| integer a| `8` a| @@elliptic_curves\nfcurves\class_size\description@@
+a|isogeny_degrees a| collection of integer a| `[1, 2, 5, 10]` a| @@elliptic_curves\nfcurves\isogeny_degrees\description@@
+a|abs_disc a| integer a| `449` a| absolute value of discriminant of base field
+a|iso_label a| string a| `d` a| isogeny class label
+a|degree a| integer a| `2` a| Base field degree
+a|non_min_p a| non-primitive type (<type 'list'>) a| `[]` a| Non-minimal primes
+a|q_curve a| boolean a| `False` a| Q-curve flag
+a|short_label a| string a| `4.1-d2` a| short label (excludes field)
+a|short_class_label a| string a| `4.1-d` a| short label of isogeny class (excludes field)
+a|isogeny_matrix a| collection of integer a| `[[1, 3], [3, 1]]` a| Isogeny matrix.
+a|torsion_order a| integer a| `1` a| torsion order
+a|non-surjective_primes a| collection of integer a| `[3]` a| @@elliptic_curves\nfcurves\non-surjective_primes\description@@
+a|equation a| string a| `\( y^2 + x y + y = x^{3} + a x^{2} + \left(-30047 a - 303287ight) x - 9341927 a - 94305014  \)` a| Weierstrass equation
+a|gens a| non-primitive type (<type 'list'>) a| `[]` a| generators of infinite order
+a|ngens a| integer a| `0` a| @@elliptic_curves\nfcurves\ngens\description@@
+a|signature a| collection of integer a| `[2, 0]` a| Base field signature
 |==============================
 
 '''
@@ -326,7 +287,7 @@ Derived records are the record types that actually exist in the database.They ar
 
 ====
 
-3847 records extended from base type
+3921 records extended from base type
 
 * class_deg 
 * class_size 
@@ -376,7 +337,7 @@ Derived records are the record types that actually exist in the database.They ar
 
 ====
 
-3115 records extended from base type
+3195 records extended from base type
 
 * class_deg 
 * class_size 

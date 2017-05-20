@@ -31,14 +31,10 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|label a| string a| `1.2.1`
- a| @@mod_l_eigenvalues\hecke_algebras\label\description@@
-a|level a| integer a| `1`
- a| @@mod_l_eigenvalues\hecke_algebras\level\description@@
-a|num_orbits a| integer a| `0`
- a| @@mod_l_eigenvalues\hecke_algebras\num_orbits\description@@
-a|weight a| integer a| `2`
- a| @@mod_l_eigenvalues\hecke_algebras\weight\description@@
+a|level a| integer a| `1` a| @@mod_l_eigenvalues\hecke_algebras\level\description@@
+a|weight a| integer a| `2` a| @@mod_l_eigenvalues\hecke_algebras\weight\description@@
+a|num_orbits a| integer a| `0` a| @@mod_l_eigenvalues\hecke_algebras\num_orbits\description@@
+a|label a| string a| `1.2.1` a| @@mod_l_eigenvalues\hecke_algebras\label\description@@
 |==============================
 
 '''

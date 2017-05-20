@@ -31,16 +31,11 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|deg a| collection of integer a| `[1, 1368485, 858809, 2109331, 1229782, 64881, 962601, 54166, 234781, 2124, 1342, 4223, 116, 1134, 84` ...
- a| @@numberfields\stats\deg\description@@
-a|h a| collection of integer a| `[3925632, 798067, 255999, 327733, 62187, 91566, 22613, 127402, 38715, 28230, 8017, 45832, 5756, 1298` ...
- a| @@numberfields\stats\h\description@@
-a|hover a| integer a| `912802`
- a| @@numberfields\stats\hover\description@@
-a|nsig a| collection of unidentifiable types a| `[[], [], [0], [0], [0, 0], [0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0, 0]` ...
- a| @@numberfields\stats\nsig\description@@
-a|nt a| collection of integer a| `[[1], [1368485], [1822, 856987], [11945, 92044, 1256387, 28787, 720168], [181, 15203, 24350, 110081,` ...
- a| @@numberfields\stats\nt\description@@
+a|h a| collection of integer a| `[3925632, 798067, 255999, 327733, 62187, 91566, 22613, 127402, 38715, 28230, 8017, 45832, 5756, 1298` ... a| @@numberfields\stats\h\description@@
+a|hover a| integer a| `912802` a| @@numberfields\stats\hover\description@@
+a|nt a| collection of integer a| `[[1], [1368485], [1822, 856987], [11945, 92044, 1256387, 28787, 720168], [181, 15203, 24350, 110081,` ... a| @@numberfields\stats\nt\description@@
+a|nsig a| collection of unidentifiable types a| `[[], [], [0], [0], [0, 0], [0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0, 0]` ... a| @@numberfields\stats\nsig\description@@
+a|deg a| collection of integer a| `[1, 1368485, 858809, 2109331, 1229782, 64881, 962601, 54166, 234781, 2124, 1342, 4223, 116, 1134, 84` ... a| @@numberfields\stats\deg\description@@
 |==============================
 
 '''

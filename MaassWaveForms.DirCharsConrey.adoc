@@ -31,10 +31,8 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|Modulus a| integer a| `10`
- a| @@MaassWaveForms\DirCharsConrey\Modulus\description@@
-a|chars a| collection of integer a| `[1, 7, 9, 3]`
- a| @@MaassWaveForms\DirCharsConrey\chars\description@@
+a|chars a| collection of integer a| `[1, 7, 9, 3]` a| @@MaassWaveForms\DirCharsConrey\chars\description@@
+a|Modulus a| integer a| `10` a| @@MaassWaveForms\DirCharsConrey\Modulus\description@@
 |==============================
 
 '''

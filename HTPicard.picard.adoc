@@ -31,14 +31,10 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|coef a| collection of real a| `[[1, 0, 1.0], [1, 1, 1.9481131432733], [2, 0, 2.7951448189937], [1, 2, -0.008425302169], [2, 1, -0.0` ...
- a| @@HTPicard\picard\coef\description@@
-a|ev a| real a| `6.62211934025`
- a| @@HTPicard\picard\ev\description@@
-a|prec a| real a| `1.3e-12`
- a| @@HTPicard\picard\prec\description@@
-a|sym a| collection of string a| `[u'single', u'even']`
- a| @@HTPicard\picard\sym\description@@
+a|ev a| real a| `6.62211934025` a| @@HTPicard\picard\ev\description@@
+a|sym a| collection of string a| `[u'single', u'even']` a| @@HTPicard\picard\sym\description@@
+a|prec a| real a| `1.3e-12` a| @@HTPicard\picard\prec\description@@
+a|coef a| collection of real a| `[[1, 0, 1.0], [1, 1, 1.9481131432733], [2, 0, 2.7951448189937], [1, 2, -0.008425302169], [2, 1, -0.0` ... a| @@HTPicard\picard\coef\description@@
 |==============================
 
 '''

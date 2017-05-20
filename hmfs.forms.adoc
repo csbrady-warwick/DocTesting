@@ -31,48 +31,27 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|AL_eigenvalues a| collection of mixed types a| `[[u'[27, 3, 3]', u'-1']]`
- a| @@hmfs\forms\AL_eigenvalues\description@@
-a|AL_eigenvalues_fixed a| string a| `done`
- a| @@hmfs\forms\AL_eigenvalues_fixed\description@@
-a|deg a| integer a| `2`
- a| @@hmfs\forms\deg\description@@
-a|dimension a| integer a| `286`
- a| @@hmfs\forms\dimension\description@@
-a|disc a| integer a| `5`
- a| @@hmfs\forms\disc\description@@
-a|field_label a| string a| `2.2.101.1`
- a| @@hmfs\forms\field_label\description@@
-a|hecke_eigenvalues a| collection of integer stored as string a| `[u'-5', u'-4', u'1', u'1', u'1', u'1', u'4', u'4', u'4', u'-10', u'-10', u'-10', u'5', u'5', u'5', u` ...
- a| @@hmfs\forms\hecke_eigenvalues\description@@
-a|hecke_polynomial a| string a| `x`
- a| @@hmfs\forms\hecke_polynomial\description@@
-a|is_CM a| string a| `no`
- a| @@hmfs\forms\is_CM\description@@
-a|is_base_change a| string a| `no`
- a| @@hmfs\forms\is_base_change\description@@
-a|is_cm a| string a| `no`
- a| @@hmfs\forms\is_cm\description@@
-a|label a| string a| `2.2.101.1-1.1-a`
- a| @@hmfs\forms\label\description@@
-a|label_nsuffix a| integer a| `0`
- a| @@hmfs\forms\label_nsuffix\description@@
-a|label_suffix a| string a| `a`
- a| @@hmfs\forms\label_suffix\description@@
-a|level_ideal a| comma separated list of mixed types stored as string a| `[1, 1, 1]`
- a| @@hmfs\forms\level_ideal\description@@
-a|level_label a| real stored as string a| `27.1`
- a| @@hmfs\forms\level_label\description@@
-a|level_norm a| integer a| `1`
- a| @@hmfs\forms\level_norm\description@@
-a|parallel_weight a| integer a| `2`
- a| @@hmfs\forms\parallel_weight\description@@
-a|q_expansions a| collection of mixed types a| `[[[u'1/7*w + 2/7', u'1'], [u'-1/7*w^2 + 4/7', u'1'], [u'-1/7*w + 5/7', u'6'], [u'-1/7*w^2 + 1/7*w +` ...
- a| @@hmfs\forms\q_expansions\description@@
-a|short_label a| string a| `27.1-a`
- a| @@hmfs\forms\short_label\description@@
-a|weight a| comma separated list of mixed types stored as string a| `[2, 2, 2]`
- a| @@hmfs\forms\weight\description@@
+a|level_ideal a| comma separated list of mixed types stored as string a| `[1, 1, 1]` a| @@hmfs\forms\level_ideal\description@@
+a|is_base_change a| string a| `no` a| @@hmfs\forms\is_base_change\description@@
+a|label_nsuffix a| integer a| `0` a| @@hmfs\forms\label_nsuffix\description@@
+a|weight a| comma separated list of mixed types stored as string a| `[2, 2, 2]` a| @@hmfs\forms\weight\description@@
+a|is_cm a| string a| `no` a| @@hmfs\forms\is_cm\description@@
+a|parallel_weight a| integer a| `2` a| @@hmfs\forms\parallel_weight\description@@
+a|is_CM a| string a| `no` a| @@hmfs\forms\is_CM\description@@
+a|label_suffix a| string a| `a` a| @@hmfs\forms\label_suffix\description@@
+a|label a| string a| `2.2.101.1-1.1-a` a| @@hmfs\forms\label\description@@
+a|field_label a| string a| `2.2.101.1` a| @@hmfs\forms\field_label\description@@
+a|level_norm a| integer a| `1` a| @@hmfs\forms\level_norm\description@@
+a|short_label a| string a| `27.1-a` a| @@hmfs\forms\short_label\description@@
+a|disc a| integer a| `5` a| @@hmfs\forms\disc\description@@
+a|q_expansions a| collection of mixed types a| `[[[u'1/7*w + 2/7', u'1'], [u'-1/7*w^2 + 4/7', u'1'], [u'-1/7*w + 5/7', u'6'], [u'-1/7*w^2 + 1/7*w +` ... a| @@hmfs\forms\q_expansions\description@@
+a|hecke_eigenvalues a| collection of integer stored as string a| `[u'-5', u'-4', u'1', u'1', u'1', u'1', u'4', u'4', u'4', u'-10', u'-10', u'-10', u'5', u'5', u'5', u` ... a| @@hmfs\forms\hecke_eigenvalues\description@@
+a|hecke_polynomial a| string a| `x` a| @@hmfs\forms\hecke_polynomial\description@@
+a|level_label a| real stored as string a| `27.1` a| @@hmfs\forms\level_label\description@@
+a|AL_eigenvalues_fixed a| string a| `done` a| @@hmfs\forms\AL_eigenvalues_fixed\description@@
+a|dimension a| integer a| `286` a| @@hmfs\forms\dimension\description@@
+a|AL_eigenvalues a| collection of mixed types a| `[[u'[27, 3, 3]', u'-1']]` a| @@hmfs\forms\AL_eigenvalues\description@@
+a|deg a| integer a| `2` a| @@hmfs\forms\deg\description@@
 |==============================
 
 '''

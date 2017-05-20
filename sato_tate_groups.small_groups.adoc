@@ -31,26 +31,16 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|abelian a| boolean a| `True`
- a| true if the group is abelian, false otherwise
-a|cyclic a| boolean a| `True`
- a| true if the group is cyclic, false otherwise
-a|exponent a| integer a| `4`
- a| @@sato_tate_groups\small_groups\exponent\description@@
-a|label a| real stored as string a| `1.1`
- a| GAP ID encoded as a string u'N.n', where N is the order of the group and n distinguishes groups of the same order (as determined in GAP).
-a|name a| string a| `((C2*C6).D4):C2`
- a| text discription of the group
-a|order a| integer a| `1`
- a| order of the group (positive integer)
-a|perfect a| boolean a| `False`
- a| true if the group is perfect, false otherwise
-a|pretty a| string a| `C_4`
- a| pretty-print version of the name in latex math mode
-a|simple a| boolean a| `False`
- a| true if the group is simple, false otherwise
-a|solvable a| boolean a| `True`
- a| true if the group is solvable, false otherwise
+a|perfect a| boolean a| `False` a| true if the group is perfect, false otherwise
+a|abelian a| boolean a| `True` a| true if the group is abelian, false otherwise
+a|exponent a| integer a| `4` a| @@sato_tate_groups\small_groups\exponent\description@@
+a|cyclic a| boolean a| `True` a| true if the group is cyclic, false otherwise
+a|simple a| boolean a| `False` a| true if the group is simple, false otherwise
+a|label a| real stored as string a| `1.1` a| GAP ID encoded as a string u'N.n', where N is the order of the group and n distinguishes groups of the same order (as determined in GAP).
+a|pretty a| string a| `C_4` a| pretty-print version of the name in latex math mode
+a|solvable a| boolean a| `True` a| true if the group is solvable, false otherwise
+a|order a| integer a| `1` a| order of the group (positive integer)
+a|name a| string a| `((C2*C6).D4):C2` a| text discription of the group
 |==============================
 
 '''

@@ -31,8 +31,7 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|o a| integer a| `100`
- a| @@mod_l_eigenvalues\Dirichlet_char_modl\o\description@@
+a|o a| integer a| `100` a| @@mod_l_eigenvalues\Dirichlet_char_modl\o\description@@
 |==============================
 
 '''

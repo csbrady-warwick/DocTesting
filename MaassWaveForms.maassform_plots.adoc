@@ -31,18 +31,12 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|dpi a| integer a| `300`
- a| @@MaassWaveForms\maassform_plots\dpi\description@@
-a|eigenvalue a| real a| `13.7797513519`
- a| @@MaassWaveForms\maassform_plots\eigenvalue\description@@
-a|level a| integer a| `1`
- a| @@MaassWaveForms\maassform_plots\level\description@@
-a|maass_id a| non-primitive type (<class 'bson.objectid.ObjectId'>) a| `4cb8503a58bca91458000000`
- a| @@MaassWaveForms\maassform_plots\maass_id\description@@
-a|num_pts a| integer a| `150`
- a| @@MaassWaveForms\maassform_plots\num_pts\description@@
-a|plot a| non-primitive type (<class 'bson.binary.Binary'>) a| `Record cannot be stringified`
- a| @@MaassWaveForms\maassform_plots\plot\description@@
+a|eigenvalue a| real a| `13.7797513519` a| @@MaassWaveForms\maassform_plots\eigenvalue\description@@
+a|plot a| non-primitive type (<class 'bson.binary.Binary'>) a| `Record cannot be stringified` a| @@MaassWaveForms\maassform_plots\plot\description@@
+a|level a| integer a| `1` a| @@MaassWaveForms\maassform_plots\level\description@@
+a|maass_id a| non-primitive type (<class 'bson.objectid.ObjectId'>) a| `4cb8503a58bca91458000000` a| @@MaassWaveForms\maassform_plots\maass_id\description@@
+a|num_pts a| integer a| `150` a| @@MaassWaveForms\maassform_plots\num_pts\description@@
+a|dpi a| integer a| `300` a| @@MaassWaveForms\maassform_plots\dpi\description@@
 |==============================
 
 '''

@@ -31,36 +31,21 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|Qalg_gen a| collection of integer a| `[1]`
- a| @@mod_l_eigenvalues\hecke_algebras_orbits\Qalg_gen\description@@
-a|Qbasis a| collection of integer a| `[1]`
- a| @@mod_l_eigenvalues\hecke_algebras_orbits\Qbasis\description@@
-a|Zbasis a| collection of integer stored as string a| `[[u'1']]`
- a| @@mod_l_eigenvalues\hecke_algebras_orbits\Zbasis\description@@
-a|disc_fac a| non-primitive type (<type 'list'>) a| `[]`
- a| @@mod_l_eigenvalues\hecke_algebras_orbits\disc_fac\description@@
-a|discriminant a| integer stored as string a| `1`
- a| @@mod_l_eigenvalues\hecke_algebras_orbits\discriminant\description@@
-a|gen a| Record cannot be found containing key a| `N/A`
- a| @@mod_l_eigenvalues\hecke_algebras_orbits\gen\description@@
-a|hecke_op a| string a| `[[[ 1 ]],[[ 72 ]],[[ 0 ]],[[ -27584 ]],[[ 221490 ]],[[ 0 ]],[[ -2149000 ]],[[ -4345344 ]],[[ 0 ]],[[` ...
- a| @@mod_l_eigenvalues\hecke_algebras_orbits\hecke_op\description@@
-a|level a| integer a| `1`
- a| @@mod_l_eigenvalues\hecke_algebras_orbits\level\description@@
-a|num_gen a| Record cannot be found containing key a| `N/A`
- a| @@mod_l_eigenvalues\hecke_algebras_orbits\num_gen\description@@
-a|num_hecke_op a| integer a| `100`
- a| @@mod_l_eigenvalues\hecke_algebras_orbits\num_hecke_op\description@@
-a|orbit a| integer a| `2`
- a| @@mod_l_eigenvalues\hecke_algebras_orbits\orbit\description@@
-a|orbit_label a| string a| `9.16.1.2`
- a| @@mod_l_eigenvalues\hecke_algebras_orbits\orbit_label\description@@
-a|parent_label a| string a| `1.12.1`
- a| @@mod_l_eigenvalues\hecke_algebras_orbits\parent_label\description@@
-a|rel a| Record cannot be found containing key a| `N/A`
- a| @@mod_l_eigenvalues\hecke_algebras_orbits\rel\description@@
-a|weight a| integer a| `2`
- a| @@mod_l_eigenvalues\hecke_algebras_orbits\weight\description@@
+a|disc_fac a| non-primitive type (<type 'list'>) a| `[]` a| @@mod_l_eigenvalues\hecke_algebras_orbits\disc_fac\description@@
+a|Zbasis a| collection of integer stored as string a| `[[u'1']]` a| @@mod_l_eigenvalues\hecke_algebras_orbits\Zbasis\description@@
+a|parent_label a| string a| `1.12.1` a| @@mod_l_eigenvalues\hecke_algebras_orbits\parent_label\description@@
+a|weight a| integer a| `2` a| @@mod_l_eigenvalues\hecke_algebras_orbits\weight\description@@
+a|discriminant a| integer stored as string a| `1` a| @@mod_l_eigenvalues\hecke_algebras_orbits\discriminant\description@@
+a|Qalg_gen a| collection of integer a| `[1]` a| @@mod_l_eigenvalues\hecke_algebras_orbits\Qalg_gen\description@@
+a|Qbasis a| collection of integer a| `[1]` a| @@mod_l_eigenvalues\hecke_algebras_orbits\Qbasis\description@@
+a|orbit a| integer a| `2` a| @@mod_l_eigenvalues\hecke_algebras_orbits\orbit\description@@
+a|hecke_op a| string a| `[[[ 1 ]],[[ 72 ]],[[ 0 ]],[[ -27584 ]],[[ 221490 ]],[[ 0 ]],[[ -2149000 ]],[[ -4345344 ]],[[ 0 ]],[[` ... a| @@mod_l_eigenvalues\hecke_algebras_orbits\hecke_op\description@@
+a|num_hecke_op a| integer a| `100` a| @@mod_l_eigenvalues\hecke_algebras_orbits\num_hecke_op\description@@
+a|orbit_label a| string a| `9.16.1.2` a| @@mod_l_eigenvalues\hecke_algebras_orbits\orbit_label\description@@
+a|rel a| Record cannot be found containing key a| `N/A` a| @@mod_l_eigenvalues\hecke_algebras_orbits\rel\description@@
+a|num_gen a| Record cannot be found containing key a| `N/A` a| @@mod_l_eigenvalues\hecke_algebras_orbits\num_gen\description@@
+a|level a| integer a| `1` a| @@mod_l_eigenvalues\hecke_algebras_orbits\level\description@@
+a|gen a| Record cannot be found containing key a| `N/A` a| @@mod_l_eigenvalues\hecke_algebras_orbits\gen\description@@
 |==============================
 
 '''

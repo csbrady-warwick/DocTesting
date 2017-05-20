@@ -31,102 +31,54 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|2adic_gens a| non-primitive type (<type 'list'>) a| `[]`
- a| list of matrices in GL(2,Z/2^nZ) generating the image (None for CM curves).
-a|2adic_index a| integer a| `1`
- a| index in GL(2,Z2) of the 2-adicrepresentation (or 0 for CM curves)
-a|2adic_label a| string a| `X1`
- a| Rouse label of the associated modular curve (None for CM curves). Based on Rouse, Zureik-Brown classification
-a|2adic_log_level a| integer a| `0`
- a| the smallest n such that the image contains the kernel of reduction modulo 2^n
-a|ainvs a| collection of integer stored as string a| `[u'0', u'-1', u'1', u'-10', u'-20']`
- a| a-invariants. 5 Weierstrass coefficients as NFelt-strings, joined by ';'
-a|anlist a| collection of integer a| `[0, 1, -2, -1, 2, 1, 2, -2, 0, -2, -2, 1, -2, 4, 4, -1, -4, -2, 4, 0, 2]`
- a| L-series coefficients. a_n for 0<=np<20
-a|aplist a| collection of integer a| `[-2, -1, 1, -2, 1, 4, -2, 0, -1, 0, 7, 3, -8, -6, 8, -6, 5, 12, -7, -3, 4, -10, -6, 15, -7]`
- a| Traces of Frobenius. a_p for p
-a|class_deg a| integer a| `25`
- a| @@elliptic_curves\curves\class_deg\description@@
-a|class_size a| integer a| `3`
- a| @@elliptic_curves\curves\class_size\description@@
-a|cm a| integer a| `-163`
- a| CM code. 0 (for no CM), or a negative discriminant
-a|conductor a| integer a| `11`
- a| Conductor
-a|degree a| integer a| `1`
- a| degree of modular parametrization
-a|equation a| string a| `\( y^2 + y = x^{3} -  x^{2} - 10 x - 20  \)`
- a| Weierstrass equation
-a|galois_images a| collection of string a| `[u'5Cs.1.1']`
- a| Sutherland codes for the images of the mod p Galois representations for the non-surjective primes. Sutherland notation; for CM curves, only primes
-a|gens a| list of strings representing points a| `[]`
- a| Generators of infinite order. May be missing
-a|heights a| non-primitive type (<type 'list'>) a| `[]`
- a| Heights of generators. May be missing
-a|iso a| string a| `100002a`
- a| Cremona isogeny class code
-a|iso_nlabel a| integer a| `0`
- a| numerical version of the LMFDB isogeny class label
-a|isogeny_degrees a| collection of integer a| `[1, 2, 3, 6, 9, 18]`
- a| @@elliptic_curves\curves\isogeny_degrees\description@@
-a|isogeny_matrix a| collection of integer a| `[[1, 5, 25], [5, 1, 5], [25, 5, 1]]`
- a| isogeny matrix
-a|iwdata a| dictionary with keys ints, values lists of ints a| `{u'11': [1, 0], u'3': [0, 0], u'2': [0, 1, 0], u'5': [0, 1]}`
- a| Iwasawa invariants. Keys are primes, including all bad multiplicative primes and all primes up to some bound
-a|iwp0 a| integer a| `7`
- a| Iwasawa prime. if nonzero, a prime p0 such that lambda=mu=0 for all good p>=p0
-a|jinv a| string representing a rational a| `-1/10010`
- a| j-invariant.
-a|label a| string a| `100002a1`
- a| Cremona label
-a|lmfdb_iso a| string a| `100.a`
- a| LMFDB isogeny class code
-a|lmfdb_label a| string a| `100.a1`
- a| LMFDB label
-a|lmfdb_number a| integer a| `1`
- a| LMFDB curve number within its class
-a|local_data a| list of dicts, one per prime, each with keys 'p' (value:int),'ord_cond' (value: int), 'ord_disc' (value: int), 'ord_den_j' (value:int), 'red' (value: int), 'cp' (value: int), 'kod' (value:string) a| `[{u'ord_disc': 5, u'ord_cond': 1, u'kod': u'\( I_{5} \)', u'ord_den_j': 5, u'p': 11, u'cp': 5, u'roo` ...
- a| reduction data at bad primes
-a|min_quad_twist a| collection of mixed types a| `{u'disc': 1, u'label': u'11a1'}`
- a| minimal quadratic twist
-a|mod-p_images a| collection of string a| `[u'5Cs.1.1']`
- a| Sutherland codes for the images of the mod p Galois representations for the non-maximal primes
-a|non-maximal_primes a| non-primitive type (<type 'list'>) a| `[]`
- a| primes p for which the mod p Galois representation is not maximal
-a|non-surjective_primes a| non-primitive type (<type 'list'>) a| `[]`
- a| primes p for which the mod p Galois representation is not surjective
-a|number a| integer a| `1`
- a| Cremona curve number within its class
-a|rank a| integer a| `0`
- a| rank
-a|real_period a| real a| `1.26920930428`
- a| Real period (approximate)
-a|regulator a| integer a| `1.0`
- a| Regulator. May be missing; Approximate if rank>0
-a|sha a| integer a| `1`
- a| analytic order of sha (rounded value of sha_an)
-a|sha_an a| integer a| `1.0`
- a| analytic order of Sha, approximate unless rank<2
-a|sha_primes a| non-primitive type (<type 'list'>) a| `[]`
- a| primes dividing sha. N^k  (k>;0)
-a|signD a| integer a| `-1`
- a| sign of Discriminant in {-1,+1}
-a|special_value a| real a| `0.253841860856`
- a| special value of r'th derivative ofL-function (divided by r!) (approximate)
-a|tamagawa_product a| integer a| `5`
- a| Tamagawa product
-a|torsion a| integer a| `1`
- a| torsion order
-a|torsion_generators a| collection of string a| `[u'(5, 5)']`
- a| generators of torsion subgroup
-a|torsion_primes a| collection of integer a| `[5]`
- a| primes dividing torsion
-a|torsion_structure a| non-primitive type (<type 'list'>) a| `[]`
- a| invariants of torsion subgroup
-a|x-coordinates_of_integral_points a| string a| `[5,16]`
- a| x-coordinates of integral points
-a|xainvs a| comma separated list of mixed types stored as string a| `[0,-1,0,-1,-1023]`
- a| a-invariants (coefficients of minimal reduced Weierstass model)
+a|non-maximal_primes a| non-primitive type (<type 'list'>) a| `[]` a| primes p for which the mod p Galois representation is not maximal
+a|torsion_structure a| non-primitive type (<type 'list'>) a| `[]` a| invariants of torsion subgroup
+a|ainvs a| collection of integer stored as string a| `[u'0', u'-1', u'1', u'-10', u'-20']` a| a-invariants. 5 Weierstrass coefficients as NFelt-strings, joined by ';'
+a|x-coordinates_of_integral_points a| string a| `[5,16]` a| x-coordinates of integral points
+a|cm a| integer a| `-163` a| CM code. 0 (for no CM), or a negative discriminant
+a|lmfdb_number a| integer a| `1` a| LMFDB curve number within its class
+a|xainvs a| comma separated list of mixed types stored as string a| `[0,-1,0,-1,-1023]` a| a-invariants (coefficients of minimal reduced Weierstass model)
+a|number a| integer a| `1` a| Cremona curve number within its class
+a|rank a| integer a| `0` a| rank
+a|sha_primes a| non-primitive type (<type 'list'>) a| `[]` a| primes dividing sha. N^k  (k>;0)
+a|mod-p_images a| collection of string a| `[u'5Cs.1.1']` a| Sutherland codes for the images of the mod p Galois representations for the non-maximal primes
+a|galois_images a| collection of string a| `[u'5Cs.1.1']` a| Sutherland codes for the images of the mod p Galois representations for the non-surjective primes. Sutherland notation; for CM curves, only primes
+a|label a| string a| `100002a1` a| Cremona label
+a|torsion a| integer a| `1` a| torsion order
+a|iso_nlabel a| integer a| `0` a| numerical version of the LMFDB isogeny class label
+a|aplist a| collection of integer a| `[-2, -1, 1, -2, 1, 4, -2, 0, -1, 0, 7, 3, -8, -6, 8, -6, 5, 12, -7, -3, 4, -10, -6, 15, -7]` a| Traces of Frobenius. a_p for p
+a|iwdata a| collection of integer a| `{u'11': [1, 0], u'3': [0, 0], u'2': [0, 1, 0], u'5': [0, 1]}` a| Iwasawa invariants. Keys are primes, including all bad multiplicative primes and all primes up to some bound
+a|min_quad_twist a| collection of mixed types a| `{u'disc': 1, u'label': u'11a1'}` a| minimal quadratic twist
+a|conductor a| integer a| `11` a| Conductor
+a|local_data a| collection of mixed types a| `[{u'ord_disc': 5, u'ord_cond': 1, u'kod': u'\( I_{5} \)', u'ord_den_j': 5, u'p': 11, u'cp': 5, u'roo` ... a| reduction data at bad primes
+a|lmfdb_iso a| string a| `100.a` a| LMFDB isogeny class code
+a|2adic_label a| string a| `X1` a| Rouse label of the associated modular curve (None for CM curves). Based on Rouse, Zureik-Brown classification
+a|heights a| non-primitive type (<type 'list'>) a| `[]` a| Heights of generators. May be missing
+a|jinv a| string a| `-1/10010` a| j-invariant.
+a|2adic_log_level a| integer a| `0` a| the smallest n such that the image contains the kernel of reduction modulo 2^n
+a|class_deg a| integer a| `25` a| @@elliptic_curves\curves\class_deg\description@@
+a|class_size a| integer a| `3` a| @@elliptic_curves\curves\class_size\description@@
+a|tamagawa_product a| integer a| `5` a| Tamagawa product
+a|sha_an a| integer a| `1.0` a| analytic order of Sha, approximate unless rank<2
+a|isogeny_degrees a| collection of integer a| `[1, 2, 3, 6, 9, 18]` a| @@elliptic_curves\curves\isogeny_degrees\description@@
+a|torsion_generators a| collection of string a| `[u'(5, 5)']` a| generators of torsion subgroup
+a|degree a| integer a| `1` a| degree of modular parametrization
+a|iwp0 a| integer a| `7` a| Iwasawa prime. if nonzero, a prime p0 such that lambda=mu=0 for all good p>=p0
+a|2adic_gens a| non-primitive type (<type 'list'>) a| `[]` a| list of matrices in GL(2,Z/2^nZ) generating the image (None for CM curves).
+a|torsion_primes a| collection of integer a| `[5]` a| primes dividing torsion
+a|signD a| integer a| `-1` a| sign of Discriminant in {-1,+1}
+a|real_period a| real a| `1.26920930428` a| Real period (approximate)
+a|isogeny_matrix a| collection of integer a| `[[1, 5, 25], [5, 1, 5], [25, 5, 1]]` a| isogeny matrix
+a|special_value a| real a| `0.253841860856` a| special value of r'th derivative ofL-function (divided by r!) (approximate)
+a|non-surjective_primes a| non-primitive type (<type 'list'>) a| `[]` a| primes p for which the mod p Galois representation is not surjective
+a|2adic_index a| integer a| `1` a| index in GL(2,Z2) of the 2-adicrepresentation (or 0 for CM curves)
+a|equation a| string a| `\( y^2 + y = x^{3} -  x^{2} - 10 x - 20  \)` a| Weierstrass equation
+a|gens a| non-primitive type (<type 'list'>) a| `[]` a| Generators of infinite order. May be missing
+a|regulator a| integer a| `1.0` a| Regulator. May be missing; Approximate if rank>0
+a|sha a| integer a| `1` a| analytic order of sha (rounded value of sha_an)
+a|anlist a| collection of integer a| `[0, 1, -2, -1, 2, 1, 2, -2, 0, -2, -2, 1, -2, 4, 4, -1, -4, -2, 4, 0, 2]` a| L-series coefficients. a_n for 0<=np<20
+a|iso a| string a| `100002a` a| Cremona isogeny class code
+a|lmfdb_label a| string a| `100.a1` a| LMFDB label
 |==============================
 
 '''

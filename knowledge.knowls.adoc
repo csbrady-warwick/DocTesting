@@ -31,24 +31,15 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|_keywords a| collection of string a| `[u'unsolved', u'studied', u'german', u'number', u'including', u'zeta', u'still', u'contributions', u` ...
- a| @@knowledge\knowls\_keywords\description@@
-a|authors a| collection of string a| `[u'pdehaye', u'arbooker', u'john.jones', u'DavidFarmer']`
- a| @@knowledge\knowls\authors\description@@
-a|cat a| string a| `abvar`
- a| @@knowledge\knowls\cat\description@@
-a|content a| string a| `An **algebraic curve** is an {{ KNOWL('ag.variety' , title='algebraic variety')}} of dimension $1.$`
- a| @@knowledge\knowls\content\description@@
-a|history a| Type cannot be identified (<type 'list'>) a| `[None, {u'last_author': u'pdehaye', u'title': u'Algebraic curve (definition)', u'timestamp': datetim` ...
- a| @@knowledge\knowls\history\description@@
-a|last_author a| string a| `gauss`
- a| @@knowledge\knowls\last_author\description@@
-a|quality a| string a| `beta`
- a| @@knowledge\knowls\quality\description@@
-a|timestamp a| Type cannot be identified (<type 'datetime.datetime'>) a| `2011-09-06 10:22:54.074000`
- a| @@knowledge\knowls\timestamp\description@@
-a|title a| string a| `"related to" field`
- a| @@knowledge\knowls\title\description@@
+a|last_author a| string a| `gauss` a| @@knowledge\knowls\last_author\description@@
+a|_keywords a| collection of string a| `[u'unsolved', u'studied', u'german', u'number', u'including', u'zeta', u'still', u'contributions', u` ... a| @@knowledge\knowls\_keywords\description@@
+a|title a| string a| `"related to" field` a| @@knowledge\knowls\title\description@@
+a|timestamp a| Type cannot be identified (<type 'datetime.datetime'>) a| `2011-09-06 10:22:54.074000` a| @@knowledge\knowls\timestamp\description@@
+a|cat a| string a| `abvar` a| @@knowledge\knowls\cat\description@@
+a|content a| string a| `An **algebraic curve** is an {{ KNOWL('ag.variety' , title='algebraic variety')}} of dimension $1.$` a| @@knowledge\knowls\content\description@@
+a|authors a| collection of string a| `[u'pdehaye', u'arbooker', u'john.jones', u'DavidFarmer']` a| @@knowledge\knowls\authors\description@@
+a|quality a| string a| `beta` a| @@knowledge\knowls\quality\description@@
+a|history a| Type cannot be identified (<type 'list'>) a| `[None, {u'last_author': u'pdehaye', u'title': u'Algebraic curve (definition)', u'timestamp': datetim` ... a| @@knowledge\knowls\history\description@@
 |==============================
 
 '''

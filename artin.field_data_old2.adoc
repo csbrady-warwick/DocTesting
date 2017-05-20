@@ -31,34 +31,20 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|ArtinReps a| collection of mixed types a| `[{u'GalConj': 1, u'Character': [[1]], u'CharacterField': 1, u'Baselabel': u'1.1.1t1.1'}]`
- a| @@artin\field_data_old2\ArtinReps\description@@
-a|ComplexConjugation a| integer a| `1`
- a| @@artin\field_data_old2\ComplexConjugation\description@@
-a|ConjClasses a| collection of real a| `[{u'Size': u'1', u'Representative': [1], u'Order': 1}]`
- a| @@artin\field_data_old2\ConjClasses\description@@
-a|FrobResolvents a| collection of mixed types a| `[{u'Classes': 1, u'Data': 0, u'Algorithm': u'CYC', u'CycleType': [1]}]`
- a| @@artin\field_data_old2\FrobResolvents\description@@
-a|Frobs a| collection of integer a| `[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,` ...
- a| @@artin\field_data_old2\Frobs\description@@
-a|G-Gens a| non-primitive type (<type 'list'>) a| `[]`
- a| @@artin\field_data_old2\G-Gens\description@@
-a|G-Name a| string a| `C1`
- a| @@artin\field_data_old2\G-Name\description@@
-a|Polynomial a| comma separated list of integer stored as string a| `-1,-1,-1,-1,2,-1,1`
- a| @@artin\field_data_old2\Polynomial\description@@
-a|QpRts a| collection of integer stored as string a| `[[u'0']]`
- a| @@artin\field_data_old2\QpRts\description@@
-a|QpRts-minpoly a| collection of integer a| `[-1, 1]`
- a| @@artin\field_data_old2\QpRts-minpoly\description@@
-a|QpRts-p a| integer a| `2`
- a| @@artin\field_data_old2\QpRts-p\description@@
-a|QpRts-prec a| integer a| `5`
- a| @@artin\field_data_old2\QpRts-prec\description@@
-a|Size a| integer stored as string a| `1`
- a| @@artin\field_data_old2\Size\description@@
-a|TransitiveDegree a| integer a| `1`
- a| @@artin\field_data_old2\TransitiveDegree\description@@
+a|Size a| integer stored as string a| `1` a| @@artin\field_data_old2\Size\description@@
+a|ConjClasses a| collection of real a| `[{u'Size': u'1', u'Representative': [1], u'Order': 1}]` a| @@artin\field_data_old2\ConjClasses\description@@
+a|QpRts-minpoly a| collection of integer a| `[-1, 1]` a| @@artin\field_data_old2\QpRts-minpoly\description@@
+a|ComplexConjugation a| integer a| `1` a| @@artin\field_data_old2\ComplexConjugation\description@@
+a|FrobResolvents a| collection of mixed types a| `[{u'Classes': 1, u'Data': 0, u'Algorithm': u'CYC', u'CycleType': [1]}]` a| @@artin\field_data_old2\FrobResolvents\description@@
+a|QpRts-prec a| integer a| `5` a| @@artin\field_data_old2\QpRts-prec\description@@
+a|ArtinReps a| collection of mixed types a| `[{u'GalConj': 1, u'Character': [[1]], u'CharacterField': 1, u'Baselabel': u'1.1.1t1.1'}]` a| @@artin\field_data_old2\ArtinReps\description@@
+a|G-Gens a| non-primitive type (<type 'list'>) a| `[]` a| @@artin\field_data_old2\G-Gens\description@@
+a|Polynomial a| comma separated list of integer stored as string a| `-1,-1,-1,-1,2,-1,1` a| @@artin\field_data_old2\Polynomial\description@@
+a|QpRts a| collection of integer stored as string a| `[[u'0']]` a| @@artin\field_data_old2\QpRts\description@@
+a|Frobs a| collection of integer a| `[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,` ... a| @@artin\field_data_old2\Frobs\description@@
+a|QpRts-p a| integer a| `2` a| @@artin\field_data_old2\QpRts-p\description@@
+a|TransitiveDegree a| integer a| `1` a| @@artin\field_data_old2\TransitiveDegree\description@@
+a|G-Name a| string a| `C1` a| @@artin\field_data_old2\G-Name\description@@
 |==============================
 
 '''

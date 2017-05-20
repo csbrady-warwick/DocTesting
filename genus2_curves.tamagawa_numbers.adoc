@@ -31,12 +31,9 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|label a| string a| `169.a.169.1`
- a| @@genus2_curves\tamagawa_numbers\label\description@@
-a|p a| integer a| `13`
- a| @@genus2_curves\tamagawa_numbers\p\description@@
-a|tamagawa_number a| integer a| `1`
- a| @@genus2_curves\tamagawa_numbers\tamagawa_number\description@@
+a|p a| integer a| `13` a| @@genus2_curves\tamagawa_numbers\p\description@@
+a|tamagawa_number a| integer a| `1` a| @@genus2_curves\tamagawa_numbers\tamagawa_number\description@@
+a|label a| string a| `169.a.169.1` a| @@genus2_curves\tamagawa_numbers\label\description@@
 |==============================
 
 '''

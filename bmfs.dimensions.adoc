@@ -31,18 +31,12 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|dimension_data a| collection of integer a| `{u'2': {u'cuspidal_dim': 0, u'new_dim': 0}}`
- a| dimension data. Keys are weights, values are dicts with keys 'cuspidal_dim' and 'new_dim', values ints
-a|field_absdisc a| integer a| `3`
- a| @@bmfs\dimensions\field_absdisc\description@@
-a|field_label a| string a| `2.0.4.1`
- a| LMFDB label of the underlying field
-a|label a| string a| `2.0.4.1-11981.1209.1`
- a| full label of the level
-a|level_label a| string a| `11981.1209.1`
- a| label of the level ideal
-a|level_norm a| integer a| `1`
- a| norm of the level ideal
+a|field_absdisc a| integer a| `3` a| @@bmfs\dimensions\field_absdisc\description@@
+a|label a| string a| `2.0.4.1-11981.1209.1` a| full label of the level
+a|field_label a| string a| `2.0.4.1` a| LMFDB label of the underlying field
+a|level_norm a| integer a| `1` a| norm of the level ideal
+a|level_label a| string a| `11981.1209.1` a| label of the level ideal
+a|dimension_data a| collection of integer a| `{u'2': {u'cuspidal_dim': 0, u'new_dim': 0}}` a| dimension data. Keys are weights, values are dicts with keys 'cuspidal_dim' and 'new_dim', values ints
 |==============================
 
 '''

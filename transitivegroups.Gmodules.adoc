@@ -31,20 +31,13 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|complete a| integer a| `1`
- a| Do we have complete information, 1 for yes, 0 for no
-a|dim a| integer a| `1`
- a| dimension of lattice
-a|gens a| pair [string of cycle type, matrix for action] a| `[[u'(1,2,3)', [[1]]], [u'(1,2)', [[1]]]]`
- a| generators of group and matrix for their actions
-a|index a| integer a| `0`
- a| index to identify the G-module
-a|n a| integer a| `3`
- a| for Galois group in form nTt
-a|name a| string a| `Triv`
- a| name of this G-module
-a|t a| integer a| `2`
- a| for Galois group in form nTt
+a|dim a| integer a| `1` a| dimension of lattice
+a|complete a| integer a| `1` a| Do we have complete information, 1 for yes, 0 for no
+a|index a| integer a| `0` a| index to identify the G-module
+a|gens a| collection of mixed types a| `[[u'(1,2,3)', [[1]]], [u'(1,2)', [[1]]]]` a| generators of group and matrix for their actions
+a|n a| integer a| `3` a| for Galois group in form nTt
+a|t a| integer a| `2` a| for Galois group in form nTt
+a|name a| string a| `Triv` a| name of this G-module
 |==============================
 
 '''

@@ -31,10 +31,8 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|counts a| collection of integer a| `{u'211': [0, 59, 32742], u'131': [0, 45, 16030], u'137': [0, 47, 17142], u'499': [0, 89], u'139': [0` ...
- a| @@abvar\fq_isog_stats\counts\description@@
-a|label a| string a| `counts`
- a| @@abvar\fq_isog_stats\label\description@@
+a|counts a| collection of integer a| `{u'211': [0, 59, 32742], u'131': [0, 45, 16030], u'137': [0, 47, 17142], u'499': [0, 89], u'139': [0` ... a| @@abvar\fq_isog_stats\counts\description@@
+a|label a| string a| `counts` a| @@abvar\fq_isog_stats\label\description@@
 |==============================
 
 '''

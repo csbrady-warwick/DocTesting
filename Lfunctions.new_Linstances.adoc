@@ -31,12 +31,9 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|Lhash a| integer stored as string a| `1456780685049277288`
- a| @@Lfunctions\new_Linstances\Lhash\description@@
-a|type a| string a| `G2Q`
- a| @@Lfunctions\new_Linstances\type\description@@
-a|url a| string a| `Genus2Curve/Q/169/a`
- a| @@Lfunctions\new_Linstances\url\description@@
+a|url a| string a| `Genus2Curve/Q/169/a` a| @@Lfunctions\new_Linstances\url\description@@
+a|Lhash a| integer stored as string a| `1456780685049277288` a| @@Lfunctions\new_Linstances\Lhash\description@@
+a|type a| string a| `G2Q` a| @@Lfunctions\new_Linstances\type\description@@
 |==============================
 
 '''

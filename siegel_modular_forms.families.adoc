@@ -31,16 +31,11 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|degree a| integer a| `2`
- a| integer degree of the famly (currently 2, 3, or 4)
-a|dim_args_default a| collection of mixed types a| `{u'k': u'4..24', u'j': u'2'}`
- a| for families with dimension formulas, a dictionary with default values for k and j
-a|latex_name a| string a| `M_{k,j}\left(\Gamma_0(2)ight)`
- a| latex string for displaying the name
-a|name a| string a| `Gamma0_2`
- a| string identifying the family (e.g. "Sp4Z")
-a|order a| integer a| `10`
- a| integer used to control the ordering of the families for display purposes
+a|latex_name a| string a| `M_{k,j}\left(\Gamma_0(2)ight)` a| latex string for displaying the name
+a|dim_args_default a| collection of mixed types a| `{u'k': u'4..24', u'j': u'2'}` a| for families with dimension formulas, a dictionary with default values for k and j
+a|name a| string a| `Gamma0_2` a| string identifying the family (e.g. "Sp4Z")
+a|degree a| integer a| `2` a| integer degree of the famly (currently 2, 3, or 4)
+a|order a| integer a| `10` a| integer used to control the ordering of the families for display purposes
 |==============================
 
 '''

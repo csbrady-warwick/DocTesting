@@ -31,38 +31,22 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|ab a| integer a| `1`
- a| @@transitivegroups\groups-old\ab\description@@
-a|auts a| integer a| `1`
- a| @@transitivegroups\groups-old\auts\description@@
-a|cyc a| integer a| `1`
- a| @@transitivegroups\groups-old\cyc\description@@
-a|label a| string a| `1T1`
- a| @@transitivegroups\groups-old\label\description@@
-a|moddecompuniq a| collection of integer a| `[0]`
- a| @@transitivegroups\groups-old\moddecompuniq\description@@
-a|n a| integer a| `1`
- a| @@transitivegroups\groups-old\n\description@@
-a|name a| string a| `Trivial group`
- a| @@transitivegroups\groups-old\name\description@@
-a|order a| integer stored as string a| `1`
- a| @@transitivegroups\groups-old\order\description@@
-a|parity a| integer a| `1`
- a| @@transitivegroups\groups-old\parity\description@@
-a|pretty a| string a| `Trivial`
- a| @@transitivegroups\groups-old\pretty\description@@
-a|prim a| integer a| `1`
- a| @@transitivegroups\groups-old\prim\description@@
-a|repns a| non-primitive type (<type 'list'>) a| `[]`
- a| @@transitivegroups\groups-old\repns\description@@
-a|resolve a| non-primitive type (<type 'list'>) a| `[]`
- a| @@transitivegroups\groups-old\resolve\description@@
-a|solv a| integer a| `1`
- a| @@transitivegroups\groups-old\solv\description@@
-a|subs a| non-primitive type (<type 'list'>) a| `[]`
- a| @@transitivegroups\groups-old\subs\description@@
-a|t a| integer a| `1`
- a| @@transitivegroups\groups-old\t\description@@
+a|parity a| integer a| `1` a| @@transitivegroups\groups-old\parity\description@@
+a|ab a| integer a| `1` a| @@transitivegroups\groups-old\ab\description@@
+a|prim a| integer a| `1` a| @@transitivegroups\groups-old\prim\description@@
+a|name a| string a| `Trivial group` a| @@transitivegroups\groups-old\name\description@@
+a|repns a| non-primitive type (<type 'list'>) a| `[]` a| @@transitivegroups\groups-old\repns\description@@
+a|moddecompuniq a| collection of integer a| `[0]` a| @@transitivegroups\groups-old\moddecompuniq\description@@
+a|n a| integer a| `1` a| @@transitivegroups\groups-old\n\description@@
+a|cyc a| integer a| `1` a| @@transitivegroups\groups-old\cyc\description@@
+a|resolve a| non-primitive type (<type 'list'>) a| `[]` a| @@transitivegroups\groups-old\resolve\description@@
+a|auts a| integer a| `1` a| @@transitivegroups\groups-old\auts\description@@
+a|pretty a| string a| `Trivial` a| @@transitivegroups\groups-old\pretty\description@@
+a|t a| integer a| `1` a| @@transitivegroups\groups-old\t\description@@
+a|solv a| integer a| `1` a| @@transitivegroups\groups-old\solv\description@@
+a|label a| string a| `1T1` a| @@transitivegroups\groups-old\label\description@@
+a|order a| integer stored as string a| `1` a| @@transitivegroups\groups-old\order\description@@
+a|subs a| non-primitive type (<type 'list'>) a| `[]` a| @@transitivegroups\groups-old\subs\description@@
 |==============================
 
 '''

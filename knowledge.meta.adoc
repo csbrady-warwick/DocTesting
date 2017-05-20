@@ -31,8 +31,7 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|categories a| collection of string a| `[u'af', u'ag', u'artin', u'bio', u'character', u'data', u'dirichlet_character', u'doc', u'ec', u'gro` ...
- a| @@knowledge\meta\categories\description@@
+a|categories a| collection of string a| `[u'af', u'ag', u'artin', u'bio', u'character', u'data', u'dirichlet_character', u'doc', u'ec', u'gro` ... a| @@knowledge\meta\categories\description@@
 |==============================
 
 '''

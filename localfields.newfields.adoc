@@ -31,48 +31,27 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|aut a| integer a| `10`
- a| @@localfields\newfields\aut\description@@
-a|c a| integer a| `0`
- a| @@localfields\newfields\c\description@@
-a|coeffs a| comma separated list of integer stored as string a| `-1,-2,-1,-2,-2,2,-3,2,2,4,-1,4,0,4,1`
- a| @@localfields\newfields\coeffs\description@@
-a|e a| integer a| `1`
- a| @@localfields\newfields\e\description@@
-a|eisen a| string a| `y - 101`
- a| @@localfields\newfields\eisen\description@@
-a|f a| integer a| `1`
- a| @@localfields\newfields\f\description@@
-a|gal a| collection of integer a| `[10, 1]`
- a| @@localfields\newfields\gal\description@@
-a|galT a| integer a| `1`
- a| @@localfields\newfields\galT\description@@
-a|gms a| integer stored as string a| `0`
- a| @@localfields\newfields\gms\description@@
-a|gsm a| integer stored as string a| `0`
- a| @@localfields\newfields\gsm\description@@
-a|hw a| string a| `$1$`
- a| @@localfields\newfields\hw\description@@
-a|inertia a| collection of mixed types a| `[u'i', [1, 1]]`
- a| @@localfields\newfields\inertia\description@@
-a|label a| string a| `101.1.0.1`
- a| @@localfields\newfields\label\description@@
-a|n a| integer a| `1`
- a| @@localfields\newfields\n\description@@
-a|p a| integer a| `2`
- a| @@localfields\newfields\p\description@@
-a|rf a| collection of integer a| `[1, 1]`
- a| @@localfields\newfields\rf\description@@
-a|slopes a| string a| `[]`
- a| @@localfields\newfields\slopes\description@@
-a|subfields a| collection of real a| `[[u'3,-1,1', 1], [u'2,-1,0,0,0,1', 1]]`
- a| @@localfields\newfields\subfields\description@@
-a|t a| integer a| `1`
- a| @@localfields\newfields\t\description@@
-a|u a| integer a| `10`
- a| @@localfields\newfields\u\description@@
-a|unram a| string a| `t^10 - t + 72`
- a| @@localfields\newfields\unram\description@@
+a|galT a| integer a| `1` a| @@localfields\newfields\galT\description@@
+a|unram a| string a| `t^10 - t + 72` a| @@localfields\newfields\unram\description@@
+a|c a| integer a| `0` a| @@localfields\newfields\c\description@@
+a|e a| integer a| `1` a| @@localfields\newfields\e\description@@
+a|f a| integer a| `1` a| @@localfields\newfields\f\description@@
+a|subfields a| collection of real a| `[[u'3,-1,1', 1], [u'2,-1,0,0,0,1', 1]]` a| @@localfields\newfields\subfields\description@@
+a|hw a| string a| `$1$` a| @@localfields\newfields\hw\description@@
+a|p a| integer a| `2` a| @@localfields\newfields\p\description@@
+a|label a| string a| `101.1.0.1` a| @@localfields\newfields\label\description@@
+a|gms a| integer stored as string a| `0` a| @@localfields\newfields\gms\description@@
+a|rf a| collection of integer a| `[1, 1]` a| @@localfields\newfields\rf\description@@
+a|gal a| collection of integer a| `[10, 1]` a| @@localfields\newfields\gal\description@@
+a|u a| integer a| `10` a| @@localfields\newfields\u\description@@
+a|aut a| integer a| `10` a| @@localfields\newfields\aut\description@@
+a|coeffs a| comma separated list of integer stored as string a| `-1,-2,-1,-2,-2,2,-3,2,2,4,-1,4,0,4,1` a| @@localfields\newfields\coeffs\description@@
+a|eisen a| string a| `y - 101` a| @@localfields\newfields\eisen\description@@
+a|slopes a| string a| `[]` a| @@localfields\newfields\slopes\description@@
+a|n a| integer a| `1` a| @@localfields\newfields\n\description@@
+a|gsm a| integer stored as string a| `0` a| @@localfields\newfields\gsm\description@@
+a|inertia a| collection of mixed types a| `[u'i', [1, 1]]` a| @@localfields\newfields\inertia\description@@
+a|t a| integer a| `1` a| @@localfields\newfields\t\description@@
 |==============================
 
 '''

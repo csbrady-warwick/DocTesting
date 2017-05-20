@@ -31,14 +31,10 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|state a| string a| `saved`
- a| @@knowledge\history\state\description@@
-a|time a| Type cannot be identified (<type 'datetime.datetime'>) a| `2011-10-01 19:39:45.005000`
- a| @@knowledge\history\time\description@@
-a|title a| string a| `Non-singular point (definition)`
- a| @@knowledge\history\title\description@@
-a|who a| string a| `john.jones`
- a| @@knowledge\history\who\description@@
+a|state a| string a| `saved` a| @@knowledge\history\state\description@@
+a|title a| string a| `Non-singular point (definition)` a| @@knowledge\history\title\description@@
+a|who a| string a| `john.jones` a| @@knowledge\history\who\description@@
+a|time a| Type cannot be identified (<type 'datetime.datetime'>) a| `2011-10-01 19:39:45.005000` a| @@knowledge\history\time\description@@
 |==============================
 
 '''

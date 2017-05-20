@@ -31,54 +31,30 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|_coefficients a| collection of mixed types a| `{u'elt_type': u'rational', u'coeff_cplxty': 3, u'nv_coeff_norm': u'18', u'nv_coeff_index': 2, u'nv_c` ...
- a| @@modularforms2\webnewforms\_coefficients\description@@
-a|absolute_polynomial a| string a| `x`
- a| the absolute polynomial for the coefficient field
-a|base_ring a| string a| `1.1.1.1`
- a| the base field of the coefficient field. Should be the same as the field in which the character has values (we view the trivial character as having values in Q which has label '1.1.1.1')
-a|character a| integer a| `1`
- a| the character number in the scheme described below
-a|character_naming_scheme a| string a| `Conrey`
- a| The naming scheme of the character used for this object
-a|cm_disc a| integer a| `0`
- a| equals D, the discriminant of the imaginary quadratic field with which this newform has CM if it has CM, else 0
-a|coefficient_field a| string a| `1.1.1.1`
- a| the label (in the format as given by lmfdb number fields) of the coefficient field
-a|coefficient_field_degree a| integer a| `1`
- a| the absolute degree of the coefficient field
-a|creation_date a| Type cannot be identified (<type 'datetime.datetime'>) a| `2016-05-30 03:58:00`
- a| when this record was created
-a|dimension a| integer a| `1`
- a| dimension of this newform as an irreducible submodule of the ambient space
-a|fix a| integer a| `1`
- a| @@modularforms2\webnewforms\fix\description@@
-a|hecke_orbit_label a| string a| `1.100.1.a`
- a| the label of format level.weight.character.label where 'label' is given in the field label below
-a|is_cm a| integer a| `0`
- a| 1 if this newform has CM, else 0
-a|is_cuspidal a| integer a| `1`
- a| 1 if this record corresponds to a cuspidal newform (for future compatibility if Eisenstein series will be included), else 0
-a|is_rational a| integer a| `1`
- a| 1 if this newform has rational Fourier coefficients, else 0
-a|label a| string a| `b`
- a| label of this orbit in the 'Cremona label' convention, i.e. the first (0th in python ordering) orbit has label 'a', the second 'b', the 27-th 'aa' and then 'ab', the 702nd is 'aaa' etc.
-a|level a| integer a| `1`
- a| level
-a|modification_date a| Type cannot be identified (<type 'datetime.datetime'>) a| `2016-05-30 03:58:05.300000`
- a| when this record was last modified
-a|parent a| string a| `1.100.1`
- a| label of form label.weight.character of the space which contains the given newform (corresponding to the key 'space_label' in the collection webmodformspace)
-a|prec a| integer a| `110`
- a| number of coefficients in the stored q-expansion (either in this record or in the gridfs record)
-a|q_expansion a| string a| `q + 18*q^2 + 81*q^3 - 188*q^4 - 1530*q^5 + 1458*q^6 + 9128*q^7 - 12600*q^8 + 6561*q^9 - 27540*q^10 +` ...
- a| string formatted q-expansion of this newform (if not stored here it is taken from the gridfs object in webmodformspace.files)
-a|sage_version a| Record cannot be found containing key a| `N/A`
- a| @@modularforms2\webnewforms\sage_version\description@@
-a|version a| real a| `1.3`
- a| version number
-a|weight a| integer a| `10`
- a| weight
+a|base_ring a| string a| `1.1.1.1` a| the base field of the coefficient field. Should be the same as the field in which the character has values (we view the trivial character as having values in Q which has label '1.1.1.1')
+a|weight a| integer a| `10` a| weight
+a|is_cm a| integer a| `0` a| 1 if this newform has CM, else 0
+a|creation_date a| Type cannot be identified (<type 'datetime.datetime'>) a| `2016-05-30 03:58:00` a| when this record was created
+a|hecke_orbit_label a| string a| `1.100.1.a` a| the label of format level.weight.character.label where 'label' is given in the field label below
+a|coefficient_field_degree a| integer a| `1` a| the absolute degree of the coefficient field
+a|character_naming_scheme a| string a| `Conrey` a| The naming scheme of the character used for this object
+a|q_expansion a| string a| `q + 18*q^2 + 81*q^3 - 188*q^4 - 1530*q^5 + 1458*q^6 + 9128*q^7 - 12600*q^8 + 6561*q^9 - 27540*q^10 +` ... a| string formatted q-expansion of this newform (if not stored here it is taken from the gridfs object in webmodformspace.files)
+a|sage_version a| Record cannot be found containing key a| `N/A` a| @@modularforms2\webnewforms\sage_version\description@@
+a|modification_date a| Type cannot be identified (<type 'datetime.datetime'>) a| `2016-05-30 03:58:05.300000` a| when this record was last modified
+a|fix a| integer a| `1` a| @@modularforms2\webnewforms\fix\description@@
+a|character a| integer a| `1` a| the character number in the scheme described below
+a|prec a| integer a| `110` a| number of coefficients in the stored q-expansion (either in this record or in the gridfs record)
+a|label a| string a| `b` a| label of this orbit in the 'Cremona label' convention, i.e. the first (0th in python ordering) orbit has label 'a', the second 'b', the 27-th 'aa' and then 'ab', the 702nd is 'aaa' etc.
+a|version a| real a| `1.3` a| version number
+a|parent a| string a| `1.100.1` a| label of form label.weight.character of the space which contains the given newform (corresponding to the key 'space_label' in the collection webmodformspace)
+a|_coefficients a| collection of mixed types a| `{u'elt_type': u'rational', u'coeff_cplxty': 3, u'nv_coeff_norm': u'18', u'nv_coeff_index': 2, u'nv_c` ... a| @@modularforms2\webnewforms\_coefficients\description@@
+a|absolute_polynomial a| string a| `x` a| the absolute polynomial for the coefficient field
+a|level a| integer a| `1` a| level
+a|is_rational a| integer a| `1` a| 1 if this newform has rational Fourier coefficients, else 0
+a|is_cuspidal a| integer a| `1` a| 1 if this record corresponds to a cuspidal newform (for future compatibility if Eisenstein series will be included), else 0
+a|coefficient_field a| string a| `1.1.1.1` a| the label (in the format as given by lmfdb number fields) of the coefficient field
+a|dimension a| integer a| `1` a| dimension of this newform as an irreducible submodule of the ambient space
+a|cm_disc a| integer a| `0` a| equals D, the discriminant of the imaginary quadratic field with which this newform has CM if it has CM, else 0
 |==============================
 
 '''

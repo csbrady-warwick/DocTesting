@@ -31,8 +31,7 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|testing a| integer stored as string a| `123`
- a| @@artin\test\testing\description@@
+a|testing a| integer stored as string a| `123` a| @@artin\test\testing\description@@
 |==============================
 
 '''

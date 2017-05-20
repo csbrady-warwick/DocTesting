@@ -31,40 +31,23 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|ab a| integer a| `1`
- a| @@transitivegroups\groups\ab\description@@
-a|arith_equiv a| integer a| `0`
- a| number of arithmetically equivalent fields for number fields with this Galois group
-a|auts a| integer a| `1`
- a| the number of automorphisms a degree n field with this as its Galois group
-a|cyc a| integer a| `1`
- a| 1 if the group is cyclic, otherwise 0
-a|label a| string a| `1T1`
- a| label is of the form nTt where n is the degree and t is the "t-number"
-a|moddecompuniq a| collection of integer a| `[0]`
- a| @@transitivegroups\groups\moddecompuniq\description@@
-a|n a| integer a| `1`
- a| the degree (n from S_n)
-a|name a| string a| `Trivial group`
- a| the name given by gap (also used by pari, magma, sage, etc)
-a|order a| integer stored as string a| `1`
- a| the size of the group
-a|parity a| integer a| `1`
- a| 1 if the group is a subgroup of A_n, otherwise -1
-a|pretty a| string a| `Trivial`
- a| latex of a nicer name for this group
-a|prim a| integer a| `1`
- a| @@transitivegroups\groups\prim\description@@
-a|repns a| list of pairs [n,t] a| `[]`
- a| if K is a degree n field with this Galois group, this gives other small degree fields with the same Galois closure, up to isomorphism, in terms of their Galois groups
-a|resolve a| list of pairs [n,t] a| `[]`
- a| 
-a|solv a| integer a| `1`
- a| 1 if the group is solvable, otherwise 0
-a|subs a| list of pairs [n,t] a| `[]`
- a|  if K is a degree n field with this Galois group, this gives the subfields up to isomorphism in terms of their Galois groups
-a|t a| integer a| `1`
- a| the t-number, a standard index for conjugacy classes of subgroups of S_n
+a|parity a| integer a| `1` a| 1 if the group is a subgroup of A_n, otherwise -1
+a|ab a| integer a| `1` a| @@transitivegroups\groups\ab\description@@
+a|prim a| integer a| `1` a| @@transitivegroups\groups\prim\description@@
+a|name a| string a| `Trivial group` a| the name given by gap (also used by pari, magma, sage, etc)
+a|repns a| non-primitive type (<type 'list'>) a| `[]` a| if K is a degree n field with this Galois group, this gives other small degree fields with the same Galois closure, up to isomorphism, in terms of their Galois groups
+a|moddecompuniq a| collection of integer a| `[0]` a| @@transitivegroups\groups\moddecompuniq\description@@
+a|label a| string a| `1T1` a| label is of the form nTt where n is the degree and t is the "t-number"
+a|cyc a| integer a| `1` a| 1 if the group is cyclic, otherwise 0
+a|pretty a| string a| `Trivial` a| latex of a nicer name for this group
+a|resolve a| non-primitive type (<type 'list'>) a| `[]` a| 
+a|auts a| integer a| `1` a| the number of automorphisms a degree n field with this as its Galois group
+a|arith_equiv a| integer a| `0` a| number of arithmetically equivalent fields for number fields with this Galois group
+a|t a| integer a| `1` a| the t-number, a standard index for conjugacy classes of subgroups of S_n
+a|solv a| integer a| `1` a| 1 if the group is solvable, otherwise 0
+a|n a| integer a| `1` a| the degree (n from S_n)
+a|order a| integer stored as string a| `1` a| the size of the group
+a|subs a| non-primitive type (<type 'list'>) a| `[]` a|  if K is a degree n field with this Galois group, this gives the subfields up to isomorphism in terms of their Galois groups
 |==============================
 
 '''

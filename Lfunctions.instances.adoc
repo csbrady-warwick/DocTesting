@@ -31,12 +31,9 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|Lhash a| string a| `/ModularForm/GL3/Q/Maass/1/1/-13.5965_-4.76468/1.04846245/`
- a| lookup by L-function hash (used to find all objects with the same L-function)
-a|type a| string a| `DIR`
- a| used to filter instances by type
-a|url a| string a| `Character/Dirichlet/100/11`
- a| lookup by object homepage URL
+a|url a| string a| `Character/Dirichlet/100/11` a| lookup by object homepage URL
+a|Lhash a| string a| `/ModularForm/GL3/Q/Maass/1/1/-13.5965_-4.76468/1.04846245/` a| lookup by L-function hash (used to find all objects with the same L-function)
+a|type a| string a| `DIR` a| used to filter instances by type
 |==============================
 
 '''

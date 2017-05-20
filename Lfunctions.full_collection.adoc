@@ -31,28 +31,17 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|dirichlet_coefficients a| non-primitive type (<type 'NoneType'>) a| `None`
- a| @@Lfunctions\full_collection\dirichlet_coefficients\description@@
-a|kappa_fe a| non-primitive type (<type 'NoneType'>) a| `None`
- a| @@Lfunctions\full_collection\kappa_fe\description@@
-a|lambda_fe a| non-primitive type (<type 'NoneType'>) a| `None`
- a| @@Lfunctions\full_collection\lambda_fe\description@@
-a|mu_fe a| non-primitive type (<type 'NoneType'>) a| `None`
- a| @@Lfunctions\full_collection\mu_fe\description@@
-a|nu_fe a| non-primitive type (<type 'NoneType'>) a| `None`
- a| @@Lfunctions\full_collection\nu_fe\description@@
-a|original_mathematical_object a| non-primitive type (<type 'NoneType'>) a| `None`
- a| @@Lfunctions\full_collection\original_mathematical_object\description@@
-a|original_mathematical_object() a| non-primitive type (<type 'NoneType'>) a| `None`
- a| @@Lfunctions\full_collection\original_mathematical_object()\description@@
-a|poles a| non-primitive type (<type 'NoneType'>) a| `None`
- a| @@Lfunctions\full_collection\poles\description@@
-a|residues a| non-primitive type (<type 'NoneType'>) a| `None`
- a| @@Lfunctions\full_collection\residues\description@@
-a|sign a| integer a| `1`
- a| @@Lfunctions\full_collection\sign\description@@
-a|weight a| non-primitive type (<type 'NoneType'>) a| `None`
- a| @@Lfunctions\full_collection\weight\description@@
+a|nu_fe a| non-primitive type (<type 'NoneType'>) a| `None` a| @@Lfunctions\full_collection\nu_fe\description@@
+a|lambda_fe a| non-primitive type (<type 'NoneType'>) a| `None` a| @@Lfunctions\full_collection\lambda_fe\description@@
+a|weight a| non-primitive type (<type 'NoneType'>) a| `None` a| @@Lfunctions\full_collection\weight\description@@
+a|residues a| non-primitive type (<type 'NoneType'>) a| `None` a| @@Lfunctions\full_collection\residues\description@@
+a|sign a| integer a| `1` a| @@Lfunctions\full_collection\sign\description@@
+a|poles a| non-primitive type (<type 'NoneType'>) a| `None` a| @@Lfunctions\full_collection\poles\description@@
+a|original_mathematical_object() a| non-primitive type (<type 'NoneType'>) a| `None` a| @@Lfunctions\full_collection\original_mathematical_object()\description@@
+a|original_mathematical_object a| non-primitive type (<type 'NoneType'>) a| `None` a| @@Lfunctions\full_collection\original_mathematical_object\description@@
+a|mu_fe a| non-primitive type (<type 'NoneType'>) a| `None` a| @@Lfunctions\full_collection\mu_fe\description@@
+a|dirichlet_coefficients a| non-primitive type (<type 'NoneType'>) a| `None` a| @@Lfunctions\full_collection\dirichlet_coefficients\description@@
+a|kappa_fe a| non-primitive type (<type 'NoneType'>) a| `None` a| @@Lfunctions\full_collection\kappa_fe\description@@
 |==============================
 
 '''
@@ -108,6 +97,30 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
+=== @@Lfunctions\full_collection\cca95dc0f5bfa2ec7819c52512c4938a\name@@ ===
+
+[NOTE]
+====
+@@Lfunctions\full_collection\cca95dc0f5bfa2ec7819c52512c4938a\description@@
+
+
+====
+
+1 records extended from base type
+
+* dirichlet_coefficients 
+* original_mathematical_object 
+* sign 
+* weight 
+
+
+
+****
+
+'''
+
+****
+[discrete]
 === @@Lfunctions\full_collection\b7204dc31bb98ceb1d5e9b47ddbe18aa\name@@ ===
 
 [NOTE]
@@ -141,30 +154,6 @@ Derived records are the record types that actually exist in the database.They ar
 
 1 records extended from base type
 
-* original_mathematical_object 
-* sign 
-* weight 
-
-
-
-****
-
-'''
-
-****
-[discrete]
-=== @@Lfunctions\full_collection\cca95dc0f5bfa2ec7819c52512c4938a\name@@ ===
-
-[NOTE]
-====
-@@Lfunctions\full_collection\cca95dc0f5bfa2ec7819c52512c4938a\description@@
-
-
-====
-
-1 records extended from base type
-
-* dirichlet_coefficients 
 * original_mathematical_object 
 * sign 
 * weight 

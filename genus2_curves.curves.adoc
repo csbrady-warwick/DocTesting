@@ -31,62 +31,34 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|Lhash a| integer stored as string a| `1559690718239781401`
- a| @@genus2_curves\curves\Lhash\description@@
-a|abs_disc a| integer a| `169`
- a| absolute discriminant
-a|analytic_rank a| integer a| `0`
- a| analytic rank upper bound that is believed to be tight (known for rank 0 or 1)
-a|aut_grp_id a| string a| `[12,4]`
- a| automorphism group (specified by GAP id)
-a|bad_lfactors a| string encoding list of pairs [p,c] where p is a bad prime and c is a list of the coefficients of the Euler factor at p a| `[[2,[1]]]`
- a| bad primes and the corresponding L-factors
-a|class a| string a| `10000.a`
- a| isogeny class
-a|cond a| integer a| `169`
- a| conductor
-a|disc_key a| integer stored as string a| `002169`
- a| Representation of the discriminant D of the curve: the first three digits are floor(log_10 (|D|)), which is followed by digits representing the absolute value of |D|.
-a|disc_sign a| integer a| `-1`
- a| sign of the discriminant
-a|eqn a| comma separated list of mixed types stored as string a| `[[0,-1,-2,0,-2,1],[]]`
- a| coefficients of minimal equation y^2+h(x)y=f(x)
-a|g2_inv a| string a| `['-1/105879','-904/105879','-11596/105879']`
- a| G2 invariants
-a|geom_aut_grp_id a| string a| `[10,2]`
- a| geometric automorphism group (shorthand)
-a|globally_solvable a| integer a| `1`
- a| 1 if known to have rational points, 0 if known to have no rational points, -1 if unknown
-a|has_square_sha a| boolean a| `False`
- a| assuming Sha is finite, true if the order of Sha is a square, false otherwise (in which case it is 2 times a square, by a result of Poonen-Stoll 1999)
-a|igusa_clebsch_inv a| string a| `['-1664','-8192','-10485760','-2147483648']`
- a| Igusa-Clebsch invariants
-a|igusa_inv a| string a| `['-208','1888','2304','-1010944','-524288']`
- a| Igusa invariants
-a|is_gl2_type a| boolean a| `False`
- a| whether the curve is of GL2-type over its base field
-a|is_simple_base a| boolean a| `True`
- a| whether the curve is simple over the base field
-a|is_simple_geom a| boolean a| `False`
- a| whether the curve is simple over the algebraic closure
-a|label a| string a| `10000.a.160000.1`
- a| LMFDB label
-a|locally_solvable a| boolean a| `False`
- a| true if the curve has rational points locally everywhere (i.e. over every completion of Q, including R)
-a|num_rat_wpts a| integer a| `2`
- a| number of rational Weierstrass points
-a|real_geom_end_alg a| string a| `C x C`
- a| endomorphism ring over base field tensored with RR
-a|root_number a| integer a| `1`
- a| root number
-a|st_group a| string a| `D_{2,1}`
- a| Sato-Tate group over base field
-a|torsion_order a| integer a| `1`
- a| rational torsion order of the Jacobian
-a|torsion_subgroup a| string a| `[10]`
- a| rational torsion group of the Jacobian, represented by the invariant factors [d_1, d_2, ...] for which this torsion group is isomorphic to ZZ / d_1 ZZ x ZZ / d_2 ZZ x ...
-a|two_selmer_rank a| integer a| `2`
- a| 2-Selmer rank
+a|geom_aut_grp_id a| string a| `[10,2]` a| geometric automorphism group (shorthand)
+a|igusa_inv a| string a| `['-208','1888','2304','-1010944','-524288']` a| Igusa invariants
+a|num_rat_wpts a| integer a| `2` a| number of rational Weierstrass points
+a|is_simple_base a| boolean a| `True` a| whether the curve is simple over the base field
+a|is_simple_geom a| boolean a| `False` a| whether the curve is simple over the algebraic closure
+a|torsion_order a| integer a| `1` a| rational torsion order of the Jacobian
+a|g2_inv a| string a| `['-1/105879','-904/105879','-11596/105879']` a| G2 invariants
+a|cond a| integer a| `169` a| conductor
+a|Lhash a| integer stored as string a| `1559690718239781401` a| @@genus2_curves\curves\Lhash\description@@
+a|abs_disc a| integer a| `169` a| absolute discriminant
+a|has_square_sha a| boolean a| `False` a| assuming Sha is finite, true if the order of Sha is a square, false otherwise (in which case it is 2 times a square, by a result of Poonen-Stoll 1999)
+a|two_selmer_rank a| integer a| `2` a| 2-Selmer rank
+a|analytic_rank a| integer a| `0` a| analytic rank upper bound that is believed to be tight (known for rank 0 or 1)
+a|label a| string a| `10000.a.160000.1` a| LMFDB label
+a|st_group a| string a| `D_{2,1}` a| Sato-Tate group over base field
+a|aut_grp_id a| string a| `[12,4]` a| automorphism group (specified by GAP id)
+a|eqn a| comma separated list of mixed types stored as string a| `[[0,-1,-2,0,-2,1],[]]` a| coefficients of minimal equation y^2+h(x)y=f(x)
+a|locally_solvable a| boolean a| `False` a| true if the curve has rational points locally everywhere (i.e. over every completion of Q, including R)
+a|bad_lfactors a| string a| `[[2,[1]]]` a| bad primes and the corresponding L-factors
+a|is_gl2_type a| boolean a| `False` a| whether the curve is of GL2-type over its base field
+a|disc_sign a| integer a| `-1` a| sign of the discriminant
+a|class a| string a| `10000.a` a| isogeny class
+a|igusa_clebsch_inv a| string a| `['-1664','-8192','-10485760','-2147483648']` a| Igusa-Clebsch invariants
+a|globally_solvable a| integer a| `1` a| 1 if known to have rational points, 0 if known to have no rational points, -1 if unknown
+a|disc_key a| integer stored as string a| `002169` a| Representation of the discriminant D of the curve: the first three digits are floor(log_10 (|D|)), which is followed by digits representing the absolute value of |D|.
+a|real_geom_end_alg a| string a| `C x C` a| endomorphism ring over base field tensored with RR
+a|torsion_subgroup a| string a| `[10]` a| rational torsion group of the Jacobian, represented by the invariant factors [d_1, d_2, ...] for which this torsion group is isomorphic to ZZ / d_1 ZZ x ZZ / d_2 ZZ x ...
+a|root_number a| integer a| `1` a| root number
 |==============================
 
 '''

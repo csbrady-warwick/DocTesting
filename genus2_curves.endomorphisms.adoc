@@ -31,46 +31,26 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|factorsQQ_base a| collection of mixed types a| `[[u'1.1.1.1', [0, 1], -1]]`
- a| description of endomorphism algebra factors over the base field
-a|factorsQQ_geom a| collection of mixed types a| `[[u'1.1.1.1', [0, 1], -1]]`
- a| description of endomorphism algebra factors over the algebraic closure
-a|factorsRR_base a| collection of string a| `[u'RR']`
- a| endomorphism algebra factors over the base field tensored with RR
-a|factorsRR_geom a| collection of string a| `[u'RR']`
- a| endomorphism algebra factors over the algebraic closure tensored with RR
-a|fod_coeffs a| collection of integer a| `[0, 1]`
- a| defining polynomial of the smallest field over which all endomorphisms are defined
-a|fod_label a| string a| `1.1.1.1`
- a| LMFDB label of the smallest field over which all endomorphisms are defined
-a|is_simple_base a| boolean a| `True`
- a| whether the curve is simple over the base field
-a|is_simple_geom a| boolean a| `True`
- a| whether the curve is simple over the algebraic closure
-a|label a| string a| `10000.a.160000.1`
- a| LMFDB label
-a|lattice a| collection of mixed types a| `[[[u'1.1.1.1', [0, 1], [u'0']], [[u'1.1.1.1', [0, 1], -1]], [u'RR'], [1, -1], u'USp(4)']]`
- a| endomorphism lattice. See notes section
-a|ring_base a| collection of integer a| `[1, -1]`
- a| endomorphism ring over the base field as a subring of the endomorphism algebra
-a|ring_geom a| collection of integer a| `[1, -1]`
- a| endomorphism ring over the algebraic closure as a subring of the endomorphism algebra
-a|spl_facs_coeffs a| collection of integer stored as string a| `[[[u'-623'], [u'-6713']], [[u'-20'], [u'-64']]]`
- a| defining coefficients of the elliptic curves obtained by splitting the Jacobian
-a|spl_facs_condnorms a| collection of integer a| `[1078, 448]`
- a| conductor norms of the elliptic curves obtained by splitting the Jacobian
-a|spl_facs_labels a| collection of string a| `[u'1078.l2', u'448.b2']`
- a| LMFDB labels of the elliptic curves obtained by splitting the Jacobian
-a|spl_fod_coeffs a| collection of integer a| `[0, 1]`
- a| defining polynomial of a field of minimal degree over which a splitting of the Jacobian is defined
-a|spl_fod_gen a| collection of integer stored as string a| `[u'0']`
- a| generator of a field of minimal degree over which a splitting of the Jacobian is defined, as a subfield of the smallest field over which all endomorphisms are defined
-a|spl_fod_label a| string a| `1.1.1.1`
- a| LMFDB label of a field of minimal degree over which a splitting of the Jacobian is defined
-a|st_group_base a| string a| `USp(4)`
- a| Sato-Tate group over the base field
-a|st_group_geom a| string a| `USp(4)`
- a| Sato-Tate group over the algebraic closure (equivalently, its identity component)
+a|st_group_base a| string a| `USp(4)` a| Sato-Tate group over the base field
+a|factorsRR_base a| collection of string a| `[u'RR']` a| endomorphism algebra factors over the base field tensored with RR
+a|spl_fod_coeffs a| collection of integer a| `[0, 1]` a| defining polynomial of a field of minimal degree over which a splitting of the Jacobian is defined
+a|factorsQQ_geom a| collection of mixed types a| `[[u'1.1.1.1', [0, 1], -1]]` a| description of endomorphism algebra factors over the algebraic closure
+a|spl_facs_coeffs a| collection of integer stored as string a| `[[[u'-623'], [u'-6713']], [[u'-20'], [u'-64']]]` a| defining coefficients of the elliptic curves obtained by splitting the Jacobian
+a|is_simple_base a| boolean a| `True` a| whether the curve is simple over the base field
+a|spl_fod_label a| string a| `1.1.1.1` a| LMFDB label of a field of minimal degree over which a splitting of the Jacobian is defined
+a|ring_geom a| collection of integer a| `[1, -1]` a| endomorphism ring over the algebraic closure as a subring of the endomorphism algebra
+a|is_simple_geom a| boolean a| `True` a| whether the curve is simple over the algebraic closure
+a|label a| string a| `10000.a.160000.1` a| LMFDB label
+a|fod_label a| string a| `1.1.1.1` a| LMFDB label of the smallest field over which all endomorphisms are defined
+a|fod_coeffs a| collection of integer a| `[0, 1]` a| defining polynomial of the smallest field over which all endomorphisms are defined
+a|lattice a| collection of mixed types a| `[[[u'1.1.1.1', [0, 1], [u'0']], [[u'1.1.1.1', [0, 1], -1]], [u'RR'], [1, -1], u'USp(4)']]` a| endomorphism lattice. See notes section
+a|factorsRR_geom a| collection of string a| `[u'RR']` a| endomorphism algebra factors over the algebraic closure tensored with RR
+a|st_group_geom a| string a| `USp(4)` a| Sato-Tate group over the algebraic closure (equivalently, its identity component)
+a|spl_facs_condnorms a| collection of integer a| `[1078, 448]` a| conductor norms of the elliptic curves obtained by splitting the Jacobian
+a|ring_base a| collection of integer a| `[1, -1]` a| endomorphism ring over the base field as a subring of the endomorphism algebra
+a|factorsQQ_base a| collection of mixed types a| `[[u'1.1.1.1', [0, 1], -1]]` a| description of endomorphism algebra factors over the base field
+a|spl_fod_gen a| collection of integer stored as string a| `[u'0']` a| generator of a field of minimal degree over which a splitting of the Jacobian is defined, as a subfield of the smallest field over which all endomorphisms are defined
+a|spl_facs_labels a| collection of string a| `[u'1078.l2', u'448.b2']` a| LMFDB labels of the elliptic curves obtained by splitting the Jacobian
 |==============================
 
 '''

@@ -31,44 +31,25 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|111111 a| string a| `(-3*t**28+2*t**27+t**26-2*t**25+6*t**24+t**23-t**22+2*t**21-t**20-6*t**19-2*t**17-t**15-t**14+3*t**1` ...
- a| string encoding a rational function in Q(t)
-a|21111 a| string a| `(-9*t**20+15*t**19-9*t**18+4*t**17+23*t**16-27*t**15+27*t**14-17*t**13-15*t**12+9*t**11-37*t**10+24*` ...
- a| string encoding a rational function in Q(t)
-a|2211 a| string a| `(-11*t**18+19*t**16+16*t**15+36*t**14+19*t**13-34*t**12-49*t**11-54*t**10-56*t**9-3*t**8+40*t**7+35*` ...
- a| string encoding a rational function in Q(t)
-a|222 a| string a| `(-4*t**24+7*t**23+2*t**22-4*t**21+8*t**20-4*t**19-6*t**18+5*t**17-11*t**16+2*t**15-3*t**14+t**13+10*` ...
- a| string encoding a rational function in Q(t)
-a|311 a| string a| `(-9*t**24+19*t**23+t**22-12*t**21+25*t**20-19*t**19-8*t**18+12*t**17-24*t**16+t**15+t**14+t**13+13*t` ...
- a| string encoding a rational function in Q(t)
-a|3111 a| string a| `(-9*t**24+19*t**23+t**22-12*t**21+25*t**20-19*t**19-8*t**18+12*t**17-24*t**16+t**15+t**14+t**13+13*t` ...
- a| string encoding a rational function in Q(t)
-a|321 a| string a| `(-11*t**20+17*t**19+28*t**18-18*t**17+10*t**16+35*t**15-22*t**14-57*t**13-19*t**12-5*t**11-43*t**10-` ...
- a| string encoding a rational function in Q(t)
-a|33 a| string a| `(-2*t**24+8*t**23-2*t**22-2*t**21+9*t**20-13*t**19+6*t**18-7*t**17-5*t**16+5*t**15-8*t**14+6*t**13+5` ...
- a| string encoding a rational function in Q(t)
-a|411 a| string a| `(-4*t**24+16*t**23-t**22-9*t**21+19*t**20-20*t**19-3*t**18+3*t**17-17*t**16+3*t**15-t**14+3*t**13+7*` ...
- a| string encoding a rational function in Q(t)
-a|42 a| string a| `(-2*t**18+6*t**17+19*t**16+16*t**15+12*t**14-2*t**13-40*t**12-50*t**11-38*t**10-26*t**9+9*t**8+40*t*` ...
- a| string encoding a rational function in Q(t)
-a|51 a| string a| `(-t**20+8*t**19-t**18+t**17+10*t**16-16*t**15+5*t**14-11*t**13-14*t**12+3*t**11-13*t**10+13*t**9+7*t` ...
- a| string encoding a rational function in Q(t)
-a|6 a| string a| `(t**27+t**26+2*t**25-3*t**21-4*t**20+t**19-4*t**18-2*t**17+4*t**16-3*t**15-2*t**14+3*t**13-t**12-2*t` ...
- a| string encoding a rational function in Q(t)
-a|author a| string a| `Fabien Clery`
- a| string naming the author(s)
-a|description a| string a| `Hilbert-Poincare series for the sum of the canonical $S_6$-submodule $M_k^p$ ($k\ge 4$) of $M_{k,26}` ...
- a| string describing the space
-a|group a| string a| `Gamma(2)`
- a| name of the modular group, string (currently always 'Gamma(2)')
-a|note a| collection of string a| `[u'if $j\ge2 then only $k\ge 4$']`
- a| string containing a latex note
-a|space a| string a| `cusp`
- a| string describing the type of the space (either "total" or "cusp")
-a|sym_power a| integer stored as string a| `0`
- a| string encoding a nonnegative even integer (currently in [0,100])
-a|title a| string a| `Hilbert Poincare series`
- a| string (currently always set to "Hilbert Poincare series")
+a|note a| collection of string a| `[u'if $j\ge2 then only $k\ge 4$']` a| string containing a latex note
+a|2211 a| string a| `(-11*t**18+19*t**16+16*t**15+36*t**14+19*t**13-34*t**12-49*t**11-54*t**10-56*t**9-3*t**8+40*t**7+35*` ... a| string encoding a rational function in Q(t)
+a|21111 a| string a| `(-9*t**20+15*t**19-9*t**18+4*t**17+23*t**16-27*t**15+27*t**14-17*t**13-15*t**12+9*t**11-37*t**10+24*` ... a| string encoding a rational function in Q(t)
+a|group a| string a| `Gamma(2)` a| name of the modular group, string (currently always 'Gamma(2)')
+a|description a| string a| `Hilbert-Poincare series for the sum of the canonical $S_6$-submodule $M_k^p$ ($k\ge 4$) of $M_{k,26}` ... a| string describing the space
+a|author a| string a| `Fabien Clery` a| string naming the author(s)
+a|33 a| string a| `(-2*t**24+8*t**23-2*t**22-2*t**21+9*t**20-13*t**19+6*t**18-7*t**17-5*t**16+5*t**15-8*t**14+6*t**13+5` ... a| string encoding a rational function in Q(t)
+a|51 a| string a| `(-t**20+8*t**19-t**18+t**17+10*t**16-16*t**15+5*t**14-11*t**13-14*t**12+3*t**11-13*t**10+13*t**9+7*t` ... a| string encoding a rational function in Q(t)
+a|311 a| string a| `(-9*t**24+19*t**23+t**22-12*t**21+25*t**20-19*t**19-8*t**18+12*t**17-24*t**16+t**15+t**14+t**13+13*t` ... a| string encoding a rational function in Q(t)
+a|space a| string a| `cusp` a| string describing the type of the space (either "total" or "cusp")
+a|42 a| string a| `(-2*t**18+6*t**17+19*t**16+16*t**15+12*t**14-2*t**13-40*t**12-50*t**11-38*t**10-26*t**9+9*t**8+40*t*` ... a| string encoding a rational function in Q(t)
+a|3111 a| string a| `(-9*t**24+19*t**23+t**22-12*t**21+25*t**20-19*t**19-8*t**18+12*t**17-24*t**16+t**15+t**14+t**13+13*t` ... a| string encoding a rational function in Q(t)
+a|111111 a| string a| `(-3*t**28+2*t**27+t**26-2*t**25+6*t**24+t**23-t**22+2*t**21-t**20-6*t**19-2*t**17-t**15-t**14+3*t**1` ... a| string encoding a rational function in Q(t)
+a|sym_power a| integer stored as string a| `0` a| string encoding a nonnegative even integer (currently in [0,100])
+a|321 a| string a| `(-11*t**20+17*t**19+28*t**18-18*t**17+10*t**16+35*t**15-22*t**14-57*t**13-19*t**12-5*t**11-43*t**10-` ... a| string encoding a rational function in Q(t)
+a|411 a| string a| `(-4*t**24+16*t**23-t**22-9*t**21+19*t**20-20*t**19-3*t**18+3*t**17-17*t**16+3*t**15-t**14+3*t**13+7*` ... a| string encoding a rational function in Q(t)
+a|6 a| string a| `(t**27+t**26+2*t**25-3*t**21-4*t**20+t**19-4*t**18-2*t**17+4*t**16-3*t**15-2*t**14+3*t**13-t**12-2*t` ... a| string encoding a rational function in Q(t)
+a|title a| string a| `Hilbert Poincare series` a| string (currently always set to "Hilbert Poincare series")
+a|222 a| string a| `(-4*t**24+7*t**23+2*t**22-4*t**21+8*t**20-4*t**19-6*t**18+5*t**17-11*t**16+2*t**15-3*t**14+t**13+10*` ... a| string encoding a rational function in Q(t)
 |==============================
 
 '''

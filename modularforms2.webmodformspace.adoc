@@ -31,54 +31,30 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|_has_oldspace a| integer a| `0`
- a| 1 if we have computed the decomposiiton of the space of oldforms, else 0
-a|bitprec a| integer a| `53`
- a| the precision (in bits) of the stored embedded coefficients default is 53 = double precision
-a|character a| integer a| `1`
- a| number of the character
-a|character_naming_scheme a| string a| `Conrey`
- a| 'Conrey' or 'Sage', used to denote the naming/labeling scheme used. Default is 'Conrey'
-a|character_orbit_rep a| integer a| `1`
- a| The number of the character which is the representative of the Galois orbit (in the same naming scheme as above). The representative is chosen as the smallest integer in the list of character numbers
-a|character_used_in_computation a| integer a| `1`
- a| number of the character which was used in the computation (could be another character in the Galois orbit)
-a|creation_date a| Type cannot be identified (<type 'datetime.datetime'>) a| `1970-01-01 00:00:00`
- a| when the record was created
-a|cuspidal a| integer a| `1`
- a| 1 if the record describes a space of cusp forms, else 0
-a|dimension a| integer a| `0`
- a| dimension of this space
-a|dimension_cusp_forms a| integer a| `0`
- a| dimension of the space of cusp forms with this level, weight and character
-a|dimension_modular_forms a| integer a| `1`
- a| dimension of the space of modular forms with this level, weight and character
-a|dimension_new_cusp_forms a| integer a| `0`
- a| dimension of the space of (cuspidal) newforms with this level, weight and character
-a|hecke_orbits a| non-primitive type (<type 'list'>) a| `[]`
- a| list of labels of the newforms Hecke orbits of self which are stored in the collection 'webnewforms'
-a|level a| integer a| `1`
- a| level
-a|modification_date a| Type cannot be identified (<type 'datetime.datetime'>) a| `2016-05-30 05:31:07.108000`
- a| @@modularforms2\webmodformspace\modification_date\description@@
-a|new a| integer a| `1`
- a| @@modularforms2\webmodformspace\new\description@@
-a|prec a| integer a| `10`
- a| number of coefficients stored in the q-expansions for the newforms (if they are stored)
-a|space_label a| string a| `1.10.1`
- a| label of the format level.weight.character where character is the number above (in particular given by the naming scheme in 'character_naming_scheme')
-a|space_orbit_label a| string a| `2.2.0`
- a| label of the format level.weight.o where o is the number of the galois orbit of the character in the list of all galois orbits (ordered by their minimal element)
-a|sturm_bound a| integer a| `0`
- a| the Sturm bound for this space, i.e. a general bound on the number of coefficients which must be given to uniquely indentify a modular form in this space
-a|version a| real a| `1.2`
- a| version number
-a|weight a| integer a| `2`
- a| weight
-a|zeta_orders a| non-primitive type (<type 'list'>) a| `[]`
- a| list of orders of the generators of the cyclotomic fields which are the base fields of the Fourier coefficients of the newforms in the database
-a|zetas a| Record cannot be found containing key a| `N/A`
- a| @@modularforms2\webmodformspace\zetas\description@@
+a|character_naming_scheme a| string a| `Conrey` a| 'Conrey' or 'Sage', used to denote the naming/labeling scheme used. Default is 'Conrey'
+a|weight a| integer a| `2` a| weight
+a|zetas a| Record cannot be found containing key a| `N/A` a| @@modularforms2\webmodformspace\zetas\description@@
+a|dimension_cusp_forms a| integer a| `0` a| dimension of the space of cusp forms with this level, weight and character
+a|cuspidal a| integer a| `1` a| 1 if the record describes a space of cusp forms, else 0
+a|creation_date a| Type cannot be identified (<type 'datetime.datetime'>) a| `1970-01-01 00:00:00` a| when the record was created
+a|zeta_orders a| non-primitive type (<type 'list'>) a| `[]` a| list of orders of the generators of the cyclotomic fields which are the base fields of the Fourier coefficients of the newforms in the database
+a|_has_oldspace a| integer a| `0` a| 1 if we have computed the decomposiiton of the space of oldforms, else 0
+a|sturm_bound a| integer a| `0` a| the Sturm bound for this space, i.e. a general bound on the number of coefficients which must be given to uniquely indentify a modular form in this space
+a|character a| integer a| `1` a| number of the character
+a|prec a| integer a| `10` a| number of coefficients stored in the q-expansions for the newforms (if they are stored)
+a|character_used_in_computation a| integer a| `1` a| number of the character which was used in the computation (could be another character in the Galois orbit)
+a|version a| real a| `1.2` a| version number
+a|dimension_modular_forms a| integer a| `1` a| dimension of the space of modular forms with this level, weight and character
+a|new a| integer a| `1` a| @@modularforms2\webmodformspace\new\description@@
+a|character_orbit_rep a| integer a| `1` a| The number of the character which is the representative of the Galois orbit (in the same naming scheme as above). The representative is chosen as the smallest integer in the list of character numbers
+a|hecke_orbits a| non-primitive type (<type 'list'>) a| `[]` a| list of labels of the newforms Hecke orbits of self which are stored in the collection 'webnewforms'
+a|dimension_new_cusp_forms a| integer a| `0` a| dimension of the space of (cuspidal) newforms with this level, weight and character
+a|bitprec a| integer a| `53` a| the precision (in bits) of the stored embedded coefficients default is 53 = double precision
+a|modification_date a| Type cannot be identified (<type 'datetime.datetime'>) a| `2016-05-30 05:31:07.108000` a| @@modularforms2\webmodformspace\modification_date\description@@
+a|level a| integer a| `1` a| level
+a|dimension a| integer a| `0` a| dimension of this space
+a|space_label a| string a| `1.10.1` a| label of the format level.weight.character where character is the number above (in particular given by the naming scheme in 'character_naming_scheme')
+a|space_orbit_label a| string a| `2.2.0` a| label of the format level.weight.o where o is the number of the galois orbit of the character in the list of all galois orbits (ordered by their minimal element)
 |==============================
 
 '''

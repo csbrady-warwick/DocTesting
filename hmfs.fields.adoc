@@ -31,18 +31,12 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|degree a| integer a| `2`
- a| @@hmfs\fields\degree\description@@
-a|discriminant a| integer a| `49`
- a| @@hmfs\fields\discriminant\description@@
-a|ideals a| collection of comma separated list of mixed types stored as string a| `[u'[1, 1, 1]', u'[7, 7, 2*w^2 - w - 3]', u'[8, 2, 2]', u'[13, 13, -w^2 - w + 3]', u'[13, 13, -w^2 +` ...
- a| @@hmfs\fields\ideals\description@@
-a|label a| string a| `3.3.49.1`
- a| @@hmfs\fields\label\description@@
-a|narrow_class_no a| integer a| `1`
- a| @@hmfs\fields\narrow_class_no\description@@
-a|primes a| collection of comma separated list of mixed types stored as string a| `[u'[7, 7, 2*w^2 - w - 3]', u'[8, 2, 2]', u'[13, 13, -w^2 - w + 3]', u'[13, 13, -w^2 + 2*w + 2]', u'[` ...
- a| @@hmfs\fields\primes\description@@
+a|degree a| integer a| `2` a| @@hmfs\fields\degree\description@@
+a|discriminant a| integer a| `49` a| @@hmfs\fields\discriminant\description@@
+a|label a| string a| `3.3.49.1` a| @@hmfs\fields\label\description@@
+a|ideals a| collection of comma separated list of mixed types stored as string a| `[u'[1, 1, 1]', u'[7, 7, 2*w^2 - w - 3]', u'[8, 2, 2]', u'[13, 13, -w^2 - w + 3]', u'[13, 13, -w^2 +` ... a| @@hmfs\fields\ideals\description@@
+a|narrow_class_no a| integer a| `1` a| @@hmfs\fields\narrow_class_no\description@@
+a|primes a| collection of comma separated list of mixed types stored as string a| `[u'[7, 7, 2*w^2 - w - 3]', u'[8, 2, 2]', u'[13, 13, -w^2 - w + 3]', u'[13, 13, -w^2 + 2*w + 2]', u'[` ... a| @@hmfs\fields\primes\description@@
 |==============================
 
 '''

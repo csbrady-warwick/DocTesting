@@ -31,30 +31,18 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|BadPrimes a| collection of integer stored as string a| `[u'31']`
- a| @@artin\representations_old\BadPrimes\description@@
-a|Baselabel a| string a| `1.1.1t1.1`
- a| @@artin\representations_old\Baselabel\description@@
-a|CharacterField a| integer a| `1`
- a| @@artin\representations_old\CharacterField\description@@
-a|Conductor a| integer stored as string a| `31`
- a| @@artin\representations_old\Conductor\description@@
-a|Conductor_key a| integer stored as string a| `000131`
- a| @@artin\representations_old\Conductor_key\description@@
-a|Dim a| integer a| `1`
- a| @@artin\representations_old\Dim\description@@
-a|GaloisConjugates a| collection of real a| `[{u'GalOrbIndex': 1, u'LocalFactors': [[[1], [-1]], [[1], [1]], [[1]]], u'Character': [[1], [-1]], u` ...
- a| @@artin\representations_old\GaloisConjugates\description@@
-a|Galois_nt a| collection of integer a| `[2, 1]`
- a| @@artin\representations_old\Galois_nt\description@@
-a|HardPrimes a| collection of integer stored as string a| `[u'31']`
- a| @@artin\representations_old\HardPrimes\description@@
-a|Hide a| integer a| `0`
- a| @@artin\representations_old\Hide\description@@
-a|Indicator a| integer a| `1`
- a| @@artin\representations_old\Indicator\description@@
-a|NFGal a| comma separated list of integer stored as string a| `-1,-1,-1,-1,2,-1,1`
- a| @@artin\representations_old\NFGal\description@@
+a|Dim a| integer a| `1` a| @@artin\representations_old\Dim\description@@
+a|Conductor_key a| integer stored as string a| `000131` a| @@artin\representations_old\Conductor_key\description@@
+a|BadPrimes a| collection of integer stored as string a| `[u'31']` a| @@artin\representations_old\BadPrimes\description@@
+a|Baselabel a| string a| `1.1.1t1.1` a| @@artin\representations_old\Baselabel\description@@
+a|Conductor a| integer stored as string a| `31` a| @@artin\representations_old\Conductor\description@@
+a|GaloisConjugates a| collection of real a| `[{u'GalOrbIndex': 1, u'LocalFactors': [[[1], [-1]], [[1], [1]], [[1]]], u'Character': [[1], [-1]], u` ... a| @@artin\representations_old\GaloisConjugates\description@@
+a|Indicator a| integer a| `1` a| @@artin\representations_old\Indicator\description@@
+a|HardPrimes a| collection of integer stored as string a| `[u'31']` a| @@artin\representations_old\HardPrimes\description@@
+a|CharacterField a| integer a| `1` a| @@artin\representations_old\CharacterField\description@@
+a|NFGal a| comma separated list of integer stored as string a| `-1,-1,-1,-1,2,-1,1` a| @@artin\representations_old\NFGal\description@@
+a|Hide a| integer a| `0` a| @@artin\representations_old\Hide\description@@
+a|Galois_nt a| collection of integer a| `[2, 1]` a| @@artin\representations_old\Galois_nt\description@@
 |==============================
 
 '''

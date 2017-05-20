@@ -31,10 +31,8 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|Numc a| integer a| `5000`
- a| @@MaassWaveForms\Coefficients\Numc\description@@
-a|coeff_id a| non-primitive type (<class 'bson.objectid.ObjectId'>) a| `4f7052dc5009fb18ef000811`
- a| @@MaassWaveForms\Coefficients\coeff_id\description@@
+a|coeff_id a| non-primitive type (<class 'bson.objectid.ObjectId'>) a| `4f7052dc5009fb18ef000811` a| @@MaassWaveForms\Coefficients\coeff_id\description@@
+a|Numc a| integer a| `5000` a| @@MaassWaveForms\Coefficients\Numc\description@@
 |==============================
 
 '''

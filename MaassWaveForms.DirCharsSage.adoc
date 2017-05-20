@@ -31,10 +31,8 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|Modulus a| integer a| `1`
- a| @@MaassWaveForms\DirCharsSage\Modulus\description@@
-a|chars a| collection of integer a| `[0, 0]`
- a| @@MaassWaveForms\DirCharsSage\chars\description@@
+a|chars a| collection of integer a| `[0, 0]` a| @@MaassWaveForms\DirCharsSage\chars\description@@
+a|Modulus a| integer a| `1` a| @@MaassWaveForms\DirCharsSage\Modulus\description@@
 |==============================
 
 '''

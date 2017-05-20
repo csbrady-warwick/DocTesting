@@ -31,40 +31,23 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|component_group a| GAP id string a| `1.1`
- a| encoded as GAP id string '_a_._b_', where _a_ and _b_ are integers; _a_ is the order of the group and _b_ distinguishes groups of the same order
-a|components a| integer a| `1`
- a| number of components (equal to _a_ in the GAP id of the component group), stored as an integer
-a|counts a| list of pairs [*name*,*value_list*] a| `[]`
- a| where *x* is a class function (*a_n* denotes the nth elementary symmetric function of the eigenvalues and *s_n* denotes the nth power sum), and *value_list* is a list of pairs [_v_,_n_] where _v_ is an integer value and _n_ is the number of components for which _x_=_v_.
-a|degree a| integer a| `2`
- a| degree of the Sato-Tate group (cohomological dimension), a positive integer
-a|gens a| list of matrices a| `[]`
- a| generators, stored as a list of *d*-by-*d* matrices whose entries are strings, where *d* is the degree; together with the identity component, they generate the group.
-a|identity_component a| string a| `SU(2)_2`
- a| label of the identity component
-a|label a| string a| `1.2.1.1.1a`
- a| label of the form *wt*.*deg*.*dim*.*a.bc* (string) where *wt* is the weight, *deg* is the degree, *dim* is the real dimension, *a.b* is the GAP id of the component group, and *c* is a letter or string of letters used to break ties; uniquely identifies the Sato-Tate group.
-a|moments a| list of lists [*x*,*m_1*, *m_2*,..., ] a| `[[u'a_1', u'1', u'0', u'4', u'0', u'32', u'0', u'320', u'0', u'3584', u'0', u'43008', u'0', u'540672` ...
- a| where *x* is a class function (elementary symmetric or power sum function of eigenvalues), and *m_n* is the *n*th moment of *x*
-a|name a| string a| `C_1`
- a| string naming the Sato-Tate group unique within its weight and degree
-a|pretty a| string a| `E_1`
- a| pretty-print version of name in latex math mode
-a|rational a| boolean a| `True`
- a| boolean indicating whether the Sato-Tate group satisfies the rationality axiom (currently always True)
-a|real_dimension a| integer a| `3`
- a| dimension of the identity component as a connected compact real Lie group (positive integer)
-a|subgroups a| non-primitive type (<type 'list'>) a| `[]`
- a| list of labels of maximal proper subgroups
-a|supgroups a| collection of string a| `[u'1.4.3.2.1a', u'1.4.3.2.1b', u'1.4.3.3.1a']`
- a| list of labels of minimal proper super group
-a|trace_histogram a| string a| `data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANwAAAB8CAIAAACNJEk4AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3` ...
- a| b64 encoded .png file containing 220x124 trace histogram plot
-a|trace_zero_density a| integer stored as string a| `0`
- a| proportion of components on which the trace is identically zero, rational number encoded as a string
-a|weight a| integer a| `1`
- a| weight of the Sato-Tate group (nonnegative integer)
+a|rational a| boolean a| `True` a| boolean indicating whether the Sato-Tate group satisfies the rationality axiom (currently always True)
+a|real_dimension a| integer a| `3` a| dimension of the identity component as a connected compact real Lie group (positive integer)
+a|identity_component a| string a| `SU(2)_2` a| label of the identity component
+a|name a| string a| `C_1` a| string naming the Sato-Tate group unique within its weight and degree
+a|degree a| integer a| `2` a| degree of the Sato-Tate group (cohomological dimension), a positive integer
+a|trace_histogram a| string a| `data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANwAAAB8CAIAAACNJEk4AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3` ... a| b64 encoded .png file containing 220x124 trace histogram plot
+a|moments a| collection of mixed types a| `[[u'a_1', u'1', u'0', u'4', u'0', u'32', u'0', u'320', u'0', u'3584', u'0', u'43008', u'0', u'540672` ... a| where *x* is a class function (elementary symmetric or power sum function of eigenvalues), and *m_n* is the *n*th moment of *x*
+a|gens a| non-primitive type (<type 'list'>) a| `[]` a| generators, stored as a list of *d*-by-*d* matrices whose entries are strings, where *d* is the degree; together with the identity component, they generate the group.
+a|weight a| integer a| `1` a| weight of the Sato-Tate group (nonnegative integer)
+a|label a| string a| `1.2.1.1.1a` a| label of the form *wt*.*deg*.*dim*.*a.bc* (string) where *wt* is the weight, *deg* is the degree, *dim* is the real dimension, *a.b* is the GAP id of the component group, and *c* is a letter or string of letters used to break ties; uniquely identifies the Sato-Tate group.
+a|trace_zero_density a| integer stored as string a| `0` a| proportion of components on which the trace is identically zero, rational number encoded as a string
+a|supgroups a| collection of string a| `[u'1.4.3.2.1a', u'1.4.3.2.1b', u'1.4.3.3.1a']` a| list of labels of minimal proper super group
+a|components a| integer a| `1` a| number of components (equal to _a_ in the GAP id of the component group), stored as an integer
+a|counts a| non-primitive type (<type 'list'>) a| `[]` a| where *x* is a class function (*a_n* denotes the nth elementary symmetric function of the eigenvalues and *s_n* denotes the nth power sum), and *value_list* is a list of pairs [_v_,_n_] where _v_ is an integer value and _n_ is the number of components for which _x_=_v_.
+a|pretty a| string a| `E_1` a| pretty-print version of name in latex math mode
+a|component_group a| real stored as string a| `1.1` a| encoded as GAP id string '_a_._b_', where _a_ and _b_ are integers; _a_ is the order of the group and _b_ distinguishes groups of the same order
+a|subgroups a| non-primitive type (<type 'list'>) a| `[]` a| list of labels of maximal proper subgroups
 |==============================
 
 '''

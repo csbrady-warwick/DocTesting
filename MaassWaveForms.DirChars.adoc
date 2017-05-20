@@ -31,14 +31,10 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|Chars a| collection of integer a| `[0]`
- a| @@MaassWaveForms\DirChars\Chars\description@@
-a|Conrey a| integer a| `1`
- a| @@MaassWaveForms\DirChars\Conrey\description@@
-a|Modulus a| integer a| `2`
- a| @@MaassWaveForms\DirChars\Modulus\description@@
-a|Parity a| integer a| `0`
- a| @@MaassWaveForms\DirChars\Parity\description@@
+a|Parity a| integer a| `0` a| @@MaassWaveForms\DirChars\Parity\description@@
+a|Chars a| collection of integer a| `[0]` a| @@MaassWaveForms\DirChars\Chars\description@@
+a|Modulus a| integer a| `2` a| @@MaassWaveForms\DirChars\Modulus\description@@
+a|Conrey a| integer a| `1` a| @@MaassWaveForms\DirChars\Conrey\description@@
 |==============================
 
 '''

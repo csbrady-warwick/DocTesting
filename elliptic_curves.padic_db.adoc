@@ -31,16 +31,11 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|lmfdb_iso a| string a| `100002.a`
- a| LMFDB label of isogeny class
-a|p a| integer a| `97`
- a| prime
-a|prec a| integer a| `20`
- a| p-adic precision
-a|unit a| integer stored as string a| `8471152617139064438417376357679138234`
- a| unit factor of regulator
-a|val a| integer a| `1`
- a| valuation of p-adic regulator
+a|lmfdb_iso a| string a| `100002.a` a| LMFDB label of isogeny class
+a|p a| integer a| `97` a| prime
+a|val a| integer a| `1` a| valuation of p-adic regulator
+a|unit a| integer stored as string a| `8471152617139064438417376357679138234` a| unit factor of regulator
+a|prec a| integer a| `20` a| p-adic precision
 |==============================
 
 '''

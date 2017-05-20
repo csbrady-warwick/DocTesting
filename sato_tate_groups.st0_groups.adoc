@@ -31,18 +31,12 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|degree a| integer a| `1`
- a| degree of the corresponding Sato-Tate group (positive integer)
-a|description a| (latex math mode string) a| `\mathrm{trivial}`
- a| mathematical description of the identity component as a set of d-by-d matrices
-a|label a| string a| `0.1.0`
- a| label of the identity component, currently of the form w.d.r, where w is the weight, d is the degree, and r is the real dimension (this is sufficient to uniquely identify the identity component for w=1 and d=0,2,4) but in other cases more information will be required (so the label format may need to vary with w and d).
-a|name a| string a| `SO(1)`
- a| text name of the identity component, used for displaying in scrolled input boxes where latex is not supported
-a|pretty a| string a| `\mathrm{SO}(1)`
- a| pretty-print version of the name in latex math mode
-a|real_dimension a| integer a| `0`
- a| dimension of the identity component as a connected compact real Lie group (positive integer)
+a|name a| string a| `SO(1)` a| text name of the identity component, used for displaying in scrolled input boxes where latex is not supported
+a|degree a| integer a| `1` a| degree of the corresponding Sato-Tate group (positive integer)
+a|label a| string a| `0.1.0` a| label of the identity component, currently of the form w.d.r, where w is the weight, d is the degree, and r is the real dimension (this is sufficient to uniquely identify the identity component for w=1 and d=0,2,4) but in other cases more information will be required (so the label format may need to vary with w and d).
+a|pretty a| string a| `\mathrm{SO}(1)` a| pretty-print version of the name in latex math mode
+a|real_dimension a| integer a| `0` a| dimension of the identity component as a connected compact real Lie group (positive integer)
+a|description a| string a| `\mathrm{trivial}` a| mathematical description of the identity component as a set of d-by-d matrices
 |==============================
 
 '''
