@@ -31,23 +31,8 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|weight a| integer stored as string a| `10` a| @@siegel_modular_forms\samples\weight\description@@
-a|field_poly a| string a| `x` a| string encoding a monic polynomial f(x) in Z[x] defining a number field Q(a):=Q[x]/(f(x)) (x is used for Q)
-a|fdeg a| integer a| `1` a| integer degree of field_poly (current an integer in [1..29])
-a|index a| integer stored as string a| `52` a| string encoding the integer index of the eigenvalue (currently an integer in [2..100]). This uniquely identifies the eigenvalue among other eigenvalues with the same owner_id.
-a|is_integral a| boolean a| `True` a| boolean
-a|data_type a| string a| `ev` a| string equal to one of "sample", "ev", or "fc"
-a|Fourier_coefficients a| collection of integer stored as string a| `{u'(149098, 7645, 98)': u'0', u'(859955, 5564, 9)': u'0', u'(7631, 720, 17)': u'1', u'(15255543, 753` ... a| @@siegel_modular_forms\samples\Fourier_coefficients\description@@
-a|field a| string a| `RationalField()` a| @@siegel_modular_forms\samples\field\description@@
-a|type a| string a| `Ikeda lift, cusp form` a| string describing the type of sample (e.g. 'Ikeda lift, cusp form')
-a|fc_det a| integer a| `0` a| @@siegel_modular_forms\samples\fc_det\description@@
-a|owner_id a| non-primitive type (<class 'bson.objectid.ObjectId'>) a| `560c3c30c741c5105d3ef82b` a| Object(id) equal to the _id attribute of the sample to which this eigenvalue data belongs
-a|degree a| integer stored as string a| `4` a| @@siegel_modular_forms\samples\degree\description@@
 a|collection a| collection of string a| `[u'Kp']` a| array of strings identifying families of spaces of Siegel modular forms that contain this sample (the families currently defined are not disjoint, so the same sample may appear in multiple families)
 a|courtesy_of a| comma separated list of mixed types stored as string a| `David Yuen, Cris Poor, 2011` a| string identifying the source of the sample (e.g. authors and date)
-a|ev_index a| integer a| `2` a| @@siegel_modular_forms\samples\ev_index\description@@
-a|wt a| integer a| `2` a| integer weight (currently an even integer in [2,58])
-a|eigenvalues a| collection of integer stored as string a| `{u'11': u'-1', u'3': u'-4', u'2': u'-3', u'5': u'-2', u'4': u'3', u'7': u'0', u'9': u'6'}` a| @@siegel_modular_forms\samples\eigenvalues\description@@
 a|data a| collection of integer stored as string a| `{u'(2, 2, 4, 20, 0, 0, 0, 0, 0, 2)': u'-2292966144', u'(4, 4, 4, 6, 1, 1, 0, 0, 1, 1)': u'-229296614` ... a| "ev" records::
 
    string encoding the eigenvalue as an element of the number field Q(a) of the sample (as defined by field_poly)
@@ -57,13 +42,28 @@ a|data a| collection of integer stored as string a| `{u'(2, 2, 4, 20, 0, 0, 0, 0
    dictionary whose keys are strings encoding integer vectors and whose values are strings encoding (possibly constant) polynomials in Q(a)[x,y]
 
 
-a|is_eigenform a| boolean a| `True` a| boolean
-a|name a| string a| `10_E` a| name uniquely identifying the sample within any of the collections it belongs to
-a|det a| integer stored as string a| `304` a| string encoding an integer that uniquely identifies this Fourier coefficient data record among others with the same owner_id (currently an integer in [0..2999])
-a|representation a| integer stored as string a| `0` a| string encoding an integer (currently an element of {0,2})
-a|degree_of_field a| integer stored as string a| `1` a| @@siegel_modular_forms\samples\degree_of_field\description@@
-a|explicit_formula a| string a| `7*A^3 - 7*B^2 + 497664*D` a| string encoding a polynomial in Q(a)[A,B,C,D]
+a|data_type a| string a| `ev` a| string equal to one of "sample", "ev", or "fc"
 a|deg a| integer a| `2` a| integer degree of the form (forms on M_k(Sp(2d)) have degree d, currently we have samples for d=2,3,4)
+a|degree a| integer stored as string a| `4` a| @@siegel_modular_forms\samples\degree\description@@
+a|degree_of_field a| integer stored as string a| `1` a| @@siegel_modular_forms\samples\degree_of_field\description@@
+a|det a| integer stored as string a| `304` a| string encoding an integer that uniquely identifies this Fourier coefficient data record among others with the same owner_id (currently an integer in [0..2999])
+a|eigenvalues a| collection of integer stored as string a| `{u'11': u'-1', u'3': u'-4', u'2': u'-3', u'5': u'-2', u'4': u'3', u'7': u'0', u'9': u'6'}` a| @@siegel_modular_forms\samples\eigenvalues\description@@
+a|ev_index a| integer a| `2` a| @@siegel_modular_forms\samples\ev_index\description@@
+a|explicit_formula a| string a| `7*A^3 - 7*B^2 + 497664*D` a| string encoding a polynomial in Q(a)[A,B,C,D]
+a|fc_det a| integer a| `0` a| @@siegel_modular_forms\samples\fc_det\description@@
+a|fdeg a| integer a| `1` a| integer degree of field_poly (current an integer in [1..29])
+a|field a| string a| `RationalField()` a| @@siegel_modular_forms\samples\field\description@@
+a|field_poly a| string a| `x` a| string encoding a monic polynomial f(x) in Z[x] defining a number field Q(a):=Q[x]/(f(x)) (x is used for Q)
+a|Fourier_coefficients a| collection of integer stored as string a| `{u'(149098, 7645, 98)': u'0', u'(859955, 5564, 9)': u'0', u'(7631, 720, 17)': u'1', u'(15255543, 753` ... a| @@siegel_modular_forms\samples\Fourier_coefficients\description@@
+a|index a| integer stored as string a| `52` a| string encoding the integer index of the eigenvalue (currently an integer in [2..100]). This uniquely identifies the eigenvalue among other eigenvalues with the same owner_id.
+a|is_eigenform a| boolean a| `True` a| boolean
+a|is_integral a| boolean a| `True` a| boolean
+a|name a| string a| `10_E` a| name uniquely identifying the sample within any of the collections it belongs to
+a|owner_id a| non-primitive type (<class 'bson.objectid.ObjectId'>) a| `560c3c30c741c5105d3ef82b` a| Object(id) equal to the _id attribute of the sample to which this eigenvalue data belongs
+a|representation a| integer stored as string a| `0` a| string encoding an integer (currently an element of {0,2})
+a|type a| string a| `Ikeda lift, cusp form` a| string describing the type of sample (e.g. 'Ikeda lift, cusp form')
+a|weight a| integer stored as string a| `10` a| @@siegel_modular_forms\samples\weight\description@@
+a|wt a| integer a| `2` a| integer weight (currently an even integer in [2,58])
 |==============================
 
 '''
@@ -239,18 +239,17 @@ These records have their *data_type* field set to "sample"
 
 ****
 [discrete]
-=== @@siegel_modular_forms\samples\94045c93a881b894ba7c1ae9be742336\name@@ ===
+=== @@siegel_modular_forms\samples\a746ff254c7e2a35db640332e3f37b76\name@@ ===
 
 [NOTE]
 ====
-@@siegel_modular_forms\samples\94045c93a881b894ba7c1ae9be742336\description@@
+@@siegel_modular_forms\samples\a746ff254c7e2a35db640332e3f37b76\description@@
 
 
 ====
 
 8 records extended from base type
 
-* Fourier_coefficients 
 * collection 
 * courtesy_of 
 * deg 
@@ -260,6 +259,7 @@ These records have their *data_type* field set to "sample"
 * fdeg 
 * field 
 * field_poly 
+* Fourier_coefficients 
 * is_eigenform 
 * name 
 * representation 

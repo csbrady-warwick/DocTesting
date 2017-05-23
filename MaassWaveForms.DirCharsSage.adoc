@@ -59,8 +59,8 @@ a|_id_ a| _id sorted ascending
 40 records of type
 ====
 
-* Modulus 
 * chars 
+* Modulus 
 
 
 

@@ -31,22 +31,22 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|index a| integer a| `1` a| @@mod_l_eigenvalues\hecke_algebras_l_adic\index\description@@
-a|num_gen_l a| Record cannot be found containing key a| `N/A` a| @@mod_l_eigenvalues\hecke_algebras_l_adic\num_gen_l\description@@
-a|gen_l a| Record cannot be found containing key a| `N/A` a| @@mod_l_eigenvalues\hecke_algebras_l_adic\gen_l\description@@
-a|ell a| integer a| `2` a| @@mod_l_eigenvalues\hecke_algebras_l_adic\ell\description@@
-a|level a| integer a| `1` a| @@mod_l_eigenvalues\hecke_algebras_l_adic\level\description@@
-a|label_l a| string a| `23.2.1.1.3.1` a| @@mod_l_eigenvalues\hecke_algebras_l_adic\label_l\description@@
-a|rel_l a| Record cannot be found containing key a| `N/A` a| @@mod_l_eigenvalues\hecke_algebras_l_adic\rel_l\description@@
-a|operators a| collection of integer a| `[[1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1], [0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1],` ... a| @@mod_l_eigenvalues\hecke_algebras_l_adic\operators\description@@
-a|idempotent a| string a| `[[ 1, 0 ],[ 0, 1 ]]` a| @@mod_l_eigenvalues\hecke_algebras_l_adic\idempotent\description@@
-a|weight a| integer a| `2` a| @@mod_l_eigenvalues\hecke_algebras_l_adic\weight\description@@
-a|properties a| collection of real a| `[[1], 0]` a| @@mod_l_eigenvalues\hecke_algebras_l_adic\properties\description@@
-a|field a| collection of mixed types a| `[2, 4, u'x^4 + x + 1', 1]` a| @@mod_l_eigenvalues\hecke_algebras_l_adic\field\description@@
-a|orbit_label a| string a| `23.2.1.1` a| @@mod_l_eigenvalues\hecke_algebras_l_adic\orbit_label\description@@
-a|num_charpoly_ql a| integer a| `1` a| @@mod_l_eigenvalues\hecke_algebras_l_adic\num_charpoly_ql\description@@
 a|charpoly_ql a| Record cannot be found containing key a| `N/A` a| @@mod_l_eigenvalues\hecke_algebras_l_adic\charpoly_ql\description@@
+a|ell a| integer a| `2` a| @@mod_l_eigenvalues\hecke_algebras_l_adic\ell\description@@
+a|field a| collection of mixed types a| `[2, 4, u'x^4 + x + 1', 1]` a| @@mod_l_eigenvalues\hecke_algebras_l_adic\field\description@@
+a|gen_l a| Record cannot be found containing key a| `N/A` a| @@mod_l_eigenvalues\hecke_algebras_l_adic\gen_l\description@@
+a|idempotent a| string a| `[[ 1, 0 ],[ 0, 1 ]]` a| @@mod_l_eigenvalues\hecke_algebras_l_adic\idempotent\description@@
+a|index a| integer a| `1` a| @@mod_l_eigenvalues\hecke_algebras_l_adic\index\description@@
+a|label_l a| string a| `23.2.1.1.3.1` a| @@mod_l_eigenvalues\hecke_algebras_l_adic\label_l\description@@
+a|level a| integer a| `1` a| @@mod_l_eigenvalues\hecke_algebras_l_adic\level\description@@
+a|num_charpoly_ql a| integer a| `1` a| @@mod_l_eigenvalues\hecke_algebras_l_adic\num_charpoly_ql\description@@
+a|num_gen_l a| Record cannot be found containing key a| `N/A` a| @@mod_l_eigenvalues\hecke_algebras_l_adic\num_gen_l\description@@
+a|operators a| collection of integer a| `[[1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1], [0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1],` ... a| @@mod_l_eigenvalues\hecke_algebras_l_adic\operators\description@@
+a|orbit_label a| string a| `23.2.1.1` a| @@mod_l_eigenvalues\hecke_algebras_l_adic\orbit_label\description@@
+a|properties a| collection of real a| `[[1], 0]` a| @@mod_l_eigenvalues\hecke_algebras_l_adic\properties\description@@
+a|rel_l a| Record cannot be found containing key a| `N/A` a| @@mod_l_eigenvalues\hecke_algebras_l_adic\rel_l\description@@
 a|structure a| collection of mixed types a| `[1, 0, u'[]', u'[]']` a| @@mod_l_eigenvalues\hecke_algebras_l_adic\structure\description@@
+a|weight a| integer a| `2` a| @@mod_l_eigenvalues\hecke_algebras_l_adic\weight\description@@
 |==============================
 
 '''
@@ -70,29 +70,29 @@ a|weight_1 a| weight sorted ascending
 
 ****
 [discrete]
-=== Base record : @@mod_l_eigenvalues\hecke_algebras_l_adic\4e508b12475c867cc463612684b6478d\name@@ ===
+=== Base record : @@mod_l_eigenvalues\hecke_algebras_l_adic\45467c16876c75de26d6818dbf7cf1cd\name@@ ===
 
 [NOTE]
 ====
 The base record represents the smallest intersection of all related records.
 
-@@mod_l_eigenvalues\hecke_algebras_l_adic\4e508b12475c867cc463612684b6478d\description@@
+@@mod_l_eigenvalues\hecke_algebras_l_adic\45467c16876c75de26d6818dbf7cf1cd\description@@
 ====
 
 3754 records of base type in collection
 
-* index 
-* num_gen_l 
+* charpoly_ql 
 * ell 
 * gen_l 
-* level 
-* label_l 
-* rel_l 
 * idempotent 
-* weight 
-* orbit_label 
+* index 
+* label_l 
+* level 
 * num_charpoly_ql 
-* charpoly_ql 
+* num_gen_l 
+* orbit_label 
+* rel_l 
+* weight 
 
 
 

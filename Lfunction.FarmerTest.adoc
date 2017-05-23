@@ -31,24 +31,24 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|character_mod a| integer a| `3` a| @@Lfunction\FarmerTest\character_mod\description@@
-a|coefficients_decimal a| collection of real a| `{u'precision': 11, u'coefficients': [[1.0, 0], [-0.60515220200431, -0.08864458090356], [0.4082297755` ... a| @@Lfunction\FarmerTest\coefficients_decimal\description@@
-a|character_nr a| integer a| `2` a| @@Lfunction\FarmerTest\character_nr\description@@
-a|symmetry a| string a| `None` a| @@Lfunction\FarmerTest\symmetry\description@@
-a|degree a| integer a| `3` a| @@Lfunction\FarmerTest\degree\description@@
-a|level a| integer a| `3` a| @@Lfunction\FarmerTest\level\description@@
-a|Gamma_factor_precision a| integer a| `11` a| @@Lfunction\FarmerTest\Gamma_factor_precision\description@@
-a|list a| collection of string a| `[u'First item', u'Second', u'Last']` a| @@Lfunction\FarmerTest\list\description@@
-a|character a| collection of integer a| `[3, 2]` a| @@Lfunction\FarmerTest\character\description@@
-a|logsign a| real a| `0.79148414007` a| @@Lfunction\FarmerTest\logsign\description@@
-a|real_shiftsR a| collection of integer a| `[1, 0, 0]` a| @@Lfunction\FarmerTest\real_shiftsR\description@@
-a|imaginary_shiftsR a| collection of real a| `[12.62538450208177, 2.50516498388651, -15.13054948596828]` a| @@Lfunction\FarmerTest\imaginary_shiftsR\description@@
-a|signature a| collection of integer a| `[3, 0]` a| @@Lfunction\FarmerTest\signature\description@@
-a|imaginary_shiftsC a| non-primitive type (<type 'list'>) a| `[]` a| @@Lfunction\FarmerTest\imaginary_shiftsC\description@@
-a|primitive a| boolean a| `True` a| @@Lfunction\FarmerTest\primitive\description@@
-a|self-dual a| boolean a| `False` a| @@Lfunction\FarmerTest\self-dual\description@@
 a|arithmetic a| boolean a| `False` a| @@Lfunction\FarmerTest\arithmetic\description@@
+a|character a| collection of integer a| `[3, 2]` a| @@Lfunction\FarmerTest\character\description@@
+a|character_mod a| integer a| `3` a| @@Lfunction\FarmerTest\character_mod\description@@
+a|character_nr a| integer a| `2` a| @@Lfunction\FarmerTest\character_nr\description@@
+a|coefficients_decimal a| collection of real a| `{u'precision': 11, u'coefficients': [[1.0, 0], [-0.60515220200431, -0.08864458090356], [0.4082297755` ... a| @@Lfunction\FarmerTest\coefficients_decimal\description@@
+a|degree a| integer a| `3` a| @@Lfunction\FarmerTest\degree\description@@
+a|Gamma_factor_precision a| integer a| `11` a| @@Lfunction\FarmerTest\Gamma_factor_precision\description@@
+a|imaginary_shiftsC a| non-primitive type (<type 'list'>) a| `[]` a| @@Lfunction\FarmerTest\imaginary_shiftsC\description@@
+a|imaginary_shiftsR a| collection of real a| `[12.62538450208177, 2.50516498388651, -15.13054948596828]` a| @@Lfunction\FarmerTest\imaginary_shiftsR\description@@
+a|level a| integer a| `3` a| @@Lfunction\FarmerTest\level\description@@
+a|list a| collection of string a| `[u'First item', u'Second', u'Last']` a| @@Lfunction\FarmerTest\list\description@@
+a|logsign a| real a| `0.79148414007` a| @@Lfunction\FarmerTest\logsign\description@@
+a|primitive a| boolean a| `True` a| @@Lfunction\FarmerTest\primitive\description@@
 a|real_shiftsC a| non-primitive type (<type 'list'>) a| `[]` a| @@Lfunction\FarmerTest\real_shiftsC\description@@
+a|real_shiftsR a| collection of integer a| `[1, 0, 0]` a| @@Lfunction\FarmerTest\real_shiftsR\description@@
+a|self-dual a| boolean a| `False` a| @@Lfunction\FarmerTest\self-dual\description@@
+a|signature a| collection of integer a| `[3, 0]` a| @@Lfunction\FarmerTest\signature\description@@
+a|symmetry a| string a| `None` a| @@Lfunction\FarmerTest\symmetry\description@@
 |==============================
 
 '''
@@ -90,21 +90,21 @@ Unable to detect a base record class. Using undifferentiated.
 
 ****
 [discrete]
-=== @@Lfunction\FarmerTest\3c1d536eaaf1a478a45640fa18161f91\name@@ ===
+=== @@Lfunction\FarmerTest\2e31104c06cd6254fd862b53fa44e76a\name@@ ===
 
 [NOTE]
 ====
 1 records of type
-@@Lfunction\FarmerTest\3c1d536eaaf1a478a45640fa18161f91\description@@
+@@Lfunction\FarmerTest\2e31104c06cd6254fd862b53fa44e76a\description@@
 ====
 
-* Gamma_factor_precision 
 * arithmetic 
 * character 
 * character_mod 
 * character_nr 
 * coefficients_decimal 
 * degree 
+* Gamma_factor_precision 
 * imaginary_shiftsC 
 * imaginary_shiftsR 
 * level 

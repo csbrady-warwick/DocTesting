@@ -31,13 +31,11 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|dim a| integer a| `5` a| dimension of the space
-a|weight a| integer a| `3` a| double of the weight of the forms
-a|level a| integer a| `28` a| Level
 a|character a| real stored as string a| `1.1` a| character label in the LMFDB notation
-a|thetas a| collection of real stored as string a| `[[u'3.2']]` a| label of the characters appearing in the S0 subspace
-a|label a| string a| `108.3_2.1.1` a| LMFDB label
+a|dim a| integer a| `5` a| dimension of the space
 a|dimtheta a| integer a| `1` a| dimension of the S0 subspace (see the shimura decomposition knowl http://beta.lmfdb.org/knowledge/show/mf.half_integral_weight.shimura_decomposition[here])
+a|label a| string a| `108.3_2.1.1` a| LMFDB label
+a|level a| integer a| `28` a| Level
 a|newpart a| collection of mixed types a| `[{u'dim_image': 2, u'nf_label': u'1.1.1.1', u'half_forms': [[u'1', u'0', u'0', u'0', u'0', u'0', u'1` ... a| description of the subspace corresponding to the image of the shimura map. The entries of the dictionary contain the following fields:
 
  * *dim_image* (int) the dimension of the subspace given by the image
@@ -47,6 +45,8 @@ a|newpart a| collection of mixed types a| `[{u'dim_image': 2, u'nf_label': u'1.1
  * *mf_label* (string) the label of the classical newform which is mapped into this space of half integral weight cuspforms
 
  * *nf_label* (string) the label of the number field where the coefficients of the q-expansion belong to (this will be changed into the list of coefficients of a polynomial)
+a|thetas a| collection of real stored as string a| `[[u'3.2']]` a| label of the characters appearing in the S0 subspace
+a|weight a| integer a| `3` a| double of the weight of the forms
 |==============================
 
 '''

@@ -31,13 +31,13 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
+a|Character a| integer a| `1` a| @@MaassWaveForms\CoeffProgress\Character\description@@
+a|date a| Type cannot be identified (<type 'datetime.datetime'>) a| `2012-04-05 17:13:38.370000` a| @@MaassWaveForms\CoeffProgress\date\description@@
 a|Eigenvalue a| real a| `13.7797513519` a| @@MaassWaveForms\CoeffProgress\Eigenvalue\description@@
-a|Weight a| integer a| `0.0` a| @@MaassWaveForms\CoeffProgress\Weight\description@@
 a|Level a| integer a| `1` a| @@MaassWaveForms\CoeffProgress\Level\description@@
 a|NA a| integer a| `0` a| @@MaassWaveForms\CoeffProgress\NA\description@@
 a|NB a| integer a| `0` a| @@MaassWaveForms\CoeffProgress\NB\description@@
-a|Character a| integer a| `1` a| @@MaassWaveForms\CoeffProgress\Character\description@@
-a|date a| Type cannot be identified (<type 'datetime.datetime'>) a| `2012-04-05 17:13:38.370000` a| @@MaassWaveForms\CoeffProgress\date\description@@
+a|Weight a| integer a| `0.0` a| @@MaassWaveForms\CoeffProgress\Weight\description@@
 |==============================
 
 '''
@@ -65,12 +65,12 @@ a|_id_ a| _id sorted ascending
 ====
 
 * Character 
+* date 
 * Eigenvalue 
 * Level 
 * NA 
 * NB 
 * Weight 
-* date 
 
 
 

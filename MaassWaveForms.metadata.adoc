@@ -31,9 +31,9 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
+a|c_name a| string a| `HT` a| @@MaassWaveForms\metadata\c_name\description@@
 a|contributor a| string a| `Holger Then` a| @@MaassWaveForms\metadata\contributor\description@@
 a|knowl-tag a| string a| `mf.maass.mwf.data.metadata.ht` a| @@MaassWaveForms\metadata\knowl-tag\description@@
-a|c_name a| string a| `HT` a| @@MaassWaveForms\metadata\c_name\description@@
 |==============================
 
 '''

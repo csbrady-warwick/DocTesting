@@ -31,10 +31,10 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|polynomial a| collection of integer a| `[1, 1]` a| @@mod_l_eigenvalues\finite_fields\polynomial\description@@
 a|characteristic a| integer a| `2` a| @@mod_l_eigenvalues\finite_fields\characteristic\description@@
-a|degree a| integer a| `1` a| @@mod_l_eigenvalues\finite_fields\degree\description@@
 a|conway a| integer a| `1` a| @@mod_l_eigenvalues\finite_fields\conway\description@@
+a|degree a| integer a| `1` a| @@mod_l_eigenvalues\finite_fields\degree\description@@
+a|polynomial a| collection of integer a| `[1, 1]` a| @@mod_l_eigenvalues\finite_fields\polynomial\description@@
 |==============================
 
 '''

@@ -31,18 +31,18 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|Dim a| integer a| `1` a| @@artin\representations_old2\Dim\description@@
-a|Conductor_key a| integer stored as string a| `00001` a| @@artin\representations_old2\Conductor_key\description@@
 a|BadPrimes a| non-primitive type (<type 'list'>) a| `[]` a| @@artin\representations_old2\BadPrimes\description@@
 a|Baselabel a| string a| `1.1.1t1.1` a| @@artin\representations_old2\Baselabel\description@@
-a|Conductor a| integer stored as string a| `1` a| @@artin\representations_old2\Conductor\description@@
-a|GaloisConjugates a| collection of unidentifiable types a| `[{u'GalOrbIndex': 1, u'LocalFactors': [[[1], [-1]]], u'Character': [[1]], u'HardFactors': [], u'Sign` ... a| @@artin\representations_old2\GaloisConjugates\description@@
-a|Indicator a| integer a| `1` a| @@artin\representations_old2\Indicator\description@@
-a|HardPrimes a| non-primitive type (<type 'list'>) a| `[]` a| @@artin\representations_old2\HardPrimes\description@@
 a|CharacterField a| integer a| `1` a| @@artin\representations_old2\CharacterField\description@@
-a|NFGal a| comma separated list of integer stored as string a| `-1,-1,-1,-1,2,-1,1` a| @@artin\representations_old2\NFGal\description@@
-a|Hide a| integer a| `0` a| @@artin\representations_old2\Hide\description@@
+a|Conductor a| integer stored as string a| `1` a| @@artin\representations_old2\Conductor\description@@
+a|Conductor_key a| integer stored as string a| `00001` a| @@artin\representations_old2\Conductor_key\description@@
+a|Dim a| integer a| `1` a| @@artin\representations_old2\Dim\description@@
 a|Galois_nt a| collection of integer a| `[1, 1]` a| @@artin\representations_old2\Galois_nt\description@@
+a|GaloisConjugates a| collection of unidentifiable types a| `[{u'GalOrbIndex': 1, u'LocalFactors': [[[1], [-1]]], u'Character': [[1]], u'HardFactors': [], u'Sign` ... a| @@artin\representations_old2\GaloisConjugates\description@@
+a|HardPrimes a| non-primitive type (<type 'list'>) a| `[]` a| @@artin\representations_old2\HardPrimes\description@@
+a|Hide a| integer a| `0` a| @@artin\representations_old2\Hide\description@@
+a|Indicator a| integer a| `1` a| @@artin\representations_old2\Indicator\description@@
+a|NFGal a| comma separated list of integer stored as string a| `-1,-1,-1,-1,2,-1,1` a| @@artin\representations_old2\NFGal\description@@
 |==============================
 
 '''
@@ -79,8 +79,8 @@ a|Hide_1_Conductor_key_1 a| Hide sorted ascending, Conductor_key sorted ascendin
 * Conductor 
 * Conductor_key 
 * Dim 
-* GaloisConjugates 
 * Galois_nt 
+* GaloisConjugates 
 * HardPrimes 
 * Hide 
 * Indicator 

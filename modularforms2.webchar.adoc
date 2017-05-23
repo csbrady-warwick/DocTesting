@@ -32,13 +32,13 @@ Only the first 100 characters of the example record are shown
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
 a|conductor a| integer a| `1` a| conductor
+a|label a| integer stored as string a| `1.0` a| label of the form M.i where M is the modulus and i is the Conrey character number
 a|latex_name a| string a| `\chi_{1}(1, \cdot)` a| latex_string
+a|modulus a| integer a| `1` a| modulus
 a|modulus_euler_phi a| integer a| `1` a| Euler phi function of modulus
 a|number a| integer a| `1` a| Conrey character number
-a|label a| integer stored as string a| `1.0` a| label of the form M.i where M is the modulus and i is the Conrey character number
-a|version a| real a| `1.2` a| version number
-a|modulus a| integer a| `1` a| modulus
 a|order a| integer a| `1` a| order of this character
+a|version a| real a| `1.2` a| version number
 |==============================
 
 '''

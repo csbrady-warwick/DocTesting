@@ -31,53 +31,53 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|primitive a| boolean a| `True` a| @@Lfunction\LemurellTest\primitive\description@@
-a|symmetry a| string a| `odd` a| @@Lfunction\LemurellTest\symmetry\description@@
-a|Q_fe a| real a| `4.11347027074` a| @@Lfunction\LemurellTest\Q_fe\description@@
-a|fricke a| integer a| `1` a| @@Lfunction\LemurellTest\fricke\description@@
 a|Character a| integer a| `1` a| @@Lfunction\LemurellTest\Character\description@@
-a|sign a| integer a| `-1` a| @@Lfunction\LemurellTest\sign\description@@
-a|Llabel a| Record cannot be found containing key a| `N/A` a| @@Lfunction\LemurellTest\Llabel\description@@
-a|ObjectLabel a| string a| `GL2Maass_167_0.30117539827` a| @@Lfunction\LemurellTest\ObjectLabel\description@@
+a|charactermodulus a| integer a| `1` a| @@Lfunction\LemurellTest\charactermodulus\description@@
+a|characterName a| string a| `trivial character` a| @@Lfunction\LemurellTest\characterName\description@@
+a|characternumber a| integer a| `1` a| @@Lfunction\LemurellTest\characternumber\description@@
+a|coefficient_type a| integer a| `2` a| @@Lfunction\LemurellTest\coefficient_type\description@@
+a|Conrey a| integer a| `1` a| @@Lfunction\LemurellTest\Conrey\description@@
+a|Contributor a| string a| `Stefan Lemurell` a| @@Lfunction\LemurellTest\Contributor\description@@
+a|credit a| string a| `Stefan Lemurell` a| @@Lfunction\LemurellTest\credit\description@@
+a|degree a| integer a| `2` a| @@Lfunction\LemurellTest\degree\description@@
 a|Dirichlet_coefficients a| collection of real a| `[1.0, -1.8193296011694, -1.0041264596304, 2.309960197264, -0.7100028980671, 1.8268369912969, -1.4272` ... a| @@Lfunction\LemurellTest\Dirichlet_coefficients\description@@
-a|kappa_fe a| collection of real a| `[0.5, 0.5]` a| @@Lfunction\LemurellTest\kappa_fe\description@@
-a|texname a| string a| `L(s,f)` a| @@Lfunction\LemurellTest\texname\description@@
+a|dirichlet_coefficients a| collection of real a| `[1.0, -1.6387526504195, -1.352081557681, 1.6855102491037, 0.6769903652838, 2.2157272363148, 0.049801` ... a| @@Lfunction\LemurellTest\dirichlet_coefficients\description@@
+a|Eigenvalue a| real a| `0.880387550668` a| @@Lfunction\LemurellTest\Eigenvalue\description@@
+a|eigenvalue a| real a| `0.30117539827` a| @@Lfunction\LemurellTest\eigenvalue\description@@
+a|fricke a| integer a| `1` a| @@Lfunction\LemurellTest\fricke\description@@
+a|Fricke a| integer a| `-1` a| @@Lfunction\LemurellTest\Fricke\description@@
 a|group a| string a| `GL2` a| @@Lfunction\LemurellTest\group\description@@
-a|texnamecompleted1ms a| string a| `\Lambda(1-s,f)` a| @@Lfunction\LemurellTest\texnamecompleted1ms\description@@
-a|number_of_coef a| integer a| `592` a| @@Lfunction\LemurellTest\number_of_coef\description@@
+a|imaginary_shiftsC a| non-primitive type (<type 'list'>) a| `[]` a| @@Lfunction\LemurellTest\imaginary_shiftsC\description@@
 a|imaginary_shiftsR a| collection of real a| `[0.30117539827, -0.30117539827]` a| @@Lfunction\LemurellTest\imaginary_shiftsR\description@@
+a|kappa_fe a| collection of real a| `[0.5, 0.5]` a| @@Lfunction\LemurellTest\kappa_fe\description@@
+a|label a| Record cannot be found containing key a| `N/A` a| @@Lfunction\LemurellTest\label\description@@
+a|Level a| integer a| `167` a| @@Lfunction\LemurellTest\Level\description@@
+a|level a| integer a| `167` a| @@Lfunction\LemurellTest\level\description@@
+a|Llabel a| Record cannot be found containing key a| `N/A` a| @@Lfunction\LemurellTest\Llabel\description@@
+a|nu_fe a| non-primitive type (<type 'list'>) a| `[]` a| @@Lfunction\LemurellTest\nu_fe\description@@
+a|number_of_coef a| integer a| `592` a| @@Lfunction\LemurellTest\number_of_coef\description@@
+a|Numc a| integer a| `586` a| @@Lfunction\LemurellTest\Numc\description@@
+a|ObjectLabel a| string a| `GL2Maass_167_0.30117539827` a| @@Lfunction\LemurellTest\ObjectLabel\description@@
 a|ObjectUrl a| string a| `/ModularForm/GL2/Q/Maass/GL2Maass_167_0.30117539827` a| @@Lfunction\LemurellTest\ObjectUrl\description@@
 a|Precision a| integer a| `9` a| @@Lfunction\LemurellTest\Precision\description@@
-a|real_shiftsR a| collection of integer a| `[1, 1]` a| @@Lfunction\LemurellTest\real_shiftsR\description@@
-a|label a| Record cannot be found containing key a| `N/A` a| @@Lfunction\LemurellTest\label\description@@
-a|selfdual a| boolean a| `True` a| @@Lfunction\LemurellTest\selfdual\description@@
-a|Numc a| integer a| `586` a| @@Lfunction\LemurellTest\Numc\description@@
-a|imaginary_shiftsC a| non-primitive type (<type 'list'>) a| `[]` a| @@Lfunction\LemurellTest\imaginary_shiftsC\description@@
-a|Conrey a| integer a| `1` a| @@Lfunction\LemurellTest\Conrey\description@@
-a|real_shiftsC a| non-primitive type (<type 'list'>) a| `[]` a| @@Lfunction\LemurellTest\real_shiftsC\description@@
-a|Eigenvalue a| real a| `0.880387550668` a| @@Lfunction\LemurellTest\Eigenvalue\description@@
-a|texnamecompleteds a| string a| `\Lambda(s,f)` a| @@Lfunction\LemurellTest\texnamecompleteds\description@@
-a|degree a| integer a| `2` a| @@Lfunction\LemurellTest\degree\description@@
-a|Level a| integer a| `167` a| @@Lfunction\LemurellTest\Level\description@@
 a|precision a| integer a| `8` a| @@Lfunction\LemurellTest\precision\description@@
-a|weight a| integer a| `0` a| @@Lfunction\LemurellTest\weight\description@@
-a|Contributor a| string a| `Stefan Lemurell` a| @@Lfunction\LemurellTest\Contributor\description@@
-a|url a| string a| `/21_1__/167/1.1/0.301175_-0.30117__/` a| @@Lfunction\LemurellTest\url\description@@
-a|characternumber a| integer a| `1` a| @@Lfunction\LemurellTest\characternumber\description@@
-a|nu_fe a| non-primitive type (<type 'list'>) a| `[]` a| @@Lfunction\LemurellTest\nu_fe\description@@
-a|eigenvalue a| real a| `0.30117539827` a| @@Lfunction\LemurellTest\eigenvalue\description@@
-a|Symmetry a| string a| `even` a| @@Lfunction\LemurellTest\Symmetry\description@@
-a|Weight a| integer a| `0` a| @@Lfunction\LemurellTest\Weight\description@@
-a|level a| integer a| `167` a| @@Lfunction\LemurellTest\level\description@@
+a|primitive a| boolean a| `True` a| @@Lfunction\LemurellTest\primitive\description@@
+a|Q_fe a| real a| `4.11347027074` a| @@Lfunction\LemurellTest\Q_fe\description@@
 a|quasidegree a| integer a| `2` a| @@Lfunction\LemurellTest\quasidegree\description@@
-a|characterName a| string a| `trivial character` a| @@Lfunction\LemurellTest\characterName\description@@
-a|Fricke a| integer a| `-1` a| @@Lfunction\LemurellTest\Fricke\description@@
-a|coefficient_type a| integer a| `2` a| @@Lfunction\LemurellTest\coefficient_type\description@@
+a|real_shiftsC a| non-primitive type (<type 'list'>) a| `[]` a| @@Lfunction\LemurellTest\real_shiftsC\description@@
+a|real_shiftsR a| collection of integer a| `[1, 1]` a| @@Lfunction\LemurellTest\real_shiftsR\description@@
+a|selfdual a| boolean a| `True` a| @@Lfunction\LemurellTest\selfdual\description@@
+a|sign a| integer a| `-1` a| @@Lfunction\LemurellTest\sign\description@@
 a|Sign a| integer a| `-1` a| @@Lfunction\LemurellTest\Sign\description@@
-a|credit a| string a| `Stefan Lemurell` a| @@Lfunction\LemurellTest\credit\description@@
-a|charactermodulus a| integer a| `1` a| @@Lfunction\LemurellTest\charactermodulus\description@@
-a|dirichlet_coefficients a| collection of real a| `[1.0, -1.6387526504195, -1.352081557681, 1.6855102491037, 0.6769903652838, 2.2157272363148, 0.049801` ... a| @@Lfunction\LemurellTest\dirichlet_coefficients\description@@
 a|software a| string a| `Mathematica` a| @@Lfunction\LemurellTest\software\description@@
+a|symmetry a| string a| `odd` a| @@Lfunction\LemurellTest\symmetry\description@@
+a|Symmetry a| string a| `even` a| @@Lfunction\LemurellTest\Symmetry\description@@
+a|texname a| string a| `L(s,f)` a| @@Lfunction\LemurellTest\texname\description@@
+a|texnamecompleted1ms a| string a| `\Lambda(1-s,f)` a| @@Lfunction\LemurellTest\texnamecompleted1ms\description@@
+a|texnamecompleteds a| string a| `\Lambda(s,f)` a| @@Lfunction\LemurellTest\texnamecompleteds\description@@
+a|url a| string a| `/21_1__/167/1.1/0.301175_-0.30117__/` a| @@Lfunction\LemurellTest\url\description@@
+a|weight a| integer a| `0` a| @@Lfunction\LemurellTest\weight\description@@
+a|Weight a| integer a| `0` a| @@Lfunction\LemurellTest\Weight\description@@
 |==============================
 
 '''
@@ -109,8 +109,8 @@ The base record represents the smallest intersection of all related records.
 
 Base record class does not exist in the database. Please consult the derived records section below to see all of the classes in the database
 
-* ObjectUrl 
 * ObjectLabel 
+* ObjectUrl 
 * software 
 
 
@@ -128,21 +128,19 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
-=== @@Lfunction\LemurellTest\128ce48c7255b9478efa544e5589f569\name@@ ===
+=== @@Lfunction\LemurellTest\f9ca1c4d5e3c9e6e4db730c25c98b12a\name@@ ===
 
 [NOTE]
 ====
-@@Lfunction\LemurellTest\128ce48c7255b9478efa544e5589f569\description@@
+@@Lfunction\LemurellTest\f9ca1c4d5e3c9e6e4db730c25c98b12a\description@@
 
 
 ====
 
 48 records extended from base type
 
-* Llabel 
-* Q_fe 
-* characterName 
 * charactermodulus 
+* characterName 
 * characternumber 
 * coefficient_type 
 * credit 
@@ -156,10 +154,12 @@ Derived records are the record types that actually exist in the database.They ar
 * kappa_fe 
 * label 
 * level 
+* Llabel 
 * nu_fe 
 * number_of_coef 
 * precision 
 * primitive 
+* Q_fe 
 * quasidegree 
 * real_shiftsC 
 * real_shiftsR 
@@ -180,11 +180,11 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
-=== @@Lfunction\LemurellTest\556428030d1cf67aeadb252bfeae3ed9\name@@ ===
+=== @@Lfunction\LemurellTest\4d2bdeef69e29c737f50eabb83c4bafb\name@@ ===
 
 [NOTE]
 ====
-@@Lfunction\LemurellTest\556428030d1cf67aeadb252bfeae3ed9\description@@
+@@Lfunction\LemurellTest\4d2bdeef69e29c737f50eabb83c4bafb\description@@
 
 
 ====

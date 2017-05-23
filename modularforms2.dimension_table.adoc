@@ -31,24 +31,24 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|d_eis a| integer a| `0` a| The dimension of the space of Eisenstein series E_k(Gamma_1(N))
 a|all_in_db a| boolean a| `False` a| True if the spaces S_k^{new}(N,chi) for all chi are in the db, False otherwise
-a|in_wdb a| integer a| `0` a| is 1 if we have this space in the web database, i.e. an entry exists in the collection webmodformspace and all galois orbits of newforms are stored in the collection webnewforms, else 0
-a|d_newf a| integer a| `0` a| 161 ???
-a|weight a| integer a| `2` a| the weight of self
+a|cchi a| integer a| `9` a| Conrey character number
+a|character_orbit a| collection of integer a| `[9, 11]` a| List of conrey character numbers of elements of the orbits of 'cchi'
+a|character_orbit_rep a| integer a| `9` a| The number of the representative of the Galois orbit
 a|character_parity a| integer a| `1` a| '1' if the character is even and '-1' if it is odd
+a|d_cusp a| integer a| `0` a| Dimension of space of cusp forms S_k(N, chi), where N is the level, chi is the character specified by cchi.
+a|d_eis a| integer a| `0` a| The dimension of the space of Eisenstein series E_k(Gamma_1(N))
+a|d_mod a| integer a| `0` a| The dimension of the space of all modular forms M_k(Gamma_1(N))
+a|d_newf a| integer a| `0` a| 161 ???
 a|gamma1_label a| real stored as string a| `43.20` a| A label for the space, of the form level.weight
 a|in_msdb a| integer a| `0` a| Equals 1 if this space has a record in the Modular_Symbols.files collection, else 0
-a|cchi a| integer a| `9` a| Conrey character number
-a|d_cusp a| integer a| `0` a| Dimension of space of cusp forms S_k(N, chi), where N is the level, chi is the character specified by cchi.
-a|character_orbit_rep a| integer a| `9` a| The number of the representative of the Galois orbit
+a|in_wdb a| integer a| `0` a| is 1 if we have this space in the web database, i.e. an entry exists in the collection webmodformspace and all galois orbits of newforms are stored in the collection webnewforms, else 0
+a|level a| integer a| `1` a| The level of the space
 a|one_in_wdb a| boolean a| `False` a| True if at least one of these spaces is in the db
 a|space_labe; a| string a| `20.12.3` a| Probably a misspelling of 'space_label'
-a|character_orbit a| collection of integer a| `[9, 11]` a| List of conrey character numbers of elements of the orbits of 'cchi'
-a|d_mod a| integer a| `0` a| The dimension of the space of all modular forms M_k(Gamma_1(N))
 a|space_label a| string a| `14.17.9` a| the label of this space of the form N.k.i where N is the level, k the weight and i the Conrey character number
-a|level a| integer a| `1` a| The level of the space
 a|space_orbit_label a| string a| `14.17.2` a| The label of the Galois orbit of this space of the form N.k.i, where i is the index of the Galois orbit of the character in the list of Galois orbits of characters of this level. The Galois orbits are ordered by the minimal number appearing in the orbit.
+a|weight a| integer a| `2` a| the weight of self
 |==============================
 
 '''
@@ -84,12 +84,12 @@ The base record represents the smallest intersection of all related records.
 
 Base record class does not exist in the database. Please consult the derived records section below to see all of the classes in the database
 
-* d_eis 
-* d_newf 
-* weight 
-* level 
 * d_cusp 
+* d_eis 
 * d_mod 
+* d_newf 
+* level 
+* weight 
 
 
 

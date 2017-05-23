@@ -31,18 +31,18 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
+a|Character a| integer a| `1` a| @@MaassWaveForms\HT\Character\description@@
 a|Coefficient a| collection of real a| `[1.0, -1.8661616616283976, -0.4037627500310308, 2.4825593473316006, -0.16038791699176383, 0.75348656` ... a| @@MaassWaveForms\HT\Coefficient\description@@
+a|Conrey a| integer a| `1` a| @@MaassWaveForms\HT\Conrey\description@@
+a|Contributor a| string a| `HT` a| @@MaassWaveForms\HT\Contributor\description@@
 a|Cusp_evs a| collection of integer a| `[1]` a| @@MaassWaveForms\HT\Cusp_evs\description@@
-a|Weight a| integer a| `0.0` a| @@MaassWaveForms\HT\Weight\description@@
-a|Symmetry a| integer a| `0` a| @@MaassWaveForms\HT\Symmetry\description@@
+a|Dimension a| integer a| `1` a| @@MaassWaveForms\HT\Dimension\description@@
 a|Eigenvalue a| real a| `9.53369526135` a| @@MaassWaveForms\HT\Eigenvalue\description@@
 a|Level a| integer a| `1` a| @@MaassWaveForms\HT\Level\description@@
-a|Character a| integer a| `1` a| @@MaassWaveForms\HT\Character\description@@
-a|Numc a| integer a| `9` a| @@MaassWaveForms\HT\Numc\description@@
-a|Contributor a| string a| `HT` a| @@MaassWaveForms\HT\Contributor\description@@
-a|Conrey a| integer a| `1` a| @@MaassWaveForms\HT\Conrey\description@@
-a|Dimension a| integer a| `1` a| @@MaassWaveForms\HT\Dimension\description@@
 a|Norm a| integer a| `1.0` a| @@MaassWaveForms\HT\Norm\description@@
+a|Numc a| integer a| `9` a| @@MaassWaveForms\HT\Numc\description@@
+a|Symmetry a| integer a| `0` a| @@MaassWaveForms\HT\Symmetry\description@@
+a|Weight a| integer a| `0.0` a| @@MaassWaveForms\HT\Weight\description@@
 |==============================
 
 '''

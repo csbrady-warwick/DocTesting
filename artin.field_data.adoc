@@ -31,20 +31,20 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|Size a| integer stored as string a| `1` a| order of the Galois group
-a|ConjClasses a| collection of real a| `[{u'Size': u'1', u'Representative': [1], u'Order': 1}]` a| (list of dicts): for each conjugacy class of the group: its Order (int), Representative (list of ints giving a permutation), and Size (int)
-a|QpRts-minpoly a| collection of integer a| `[-1, 1]` a| coefficients for a defining polynomial over Qp used for explicitly writing roots. The first coefficient is the constant term
-a|ComplexConjugation a| integer a| `1` a| index for ConjClasses to say where complex conjugation lies
-a|FrobResolvents a| collection of mixed types a| `[{u'Classes': 1, u'Data': 0, u'Algorithm': u'CYC', u'CycleType': [1]}]` a| @@artin\field_data\FrobResolvents\description@@
-a|QpRts-prec a| integer a| `5` a| p-adic roots are computed up to (p^prec)
 a|ArtinReps a| collection of mixed types a| `[{u'GalConj': 1, u'Character': [[1]], u'CharacterField': 1, u'Baselabel': u'1.1.1t1.1'}]` a|  (list of pairs, [string, int]): the string is the baselabel of an entry from the Artin representation database, and the int is the GalOrbIndex for a particular character with that Baselabel
+a|ComplexConjugation a| integer a| `1` a| index for ConjClasses to say where complex conjugation lies
+a|ConjClasses a| collection of real a| `[{u'Size': u'1', u'Representative': [1], u'Order': 1}]` a| (list of dicts): for each conjugacy class of the group: its Order (int), Representative (list of ints giving a permutation), and Size (int)
+a|FrobResolvents a| collection of mixed types a| `[{u'Classes': 1, u'Data': 0, u'Algorithm': u'CYC', u'CycleType': [1]}]` a| @@artin\field_data\FrobResolvents\description@@
+a|Frobs a| collection of integer a| `[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,` ... a| if the i-th entry is j, then the Frobenius for the i-th prime lies in the j-th conjugacy class
 a|G-Gens a| non-primitive type (<type 'list'>) a| `[]` a| inner lists are permutations given as lists which generate the Galois group
+a|G-Name a| string a| `C1` a| name for the Galois group, but we usually substitute a latex'ed name from the Galois group database, but this is a fallback
 a|Polynomial a| comma separated list of integer stored as string a| `-1,-1,-1,-1,2,-1,1` a| coefficients of a polynomial defining this field, the comma-separated list of coefficients as a string. This is the main identifier for this field from the representations collection, and also matches entries in the number field database.
 a|QpRts a| collection of integer stored as string a| `[[u'0']]` a| each entry is a p-adic root, where entries in the list give the coefficients of powers of p in the p-adic approximation. They are themselves polynomials in a, where a is a root of the QpRts-minpoly
-a|Frobs a| collection of integer a| `[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,` ... a| if the i-th entry is j, then the Frobenius for the i-th prime lies in the j-th conjugacy class
+a|QpRts-minpoly a| collection of integer a| `[-1, 1]` a| coefficients for a defining polynomial over Qp used for explicitly writing roots. The first coefficient is the constant term
 a|QpRts-p a| integer a| `2` a| the prime p used for computing the roots p-adicly
+a|QpRts-prec a| integer a| `5` a| p-adic roots are computed up to (p^prec)
+a|Size a| integer stored as string a| `1` a| order of the Galois group
 a|TransitiveDegree a| integer a| `1` a| degree of the polynomial
-a|G-Name a| string a| `C1` a| name for the Galois group, but we usually substitute a latex'ed name from the Galois group database, but this is a fallback
 |==============================
 
 '''

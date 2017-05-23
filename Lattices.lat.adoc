@@ -31,24 +31,24 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|dim a| integer a| `1` a| dimension of a lattice
-a|name a| collection of string a| `[u'A2']` a| list of known names of a given lattice
-a|base_label a| string a| `2.114.228.1` a| part of the *label* which is completely deterministic
-a|density a| real stored as string a| `0.367796388140185506419151585313` a| density of a lattice
-a|theta_series a| collection of integer a| `[1, 0, 2, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,` ... a| coefficients of the q-expansion of the theta series associated to a lattice (for the Leech lattice it is a list of strings)
-a|hermite a| real stored as string a| `0.468292905790846982930329998491` a| Hermite number of a lattice
-a|genus_reps a| collection of integer a| `[[[5, 1], [1, 23]]]` a| list of genus representatives (matrices)
-a|det a| integer a| `1` a| determinant of a lattice
-a|comments a| string a| `This is a root lattice` a| comments and historical remarks
-a|label a| string a| `1.2.4.1.1` a| LMFDB label of a lattice
-a|minimum a| integer a| `5` a| length of the shortest vector
-a|index a| integer a| `1` a| index of a lattice
 a|aut a| integer a| `2` a| size of automorphism group
-a|kissing a| integer a| `2` a| Kissing number of a lattice
-a|level a| integer a| `1` a| level of a lattice
+a|base_label a| string a| `2.114.228.1` a| part of the *label* which is completely deterministic
 a|class_number a| integer a| `1` a| class number or genus of a lattice
-a|shortest a| collection of integer a| `[[1, 0]]` a| list of shortest vectors (for the Leech lattice it is a list of strings)
+a|comments a| string a| `This is a root lattice` a| comments and historical remarks
+a|density a| real stored as string a| `0.367796388140185506419151585313` a| density of a lattice
+a|det a| integer a| `1` a| determinant of a lattice
+a|dim a| integer a| `1` a| dimension of a lattice
+a|genus_reps a| collection of integer a| `[[[5, 1], [1, 23]]]` a| list of genus representatives (matrices)
 a|gram a| collection of integer a| `[[5, 1], [1, 23]]` a| Gram matrix of a lattice
+a|hermite a| real stored as string a| `0.468292905790846982930329998491` a| Hermite number of a lattice
+a|index a| integer a| `1` a| index of a lattice
+a|kissing a| integer a| `2` a| Kissing number of a lattice
+a|label a| string a| `1.2.4.1.1` a| LMFDB label of a lattice
+a|level a| integer a| `1` a| level of a lattice
+a|minimum a| integer a| `5` a| length of the shortest vector
+a|name a| collection of string a| `[u'A2']` a| list of known names of a given lattice
+a|shortest a| collection of integer a| `[[1, 0]]` a| list of shortest vectors (for the Leech lattice it is a list of strings)
+a|theta_series a| collection of integer a| `[1, 0, 2, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2,` ... a| coefficients of the q-expansion of the theta series associated to a lattice (for the Leech lattice it is a list of strings)
 |==============================
 
 '''

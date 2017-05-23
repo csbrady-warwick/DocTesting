@@ -31,28 +31,28 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|res a| collection of comma separated list of integer stored as string a| `{u'gal': [u'6914387390208,-20601313920,41147472,-5250080,14886,0,1']}` a| @@numberfields\old46\res\description@@
-a|subs a| collection of real a| `[[u'-3,0,1', 1]]` a| @@numberfields\old46\subs\description@@
-a|zk a| collection of mixed types a| `[u'1', u'a', u'1/26*a^2 + 2/13*a - 3/13']` a| @@numberfields\old46\zk\description@@
-a|unitsGmodule a| collection of integer a| `[[3, 1]]` a| @@numberfields\old46\unitsGmodule\description@@
-a|class_number a| integer a| `1` a| @@numberfields\old46\class_number\description@@
 a|class_group a| integer stored as string a| `10` a| @@numberfields\old46\class_group\description@@
-a|galois a| collection of integer a| `{u't': 1, u'n': 1}` a| @@numberfields\old46\galois\description@@
+a|class_number a| integer a| `1` a| @@numberfields\old46\class_number\description@@
 a|coeffhash a| string a| `0000033dfce7f683b8432a5dbcc4792c` a| @@numberfields\old46\coeffhash\description@@
-a|label a| string a| `1.1.1.1` a| @@numberfields\old46\label\description@@
-a|units a| collection of string a| `[u'\( \frac{1226768444547965225163921712036593666792075961776790070518817363940296030746020949792596` ... a| @@numberfields\old46\units\description@@
-a|subfields a| non-primitive type (<type 'list'>) a| `[]` a| @@numberfields\old46\subfields\description@@
-a|reg a| real a| `1140.38500077` a| @@numberfields\old46\reg\description@@
+a|coeffs a| comma separated list of integer stored as string a| `-2625040,6270,0,1` a| @@numberfields\old46\coeffs\description@@
 a|degree a| integer a| `1` a| @@numberfields\old46\degree\description@@
 a|disc_abs_key a| integer stored as string a| `0001` a| @@numberfields\old46\disc_abs_key\description@@
 a|disc_sign a| integer a| `-1` a| @@numberfields\old46\disc_sign\description@@
-a|ramps_all a| integer stored as string a| `1000003` a| @@numberfields\old46\ramps_all\description@@
-a|ramps a| non-primitive type (<type 'list'>) a| `[]` a| @@numberfields\old46\ramps\description@@
 a|dischash a| integer a| `-11276684190200` a| @@numberfields\old46\dischash\description@@
-a|used_grh a| boolean a| `True` a| @@numberfields\old46\used_grh\description@@
-a|unitsType a| string a| `Type IV` a| @@numberfields\old46\unitsType\description@@
+a|galois a| collection of integer a| `{u't': 1, u'n': 1}` a| @@numberfields\old46\galois\description@@
+a|label a| string a| `1.1.1.1` a| @@numberfields\old46\label\description@@
+a|ramps a| non-primitive type (<type 'list'>) a| `[]` a| @@numberfields\old46\ramps\description@@
+a|ramps_all a| integer stored as string a| `1000003` a| @@numberfields\old46\ramps_all\description@@
+a|reg a| real a| `1140.38500077` a| @@numberfields\old46\reg\description@@
+a|res a| collection of comma separated list of integer stored as string a| `{u'gal': [u'6914387390208,-20601313920,41147472,-5250080,14886,0,1']}` a| @@numberfields\old46\res\description@@
 a|signature a| comma separated list of integer stored as string a| `0,1` a| @@numberfields\old46\signature\description@@
-a|coeffs a| comma separated list of integer stored as string a| `-2625040,6270,0,1` a| @@numberfields\old46\coeffs\description@@
+a|subfields a| non-primitive type (<type 'list'>) a| `[]` a| @@numberfields\old46\subfields\description@@
+a|subs a| collection of real a| `[[u'-3,0,1', 1]]` a| @@numberfields\old46\subs\description@@
+a|units a| collection of string a| `[u'\( \frac{1226768444547965225163921712036593666792075961776790070518817363940296030746020949792596` ... a| @@numberfields\old46\units\description@@
+a|unitsGmodule a| collection of integer a| `[[3, 1]]` a| @@numberfields\old46\unitsGmodule\description@@
+a|unitsType a| string a| `Type IV` a| @@numberfields\old46\unitsType\description@@
+a|used_grh a| boolean a| `True` a| @@numberfields\old46\used_grh\description@@
+a|zk a| collection of mixed types a| `[u'1', u'a', u'1/26*a^2 + 2/13*a - 3/13']` a| @@numberfields\old46\zk\description@@
 |==============================
 
 '''
@@ -101,17 +101,17 @@ The base record represents the smallest intersection of all related records.
 
 Base record class does not exist in the database. Please consult the derived records section below to see all of the classes in the database
 
-* dischash 
-* degree 
-* zk 
-* galois 
 * coeffhash 
+* coeffs 
+* degree 
 * disc_abs_key 
-* label 
 * disc_sign 
+* dischash 
+* galois 
+* label 
 * ramps 
 * signature 
-* coeffs 
+* zk 
 
 
 

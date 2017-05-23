@@ -31,49 +31,49 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|degree a| integer a| `4` a| @@Lfunctions\new_Lfunctions\degree\description@@
-a|origin a| string a| `Genus2Curve/Q/169/a` a| @@Lfunctions\new_Lfunctions\origin\description@@
-a|primitive a| boolean a| `False` a| @@Lfunctions\new_Lfunctions\primitive\description@@
-a|central_character a| real stored as string a| `169.1` a| @@Lfunctions\new_Lfunctions\central_character\description@@
-a|plot_delta a| real a| `0.1875` a| @@Lfunctions\new_Lfunctions\plot_delta\description@@
-a|euler_factors a| collection of integer a| `[[1, 3, 5, 6, 4], [1, 2, 1, 6, 9], [1, 0, -7, 0, 25], [1, 0, 7, 0, 49], [1, 0, 11, 0, 121], [1, 5, 1` ... a| @@Lfunctions\new_Lfunctions\euler_factors\description@@
-a|self_dual a| boolean a| `True` a| @@Lfunctions\new_Lfunctions\self_dual\description@@
-a|motivic_weight a| integer a| `1` a| @@Lfunctions\new_Lfunctions\motivic_weight\description@@
-a|Lhash a| integer stored as string a| `1456780685049277288` a| @@Lfunctions\new_Lfunctions\Lhash\description@@
 a|A10 a| integer a| `0` a| @@Lfunctions\new_Lfunctions\A10\description@@
-a|st_group a| string a| `E_6` a| @@Lfunctions\new_Lfunctions\st_group\description@@
-a|analytic_normalization a| string a| `1/2` a| @@Lfunctions\new_Lfunctions\analytic_normalization\description@@
-a|A3 a| integer a| `-2` a| @@Lfunctions\new_Lfunctions\A3\description@@
-a|A2 a| integer a| `-3` a| @@Lfunctions\new_Lfunctions\A2\description@@
-a|A5 a| integer a| `0` a| @@Lfunctions\new_Lfunctions\A5\description@@
-a|A4 a| integer a| `4` a| @@Lfunctions\new_Lfunctions\A4\description@@
-a|A7 a| integer a| `0` a| @@Lfunctions\new_Lfunctions\A7\description@@
-a|A6 a| integer a| `6` a| @@Lfunctions\new_Lfunctions\A6\description@@
-a|A9 a| integer a| `3` a| @@Lfunctions\new_Lfunctions\A9\description@@
-a|A8 a| integer a| `-3` a| @@Lfunctions\new_Lfunctions\A8\description@@
-a|type a| string a| `G2Q` a| @@Lfunctions\new_Lfunctions\type\description@@
-a|order_of_vanishing a| integer a| `0` a| @@Lfunctions\new_Lfunctions\order_of_vanishing\description@@
-a|bad_lfactors a| collection of real a| `[[13, [1, 5, 13]]]` a| @@Lfunctions\new_Lfunctions\bad_lfactors\description@@
 a|a10 a| collection of integer a| `[0.0, 0.0]` a| @@Lfunctions\new_Lfunctions\a10\description@@
-a|conductor a| integer a| `169` a| @@Lfunctions\new_Lfunctions\conductor\description@@
-a|plot_values a| collection of real a| `[0.09049039083242963, 0.09486472432710237, 0.1085080264469767, 0.1330092186010341, 0.171104209689610` ... a| @@Lfunctions\new_Lfunctions\plot_values\description@@
-a|algebraic a| boolean a| `True` a| @@Lfunctions\new_Lfunctions\algebraic\description@@
-a|a3 a| collection of real a| `[-0.020618556701030927, 0.0]` a| @@Lfunctions\new_Lfunctions\a3\description@@
+a|A2 a| integer a| `-3` a| @@Lfunctions\new_Lfunctions\A2\description@@
 a|a2 a| collection of real a| `[-0.030927835051546393, 0.0]` a| @@Lfunctions\new_Lfunctions\a2\description@@
-a|a5 a| collection of integer a| `[0.0, 0.0]` a| @@Lfunctions\new_Lfunctions\a5\description@@
+a|A3 a| integer a| `-2` a| @@Lfunctions\new_Lfunctions\A3\description@@
+a|a3 a| collection of real a| `[-0.020618556701030927, 0.0]` a| @@Lfunctions\new_Lfunctions\a3\description@@
+a|A4 a| integer a| `4` a| @@Lfunctions\new_Lfunctions\A4\description@@
 a|a4 a| collection of real a| `[0.041237113402061855, 0.0]` a| @@Lfunctions\new_Lfunctions\a4\description@@
-a|a7 a| collection of integer a| `[0.0, 0.0]` a| @@Lfunctions\new_Lfunctions\a7\description@@
+a|A5 a| integer a| `0` a| @@Lfunctions\new_Lfunctions\A5\description@@
+a|a5 a| collection of integer a| `[0.0, 0.0]` a| @@Lfunctions\new_Lfunctions\a5\description@@
+a|A6 a| integer a| `6` a| @@Lfunctions\new_Lfunctions\A6\description@@
 a|a6 a| collection of real a| `[0.061855670103092786, 0.0]` a| @@Lfunctions\new_Lfunctions\a6\description@@
-a|a9 a| collection of real a| `[0.030927835051546393, 0.0]` a| @@Lfunctions\new_Lfunctions\a9\description@@
+a|A7 a| integer a| `0` a| @@Lfunctions\new_Lfunctions\A7\description@@
+a|a7 a| collection of integer a| `[0.0, 0.0]` a| @@Lfunctions\new_Lfunctions\a7\description@@
+a|A8 a| integer a| `-3` a| @@Lfunctions\new_Lfunctions\A8\description@@
 a|a8 a| collection of real a| `[-0.030927835051546393, 0.0]` a| @@Lfunctions\new_Lfunctions\a8\description@@
+a|A9 a| integer a| `3` a| @@Lfunctions\new_Lfunctions\A9\description@@
+a|a9 a| collection of real a| `[0.030927835051546393, 0.0]` a| @@Lfunctions\new_Lfunctions\a9\description@@
+a|algebraic a| boolean a| `True` a| @@Lfunctions\new_Lfunctions\algebraic\description@@
+a|analytic_normalization a| string a| `1/2` a| @@Lfunctions\new_Lfunctions\analytic_normalization\description@@
+a|bad_lfactors a| collection of real a| `[[13, [1, 5, 13]]]` a| @@Lfunctions\new_Lfunctions\bad_lfactors\description@@
+a|central_character a| real stored as string a| `169.1` a| @@Lfunctions\new_Lfunctions\central_character\description@@
+a|coefficient_field a| string a| `1.1.1.1` a| @@Lfunctions\new_Lfunctions\coefficient_field\description@@
+a|conductor a| integer a| `169` a| @@Lfunctions\new_Lfunctions\conductor\description@@
+a|degree a| integer a| `4` a| @@Lfunctions\new_Lfunctions\degree\description@@
+a|euler_factors a| collection of integer a| `[[1, 3, 5, 6, 4], [1, 2, 1, 6, 9], [1, 0, -7, 0, 25], [1, 0, 7, 0, 49], [1, 0, 11, 0, 121], [1, 5, 1` ... a| @@Lfunctions\new_Lfunctions\euler_factors\description@@
+a|gamma_factors a| collection of unidentifiable types a| `[[], [0, 0]]` a| @@Lfunctions\new_Lfunctions\gamma_factors\description@@
 a|leading_term a| real a| `0.0904903908324` a| @@Lfunctions\new_Lfunctions\leading_term\description@@
+a|Lhash a| integer stored as string a| `1456780685049277288` a| @@Lfunctions\new_Lfunctions\Lhash\description@@
+a|motivic_weight a| integer a| `1` a| @@Lfunctions\new_Lfunctions\motivic_weight\description@@
+a|order_of_vanishing a| integer a| `0` a| @@Lfunctions\new_Lfunctions\order_of_vanishing\description@@
+a|origin a| string a| `Genus2Curve/Q/169/a` a| @@Lfunctions\new_Lfunctions\origin\description@@
+a|plot_delta a| real a| `0.1875` a| @@Lfunctions\new_Lfunctions\plot_delta\description@@
+a|plot_values a| collection of real a| `[0.09049039083242963, 0.09486472432710237, 0.1085080264469767, 0.1330092186010341, 0.171104209689610` ... a| @@Lfunctions\new_Lfunctions\plot_values\description@@
+a|positive_zeros a| collection of real a| `[5.068234635406029, 6.570377754315603, 7.544675695162541, 8.455526054396895, 9.565832078364085, 9.91` ... a| @@Lfunctions\new_Lfunctions\positive_zeros\description@@
+a|primitive a| boolean a| `False` a| @@Lfunctions\new_Lfunctions\primitive\description@@
+a|root_number a| integer a| `1` a| @@Lfunctions\new_Lfunctions\root_number\description@@
+a|self_dual a| boolean a| `True` a| @@Lfunctions\new_Lfunctions\self_dual\description@@
+a|st_group a| string a| `E_6` a| @@Lfunctions\new_Lfunctions\st_group\description@@
+a|type a| string a| `G2Q` a| @@Lfunctions\new_Lfunctions\type\description@@
 a|z1 a| real a| `5.06823463541` a| @@Lfunctions\new_Lfunctions\z1\description@@
 a|z2 a| real a| `6.57037775432` a| @@Lfunctions\new_Lfunctions\z2\description@@
 a|z3 a| real a| `7.54467569516` a| @@Lfunctions\new_Lfunctions\z3\description@@
-a|root_number a| integer a| `1` a| @@Lfunctions\new_Lfunctions\root_number\description@@
-a|positive_zeros a| collection of real a| `[5.068234635406029, 6.570377754315603, 7.544675695162541, 8.455526054396895, 9.565832078364085, 9.91` ... a| @@Lfunctions\new_Lfunctions\positive_zeros\description@@
-a|gamma_factors a| collection of unidentifiable types a| `[[], [0, 0]]` a| @@Lfunctions\new_Lfunctions\gamma_factors\description@@
-a|coefficient_field a| string a| `1.1.1.1` a| @@Lfunctions\new_Lfunctions\coefficient_field\description@@
 |==============================
 
 '''
@@ -100,23 +100,22 @@ a|_id_ a| _id sorted ascending
 ====
 
 * A10 
-* A2 
-* A3 
-* A4 
-* A5 
-* A6 
-* A7 
-* A8 
-* A9 
-* Lhash 
 * a10 
+* A2 
 * a2 
+* A3 
 * a3 
+* A4 
 * a4 
+* A5 
 * a5 
+* A6 
 * a6 
+* A7 
 * a7 
+* A8 
 * a8 
+* A9 
 * a9 
 * algebraic 
 * analytic_normalization 
@@ -128,6 +127,7 @@ a|_id_ a| _id sorted ascending
 * euler_factors 
 * gamma_factors 
 * leading_term 
+* Lhash 
 * motivic_weight 
 * order_of_vanishing 
 * origin 

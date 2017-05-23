@@ -31,10 +31,10 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|Parity a| integer a| `0` a| @@MaassWaveForms\DirChars\Parity\description@@
 a|Chars a| collection of integer a| `[0]` a| @@MaassWaveForms\DirChars\Chars\description@@
-a|Modulus a| integer a| `2` a| @@MaassWaveForms\DirChars\Modulus\description@@
 a|Conrey a| integer a| `1` a| @@MaassWaveForms\DirChars\Conrey\description@@
+a|Modulus a| integer a| `2` a| @@MaassWaveForms\DirChars\Modulus\description@@
+a|Parity a| integer a| `0` a| @@MaassWaveForms\DirChars\Parity\description@@
 |==============================
 
 '''
@@ -56,20 +56,20 @@ a|_id_ a| _id sorted ascending
 
 ****
 [discrete]
-=== Base record : @@MaassWaveForms\DirChars\d588d09527dd14905bb09c0fbb19c44d\name@@ ===
+=== Base record : @@MaassWaveForms\DirChars\cfaeecf1c1218ba1499ccb4c6202d099\name@@ ===
 
 [NOTE]
 ====
 The base record represents the smallest intersection of all related records.
 
-@@MaassWaveForms\DirChars\d588d09527dd14905bb09c0fbb19c44d\description@@
+@@MaassWaveForms\DirChars\cfaeecf1c1218ba1499ccb4c6202d099\description@@
 ====
 
 47 records of base type in collection
 
-* Parity 
 * Chars 
 * Modulus 
+* Parity 
 
 
 

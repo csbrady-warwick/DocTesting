@@ -31,25 +31,25 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|galT a| integer a| `1` a| the T-number for the Galois group
-a|unram a| string a| `t^3 - t + 1` a| polynomial defining maximal unramified subfield
-a|c a| integer a| `0` a| valuation of the discriminant
-a|e a| integer a| `1` a| ramification degree
-a|f a| integer a| `1` a| residue field degree
-a|hw a| string a| `$1$` a| Hasse-Witt invariant as a string
-a|p a| integer a| `2` a| prime p for the base \Q_p
-a|label a| string a| `101.1.0.1` a| label
-a|gms a| integer stored as string a| `0` a| Galois mean slope
-a|rf a| collection of integer a| `[1, 0]` a| root field
-a|gal a| collection of integer a| `[3, 1]` a| the Galois group [n, t] for nTt
-a|u a| integer a| `3` a| degree of maximal unramified subfield of the Galois closure
 a|aut a| integer a| `3` a| number of automorphisms of the field
+a|c a| integer a| `0` a| valuation of the discriminant
 a|coeffs a| collection of integer a| `[1, -1, 0, 1]` a| coefficients of a defining polynomial, starting with the constant term
+a|e a| integer a| `1` a| ramification degree
 a|eisen a| string a| `y - 2` a| Eisenstein polynomial defining relative extension of this field over the maxmial unramified subfield
-a|slopes a| string a| `[]` a| wild ramification slopes
-a|n a| integer a| `1` a| degree
+a|f a| integer a| `1` a| residue field degree
+a|gal a| collection of integer a| `[3, 1]` a| the Galois group [n, t] for nTt
+a|galT a| integer a| `1` a| the T-number for the Galois group
+a|gms a| integer stored as string a| `0` a| Galois mean slope
+a|hw a| string a| `$1$` a| Hasse-Witt invariant as a string
 a|inertia a| collection of mixed types a| `[1, u'e', [], u'&lt;<i>e</i>&gt;']` a| inertia subgroup
+a|label a| string a| `101.1.0.1` a| label
+a|n a| integer a| `1` a| degree
+a|p a| integer a| `2` a| prime p for the base \Q_p
+a|rf a| collection of integer a| `[1, 0]` a| root field
+a|slopes a| string a| `[]` a| wild ramification slopes
 a|t a| integer a| `1` a| tame degree for the Galois closure
+a|u a| integer a| `3` a| degree of maximal unramified subfield of the Galois closure
+a|unram a| string a| `t^3 - t + 1` a| polynomial defining maximal unramified subfield
 |==============================
 
 '''
@@ -77,35 +77,35 @@ a|p_1 a| p sorted ascending
 
 ****
 [discrete]
-=== Base record : @@localfields\fields\5d718ff3abe4f5ffdca46db34e9189d9\name@@ ===
+=== Base record : @@localfields\fields\ddd2e6f85086117b88d730996bcb2174\name@@ ===
 
 [NOTE]
 ====
 The base record represents the smallest intersection of all related records.
 
-@@localfields\fields\5d718ff3abe4f5ffdca46db34e9189d9\description@@
+@@localfields\fields\ddd2e6f85086117b88d730996bcb2174\description@@
 ====
 
 53 records of base type in collection
 
-* unram 
-* c 
-* e 
-* f 
-* hw 
-* p 
-* label 
-* gms 
-* rf 
-* gal 
-* u 
 * aut 
+* c 
 * coeffs 
+* e 
 * eisen 
-* slopes 
-* n 
+* f 
+* gal 
+* gms 
+* hw 
 * inertia 
+* label 
+* n 
+* p 
+* rf 
+* slopes 
 * t 
+* u 
+* unram 
 
 
 

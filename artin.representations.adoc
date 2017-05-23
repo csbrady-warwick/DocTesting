@@ -31,11 +31,13 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|Dim a| integer a| `1` a| dimension
-a|Conductor_key a| integer stored as string a| `00001` a| encoding of the conductor for searching. The first four characters give the number of decimal digits minus 1 (padded with zeros), followed by the conductor itself.
 a|BadPrimes a| non-primitive type (<type 'list'>) a| `[]` a| list of bad primes, i.e., primes dividing the conductor. Stored as strings since they may get too big
 a|Baselabel a| string a| `1.1.1t1.1` a| @@artin\representations\Baselabel\description@@
+a|CharacterField a| integer a| `1` a| the n for writing the character
 a|Conductor a| integer stored as string a| `1` a| conductor
+a|Conductor_key a| integer stored as string a| `00001` a| encoding of the conductor for searching. The first four characters give the number of decimal digits minus 1 (padded with zeros), followed by the conductor itself.
+a|Dim a| integer a| `1` a| dimension
+a|Galois_nt a| collection of integer a| `[1, 1]` a| @@artin\representations\Galois_nt\description@@
 a|GaloisConjugates a| collection of unidentifiable types a| `[{u'GalOrbIndex': 1, u'LocalFactors': [[[1], [-1]]], u'Character': [[1]], u'HardFactors': [], u'Sign` ... a| list of Galois conjugate character information.
 
 Each entry in the GaloisConjugates list is a dictionary with the following entries
@@ -49,12 +51,10 @@ Each entry in the GaloisConjugates list is a dictionary with the following entri
  * *HardFactors* : local factors for bad primes
 
  * *GalOrbIndex*(ints): an index assigned to the given character
-a|Indicator a| integer a| `1` a| Frobenius-Schur indicator, 1 for orthogonal, -1 for symplectic, and 0 for other
 a|HardPrimes a| non-primitive type (<type 'list'>) a| `[]` a| primes dividing the polynomial discriminant for the defining field. These include the Bad Primes
-a|CharacterField a| integer a| `1` a| the n for writing the character
-a|NFGal a| comma separated list of integer stored as string a| `-1,-1,-1,-1,2,-1,1` a| list of Galois conjugate character information
 a|Hide a| integer a| `0` a| 0 if we should show it when searching for Artin rep'ns, 1 if not. The representations are invariants of the Galois closure of the given field. More than one field can have the same Galois closure. We pick a best/minimal one and show that. We have data for others for linking to the number field database.
-a|Galois_nt a| collection of integer a| `[1, 1]` a| @@artin\representations\Galois_nt\description@@
+a|Indicator a| integer a| `1` a| Frobenius-Schur indicator, 1 for orthogonal, -1 for symplectic, and 0 for other
+a|NFGal a| comma separated list of integer stored as string a| `-1,-1,-1,-1,2,-1,1` a| list of Galois conjugate character information
 |==============================
 
 '''
@@ -91,8 +91,8 @@ a|Hide_1_Conductor_key_1 a| Hide sorted ascending, Conductor_key sorted ascendin
 * Conductor 
 * Conductor_key 
 * Dim 
-* GaloisConjugates 
 * Galois_nt 
+* GaloisConjugates 
 * HardPrimes 
 * Hide 
 * Indicator 

@@ -31,32 +31,32 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|Eigenvalue a| real a| `0.038758582` a| Spectral parameter R corresponding to this Maass form, s.t. the actual eigenvalue is lambda=1/4+R^2
 a|Character a| integer a| `0` a| character number in Conrey numbering if Conrey is set to 1 else in Sage ordering
-a|date a| Type cannot be identified (<type 'datetime.datetime'>) a| `2012-02-27 21:12:35.086000` a| @@MaassWaveForms\FS\date\description@@
-a|M0 a| integer a| `0` a| the M0 which was used as input to the algorithm for computing the eigenvalue (if set correctly it should be > 0)
-a|Norm a| integer a| `1.0` a| describes the normalisation used for the coefficients, 1.0 means Hecke normalisation so c(1)=1, other} alternatives (not used currently) would be L2-normalisation
+a|coeff_id a| non-primitive type (<class 'bson.objectid.ObjectId'>) a| `4f87f0f388aece21410000e8` a| id of the corresponding coefficient record
 a|Coefficient a| collection of real a| `[0, 1.0, -23.3895804510333, 0.9330420276699, 546.0724736753626, 1.7235525028775, -21.8234615703817,` ... a| A short list of Fourier coefficients c(1),c(2),...
+a|Conrey a| integer a| `1` a| 1 if Conrey character numbers are used, else 0
+a|Contributor a| string a| `HT` a| identifier of person who originally submitted this data, e.g. 'HT' is Holger Then, FS is Fredrik Stromberg etc. (coefficients may have been added later by other contributors, identified in the corresponding coefficient record)
+a|Cusp_evs a| collection of integer a| `[1]` a| list of (complex) numbers such that the Fourier coefficients at that cusp are proportional to the ones at infinity with this constant. Such constants exists if the corresponding Atkin-Lehner operators are cusp normalisers. The first '1' corresponds to the cusp at infinity
+a|date a| Type cannot be identified (<type 'datetime.datetime'>) a| `2012-02-27 21:12:35.086000` a| @@MaassWaveForms\FS\date\description@@
+a|Dim a| integer a| `1` a| dimension of the eigenspace containing this Maass form (estimated heuristically / numerically)
+a|dim a| integer a| `1` a| probably a third duplicate of 'Dim' and 'Dimension'
+a|Dimension a| integer a| `1` a| probably a duplicate of Dim
+a|Eigenvalue a| real a| `0.038758582` a| Spectral parameter R corresponding to this Maass form, s.t. the actual eigenvalue is lambda=1/4+R^2
+a|Error a| real a| `6.05071548421e-15` a| estimate of the error in the eigenvalue
+a|Fricke a| integer a| `1` a| @@MaassWaveForms\FS\Fricke\description@@
+a|Level a| integer a| `1` a| level
+a|M0 a| integer a| `0` a| the M0 which was used as input to the algorithm for computing the eigenvalue (if set correctly it should be > 0)
+a|Newform a| boolean a| `False` a| @@MaassWaveForms\FS\Newform\description@@
+a|Norm a| integer a| `1.0` a| describes the normalisation used for the coefficients, 1.0 means Hecke normalisation so c(1)=1, other} alternatives (not used currently) would be L2-normalisation
+a|Numc a| integer a| `0` a| number of coefficients available for this form
+a|ObjectLabel a| string a| `GL2Maass_107_0.840090994356` a| @@MaassWaveForms\FS\ObjectLabel\description@@
 a|ObjectUrl a| string a| `/ModularForm/GL2/Q/Maass/GL2Maass_107_0.840090994356` a| @@MaassWaveForms\FS\ObjectUrl\description@@
 a|Precision a| real a| `1e-09` a| @@MaassWaveForms\FS\Precision\description@@
-a|Numc a| integer a| `0` a| number of coefficients available for this form
-a|Conrey a| integer a| `1` a| 1 if Conrey character numbers are used, else 0
-a|Cusp_evs a| collection of integer a| `[1]` a| list of (complex) numbers such that the Fourier coefficients at that cusp are proportional to the ones at infinity with this constant. Such constants exists if the corresponding Atkin-Lehner operators are cusp normalisers. The first '1' corresponds to the cusp at infinity
-a|Dim a| integer a| `1` a| dimension of the eigenspace containing this Maass form (estimated heuristically / numerically)
-a|Level a| integer a| `1` a| level
-a|Newform a| boolean a| `False` a| @@MaassWaveForms\FS\Newform\description@@
-a|Error a| real a| `6.05071548421e-15` a| estimate of the error in the eigenvalue
-a|Y a| integer a| `0` a| the Y which was used as input to the algorithm for computing the eigenvalue (if set correctly it should be > 0)
-a|Dimension a| integer a| `1` a| probably a duplicate of Dim
-a|dim a| integer a| `1` a| probably a third duplicate of 'Dim' and 'Dimension'
+a|Sign a| integer a| `1` a| @@MaassWaveForms\FS\Sign\description@@
+a|software a| string a| `Mathematica` a| @@MaassWaveForms\FS\software\description@@
 a|Symmetry a| integer a| `0` a| 1 if this Maass form is even and 0 if it is odd
 a|Weight a| integer a| `0.0` a| the weight of the Maass form
-a|Fricke a| integer a| `1` a| @@MaassWaveForms\FS\Fricke\description@@
-a|ObjectLabel a| string a| `GL2Maass_107_0.840090994356` a| @@MaassWaveForms\FS\ObjectLabel\description@@
-a|Sign a| integer a| `1` a| @@MaassWaveForms\FS\Sign\description@@
-a|coeff_id a| non-primitive type (<class 'bson.objectid.ObjectId'>) a| `4f87f0f388aece21410000e8` a| id of the corresponding coefficient record
-a|Contributor a| string a| `HT` a| identifier of person who originally submitted this data, e.g. 'HT' is Holger Then, FS is Fredrik Stromberg etc. (coefficients may have been added later by other contributors, identified in the corresponding coefficient record)
-a|software a| string a| `Mathematica` a| @@MaassWaveForms\FS\software\description@@
+a|Y a| integer a| `0` a| the Y which was used as input to the algorithm for computing the eigenvalue (if set correctly it should be > 0)
 |==============================
 
 '''
@@ -96,13 +96,13 @@ The base record represents the smallest intersection of all related records.
 
 Base record class does not exist in the database. Please consult the derived records section below to see all of the classes in the database
 
-* Eigenvalue 
-* Weight 
-* Symmetry 
-* Level 
 * Character 
-* Numc 
 * Contributor 
+* Eigenvalue 
+* Level 
+* Numc 
+* Symmetry 
+* Weight 
 
 
 
@@ -119,11 +119,11 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
-=== @@MaassWaveForms\FS\7eb2c46def9082016e51efb821b7e71b\name@@ ===
+=== @@MaassWaveForms\FS\47f7fbd3c7ec51df690ef2c095f2309f\name@@ ===
 
 [NOTE]
 ====
-@@MaassWaveForms\FS\7eb2c46def9082016e51efb821b7e71b\description@@
+@@MaassWaveForms\FS\47f7fbd3c7ec51df690ef2c095f2309f\description@@
 
 
 ====
@@ -147,26 +147,26 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
-=== @@MaassWaveForms\FS\e40446fa3ccf6e73847e49be5775ddd7\name@@ ===
+=== @@MaassWaveForms\FS\e28084b52cf4cbe7094dfd0ba67ab716\name@@ ===
 
 [NOTE]
 ====
-@@MaassWaveForms\FS\e40446fa3ccf6e73847e49be5775ddd7\description@@
+@@MaassWaveForms\FS\e28084b52cf4cbe7094dfd0ba67ab716\description@@
 
 
 ====
 
 1274 records extended from base type
 
+* coeff_id 
 * Conrey 
 * Cusp_evs 
+* date 
 * Dim 
+* dim 
 * Error 
 * M0 
 * Y 
-* coeff_id 
-* date 
-* dim 
 
 
 
@@ -176,25 +176,25 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
-=== @@MaassWaveForms\FS\82a45185b6aebd408cd336381c85df53\name@@ ===
+=== @@MaassWaveForms\FS\d06b04f790e6a8bd5d257538907d23db\name@@ ===
 
 [NOTE]
 ====
-@@MaassWaveForms\FS\82a45185b6aebd408cd336381c85df53\description@@
+@@MaassWaveForms\FS\d06b04f790e6a8bd5d257538907d23db\description@@
 
 
 ====
 
 383 records extended from base type
 
+* coeff_id 
 * Conrey 
 * Cusp_evs 
+* date 
 * Dim 
 * Error 
 * M0 
 * Y 
-* coeff_id 
-* date 
 
 
 
@@ -204,28 +204,28 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
-=== @@MaassWaveForms\FS\b4e870623b1107a1344c8e9311647943\name@@ ===
+=== @@MaassWaveForms\FS\6cddb26dfc138f922d7992f622dcca9c\name@@ ===
 
 [NOTE]
 ====
-@@MaassWaveForms\FS\b4e870623b1107a1344c8e9311647943\description@@
+@@MaassWaveForms\FS\6cddb26dfc138f922d7992f622dcca9c\description@@
 
 
 ====
 
 68 records extended from base type
 
+* coeff_id 
 * Coefficient 
 * Conrey 
 * Cusp_evs 
 * Dim 
+* dim 
 * Dimension 
 * Error 
 * M0 
 * Norm 
 * Y 
-* coeff_id 
-* dim 
 
 
 
@@ -235,11 +235,11 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
-=== @@MaassWaveForms\FS\c5d8e9ccf2a1de473d8fefe9771fae9d\name@@ ===
+=== @@MaassWaveForms\FS\d9b09d6aa09f70ffe4d36f33ebb5ad3f\name@@ ===
 
 [NOTE]
 ====
-@@MaassWaveForms\FS\c5d8e9ccf2a1de473d8fefe9771fae9d\description@@
+@@MaassWaveForms\FS\d9b09d6aa09f70ffe4d36f33ebb5ad3f\description@@
 
 
 ====
@@ -263,11 +263,11 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
-=== @@MaassWaveForms\FS\d1c6b30831fdc26912e811b803a4abb5\name@@ ===
+=== @@MaassWaveForms\FS\84dc790b89399f2c2c3edbed505e8fb4\name@@ ===
 
 [NOTE]
 ====
-@@MaassWaveForms\FS\d1c6b30831fdc26912e811b803a4abb5\description@@
+@@MaassWaveForms\FS\84dc790b89399f2c2c3edbed505e8fb4\description@@
 
 
 ====
@@ -276,11 +276,11 @@ Derived records are the record types that actually exist in the database.They ar
 
 * Conrey 
 * Cusp_evs 
+* date 
 * Dim 
 * Error 
 * M0 
 * Y 
-* date 
 
 
 
@@ -290,26 +290,26 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
-=== @@MaassWaveForms\FS\dea3dc7ef5b05b6b2e4dda3db026f209\name@@ ===
+=== @@MaassWaveForms\FS\5bc810a93214f3fa0130717a6bb973e1\name@@ ===
 
 [NOTE]
 ====
-@@MaassWaveForms\FS\dea3dc7ef5b05b6b2e4dda3db026f209\description@@
+@@MaassWaveForms\FS\5bc810a93214f3fa0130717a6bb973e1\description@@
 
 
 ====
 
 12 records extended from base type
 
+* coeff_id 
 * Conrey 
 * Cusp_evs 
+* date 
 * Dim 
 * Error 
 * M0 
 * Newform 
 * Y 
-* coeff_id 
-* date 
 
 
 
@@ -319,27 +319,27 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
-=== @@MaassWaveForms\FS\aae40e4c40e41235a5f4438e147aade7\name@@ ===
+=== @@MaassWaveForms\FS\13ccdb16982161c68c874708f130f7bf\name@@ ===
 
 [NOTE]
 ====
-@@MaassWaveForms\FS\aae40e4c40e41235a5f4438e147aade7\description@@
+@@MaassWaveForms\FS\13ccdb16982161c68c874708f130f7bf\description@@
 
 
 ====
 
 6 records extended from base type
 
+* coeff_id 
 * Conrey 
 * Cusp_evs 
+* date 
 * Dim 
+* dim 
 * Error 
 * M0 
 * Newform 
 * Y 
-* coeff_id 
-* date 
-* dim 
 
 
 
@@ -349,11 +349,11 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
-=== @@MaassWaveForms\FS\957899476aa1ddd2958f61885624e083\name@@ ===
+=== @@MaassWaveForms\FS\43f8cb682ed9ba0307a1be430b589acc\name@@ ===
 
 [NOTE]
 ====
-@@MaassWaveForms\FS\957899476aa1ddd2958f61885624e083\description@@
+@@MaassWaveForms\FS\43f8cb682ed9ba0307a1be430b589acc\description@@
 
 
 ====
@@ -361,11 +361,11 @@ Derived records are the record types that actually exist in the database.They ar
 1 records extended from base type
 
 * Cusp_evs 
+* date 
 * Dim 
 * Error 
 * M0 
 * Y 
-* date 
 
 
 
@@ -375,11 +375,11 @@ Derived records are the record types that actually exist in the database.They ar
 
 ****
 [discrete]
-=== @@MaassWaveForms\FS\46a9045043e810ea911e43f72e0ff6bb\name@@ ===
+=== @@MaassWaveForms\FS\ff6b52613486edbaf9653cbf7e3e505f\name@@ ===
 
 [NOTE]
 ====
-@@MaassWaveForms\FS\46a9045043e810ea911e43f72e0ff6bb\description@@
+@@MaassWaveForms\FS\ff6b52613486edbaf9653cbf7e3e505f\description@@
 
 
 ====
@@ -389,10 +389,10 @@ Derived records are the record types that actually exist in the database.They ar
 * Conrey 
 * Cusp_evs 
 * Dim 
+* dim 
 * Error 
 * M0 
 * Y 
-* dim 
 
 
 

@@ -59,8 +59,8 @@ a|_id_ a| _id sorted ascending
 1182 records of type
 ====
 
-* Numc 
 * coeff_id 
+* Numc 
 
 
 

@@ -31,17 +31,17 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|nu_fe a| non-primitive type (<type 'NoneType'>) a| `None` a| @@Lfunctions\full_collection\nu_fe\description@@
-a|lambda_fe a| non-primitive type (<type 'NoneType'>) a| `None` a| @@Lfunctions\full_collection\lambda_fe\description@@
-a|weight a| non-primitive type (<type 'NoneType'>) a| `None` a| @@Lfunctions\full_collection\weight\description@@
-a|residues a| non-primitive type (<type 'NoneType'>) a| `None` a| @@Lfunctions\full_collection\residues\description@@
-a|sign a| integer a| `1` a| @@Lfunctions\full_collection\sign\description@@
-a|poles a| non-primitive type (<type 'NoneType'>) a| `None` a| @@Lfunctions\full_collection\poles\description@@
-a|original_mathematical_object() a| non-primitive type (<type 'NoneType'>) a| `None` a| @@Lfunctions\full_collection\original_mathematical_object()\description@@
-a|original_mathematical_object a| non-primitive type (<type 'NoneType'>) a| `None` a| @@Lfunctions\full_collection\original_mathematical_object\description@@
-a|mu_fe a| non-primitive type (<type 'NoneType'>) a| `None` a| @@Lfunctions\full_collection\mu_fe\description@@
 a|dirichlet_coefficients a| non-primitive type (<type 'NoneType'>) a| `None` a| @@Lfunctions\full_collection\dirichlet_coefficients\description@@
 a|kappa_fe a| non-primitive type (<type 'NoneType'>) a| `None` a| @@Lfunctions\full_collection\kappa_fe\description@@
+a|lambda_fe a| non-primitive type (<type 'NoneType'>) a| `None` a| @@Lfunctions\full_collection\lambda_fe\description@@
+a|mu_fe a| non-primitive type (<type 'NoneType'>) a| `None` a| @@Lfunctions\full_collection\mu_fe\description@@
+a|nu_fe a| non-primitive type (<type 'NoneType'>) a| `None` a| @@Lfunctions\full_collection\nu_fe\description@@
+a|original_mathematical_object a| non-primitive type (<type 'NoneType'>) a| `None` a| @@Lfunctions\full_collection\original_mathematical_object\description@@
+a|original_mathematical_object() a| non-primitive type (<type 'NoneType'>) a| `None` a| @@Lfunctions\full_collection\original_mathematical_object()\description@@
+a|poles a| non-primitive type (<type 'NoneType'>) a| `None` a| @@Lfunctions\full_collection\poles\description@@
+a|residues a| non-primitive type (<type 'NoneType'>) a| `None` a| @@Lfunctions\full_collection\residues\description@@
+a|sign a| integer a| `1` a| @@Lfunctions\full_collection\sign\description@@
+a|weight a| non-primitive type (<type 'NoneType'>) a| `None` a| @@Lfunctions\full_collection\weight\description@@
 |==============================
 
 '''
@@ -63,24 +63,24 @@ a|_id_ a| _id sorted ascending
 
 ****
 [discrete]
-=== Base record : @@Lfunctions\full_collection\a0c479c759797c54766f71f481e063ca\name@@ ===
+=== Base record : @@Lfunctions\full_collection\7bbbba22acce41030c45193114e7e2e8\name@@ ===
 
 [NOTE]
 ====
 The base record represents the smallest intersection of all related records.
 
-@@Lfunctions\full_collection\a0c479c759797c54766f71f481e063ca\description@@
+@@Lfunctions\full_collection\7bbbba22acce41030c45193114e7e2e8\description@@
 ====
 
 56 records of base type in collection
 
-* nu_fe 
-* lambda_fe 
-* residues 
-* poles 
-* original_mathematical_object() 
-* mu_fe 
 * kappa_fe 
+* lambda_fe 
+* mu_fe 
+* nu_fe 
+* original_mathematical_object() 
+* poles 
+* residues 
 
 
 

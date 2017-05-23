@@ -31,32 +31,32 @@ Only the first 100 characters of the example record are shown
 [width="90%", options="header", ]
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
-a|image_order a| integer a| `720` a| @@mod_l_galois\reps\image_order\description@@
-a|rep_type a| string a| `symp` a| @@mod_l_galois\reps\rep_type\description@@
-a|weight a| integer a| `0` a| @@mod_l_galois\reps\weight\description@@
-a|primes_conductor a| collection of integer a| `[3, 11, 97]` a| @@mod_l_galois\reps\primes_conductor\description@@
-a|field_char a| integer a| `2` a| @@mod_l_galois\reps\field_char\description@@
-a|degree_proj_field a| integer a| `1` a| @@mod_l_galois\reps\degree_proj_field\description@@
-a|index a| integer a| `1` a| @@mod_l_galois\reps\index\description@@
-a|field_order a| integer a| `2` a| @@mod_l_galois\reps\field_order\description@@
-a|image_type a| string a| `big` a| @@mod_l_galois\reps\image_type\description@@
-a|good_prime_list a| collection of mixed types a| `[[5, [u'0', u'1', u'0', u'1'], u'(x^2 + x + 1)^2', 3, 3], [7, [u'1', u'1', u'1', u'1'], u'(x^4 + x^3` ... a| @@mod_l_galois\reps\good_prime_list\description@@
-a|poly_ker a| string a| `(x^6 - x^4 + 2*x^3 - 2*x^2 - 4*x + 1)` a| @@mod_l_galois\reps\poly_ker\description@@
-a|label a| string a| `1.1.1.1.2.4.9603.1` a| @@mod_l_galois\reps\label\description@@
-a|field a| collection of integer a| `[2, 1]` a| @@mod_l_galois\reps\field\description@@
-a|projective_type a| string a| `big` a| @@mod_l_galois\reps\projective_type\description@@
-a|bad_prime_list a| collection of mixed types a| `[[3, u'', u'', u'', u''], [11, u'', u'', u'', u''], [97, u'', u'', u'', u'']]` a| @@mod_l_galois\reps\bad_prime_list\description@@
-a|conductor a| integer a| `173` a| @@mod_l_galois\reps\conductor\description@@
-a|field_deg a| integer a| `1` a| @@mod_l_galois\reps\field_deg\description@@
-a|poly_proj_ker a| string a| `(x^6 - x^4 + 2*x^3 - 2*x^2 - 4*x + 1)` a| @@mod_l_galois\reps\poly_proj_ker\description@@
 a|abs_irr a| integer a| `1` a| @@mod_l_galois\reps\abs_irr\description@@
-a|related_objects a| Record cannot be found containing key a| `N/A` a| @@mod_l_galois\reps\related_objects\description@@
-a|image_at a| string a| `nonsolvable` a| @@mod_l_galois\reps\image_at\description@@
-a|dim a| integer a| `4` a| @@mod_l_galois\reps\dim\description@@
+a|bad_prime_list a| collection of mixed types a| `[[3, u'', u'', u'', u''], [11, u'', u'', u'', u''], [97, u'', u'', u'', u'']]` a| @@mod_l_galois\reps\bad_prime_list\description@@
 a|base_field a| string a| `1.1.1.1` a| @@mod_l_galois\reps\base_field\description@@
 a|base_label a| string a| `1.1.1.1.2.4.9603` a| @@mod_l_galois\reps\base_label\description@@
-a|projective_label a| string a| `Sp(4,2)` a| @@mod_l_galois\reps\projective_label\description@@
+a|conductor a| integer a| `173` a| @@mod_l_galois\reps\conductor\description@@
+a|degree_proj_field a| integer a| `1` a| @@mod_l_galois\reps\degree_proj_field\description@@
+a|dim a| integer a| `4` a| @@mod_l_galois\reps\dim\description@@
+a|field a| collection of integer a| `[2, 1]` a| @@mod_l_galois\reps\field\description@@
+a|field_char a| integer a| `2` a| @@mod_l_galois\reps\field_char\description@@
+a|field_deg a| integer a| `1` a| @@mod_l_galois\reps\field_deg\description@@
+a|field_order a| integer a| `2` a| @@mod_l_galois\reps\field_order\description@@
+a|good_prime_list a| collection of mixed types a| `[[5, [u'0', u'1', u'0', u'1'], u'(x^2 + x + 1)^2', 3, 3], [7, [u'1', u'1', u'1', u'1'], u'(x^4 + x^3` ... a| @@mod_l_galois\reps\good_prime_list\description@@
+a|image_at a| string a| `nonsolvable` a| @@mod_l_galois\reps\image_at\description@@
 a|image_label a| string a| `Sp(4,2)` a| @@mod_l_galois\reps\image_label\description@@
+a|image_order a| integer a| `720` a| @@mod_l_galois\reps\image_order\description@@
+a|image_type a| string a| `big` a| @@mod_l_galois\reps\image_type\description@@
+a|index a| integer a| `1` a| @@mod_l_galois\reps\index\description@@
+a|label a| string a| `1.1.1.1.2.4.9603.1` a| @@mod_l_galois\reps\label\description@@
+a|poly_ker a| string a| `(x^6 - x^4 + 2*x^3 - 2*x^2 - 4*x + 1)` a| @@mod_l_galois\reps\poly_ker\description@@
+a|poly_proj_ker a| string a| `(x^6 - x^4 + 2*x^3 - 2*x^2 - 4*x + 1)` a| @@mod_l_galois\reps\poly_proj_ker\description@@
+a|primes_conductor a| collection of integer a| `[3, 11, 97]` a| @@mod_l_galois\reps\primes_conductor\description@@
+a|projective_label a| string a| `Sp(4,2)` a| @@mod_l_galois\reps\projective_label\description@@
+a|projective_type a| string a| `big` a| @@mod_l_galois\reps\projective_type\description@@
+a|related_objects a| Record cannot be found containing key a| `N/A` a| @@mod_l_galois\reps\related_objects\description@@
+a|rep_type a| string a| `symp` a| @@mod_l_galois\reps\rep_type\description@@
+a|weight a| integer a| `0` a| @@mod_l_galois\reps\weight\description@@
 |==============================
 
 '''

@@ -32,15 +32,15 @@ Only the first 100 characters of the example record are shown
 |==============================
 a|Key a| Inferred Type a| Example record a| Description
 a|A a| collection of integer a| `[1]` a| @@hgm\families\A\description@@
-a|gal5 a| integer stored as string a| `2` a| @@hgm\families\gal5\description@@
 a|B a| collection of integer a| `[1]` a| @@hgm\families\B\description@@
 a|degree a| integer a| `1` a| @@hgm\families\degree\description@@
 a|gal2 a| string a| `O(1,2)` a| @@hgm\families\gal2\description@@
 a|gal3 a| integer stored as string a| `2` a| @@hgm\families\gal3\description@@
-a|hodge a| collection of integer a| `[1]` a| @@hgm\families\hodge\description@@
-a|weight a| integer a| `0` a| @@hgm\families\weight\description@@
-a|label a| string a| `A1.1.1.1.1_B2.10` a| @@hgm\families\label\description@@
+a|gal5 a| integer stored as string a| `2` a| @@hgm\families\gal5\description@@
 a|gal7 a| integer stored as string a| `2` a| @@hgm\families\gal7\description@@
+a|hodge a| collection of integer a| `[1]` a| @@hgm\families\hodge\description@@
+a|label a| string a| `A1.1.1.1.1_B2.10` a| @@hgm\families\label\description@@
+a|weight a| integer a| `0` a| @@hgm\families\weight\description@@
 |==============================
 
 '''
