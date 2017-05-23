@@ -39,7 +39,7 @@ The files always have much the same structure (see https://github.com/csbrady-wa
 
 *@@Database\Collection\ID\Key@@*
 
-The *@@* symbols are an escape sequence that are not used by Asciidoc. The rest of the data is then used to uniquely identify a part of a set of JSON documents (one for each collection at the moment). This part takes a few seconds to run.
+The *@@* symbols are an escape sequence that are not used by Asciidoc. The rest of the data is then used to uniquely identify a part of a set of JSON documents (one for each collection at the moment). If the tag isn't found in the patching system then the key is just left in place to remind developers that the key needs to be specified. This part takes a few seconds to run.
 
 === Patching of the tags ===
 The third stage involves replacing the tags with their final values. This is first patched with user specified values from external JSON files, and thehttps://github.com/csbrady-warwick/DocTesting/blob/master/MaassWaveForms.FS.adochttps://github.com/csbrady-warwick/DocTesting/blob/master/MaassWaveForms.FS.adocn values that are unpatched by user specified values are patched with the automatic values for types and example records from the database structure parsing phase. This part is almost instant.
