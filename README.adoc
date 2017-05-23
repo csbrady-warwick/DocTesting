@@ -1,1 +1,48 @@
+= LMFDB Auto-Inventory =
 
+== Overview ==
+LMFDB's inventory is a very useful tool for identifying what exists in the database and what it means, but it's power is limited by the fact that it relies entirely on user input. This could be helped by using software to automatically generate at least some of the inventory. This repository is the current output of a beta version of such an automatic system. To display the records it uses a markup language called Asciidoc( http://www.methods.co.nz/asciidoc/ ) which is supported by GitHub but is more powerful than the default GitHub markdown text.
+
+The key advantage is that the data has been separated from the representation of the data, so that the data can be used in other ways.
+
+== Mechanism ==
+The automatic code in early beta state. Currently it is split into three parts
+
+. LMFDB structure parsing
+. Structure conversion to Asciidoc. This puts in placeholder tags for information that can be patched later.
+. Patch Asciidoc files to replace the placeholder tags
+
+=== LMFDB structure parsing ===
+The first part of the tool uses MongoDB mapreduce to identify every type of record that exists within the database. This is then parsed to a JSON file. This file should not be edited, but is formatted as follows _italic_ keys are replaced by something from the database, *bold* keys are literal strings
+
+* _Database_ -  Name of the database
+** _Collection_ - Name of the collection
+*** *fields*
+**** _One key for each field that exists in at least one record_
+***** *example* - String containing an example record. This is obtained by searching for a single non empty record containing the field.
+***** *type* - String containing the inferred type of the record. Uses the example record for type inference.
+*** *records*
+**** _number_ - A number running from 0. Uniquely describes each record type. Used because record types have no intrinsic names
+***** *schema* - A list containing the fields that are present in the record type
+***** *count* - The number of records of this type that are in the collection
+*** *indices*
+**** _number_ - A number running from 0. Uniquely describes each index. Used by analogy with *records*
+***** *name* - The name of the index
+***** *keys* - A list of pairs describing the key fields using this index. See the documentation for PyMongo index_information.
+
+This file is then used to generate the database reports. This phase takes 1-2 hours to parse the entire database.
+
+=== Asciidoc generation ===
+The next part of the code uses the database description JSON to build a mostly empty asciidoc document with special tags that are filled in later.
+
+The files always have much the same structure (see https://github.com/csbrady-warwick/DocTesting/blob/master/MaassWaveForms.FS.adoc for a good example). Tagged fields are replaced with the special tags for later completion. The tags all have the same structure
+
+*@@Database\Collection\ID\Key@@*
+
+The *@@* symbols are an escape sequence that are not used by Asciidoc. The rest of the data is then used to uniquely identify a part of a set of JSON documents (one for each collection at the moment). This part takes a few seconds to run.
+
+=== Patching of the tags ===
+The third stage involves replacing the tags with their final values. This is first patched with user specified values from external JSON files, and thehttps://github.com/csbrady-warwick/DocTesting/blob/master/MaassWaveForms.FS.adochttps://github.com/csbrady-warwick/DocTesting/blob/master/MaassWaveForms.FS.adocn values that are unpatched by user specified values are patched with the automatic values for types and example records from the database structure parsing phase. This part is almost instant.
+
+== Future ==
+This scheme works well as is, but having the data in a machine readable format opens new possibilities. The entire of this data could be transposed to a collection in the database and then used online for purposes such as designing search queries and selecting data to be returned from a search. The entire inventory could be made available through the LMFDB website. What is the general community feeling on how to proceed?
